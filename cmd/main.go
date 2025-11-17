@@ -27,6 +27,8 @@ func main() {
 	})
 	sort.Strings(lines)
 	output := strings.Join(lines, "\n")
+
+	// #nosec G306
 	err := os.WriteFile("cmd/data/purls.txt", []byte(output), 0644)
 	if err != nil {
 		panic(err)
