@@ -1,0 +1,44 @@
+name: Test CI
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-test:
+    name: Run test and build
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+          - ubuntu-24.04-arm
+          - macos-14
+          - macos-15
+          - macos-15-intel
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Install Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: 'stable'
+
+      - name: Install dependencies
+        run: make dev
+
+      - name: Validate code format
+        run: make check
+
+      - name: Run tests
+        run: make test
+  
+      - name: Build
+        run: make build-fst

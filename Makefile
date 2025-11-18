@@ -24,11 +24,11 @@ clean:
 	rm -rf $(BUILD_DIR)
 
 test:
-	$(GOCMD) test -v ./test
+	$(GOCMD) test -v
 
 dev:
 	$(GOCMD) install golang.org/x/tools/cmd/goimports@latest
-	$(GOCMD) install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.59.0
+	$(GOCMD) install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
 	$(GOCMD) install github.com/securego/gosec/v2/cmd/gosec@latest
 	$(GOCMD) mod tidy
 
