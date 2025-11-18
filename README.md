@@ -39,7 +39,7 @@ We welcome contributions from the community! If you find a bug or have an idea f
 
 ## Development Setup
 
-Run these commands, starting from a git clone of [https://github.com/aboutcode-org/purl-validator-rust.git](https://github.com/aboutcode-org/purlvalidator-go.git)
+Run these commands, starting from a git clone of [https://github.com/aboutcode-org/purlvalidator-go.git](https://github.com/aboutcode-org/purlvalidator-go.git)
 
 Generate FST:
 
