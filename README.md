@@ -12,7 +12,18 @@
 
 ## Currently Supported Ecosystems
 
-- **nuget**: [https://www.nuget.org/](https://www.nuget.org/)
+- **apk**
+- **cargo**
+- **composer**
+- **conan**
+- **cpan**
+- **cran**
+- **debain**
+- **maven**
+- **npm**
+- **nuget**
+- **pypi**
+- **swift**
 
 ## Usage
 

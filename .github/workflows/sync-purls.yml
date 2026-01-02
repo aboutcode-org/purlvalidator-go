@@ -1,0 +1,101 @@
+name: Collect latest PURLs from FederatedCode and create release with latest FST
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  collect-purls:
+    strategy:
+      max-parallel: 1
+      matrix:
+        include:
+          - ecosystem: apk
+          - ecosystem: cargo
+          - ecosystem: composer
+          - ecosystem: conan
+          - ecosystem: cpan
+          - ecosystem: cran
+          - ecosystem: debain
+          - ecosystem: maven
+          - ecosystem: npm
+          - ecosystem: nuget
+          - ecosystem: pypi
+          - ecosystem: swift
+
+    uses: aboutcode-org/purl-validator.rs/.github/workflows/collect-purls_template.yml
+    with:
+      ecosystem: ${{ matrix.ecosystem }}
+      path: "cmd/data/${{ matrix.ecosystem }}.txt"
+
+  regen-fst-and-release:
+    name: Regenerate FST and create release using new FST
+    needs: collect-purls
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TAG_RELEASE_TOKEN }}
+
+      - name: Install Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: 'stable'
+
+      - name: Install dependencies
+        run: make dev
+
+      - name: Regenerate FST
+        id: regen_fst
+        run: |-
+          git pull
+          make build-fst
+          git diff --name-only | grep -q 'purls.fst' && echo "changed=true" >> $GITHUB_OUTPUT \
+          || echo "changed=false" >> $GITHUB_OUTPUT
+
+          # Commit latest FST
+          git config user.name "AboutCode Automation"
+          git config user.email "automation@aboutcode.org"
+          git add purls.fst
+          git commit -m "$(echo -e "Regenerate FST using latest PURLs\n\nSigned-off-by: AboutCode Automation <automation@aboutcode.org>")" || exit 0
+          git push
+
+      - name: Bump minor version
+        id: bump
+        if: steps.regen_fst.outputs.changed == 'true'
+        run: |-
+          new_version=$(git tag --sort=version:refname | tail -n1 | awk -F'[v.]' '{ printf "v%d.%d.0\n", $2, $3+1 }')
+
+          echo "new_version=$new_version" >> $GITHUB_OUTPUT
+
+      - name: Add Changelog
+        if: steps.regen_fst.outputs.changed == 'true'
+        run: |-
+          # Add Changelog
+          today=$(date +%Y-%m-%d)
+          awk -v ver="${{ steps.bump.outputs.new_version }}" -v date="$today" '
+          NR==1{
+            print "# Changelog\n\n## v" ver " (" date ")\n\n - Update FST with latest PURLs"
+            next
+          }1' CHANGELOG.md > .tmp.CHANGELOG.md && mv .tmp.CHANGELOG.md CHANGELOG.md
+
+      - name: Commit Changelog
+        if: steps.regen_fst.outputs.changed == 'true'
+        run: |-
+          git config user.name "AboutCode Automation"
+          git config user.email "automation@aboutcode.org"
+          git add -A
+          git commit -m "$(echo -e "Bump version for v${{ steps.bump.outputs.new_version }} release\n\nSigned-off-by: AboutCode Automation <automation@aboutcode.org>")" || exit 0
+          git push
+
+      - name: Push tag
+        if: steps.regen_fst.outputs.changed == 'true'
+        run: |-
+          # Push tag
+          git tag -a "v${{ steps.bump.outputs.new_version }}" -m "Release v${{ steps.bump.outputs.new_version }}"
+          git push origin "v${{ steps.bump.outputs.new_version }}"
