@@ -27,7 +27,7 @@ jobs:
           - ecosystem: pypi
           - ecosystem: swift
 
-    uses: aboutcode-org/purl-validator.rs/.github/workflows/collect-purls_template.yml
+    uses: aboutcode-org/purl-validator.rs/.github/workflows/collect-purls_template.yml@main
     with:
       ecosystem: ${{ matrix.ecosystem }}
       path: "cmd/data/${{ matrix.ecosystem }}.txt"
