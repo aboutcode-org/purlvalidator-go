@@ -14,6 +14,7 @@ package main
 import (
 	"log"
 	"os"
+	"path/filepath"
 	"sort"
 	"strings"
 
@@ -21,32 +22,27 @@ import (
 )
 
 func main() {
-	data, _ := os.ReadFile("cmd/data/purls.txt")
-	lines := strings.FieldsFunc(string(data), func(r rune) bool {
-		return r == '\n'
-	})
-	sort.Strings(lines)
-	output := strings.Join(lines, "\n")
-
-	// #nosec G306
-	err := os.WriteFile("cmd/data/purls.txt", []byte(output), 0644)
-	if err != nil {
-		panic(err)
-	}
-
 	f, err := os.Create("purls.fst")
+	var purlCount int
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	dirname := "cmd/data/"
+	entries, err := os.ReadDir(dirname)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	builder, err := vellum.New(f, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	for _, line := range lines {
-		err = builder.Insert([]byte(line), 0)
-		if err != nil {
-			log.Fatal(err)
+	for _, entry := range entries {
+		if !entry.IsDir() && strings.HasSuffix(strings.ToLower(entry.Name()), ".txt") {
+			fullPath := filepath.Join(dirname, entry.Name())
+			purlCount += insert_purls(builder, fullPath)
 		}
 	}
 
@@ -54,4 +50,24 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	log.Printf("FST generated with %d base PackageURLs", purlCount)
+	log.Printf("FST generated at %s", f.Name())
+}
+
+func insert_purls(builder *vellum.Builder, file string) int {
+	var err error
+	data, _ := os.ReadFile(file)
+	lines := strings.FieldsFunc(string(data), func(r rune) bool {
+		return r == '\n'
+	})
+	sort.Strings(lines)
+
+	log.Printf("Insert PURLs from %s in FST", file)
+	for _, line := range lines {
+		err = builder.Insert([]byte(line), 0)
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+	return len(lines)
 }
