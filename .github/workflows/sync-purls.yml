@@ -69,7 +69,7 @@ jobs:
         id: bump
         if: steps.regen_fst.outputs.changed == 'true'
         run: |-
-          new_version=$(git tag --sort=version:refname | tail -n1 | awk -F'[v.]' '{ printf "v%d.%d.0\n", $2, $3+1 }')
+          new_version=$(git tag --sort=version:refname | tail -n1 | awk -F'[v.]' '{ printf "%d.%d.0", $2, $3+1 }')
 
           echo "new_version=$new_version" >> $GITHUB_OUTPUT
 
