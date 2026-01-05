@@ -14,17 +14,17 @@ jobs:
       max-parallel: 1
       matrix:
         include:
-          - ecosystem: apk
-          - ecosystem: cargo
-          - ecosystem: composer
-          - ecosystem: conan
-          - ecosystem: cpan
-          - ecosystem: cran
-          - ecosystem: debain
-          - ecosystem: maven
-          - ecosystem: npm
-          - ecosystem: nuget
-          - ecosystem: pypi
+          # - ecosystem: apk
+          # - ecosystem: cargo
+          # - ecosystem: composer
+          # - ecosystem: conan
+          # - ecosystem: cpan
+          # - ecosystem: cran
+          # - ecosystem: debain
+          # - ecosystem: maven
+          # - ecosystem: npm
+          # - ecosystem: nuget
+          # - ecosystem: pypi
           - ecosystem: swift
 
     uses: aboutcode-org/purl-validator.rs/.github/workflows/collect-purls_template.yml@main
@@ -71,6 +71,7 @@ jobs:
         run: |-
           new_version=$(git tag --sort=version:refname | tail -n1 | awk -F'[v.]' '{ printf "%d.%d.0", $2, $3+1 }')
 
+          echo $new_version
           echo "new_version=$new_version" >> $GITHUB_OUTPUT
 
       - name: Add Changelog
