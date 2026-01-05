@@ -3208,6 +3208,7 @@ pkg:apk/alpine/cargo-audit
 pkg:apk/alpine/cargo-audit-doc
 pkg:apk/alpine/cargo-auditable
 pkg:apk/alpine/cargo-auditable-doc
+pkg:apk/alpine/cargo-bash-completion
 pkg:apk/alpine/cargo-bash-completions
 pkg:apk/alpine/cargo-bloat
 pkg:apk/alpine/cargo-c
@@ -5056,6 +5057,7 @@ pkg:apk/alpine/deviced-openrc
 pkg:apk/alpine/devicemaster-linux
 pkg:apk/alpine/devicemaster-linux-doc
 pkg:apk/alpine/devicemaster-linux-grsec
+pkg:apk/alpine/devicemaster-linux-hardened
 pkg:apk/alpine/devicemaster-linux-openrc
 pkg:apk/alpine/devicemaster-linux-vanilla
 pkg:apk/alpine/devil
@@ -5771,6 +5773,7 @@ pkg:apk/alpine/drbd-utils-openrc
 pkg:apk/alpine/drbd-utils-pacemaker
 pkg:apk/alpine/drbd-vanilla
 pkg:apk/alpine/drbd9-grsec
+pkg:apk/alpine/drbd9-hardened
 pkg:apk/alpine/drbdmanage
 pkg:apk/alpine/drbdmanage-doc
 pkg:apk/alpine/dri2proto
@@ -9969,6 +9972,7 @@ pkg:apk/alpine/gst-plugins-good-qt
 pkg:apk/alpine/gst-plugins-good0.10
 pkg:apk/alpine/gst-plugins-good0.10-lang
 pkg:apk/alpine/gst-plugins-good1
+pkg:apk/alpine/gst-plugins-good1-doc
 pkg:apk/alpine/gst-plugins-good1-lang
 pkg:apk/alpine/gst-plugins-rs
 pkg:apk/alpine/gst-plugins-rs-aws
@@ -11018,6 +11022,7 @@ pkg:apk/alpine/iceauth-doc
 pkg:apk/alpine/icecast
 pkg:apk/alpine/icecast-doc
 pkg:apk/alpine/icecast-openrc
+pkg:apk/alpine/iced
 pkg:apk/alpine/icedtea-web
 pkg:apk/alpine/icedtea-web-doc
 pkg:apk/alpine/icedtea-web-mozilla
@@ -11816,6 +11821,10 @@ pkg:apk/alpine/jujutsu-zsh-completion
 pkg:apk/alpine/juk
 pkg:apk/alpine/juk-doc
 pkg:apk/alpine/juk-lang
+pkg:apk/alpine/julia
+pkg:apk/alpine/julia-dbg
+pkg:apk/alpine/julia-dev
+pkg:apk/alpine/julia-doc
 pkg:apk/alpine/junit
 pkg:apk/alpine/junit2html
 pkg:apk/alpine/junit2html-pyc
@@ -13510,6 +13519,9 @@ pkg:apk/alpine/lab
 pkg:apk/alpine/lab-bash-completion
 pkg:apk/alpine/lab-fish-completion
 pkg:apk/alpine/lab-zsh-completion
+pkg:apk/alpine/lablgtk
+pkg:apk/alpine/lablgtk-dev
+pkg:apk/alpine/lablgtk-doc
 pkg:apk/alpine/labwc
 pkg:apk/alpine/labwc-doc
 pkg:apk/alpine/labwc-lang
@@ -15632,6 +15644,9 @@ pkg:apk/alpine/libressl-static
 pkg:apk/alpine/libressl2.4-libcrypto
 pkg:apk/alpine/libressl2.4-libssl
 pkg:apk/alpine/libressl2.4-libtls
+pkg:apk/alpine/libressl2.5-libcrypto
+pkg:apk/alpine/libressl2.5-libssl
+pkg:apk/alpine/libressl2.5-libtls
 pkg:apk/alpine/libressl2.7-libcrypto
 pkg:apk/alpine/libressl2.7-libssl
 pkg:apk/alpine/libressl2.7-libtls
@@ -16802,6 +16817,8 @@ pkg:apk/alpine/linux-gpib-udev
 pkg:apk/alpine/linux-grsec
 pkg:apk/alpine/linux-grsec-dev
 pkg:apk/alpine/linux-gru
+pkg:apk/alpine/linux-hardened
+pkg:apk/alpine/linux-hardened-dev
 pkg:apk/alpine/linux-headers
 pkg:apk/alpine/linux-jh7100
 pkg:apk/alpine/linux-jh7100-dev
@@ -17120,6 +17137,11 @@ pkg:apk/alpine/llvm3.9
 pkg:apk/alpine/llvm3.9-dev
 pkg:apk/alpine/llvm3.9-libs
 pkg:apk/alpine/llvm3.9-static
+pkg:apk/alpine/llvm4
+pkg:apk/alpine/llvm4-dev
+pkg:apk/alpine/llvm4-libs
+pkg:apk/alpine/llvm4-static
+pkg:apk/alpine/llvm4-test-utils
 pkg:apk/alpine/llvm5
 pkg:apk/alpine/llvm5-dev
 pkg:apk/alpine/llvm5-libs
@@ -19527,6 +19549,7 @@ pkg:apk/alpine/mongo-php-library
 pkg:apk/alpine/mongo-php-library-doc
 pkg:apk/alpine/mongo-php7-library
 pkg:apk/alpine/mongo-php7-library-doc
+pkg:apk/alpine/mongodb
 pkg:apk/alpine/mongodb-tools
 pkg:apk/alpine/mongooseim
 pkg:apk/alpine/mongooseim-dev
@@ -21035,6 +21058,7 @@ pkg:apk/alpine/nodejs-libs
 pkg:apk/alpine/nodejs-lts
 pkg:apk/alpine/nodejs-lts-dev
 pkg:apk/alpine/nodejs-lts-doc
+pkg:apk/alpine/nodejs-npm
 pkg:apk/alpine/noggin
 pkg:apk/alpine/noggin-doc
 pkg:apk/alpine/noggin-model
@@ -28844,6 +28868,7 @@ pkg:apk/alpine/py2-beautifulsoup4
 pkg:apk/alpine/py2-bluez
 pkg:apk/alpine/py2-bottle
 pkg:apk/alpine/py2-cairo
+pkg:apk/alpine/py2-cairo-dev
 pkg:apk/alpine/py2-capstone
 pkg:apk/alpine/py2-cephfs
 pkg:apk/alpine/py2-certifi
@@ -28989,6 +29014,7 @@ pkg:apk/alpine/py2-pyflakes
 pkg:apk/alpine/py2-pygit2
 pkg:apk/alpine/py2-pygments
 pkg:apk/alpine/py2-pykka
+pkg:apk/alpine/py2-pylast
 pkg:apk/alpine/py2-pyldap
 pkg:apk/alpine/py2-pynacl
 pkg:apk/alpine/py2-pypdf2
@@ -39047,6 +39073,7 @@ pkg:apk/alpine/tree-sitter-static
 pkg:apk/alpine/tree-sitter-toml
 pkg:apk/alpine/tree-sitter-tsq
 pkg:apk/alpine/tree-sitter-typescript
+pkg:apk/alpine/tree-sitter-typst
 pkg:apk/alpine/tree-sitter-vim
 pkg:apk/alpine/tree-sitter-vim-doc
 pkg:apk/alpine/tree-sitter-vimdoc
@@ -40458,6 +40485,10 @@ pkg:apk/alpine/wipe
 pkg:apk/alpine/wipe-doc
 pkg:apk/alpine/wipefs
 pkg:apk/alpine/wire-go
+pkg:apk/alpine/wiredtiger
+pkg:apk/alpine/wiredtiger-dev
+pkg:apk/alpine/wiredtiger-doc
+pkg:apk/alpine/wiredtiger-libs
 pkg:apk/alpine/wireguard-go
 pkg:apk/alpine/wireguard-go-doc
 pkg:apk/alpine/wireguard-lts
@@ -41391,6 +41422,7 @@ pkg:apk/alpine/xsv
 pkg:apk/alpine/xtables-addons
 pkg:apk/alpine/xtables-addons-doc
 pkg:apk/alpine/xtables-addons-grsec
+pkg:apk/alpine/xtables-addons-hardened
 pkg:apk/alpine/xtables-addons-lts
 pkg:apk/alpine/xtables-addons-rpi
 pkg:apk/alpine/xtables-addons-vanilla
