@@ -18,6 +18,10 @@ pkg:apk/alpine/6tunnel
 pkg:apk/alpine/6tunnel-doc
 pkg:apk/alpine/7zip
 pkg:apk/alpine/7zip-doc
+pkg:apk/alpine/81voltd
+pkg:apk/alpine/81voltd-doc
+pkg:apk/alpine/81voltd-openrc
+pkg:apk/alpine/81voltd-systemd
 pkg:apk/alpine/9base
 pkg:apk/alpine/9base-doc
 pkg:apk/alpine/9base-troff
@@ -6719,6 +6723,7 @@ pkg:apk/alpine/fail2ban-doc
 pkg:apk/alpine/fail2ban-openrc
 pkg:apk/alpine/fail2ban-pyc
 pkg:apk/alpine/fail2ban-tests
+pkg:apk/alpine/faircamp
 pkg:apk/alpine/fakeroot
 pkg:apk/alpine/fakeroot-dbg
 pkg:apk/alpine/fakeroot-doc
@@ -8818,8 +8823,14 @@ pkg:apk/alpine/glslviewer
 pkg:apk/alpine/glu
 pkg:apk/alpine/glu-dev
 pkg:apk/alpine/glycin
+pkg:apk/alpine/glycin-dev
+pkg:apk/alpine/glycin-heif
+pkg:apk/alpine/glycin-image-rs
+pkg:apk/alpine/glycin-jxl
 pkg:apk/alpine/glycin-loaders
+pkg:apk/alpine/glycin-loaders-all
 pkg:apk/alpine/glycin-loaders-dev
+pkg:apk/alpine/glycin-thumbnailer
 pkg:apk/alpine/gmcapsule
 pkg:apk/alpine/gmcapsule-openrc
 pkg:apk/alpine/gmcapsule-pyc
@@ -28016,6 +28027,7 @@ pkg:apk/alpine/protozero-doc
 pkg:apk/alpine/proverif
 pkg:apk/alpine/proverif-emacs
 pkg:apk/alpine/proverif-examples
+pkg:apk/alpine/proverif-interact
 pkg:apk/alpine/proverif-utils
 pkg:apk/alpine/prowlarr
 pkg:apk/alpine/prowlarr-openrc
