@@ -731,6 +731,11 @@ pkg:apk/alpine/ansible-doc
 pkg:apk/alpine/ansible-lint
 pkg:apk/alpine/ansible-lint-pyc
 pkg:apk/alpine/ansible-pyc
+pkg:apk/alpine/ansifilter
+pkg:apk/alpine/ansifilter-bash-completion
+pkg:apk/alpine/ansifilter-doc
+pkg:apk/alpine/ansifilter-fish-completion
+pkg:apk/alpine/ansifilter-zsh-completion
 pkg:apk/alpine/ansiweather
 pkg:apk/alpine/ansiweather-doc
 pkg:apk/alpine/anthy
@@ -1382,6 +1387,7 @@ pkg:apk/alpine/avahi-ui-gtk3
 pkg:apk/alpine/avahi-ui-tools
 pkg:apk/alpine/avahi2dns
 pkg:apk/alpine/avahi2dns-openrc
+pkg:apk/alpine/avahi2dns-systemd
 pkg:apk/alpine/avara
 pkg:apk/alpine/avarice
 pkg:apk/alpine/avarice-doc
@@ -8499,6 +8505,8 @@ pkg:apk/alpine/geotagging
 pkg:apk/alpine/gerbera
 pkg:apk/alpine/gerbera-doc
 pkg:apk/alpine/gerbera-openrc
+pkg:apk/alpine/gesture
+pkg:apk/alpine/gesture-openrc
 pkg:apk/alpine/getdns
 pkg:apk/alpine/getdns-dev
 pkg:apk/alpine/getdns-doc
@@ -17519,6 +17527,7 @@ pkg:apk/alpine/lua-brieflz
 pkg:apk/alpine/lua-busted
 pkg:apk/alpine/lua-cjson
 pkg:apk/alpine/lua-cliargs
+pkg:apk/alpine/lua-cmark
 pkg:apk/alpine/lua-cmsgpack
 pkg:apk/alpine/lua-compat53
 pkg:apk/alpine/lua-compat53-dev
@@ -17741,6 +17750,7 @@ pkg:apk/alpine/lua5.1-brieflz
 pkg:apk/alpine/lua5.1-busted
 pkg:apk/alpine/lua5.1-cjson
 pkg:apk/alpine/lua5.1-cliargs
+pkg:apk/alpine/lua5.1-cmark
 pkg:apk/alpine/lua5.1-compat53
 pkg:apk/alpine/lua5.1-copas
 pkg:apk/alpine/lua5.1-coxpcall
@@ -17890,6 +17900,7 @@ pkg:apk/alpine/lua5.2-brieflz
 pkg:apk/alpine/lua5.2-busted
 pkg:apk/alpine/lua5.2-cjson
 pkg:apk/alpine/lua5.2-cliargs
+pkg:apk/alpine/lua5.2-cmark
 pkg:apk/alpine/lua5.2-compat53
 pkg:apk/alpine/lua5.2-connman_dbus
 pkg:apk/alpine/lua5.2-copas
@@ -18045,6 +18056,7 @@ pkg:apk/alpine/lua5.3-brieflz
 pkg:apk/alpine/lua5.3-busted
 pkg:apk/alpine/lua5.3-cjson
 pkg:apk/alpine/lua5.3-cliargs
+pkg:apk/alpine/lua5.3-cmark
 pkg:apk/alpine/lua5.3-compat53
 pkg:apk/alpine/lua5.3-connman_dbus
 pkg:apk/alpine/lua5.3-copas
@@ -18185,6 +18197,7 @@ pkg:apk/alpine/lua5.4-bitop
 pkg:apk/alpine/lua5.4-brieflz
 pkg:apk/alpine/lua5.4-busted
 pkg:apk/alpine/lua5.4-cjson
+pkg:apk/alpine/lua5.4-cmark
 pkg:apk/alpine/lua5.4-connman_dbus
 pkg:apk/alpine/lua5.4-coxpcall
 pkg:apk/alpine/lua5.4-cqueues
