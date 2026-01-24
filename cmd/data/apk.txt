@@ -8465,6 +8465,8 @@ pkg:apk/alpine/geh
 pkg:apk/alpine/geh-doc
 pkg:apk/alpine/gemget
 pkg:apk/alpine/genact
+pkg:apk/alpine/generate-kernel-cmdline
+pkg:apk/alpine/generate-kernel-cmdline-doc
 pkg:apk/alpine/genext2fs
 pkg:apk/alpine/genext2fs-doc
 pkg:apk/alpine/gengetopt
@@ -17516,6 +17518,7 @@ pkg:apk/alpine/ltunify-udev
 pkg:apk/alpine/lua
 pkg:apk/alpine/lua-alt-getopt
 pkg:apk/alpine/lua-ansicolors
+pkg:apk/alpine/lua-apkbuild
 pkg:apk/alpine/lua-aports
 pkg:apk/alpine/lua-argparse
 pkg:apk/alpine/lua-asn1
@@ -17561,6 +17564,7 @@ pkg:apk/alpine/lua-depgraph
 pkg:apk/alpine/lua-dev
 pkg:apk/alpine/lua-discount
 pkg:apk/alpine/lua-discount-doc
+pkg:apk/alpine/lua-dkjson
 pkg:apk/alpine/lua-dmvpn
 pkg:apk/alpine/lua-dns
 pkg:apk/alpine/lua-doc
@@ -17583,6 +17587,7 @@ pkg:apk/alpine/lua-graphviz
 pkg:apk/alpine/lua-gversion
 pkg:apk/alpine/lua-hashids
 pkg:apk/alpine/lua-hiredis
+pkg:apk/alpine/lua-hiredis-dbg
 pkg:apk/alpine/lua-http
 pkg:apk/alpine/lua-iconv
 pkg:apk/alpine/lua-imlib2
@@ -17644,6 +17649,8 @@ pkg:apk/alpine/lua-lxc
 pkg:apk/alpine/lua-lyaml
 pkg:apk/alpine/lua-lzlib
 pkg:apk/alpine/lua-lzmq
+pkg:apk/alpine/lua-markdown
+pkg:apk/alpine/lua-markdown-doc
 pkg:apk/alpine/lua-maxminddb
 pkg:apk/alpine/lua-md5
 pkg:apk/alpine/lua-mediator
@@ -17654,6 +17661,7 @@ pkg:apk/alpine/lua-mimetypes-doc
 pkg:apk/alpine/lua-mmdb
 pkg:apk/alpine/lua-mosquitto
 pkg:apk/alpine/lua-mpack
+pkg:apk/alpine/lua-mqtt
 pkg:apk/alpine/lua-mqtt-publish
 pkg:apk/alpine/lua-net-url
 pkg:apk/alpine/lua-net-url-doc
@@ -17669,6 +17677,7 @@ pkg:apk/alpine/lua-penlight-shared
 pkg:apk/alpine/lua-pgmoon
 pkg:apk/alpine/lua-pgsql
 pkg:apk/alpine/lua-pingu
+pkg:apk/alpine/lua-pkgbuild
 pkg:apk/alpine/lua-posix
 pkg:apk/alpine/lua-posix-doc
 pkg:apk/alpine/lua-posixtz
@@ -17843,6 +17852,7 @@ pkg:apk/alpine/lua5.1-mmdb
 pkg:apk/alpine/lua5.1-moonscript
 pkg:apk/alpine/lua5.1-mosquitto
 pkg:apk/alpine/lua5.1-mpack
+pkg:apk/alpine/lua5.1-mqtt
 pkg:apk/alpine/lua5.1-mqtt-publish
 pkg:apk/alpine/lua5.1-net-url
 pkg:apk/alpine/lua5.1-openrc
@@ -23795,6 +23805,8 @@ pkg:apk/alpine/perl-dancer2
 pkg:apk/alpine/perl-dancer2-doc
 pkg:apk/alpine/perl-data-binary
 pkg:apk/alpine/perl-data-binary-doc
+pkg:apk/alpine/perl-data-censor
+pkg:apk/alpine/perl-data-censor-doc
 pkg:apk/alpine/perl-data-checks
 pkg:apk/alpine/perl-data-checks-doc
 pkg:apk/alpine/perl-data-clone
@@ -27203,6 +27215,8 @@ pkg:apk/alpine/pipe-viewer-doc
 pkg:apk/alpine/pipe-viewer-gtk
 pkg:apk/alpine/pipectl
 pkg:apk/alpine/pipectl-doc
+pkg:apk/alpine/pipeleek
+pkg:apk/alpine/pipeleek-doc
 pkg:apk/alpine/pipeline
 pkg:apk/alpine/pipeline-doc
 pkg:apk/alpine/pipeline-lang
@@ -35409,6 +35423,8 @@ pkg:apk/alpine/rofi-x11-wayland
 pkg:apk/alpine/roll
 pkg:apk/alpine/roll-bash-completion
 pkg:apk/alpine/roll-doc
+pkg:apk/alpine/rollup
+pkg:apk/alpine/rollup-doc
 pkg:apk/alpine/ronn
 pkg:apk/alpine/ronn-doc
 pkg:apk/alpine/rook
