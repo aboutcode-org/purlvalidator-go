@@ -10301,6 +10301,7 @@ pkg:apk/alpine/guile-lzlib
 pkg:apk/alpine/guile-reader
 pkg:apk/alpine/guile-reader-doc
 pkg:apk/alpine/guile-readline
+pkg:apk/alpine/guile-semver
 pkg:apk/alpine/guile-sqlite3
 pkg:apk/alpine/guile-zlib
 pkg:apk/alpine/guile-zstd
@@ -25143,8 +25144,12 @@ pkg:apk/alpine/perl-plack-test-externalserver
 pkg:apk/alpine/perl-plack-test-externalserver-doc
 pkg:apk/alpine/perl-pod-coverage
 pkg:apk/alpine/perl-pod-coverage-doc
+pkg:apk/alpine/perl-pod-coverage-trustpod
+pkg:apk/alpine/perl-pod-coverage-trustpod-doc
 pkg:apk/alpine/perl-pod-cpandoc
 pkg:apk/alpine/perl-pod-cpandoc-doc
+pkg:apk/alpine/perl-pod-eventual
+pkg:apk/alpine/perl-pod-eventual-doc
 pkg:apk/alpine/perl-pod-parser
 pkg:apk/alpine/perl-pod-parser-doc
 pkg:apk/alpine/perl-pod-spell
@@ -35221,6 +35226,9 @@ pkg:apk/alpine/reptyr-bash-completion
 pkg:apk/alpine/reptyr-doc
 pkg:apk/alpine/reredirect
 pkg:apk/alpine/reredirect-doc
+pkg:apk/alpine/rescrobbled
+pkg:apk/alpine/rescrobbled-doc
+pkg:apk/alpine/rescrobbled-openrc
 pkg:apk/alpine/resourceproto
 pkg:apk/alpine/resources
 pkg:apk/alpine/resources-lang
