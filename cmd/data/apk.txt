@@ -9105,6 +9105,10 @@ pkg:apk/alpine/gnome-music-dbg
 pkg:apk/alpine/gnome-music-doc
 pkg:apk/alpine/gnome-music-lang
 pkg:apk/alpine/gnome-music-pyc
+pkg:apk/alpine/gnome-network-displays
+pkg:apk/alpine/gnome-network-displays-daemon
+pkg:apk/alpine/gnome-network-displays-firewalld
+pkg:apk/alpine/gnome-network-displays-lang
 pkg:apk/alpine/gnome-noble-icon-theme
 pkg:apk/alpine/gnome-obfuscate
 pkg:apk/alpine/gnome-obfuscate-lang
@@ -10519,6 +10523,7 @@ pkg:apk/alpine/harminv
 pkg:apk/alpine/harminv-dev
 pkg:apk/alpine/harminv-doc
 pkg:apk/alpine/harminv-libs
+pkg:apk/alpine/harper
 pkg:apk/alpine/harsh
 pkg:apk/alpine/haruna
 pkg:apk/alpine/haruna-doc
@@ -13154,6 +13159,7 @@ pkg:apk/alpine/kontactinterface-dev
 pkg:apk/alpine/kontactinterface-doc
 pkg:apk/alpine/kontactinterface-lang
 pkg:apk/alpine/kontainer
+pkg:apk/alpine/kontainer-lang
 pkg:apk/alpine/kontrast
 pkg:apk/alpine/kontrast-lang
 pkg:apk/alpine/konversation
@@ -13802,6 +13808,7 @@ pkg:apk/alpine/lfortran-static
 pkg:apk/alpine/lfs
 pkg:apk/alpine/lftp
 pkg:apk/alpine/lftp-doc
+pkg:apk/alpine/lftp-zsh-completion
 pkg:apk/alpine/lgogdownloader
 pkg:apk/alpine/lgogdownloader-doc
 pkg:apk/alpine/lha
@@ -17036,6 +17043,7 @@ pkg:apk/alpine/live-media
 pkg:apk/alpine/live-media-dev
 pkg:apk/alpine/live-media-utils
 pkg:apk/alpine/livi
+pkg:apk/alpine/livi-lang
 pkg:apk/alpine/lizardfs
 pkg:apk/alpine/lizardfs-bash-completion
 pkg:apk/alpine/lizardfs-cgi
@@ -26065,6 +26073,9 @@ pkg:apk/alpine/pgpool-dev
 pkg:apk/alpine/pgpool-doc
 pkg:apk/alpine/pgpool-openrc
 pkg:apk/alpine/pgpool-static
+pkg:apk/alpine/pgqd
+pkg:apk/alpine/pgqd-doc
+pkg:apk/alpine/pgqd-openrc
 pkg:apk/alpine/pgsanity
 pkg:apk/alpine/pgsanity-pyc
 pkg:apk/alpine/pgtcl
@@ -27702,6 +27713,8 @@ pkg:apk/alpine/postgresql-pg_variables
 pkg:apk/alpine/postgresql-pg_variables-bitcode
 pkg:apk/alpine/postgresql-pglogical
 pkg:apk/alpine/postgresql-pgmq
+pkg:apk/alpine/postgresql-pgq
+pkg:apk/alpine/postgresql-pgq-bitcode
 pkg:apk/alpine/postgresql-pgvector
 pkg:apk/alpine/postgresql-pgvector-bitcode
 pkg:apk/alpine/postgresql-pgvector-dev
@@ -28141,8 +28154,10 @@ pkg:apk/alpine/protoc-gen-doc-doc
 pkg:apk/alpine/protoc-gen-go
 pkg:apk/alpine/protoc-gen-go-grpc
 pkg:apk/alpine/protoc-gen-gorm
+pkg:apk/alpine/protoc-gen-grpc-gateway
 pkg:apk/alpine/protoc-gen-js
 pkg:apk/alpine/protoc-gen-openapi
+pkg:apk/alpine/protoc-gen-openapiv2
 pkg:apk/alpine/protoconf
 pkg:apk/alpine/protozero
 pkg:apk/alpine/protozero-dev
@@ -30748,6 +30763,8 @@ pkg:apk/alpine/py3-grequests-pyc
 pkg:apk/alpine/py3-grpcio
 pkg:apk/alpine/py3-grpcio-pyc
 pkg:apk/alpine/py3-grpcio-tools
+pkg:apk/alpine/py3-gsm0338
+pkg:apk/alpine/py3-gsm0338-pyc
 pkg:apk/alpine/py3-gst
 pkg:apk/alpine/py3-gst-pyc
 pkg:apk/alpine/py3-gst1
@@ -31229,6 +31246,7 @@ pkg:apk/alpine/py3-libbytesize
 pkg:apk/alpine/py3-libcaca
 pkg:apk/alpine/py3-libcaca-pyc
 pkg:apk/alpine/py3-libcamera
+pkg:apk/alpine/py3-libcap-ng
 pkg:apk/alpine/py3-libcec
 pkg:apk/alpine/py3-libcec-rpi
 pkg:apk/alpine/py3-libcec4
@@ -31853,6 +31871,8 @@ pkg:apk/alpine/py3-oscrypto-pyc
 pkg:apk/alpine/py3-osl
 pkg:apk/alpine/py3-oslotest
 pkg:apk/alpine/py3-oslotest-pyc
+pkg:apk/alpine/py3-osmocom
+pkg:apk/alpine/py3-osmocom-pyc
 pkg:apk/alpine/py3-osqp
 pkg:apk/alpine/py3-osqp-dev
 pkg:apk/alpine/py3-osqp-pyc
@@ -37996,6 +38016,10 @@ pkg:apk/alpine/swipeguess-words-qwerty-en
 pkg:apk/alpine/swish-e
 pkg:apk/alpine/swish-e-dev
 pkg:apk/alpine/swish-e-doc
+pkg:apk/alpine/switcheroo-control
+pkg:apk/alpine/switcheroo-control-doc
+pkg:apk/alpine/switcheroo-control-systemd
+pkg:apk/alpine/switcheroo-control-udev
 pkg:apk/alpine/sword
 pkg:apk/alpine/sword-dev
 pkg:apk/alpine/sword-doc
