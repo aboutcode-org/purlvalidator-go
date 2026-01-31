@@ -3937,6 +3937,7 @@ pkg:apk/alpine/clang21-headers
 pkg:apk/alpine/clang21-libclang
 pkg:apk/alpine/clang21-libs
 pkg:apk/alpine/clang21-static
+pkg:apk/alpine/clapboard
 pkg:apk/alpine/clapf
 pkg:apk/alpine/clapf-dev
 pkg:apk/alpine/clapper
@@ -5868,6 +5869,7 @@ pkg:apk/alpine/dropwatch-doc
 pkg:apk/alpine/drumgizmo
 pkg:apk/alpine/drupal7
 pkg:apk/alpine/drupal7-doc
+pkg:apk/alpine/drv
 pkg:apk/alpine/dsfmt
 pkg:apk/alpine/dsfmt-dev
 pkg:apk/alpine/dsme
@@ -19118,6 +19120,7 @@ pkg:apk/alpine/mdbook-katex
 pkg:apk/alpine/mdbook-linkcheck
 pkg:apk/alpine/mdbook-mermaid
 pkg:apk/alpine/mdbook-plantuml
+pkg:apk/alpine/mdbook-plantuml-doc
 pkg:apk/alpine/mdbook-zsh-completion
 pkg:apk/alpine/mdbtools
 pkg:apk/alpine/mdbtools-bash-completion
@@ -33432,6 +33435,8 @@ pkg:apk/alpine/py3-stack_data
 pkg:apk/alpine/py3-stack_data-pyc
 pkg:apk/alpine/py3-starlette
 pkg:apk/alpine/py3-starlette-pyc
+pkg:apk/alpine/py3-statemachine
+pkg:apk/alpine/py3-statemachine-pyc
 pkg:apk/alpine/py3-statmake
 pkg:apk/alpine/py3-statmake-pyc
 pkg:apk/alpine/py3-statsmodels
@@ -35311,6 +35316,12 @@ pkg:apk/alpine/rgbds
 pkg:apk/alpine/rgbds-bash-completion
 pkg:apk/alpine/rgbds-doc
 pkg:apk/alpine/rgbds-zsh-completion
+pkg:apk/alpine/rgrc
+pkg:apk/alpine/rgrc-bash-completion
+pkg:apk/alpine/rgrc-doc
+pkg:apk/alpine/rgrc-fish-completion
+pkg:apk/alpine/rgrc-validator
+pkg:apk/alpine/rgrc-zsh-completion
 pkg:apk/alpine/rgxg
 pkg:apk/alpine/rgxg-dev
 pkg:apk/alpine/rgxg-doc
@@ -36199,6 +36210,8 @@ pkg:apk/alpine/s6-dns-doc
 pkg:apk/alpine/s6-dns-libs
 pkg:apk/alpine/s6-dns-static
 pkg:apk/alpine/s6-doc
+pkg:apk/alpine/s6-frontend
+pkg:apk/alpine/s6-frontend-doc
 pkg:apk/alpine/s6-ipcserver
 pkg:apk/alpine/s6-libs
 pkg:apk/alpine/s6-linux-init
