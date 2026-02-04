@@ -876,6 +876,7 @@ pkg:apk/alpine/apollo-openrc
 pkg:apk/alpine/aports-build
 pkg:apk/alpine/aports-build-openrc
 pkg:apk/alpine/aports-glmr
+pkg:apk/alpine/aports-mr-to-apk-repo
 pkg:apk/alpine/apostrophe
 pkg:apk/alpine/apostrophe-lang
 pkg:apk/alpine/apostrophe-pyc
@@ -34592,6 +34593,7 @@ pkg:apk/alpine/qt6-qtbase-odbc
 pkg:apk/alpine/qt6-qtbase-postgresql
 pkg:apk/alpine/qt6-qtbase-private-dev
 pkg:apk/alpine/qt6-qtbase-sqlite
+pkg:apk/alpine/qt6-qtbase-wayland
 pkg:apk/alpine/qt6-qtbase-x11
 pkg:apk/alpine/qt6-qtcharts
 pkg:apk/alpine/qt6-qtcharts-dev
@@ -39683,6 +39685,12 @@ pkg:apk/alpine/unbound
 pkg:apk/alpine/unbound-dbg
 pkg:apk/alpine/unbound-dev
 pkg:apk/alpine/unbound-doc
+pkg:apk/alpine/unbound-hosts
+pkg:apk/alpine/unbound-hosts-doc
+pkg:apk/alpine/unbound-hosts-fakenews
+pkg:apk/alpine/unbound-hosts-gambling
+pkg:apk/alpine/unbound-hosts-porn
+pkg:apk/alpine/unbound-hosts-social
 pkg:apk/alpine/unbound-libs
 pkg:apk/alpine/unbound-migrate
 pkg:apk/alpine/unbound-openrc
