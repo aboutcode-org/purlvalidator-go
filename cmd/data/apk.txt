@@ -887,6 +887,9 @@ pkg:apk/alpine/apparmor-lang
 pkg:apk/alpine/apparmor-openrc
 pkg:apk/alpine/apparmor-pam
 pkg:apk/alpine/apparmor-profiles
+pkg:apk/alpine/apparmor-profiles-abstractions
+pkg:apk/alpine/apparmor-profiles-api
+pkg:apk/alpine/apparmor-profiles-tunables
 pkg:apk/alpine/apparmor-utils
 pkg:apk/alpine/apparmor-utils-doc
 pkg:apk/alpine/apparmor-utils-lang
@@ -4751,6 +4754,8 @@ pkg:apk/alpine/csync2-doc
 pkg:apk/alpine/csync2-openrc
 pkg:apk/alpine/ctags
 pkg:apk/alpine/ctags-doc
+pkg:apk/alpine/ctags-lsp
+pkg:apk/alpine/ctags-lsp-doc
 pkg:apk/alpine/ctop
 pkg:apk/alpine/ctorrent-dnh
 pkg:apk/alpine/cue-cli
@@ -13460,6 +13465,7 @@ pkg:apk/alpine/kubeconform
 pkg:apk/alpine/kubectl
 pkg:apk/alpine/kubectl-bash-completion
 pkg:apk/alpine/kubectl-cert-manager
+pkg:apk/alpine/kubectl-cnpg
 pkg:apk/alpine/kubectl-convert
 pkg:apk/alpine/kubectl-krew
 pkg:apk/alpine/kubectl-oidc_login
@@ -18319,6 +18325,7 @@ pkg:apk/alpine/lua5.4-pgsql
 pkg:apk/alpine/lua5.4-posix
 pkg:apk/alpine/lua5.4-posixtz
 pkg:apk/alpine/lua5.4-pty
+pkg:apk/alpine/lua5.4-rapidjson
 pkg:apk/alpine/lua5.4-redis
 pkg:apk/alpine/lua5.4-rex-pcre
 pkg:apk/alpine/lua5.4-rex-pcre2
@@ -21447,7 +21454,9 @@ pkg:apk/alpine/nymphcast-client
 pkg:apk/alpine/nymphcast-dev
 pkg:apk/alpine/nymphcast-mediaserver
 pkg:apk/alpine/nymphcast-mediaserver-nftables
+pkg:apk/alpine/nymphcast-mediaserver-nftrules
 pkg:apk/alpine/nymphcast-nftables
+pkg:apk/alpine/nymphcast-nftrules
 pkg:apk/alpine/nymphcast-openrc
 pkg:apk/alpine/nymphcast-server
 pkg:apk/alpine/nymphcast-server-openrc
@@ -40505,6 +40514,7 @@ pkg:apk/alpine/wayclip
 pkg:apk/alpine/wayclip-doc
 pkg:apk/alpine/waydroid
 pkg:apk/alpine/waydroid-nftables
+pkg:apk/alpine/waydroid-nftrules
 pkg:apk/alpine/waydroid-openrc
 pkg:apk/alpine/waydroid-pyc
 pkg:apk/alpine/waydroid-sensors
@@ -40774,6 +40784,7 @@ pkg:apk/alpine/wireplumber-lang
 pkg:apk/alpine/wireplumber-libs
 pkg:apk/alpine/wireplumber-logind
 pkg:apk/alpine/wireplumber-openrc
+pkg:apk/alpine/wireplumber-systemd
 pkg:apk/alpine/wireplumber-zsh-completion
 pkg:apk/alpine/wireshark
 pkg:apk/alpine/wireshark-common
