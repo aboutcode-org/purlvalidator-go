@@ -10032,6 +10032,8 @@ pkg:apk/alpine/gspell-lang
 pkg:apk/alpine/gssdp
 pkg:apk/alpine/gssdp-dev
 pkg:apk/alpine/gst-audio-thumbnailer
+pkg:apk/alpine/gst-devtools
+pkg:apk/alpine/gst-devtools-dev
 pkg:apk/alpine/gst-editing-services
 pkg:apk/alpine/gst-editing-services-dev
 pkg:apk/alpine/gst-editing-services-doc
@@ -10093,6 +10095,7 @@ pkg:apk/alpine/gst-plugins-rs-gopbuffer
 pkg:apk/alpine/gst-plugins-rs-gtk4
 pkg:apk/alpine/gst-plugins-rs-hlssink3
 pkg:apk/alpine/gst-plugins-rs-hsv
+pkg:apk/alpine/gst-plugins-rs-isobmff
 pkg:apk/alpine/gst-plugins-rs-json
 pkg:apk/alpine/gst-plugins-rs-lewton
 pkg:apk/alpine/gst-plugins-rs-livesync
@@ -27216,6 +27219,8 @@ pkg:apk/alpine/php85-pecl-runkit7
 pkg:apk/alpine/php85-pecl-smbclient
 pkg:apk/alpine/php85-pecl-solr
 pkg:apk/alpine/php85-pecl-ssh2
+pkg:apk/alpine/php85-pecl-swoole
+pkg:apk/alpine/php85-pecl-swoole-dev
 pkg:apk/alpine/php85-pecl-uploadprogress
 pkg:apk/alpine/php85-pecl-uploadprogress-doc
 pkg:apk/alpine/php85-pecl-uuid
@@ -27399,6 +27404,13 @@ pkg:apk/alpine/pipewire-dbg
 pkg:apk/alpine/pipewire-dev
 pkg:apk/alpine/pipewire-doc
 pkg:apk/alpine/pipewire-echo-cancel
+pkg:apk/alpine/pipewire-filter-graph
+pkg:apk/alpine/pipewire-filter-graph-builtin
+pkg:apk/alpine/pipewire-filter-graph-ebur128
+pkg:apk/alpine/pipewire-filter-graph-ffmpeg
+pkg:apk/alpine/pipewire-filter-graph-ladspa
+pkg:apk/alpine/pipewire-filter-graph-lv2
+pkg:apk/alpine/pipewire-filter-graph-onnx
 pkg:apk/alpine/pipewire-jack
 pkg:apk/alpine/pipewire-jack-dev
 pkg:apk/alpine/pipewire-lang
@@ -27415,6 +27427,7 @@ pkg:apk/alpine/pipewire-spa-vulkan
 pkg:apk/alpine/pipewire-systemd
 pkg:apk/alpine/pipewire-tools
 pkg:apk/alpine/pipewire-udev
+pkg:apk/alpine/pipewire-x11
 pkg:apk/alpine/pipewire-zeroconf
 pkg:apk/alpine/pipexec
 pkg:apk/alpine/pipexec-doc
@@ -33840,6 +33853,8 @@ pkg:apk/alpine/py3-typed-ast
 pkg:apk/alpine/py3-typed-ast-pyc
 pkg:apk/alpine/py3-typeguard
 pkg:apk/alpine/py3-typeguard-pyc
+pkg:apk/alpine/py3-typelets
+pkg:apk/alpine/py3-typelets-pyc
 pkg:apk/alpine/py3-typer
 pkg:apk/alpine/py3-typer-doc
 pkg:apk/alpine/py3-typer-pyc
