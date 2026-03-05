@@ -3947,6 +3947,18 @@ pkg:apk/alpine/clang21-headers
 pkg:apk/alpine/clang21-libclang
 pkg:apk/alpine/clang21-libs
 pkg:apk/alpine/clang21-static
+pkg:apk/alpine/clang22
+pkg:apk/alpine/clang22-analyzer
+pkg:apk/alpine/clang22-bash-completion
+pkg:apk/alpine/clang22-ccache
+pkg:apk/alpine/clang22-dev
+pkg:apk/alpine/clang22-doc
+pkg:apk/alpine/clang22-emacs
+pkg:apk/alpine/clang22-extra-tools
+pkg:apk/alpine/clang22-headers
+pkg:apk/alpine/clang22-libclang
+pkg:apk/alpine/clang22-libs
+pkg:apk/alpine/clang22-static
 pkg:apk/alpine/clapboard
 pkg:apk/alpine/clapf
 pkg:apk/alpine/clapf-dev
@@ -6866,6 +6878,7 @@ pkg:apk/alpine/fbida-exiftran
 pkg:apk/alpine/fbida-fbgs
 pkg:apk/alpine/fbida-fbi
 pkg:apk/alpine/fbida-ida
+pkg:apk/alpine/fbkeyboard
 pkg:apk/alpine/fbpanel
 pkg:apk/alpine/fbpanel-doc
 pkg:apk/alpine/fbvnc
@@ -11950,6 +11963,7 @@ pkg:apk/alpine/julia
 pkg:apk/alpine/julia-dbg
 pkg:apk/alpine/julia-dev
 pkg:apk/alpine/julia-doc
+pkg:apk/alpine/junction
 pkg:apk/alpine/junit
 pkg:apk/alpine/junit2html
 pkg:apk/alpine/junit2html-pyc
@@ -17159,6 +17173,11 @@ pkg:apk/alpine/lld21-dbg
 pkg:apk/alpine/lld21-dev
 pkg:apk/alpine/lld21-doc
 pkg:apk/alpine/lld21-libs
+pkg:apk/alpine/lld22
+pkg:apk/alpine/lld22-dbg
+pkg:apk/alpine/lld22-dev
+pkg:apk/alpine/lld22-doc
+pkg:apk/alpine/lld22-libs
 pkg:apk/alpine/lldap
 pkg:apk/alpine/lldb
 pkg:apk/alpine/lldb-dev
@@ -17294,6 +17313,14 @@ pkg:apk/alpine/llvm21-linker-tools
 pkg:apk/alpine/llvm21-static
 pkg:apk/alpine/llvm21-test-utils
 pkg:apk/alpine/llvm21-test-utils-pyc
+pkg:apk/alpine/llvm22
+pkg:apk/alpine/llvm22-dev
+pkg:apk/alpine/llvm22-gtest
+pkg:apk/alpine/llvm22-libs
+pkg:apk/alpine/llvm22-linker-tools
+pkg:apk/alpine/llvm22-static
+pkg:apk/alpine/llvm22-test-utils
+pkg:apk/alpine/llvm22-test-utils-pyc
 pkg:apk/alpine/llvm3.7
 pkg:apk/alpine/llvm3.7-dev
 pkg:apk/alpine/llvm3.7-libs
@@ -29975,6 +30002,7 @@ pkg:apk/alpine/py3-clang17
 pkg:apk/alpine/py3-clang19
 pkg:apk/alpine/py3-clang20
 pkg:apk/alpine/py3-clang21
+pkg:apk/alpine/py3-clang22
 pkg:apk/alpine/py3-class-doc
 pkg:apk/alpine/py3-class-doc-pyc
 pkg:apk/alpine/py3-cleo
@@ -36391,6 +36419,7 @@ pkg:apk/alpine/s6-dns-static
 pkg:apk/alpine/s6-doc
 pkg:apk/alpine/s6-frontend
 pkg:apk/alpine/s6-frontend-doc
+pkg:apk/alpine/s6-frontend-man-pages
 pkg:apk/alpine/s6-ipcserver
 pkg:apk/alpine/s6-libs
 pkg:apk/alpine/s6-linux-init
