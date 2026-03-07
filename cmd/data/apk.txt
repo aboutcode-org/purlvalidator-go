@@ -2392,6 +2392,8 @@ pkg:apk/alpine/blueman-systemd
 pkg:apk/alpine/blueprint-compiler
 pkg:apk/alpine/blueprint-compiler-dev
 pkg:apk/alpine/blueprint-compiler-pyc
+pkg:apk/alpine/bluetui
+pkg:apk/alpine/bluetui-doc
 pkg:apk/alpine/bluetuith
 pkg:apk/alpine/bluez
 pkg:apk/alpine/bluez-alsa
@@ -9350,6 +9352,8 @@ pkg:apk/alpine/go-ipfs-bash-completion
 pkg:apk/alpine/go-ipfs-doc
 pkg:apk/alpine/go-ipfs-openrc
 pkg:apk/alpine/go-jsonnet
+pkg:apk/alpine/go-kdfs
+pkg:apk/alpine/go-kdfs-doc
 pkg:apk/alpine/go-md2man
 pkg:apk/alpine/go-md2man-doc
 pkg:apk/alpine/go-msgauth
@@ -27241,6 +27245,7 @@ pkg:apk/alpine/php85-pecl-mailparse
 pkg:apk/alpine/php85-pecl-maxminddb
 pkg:apk/alpine/php85-pecl-memcache
 pkg:apk/alpine/php85-pecl-memcached
+pkg:apk/alpine/php85-pecl-memprof
 pkg:apk/alpine/php85-pecl-mongodb
 pkg:apk/alpine/php85-pecl-msgpack
 pkg:apk/alpine/php85-pecl-oauth
@@ -35335,8 +35340,13 @@ pkg:apk/alpine/re2-dev
 pkg:apk/alpine/re2c
 pkg:apk/alpine/re2c-doc
 pkg:apk/alpine/reaction
+pkg:apk/alpine/reaction-bash-completion
+pkg:apk/alpine/reaction-doc
+pkg:apk/alpine/reaction-fish-completion
 pkg:apk/alpine/reaction-openrc
+pkg:apk/alpine/reaction-plugins
 pkg:apk/alpine/reaction-tools
+pkg:apk/alpine/reaction-zsh-completion
 pkg:apk/alpine/read-it-later
 pkg:apk/alpine/reader
 pkg:apk/alpine/readline
@@ -39849,6 +39859,10 @@ pkg:apk/alpine/uhttpmock-doc
 pkg:apk/alpine/uhttpmock-static
 pkg:apk/alpine/uhubctl
 pkg:apk/alpine/uidmapshift
+pkg:apk/alpine/uim
+pkg:apk/alpine/uim-dev
+pkg:apk/alpine/uim-doc
+pkg:apk/alpine/uim-lang
 pkg:apk/alpine/ukify
 pkg:apk/alpine/ukify-kernel-hook
 pkg:apk/alpine/ulogd
