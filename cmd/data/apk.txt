@@ -3950,6 +3950,7 @@ pkg:apk/alpine/clang21-extra-tools
 pkg:apk/alpine/clang21-headers
 pkg:apk/alpine/clang21-libclang
 pkg:apk/alpine/clang21-libs
+pkg:apk/alpine/clang21-rtlib
 pkg:apk/alpine/clang21-static
 pkg:apk/alpine/clang22
 pkg:apk/alpine/clang22-analyzer
@@ -10010,6 +10011,10 @@ pkg:apk/alpine/grpcurl
 pkg:apk/alpine/grub
 pkg:apk/alpine/grub-bash-completion
 pkg:apk/alpine/grub-bios
+pkg:apk/alpine/grub-btrfs
+pkg:apk/alpine/grub-btrfs-doc
+pkg:apk/alpine/grub-btrfs-openrc
+pkg:apk/alpine/grub-btrfs-systemd
 pkg:apk/alpine/grub-dev
 pkg:apk/alpine/grub-doc
 pkg:apk/alpine/grub-efi
@@ -31492,6 +31497,7 @@ pkg:apk/alpine/py3-librelingo-utils
 pkg:apk/alpine/py3-librelingo-utils-pyc
 pkg:apk/alpine/py3-librelingo-yaml-loader
 pkg:apk/alpine/py3-librelingo-yaml-loader-pyc
+pkg:apk/alpine/py3-librt
 pkg:apk/alpine/py3-librtmp
 pkg:apk/alpine/py3-librtmp-pyc
 pkg:apk/alpine/py3-libsass
