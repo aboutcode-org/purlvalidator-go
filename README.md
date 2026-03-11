@@ -58,7 +58,7 @@ purlvalidator.Validate("pkg:nuget/non-existent-foo-bar");
 // This will return an error: "only base PURL is supported (no version, qualifiers, or subpath)"
 purlvalidator.Validate("pkg:nuget/FluentValidation@10.2.3");
 
-// This will return an error: "purl scheme is not \"pkg\": \"pkddg\""
+// This will return an error: "purl scheme is not \"pkg\": \"test\""
 purlvalidator.Validate("test:nuget/FluentValidation");
 
 ```
