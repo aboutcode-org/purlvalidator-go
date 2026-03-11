@@ -4,6 +4,8 @@ go 1.22.3
 
 require github.com/blevesearch/vellum v1.1.0
 
+require github.com/package-url/packageurl-go v0.1.5
+
 require (
 	github.com/bits-and-blooms/bitset v1.2.0 // indirect
 	github.com/blevesearch/mmap-go v1.0.4 // indirect
