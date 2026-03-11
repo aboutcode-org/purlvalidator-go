@@ -4,11 +4,11 @@
 [![Version](https://img.shields.io/github/v/release/aboutcode-org/purlvalidator-go?style=for-the-badge)](https://github.com/aboutcode-org/purlvalidator-go/releases)
 [![Test](https://img.shields.io/github/actions/workflow/status/aboutcode-org/purlvalidator-go/ci.yml?style=for-the-badge&logo=github)](https://github.com/aboutcode-org/purlvalidator-go/actions)
 
-**purlvalidator** is a Go library for validating [Package URLs (PURLs)](https://github.com/package-url/purl-spec). It works fully offline, including in **air-gapped** or **restricted environments**, and answers one key question: **Does the package this PURL represents actually exist?**
+**purlvalidator** is a Go library for validating [Package-URLs (PURLs)](https://github.com/package-url/purl-spec). It works fully offline, including in **air-gapped** or **restricted environments**, and answers one key question: **Does the package this PURL represents actually exist?**
 
 ## How It Works?
 
-**purlvalidator** is shipped with a pre-built FST (Finite State Transducer), a set of compact automata containing latest Package URLs mined by the MineCode[^1]. Library uses this FST to perform lookups and confirm whether the **base PURL**[^2] exists.
+**purlvalidator** is shipped with a pre-built FST (Finite State Transducer), a set of compact automata containing latest Package-URLs mined by the MineCode[^1]. Library uses this FST to perform lookups and confirm whether the **base PURL**[^2] exists.
 
 ## Currently Supported Ecosystems
 
@@ -30,15 +30,37 @@
 Add `purlvalidator` as dependency in your go.mod
 
 ```bash
-require github.com/aboutcode-org/purlvalidator-go v0.1.0
+require github.com/aboutcode-org/purlvalidator-go v1.0.0
 ```
 
-Use it in your code like this
+Use it in your code like this:
 
-```rust
+```go
 import "github.com/aboutcode-org/purlvalidator-go"
 
-var result bool = purlvalidator.Validate("pkg:nuget/FluentValidation");
+func main() {
+	result, e := purlvalidator.Validate("pkg:nuget/FluentValidation");
+	if err != nil {
+		panic(err)
+	}
+}
+```
+
+Examples and errors:
+```go
+// This will return: true
+purlvalidator.Validate("pkg:nuget/FluentValidation");
+
+// This will return: false
+purlvalidator.Validate("pkg:nuget/non-existent-foo-bar");
+
+
+// This will return an error: "only base PURL is supported (no version, qualifiers, or subpath)"
+purlvalidator.Validate("pkg:nuget/FluentValidation@10.2.3");
+
+// This will return an error: "purl scheme is not \"pkg\": \"pkddg\""
+purlvalidator.Validate("test:nuget/FluentValidation");
+
 ```
 
 ## Contribution
@@ -90,4 +112,4 @@ limitations under the License.
 ```
 
 [^1]: MineCode continuously collects package metadata from various package ecosystems to maintain an up-to-date catalog of known packages.
-[^2]: A Base Package URL is a Package URL without a version or subpath.
+[^2]: A Base Package-URL is a Package-URL without a version, qualifiers or subpath.

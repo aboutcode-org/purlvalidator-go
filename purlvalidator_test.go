@@ -47,7 +47,7 @@ func setup() {
 
 func TestNonexistentPurl(t *testing.T) {
 	purl := "pkg:nuget/nonexistent"
-	result := validate_purl(purl, testValidator)
+	result, _ := validate_purl(purl, testValidator)
 	expected := false
 
 	if result != expected {
@@ -57,7 +57,7 @@ func TestNonexistentPurl(t *testing.T) {
 
 func TestValidPurl(t *testing.T) {
 	purl := "pkg:nuget/FluentUtils.FromCompositeAttribute"
-	result := validate_purl(purl, testValidator)
+	result, _ := validate_purl(purl, testValidator)
 	expected := true
 
 	if result != expected {
@@ -65,12 +65,20 @@ func TestValidPurl(t *testing.T) {
 	}
 }
 
-func TestPurlWithTrailingSlash(t *testing.T) {
-	purl := "pkg:nuget/FluentUtils.FromCompositeAttribute/"
-	result := validate_purl(purl, testValidator)
-	expected := true
+func TestErrorForInvalidPurl(t *testing.T) {
+	purl := "test:nuget/FluentUtils.FromCompositeAttribute"
+	_, err := validate_purl(purl, testValidator)
 
-	if result != expected {
-		t.Errorf("validate_purl(\"%s\") = %t; expected %t", purl, result, expected)
+	if err == nil {
+		t.Errorf("expected error but got nil")
+	}
+}
+
+func TestErrorForUnsupportedPurl(t *testing.T) {
+	purl := "pkg:nuget/EnterpriseLibrary.Common@6.0.1304"
+	_, err := validate_purl(purl, testValidator)
+
+	if err == nil {
+		t.Errorf("expected error but got nil")
 	}
 }
