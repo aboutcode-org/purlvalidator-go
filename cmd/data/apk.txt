@@ -2105,6 +2105,7 @@ pkg:apk/alpine/bats-file
 pkg:apk/alpine/bats-support
 pkg:apk/alpine/battery-limit-openrc
 pkg:apk/alpine/bazaar
+pkg:apk/alpine/bazaar-dev
 pkg:apk/alpine/bazaar-lang
 pkg:apk/alpine/bazaar-systemd
 pkg:apk/alpine/bazel6
@@ -4801,6 +4802,7 @@ pkg:apk/alpine/cups-filters
 pkg:apk/alpine/cups-filters-dev
 pkg:apk/alpine/cups-filters-doc
 pkg:apk/alpine/cups-filters-libs
+pkg:apk/alpine/cups-filters-systemd
 pkg:apk/alpine/cups-lang
 pkg:apk/alpine/cups-libs
 pkg:apk/alpine/cups-openrc
@@ -9193,6 +9195,7 @@ pkg:apk/alpine/gnome-session-systemd
 pkg:apk/alpine/gnome-settings-daemon
 pkg:apk/alpine/gnome-settings-daemon-dev
 pkg:apk/alpine/gnome-settings-daemon-lang
+pkg:apk/alpine/gnome-settings-daemon-systemd
 pkg:apk/alpine/gnome-settings-daemon-udev
 pkg:apk/alpine/gnome-shell
 pkg:apk/alpine/gnome-shell-dbg
@@ -9857,6 +9860,7 @@ pkg:apk/alpine/grafana-frontend
 pkg:apk/alpine/grafana-image-renderer
 pkg:apk/alpine/grafana-image-renderer-openrc
 pkg:apk/alpine/grafana-openrc
+pkg:apk/alpine/gram
 pkg:apk/alpine/granatier
 pkg:apk/alpine/granatier-doc
 pkg:apk/alpine/granatier-lang
@@ -41490,6 +41494,9 @@ pkg:apk/alpine/xeyes-doc
 pkg:apk/alpine/xf86-input-evdev
 pkg:apk/alpine/xf86-input-evdev-dev
 pkg:apk/alpine/xf86-input-evdev-doc
+pkg:apk/alpine/xf86-input-joystick
+pkg:apk/alpine/xf86-input-joystick-dev
+pkg:apk/alpine/xf86-input-joystick-doc
 pkg:apk/alpine/xf86-input-keyboard
 pkg:apk/alpine/xf86-input-keyboard-doc
 pkg:apk/alpine/xf86-input-libinput
