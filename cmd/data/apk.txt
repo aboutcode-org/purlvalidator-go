@@ -2148,6 +2148,7 @@ pkg:apk/alpine/bctoolbox-dev
 pkg:apk/alpine/bdfr
 pkg:apk/alpine/bdftopcf
 pkg:apk/alpine/bdftopcf-doc
+pkg:apk/alpine/bdinfo
 pkg:apk/alpine/beancount
 pkg:apk/alpine/beancount-language-server
 pkg:apk/alpine/beancount-pyc
@@ -6633,6 +6634,8 @@ pkg:apk/alpine/evolution-ews
 pkg:apk/alpine/evolution-ews-lang
 pkg:apk/alpine/evolution-lang
 pkg:apk/alpine/evolution-on
+pkg:apk/alpine/evolution-tray
+pkg:apk/alpine/evolution-tray-lang
 pkg:apk/alpine/evtest
 pkg:apk/alpine/eww
 pkg:apk/alpine/exa
@@ -6824,6 +6827,7 @@ pkg:apk/alpine/fakeroot-doc
 pkg:apk/alpine/fakeroot-tcp
 pkg:apk/alpine/falkon
 pkg:apk/alpine/falkon-bash-completion
+pkg:apk/alpine/falkon-dbg
 pkg:apk/alpine/falkon-lang
 pkg:apk/alpine/fancontroled
 pkg:apk/alpine/fann
@@ -7746,6 +7750,8 @@ pkg:apk/alpine/fossil-zsh-completion
 pkg:apk/alpine/foundry
 pkg:apk/alpine/foundry-bash-completion
 pkg:apk/alpine/foundry-dev
+pkg:apk/alpine/foundry-doc
+pkg:apk/alpine/foundry-lang
 pkg:apk/alpine/foundry-libs
 pkg:apk/alpine/fox
 pkg:apk/alpine/fox-adie
@@ -10455,6 +10461,9 @@ pkg:apk/alpine/gvncviewer
 pkg:apk/alpine/gvpe
 pkg:apk/alpine/gvpe-doc
 pkg:apk/alpine/gvpe-openrc
+pkg:apk/alpine/gweather-locations
+pkg:apk/alpine/gweather-locations-dev
+pkg:apk/alpine/gweather-locations-lang
 pkg:apk/alpine/gwenhywfar
 pkg:apk/alpine/gwenhywfar-dev
 pkg:apk/alpine/gwenhywfar-doc
@@ -13372,6 +13381,7 @@ pkg:apk/alpine/krita
 pkg:apk/alpine/krita-dev
 pkg:apk/alpine/krita-kseexpr
 pkg:apk/alpine/krita-kseexpr-dev
+pkg:apk/alpine/krita-kseexpr-lang
 pkg:apk/alpine/krita-lang
 pkg:apk/alpine/krita-plugin-gmic
 pkg:apk/alpine/krita-python
@@ -18888,6 +18898,7 @@ pkg:apk/alpine/manticore-doc
 pkg:apk/alpine/manticore-openrc
 pkg:apk/alpine/manticore-tools
 pkg:apk/alpine/manuals
+pkg:apk/alpine/manuals-lang
 pkg:apk/alpine/mapbox-gl-native
 pkg:apk/alpine/mapbox-gl-native-dev
 pkg:apk/alpine/mapbox-gl-qml
@@ -18904,6 +18915,8 @@ pkg:apk/alpine/mapplauncherd-dev
 pkg:apk/alpine/mapplauncherd-doc
 pkg:apk/alpine/mapplauncherd-qt
 pkg:apk/alpine/mapplauncherd-qt-dev
+pkg:apk/alpine/mapplauncherd-qt-systemd
+pkg:apk/alpine/mapplauncherd-systemd
 pkg:apk/alpine/mapserver
 pkg:apk/alpine/mapserver-dev
 pkg:apk/alpine/marble
@@ -20420,6 +20433,8 @@ pkg:apk/alpine/nemo-qml-plugin-connectivity
 pkg:apk/alpine/nemo-qml-plugin-contacts
 pkg:apk/alpine/nemo-qml-plugin-dbus
 pkg:apk/alpine/nemo-qml-plugin-dbus-dev
+pkg:apk/alpine/nemo-qml-plugin-dbus-qt5
+pkg:apk/alpine/nemo-qml-plugin-dbus-qt5-dev
 pkg:apk/alpine/nemo-qml-plugin-devicelock
 pkg:apk/alpine/nemo-qml-plugin-devicelock-dev
 pkg:apk/alpine/nemo-qml-plugin-devicelock-static
@@ -34898,6 +34913,7 @@ pkg:apk/alpine/qt6-qtwayland-dev
 pkg:apk/alpine/qt6-qtwebchannel
 pkg:apk/alpine/qt6-qtwebchannel-dev
 pkg:apk/alpine/qt6-qtwebengine
+pkg:apk/alpine/qt6-qtwebengine-dbg
 pkg:apk/alpine/qt6-qtwebengine-dev
 pkg:apk/alpine/qt6-qtwebsockets
 pkg:apk/alpine/qt6-qtwebsockets-dbg
@@ -38138,6 +38154,9 @@ pkg:apk/alpine/sudo-dev
 pkg:apk/alpine/sudo-doc
 pkg:apk/alpine/sudo-doc-extra
 pkg:apk/alpine/sudo-ldap
+pkg:apk/alpine/sudo-rs
+pkg:apk/alpine/sudo-rs-doc
+pkg:apk/alpine/sudo-rs-su
 pkg:apk/alpine/suggpicker
 pkg:apk/alpine/suggpicker-doc
 pkg:apk/alpine/suil
@@ -38246,6 +38265,7 @@ pkg:apk/alpine/swayimg
 pkg:apk/alpine/swayimg-bash-completion
 pkg:apk/alpine/swayimg-doc
 pkg:apk/alpine/swayimg-full
+pkg:apk/alpine/swayimg-zsh-completion
 pkg:apk/alpine/swaykbdd
 pkg:apk/alpine/swaykbdd-doc
 pkg:apk/alpine/swaylock
@@ -40099,6 +40119,7 @@ pkg:apk/alpine/user-manager-lang
 pkg:apk/alpine/user-managerd
 pkg:apk/alpine/user-managerd-dev
 pkg:apk/alpine/user-managerd-openrc
+pkg:apk/alpine/user-managerd-systemd
 pkg:apk/alpine/userspace-rcu
 pkg:apk/alpine/userspace-rcu-dev
 pkg:apk/alpine/userspace-rcu-doc
@@ -40722,6 +40743,8 @@ pkg:apk/alpine/wasi-libcxx
 pkg:apk/alpine/wasi-libcxxabi
 pkg:apk/alpine/wasi-sdk
 pkg:apk/alpine/wasm-bindgen
+pkg:apk/alpine/wasm-component-ld
+pkg:apk/alpine/wasm-component-ld-dbg
 pkg:apk/alpine/wasm-micro-runtime
 pkg:apk/alpine/wasm-pack
 pkg:apk/alpine/wasm-tools
@@ -40816,6 +40839,7 @@ pkg:apk/alpine/wbg
 pkg:apk/alpine/wbox
 pkg:apk/alpine/wch-isp
 pkg:apk/alpine/wch-isp-doc
+pkg:apk/alpine/wch-isp-udev
 pkg:apk/alpine/wch-isp-udev-rules
 pkg:apk/alpine/wcm
 pkg:apk/alpine/wcslib
