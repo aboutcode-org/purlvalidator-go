@@ -17173,6 +17173,12 @@ pkg:apk/alpine/lksctp-tools
 pkg:apk/alpine/lksctp-tools-dev
 pkg:apk/alpine/lksctp-tools-doc
 pkg:apk/alpine/lksctp-tools-static
+pkg:apk/alpine/llama.cpp
+pkg:apk/alpine/llama.cpp-cpu
+pkg:apk/alpine/llama.cpp-dev
+pkg:apk/alpine/llama.cpp-extras
+pkg:apk/alpine/llama.cpp-openrc
+pkg:apk/alpine/llama.cpp-vulkan
 pkg:apk/alpine/lld
 pkg:apk/alpine/lld-dbg
 pkg:apk/alpine/lld-dev
@@ -28367,6 +28373,7 @@ pkg:apk/alpine/prosody-mod-mam
 pkg:apk/alpine/prosody-mod-mam_muc
 pkg:apk/alpine/prosody-mod-muc_cloud_notify
 pkg:apk/alpine/prosody-mod-pastebin
+pkg:apk/alpine/prosody-mod-privilege
 pkg:apk/alpine/prosody-mod-register_json
 pkg:apk/alpine/prosody-mod-register_redirect
 pkg:apk/alpine/prosody-mod-reload_modules
@@ -40666,6 +40673,8 @@ pkg:apk/alpine/vscodium-zsh-completion
 pkg:apk/alpine/vsftpd
 pkg:apk/alpine/vsftpd-doc
 pkg:apk/alpine/vsftpd-openrc
+pkg:apk/alpine/vt-wait
+pkg:apk/alpine/vt-wait-doc
 pkg:apk/alpine/vtable-dumper
 pkg:apk/alpine/vte
 pkg:apk/alpine/vte-dev
