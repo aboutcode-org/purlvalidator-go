@@ -3600,6 +3600,8 @@ pkg:apk/alpine/cephfs19-mirror
 pkg:apk/alpine/cephfs19-shell
 pkg:apk/alpine/cephfs19-top
 pkg:apk/alpine/cereal
+pkg:apk/alpine/ceres
+pkg:apk/alpine/ceres-dev
 pkg:apk/alpine/certbot
 pkg:apk/alpine/certbot-apache
 pkg:apk/alpine/certbot-apache-pyc
@@ -9495,11 +9497,13 @@ pkg:apk/alpine/google-cloud-cpp-api-visibility
 pkg:apk/alpine/google-cloud-cpp-apigateway
 pkg:apk/alpine/google-cloud-cpp-apigeeconnect
 pkg:apk/alpine/google-cloud-cpp-apikeys
+pkg:apk/alpine/google-cloud-cpp-apiregistry
 pkg:apk/alpine/google-cloud-cpp-appengine
 pkg:apk/alpine/google-cloud-cpp-apphub
 pkg:apk/alpine/google-cloud-cpp-artifactregistry
 pkg:apk/alpine/google-cloud-cpp-asset
 pkg:apk/alpine/google-cloud-cpp-assuredworkloads
+pkg:apk/alpine/google-cloud-cpp-auditmanager
 pkg:apk/alpine/google-cloud-cpp-automl
 pkg:apk/alpine/google-cloud-cpp-backupdr
 pkg:apk/alpine/google-cloud-cpp-baremetalsolution
@@ -9515,6 +9519,7 @@ pkg:apk/alpine/google-cloud-cpp-channel
 pkg:apk/alpine/google-cloud-cpp-chronicle
 pkg:apk/alpine/google-cloud-cpp-cloud-common-common-protos
 pkg:apk/alpine/google-cloud-cpp-cloud-extended-operations-protos
+pkg:apk/alpine/google-cloud-cpp-cloud-location-locations-protos
 pkg:apk/alpine/google-cloud-cpp-cloud-orgpolicy-v1-orgpolicy-protos
 pkg:apk/alpine/google-cloud-cpp-cloud_location_locations-protos
 pkg:apk/alpine/google-cloud-cpp-cloudbuild
@@ -9638,6 +9643,7 @@ pkg:apk/alpine/google-cloud-cpp-gkebackup
 pkg:apk/alpine/google-cloud-cpp-gkeconnect
 pkg:apk/alpine/google-cloud-cpp-gkehub
 pkg:apk/alpine/google-cloud-cpp-gkemulticloud
+pkg:apk/alpine/google-cloud-cpp-gkerecommender
 pkg:apk/alpine/google-cloud-cpp-grafeas-protos
 pkg:apk/alpine/google-cloud-cpp-grpc-utils
 pkg:apk/alpine/google-cloud-cpp-iam
@@ -9649,6 +9655,7 @@ pkg:apk/alpine/google-cloud-cpp-licensemanager
 pkg:apk/alpine/google-cloud-cpp-logging
 pkg:apk/alpine/google-cloud-cpp-longrunning-operations-protos
 pkg:apk/alpine/google-cloud-cpp-lustre
+pkg:apk/alpine/google-cloud-cpp-maintenance
 pkg:apk/alpine/google-cloud-cpp-managedidentities
 pkg:apk/alpine/google-cloud-cpp-managedkafka
 pkg:apk/alpine/google-cloud-cpp-memcache
@@ -9685,6 +9692,8 @@ pkg:apk/alpine/google-cloud-cpp-resourcemanager
 pkg:apk/alpine/google-cloud-cpp-resourcesettings
 pkg:apk/alpine/google-cloud-cpp-rest-internal
 pkg:apk/alpine/google-cloud-cpp-rest-protobuf-internal
+pkg:apk/alpine/google-cloud-cpp-rest_internal
+pkg:apk/alpine/google-cloud-cpp-rest_protobuf
 pkg:apk/alpine/google-cloud-cpp-retail
 pkg:apk/alpine/google-cloud-cpp-rpc-code-protos
 pkg:apk/alpine/google-cloud-cpp-rpc-context-attribute-context-protos
@@ -9736,6 +9745,7 @@ pkg:apk/alpine/google-cloud-cpp-type-phone-number
 pkg:apk/alpine/google-cloud-cpp-type-postal-address
 pkg:apk/alpine/google-cloud-cpp-type-quaternion
 pkg:apk/alpine/google-cloud-cpp-type-timeofday
+pkg:apk/alpine/google-cloud-cpp-universe_domain
 pkg:apk/alpine/google-cloud-cpp-video
 pkg:apk/alpine/google-cloud-cpp-videointelligence
 pkg:apk/alpine/google-cloud-cpp-vision
@@ -33673,6 +33683,8 @@ pkg:apk/alpine/py3-sphinxcontrib-textstyle
 pkg:apk/alpine/py3-sphinxcontrib-textstyle-pyc
 pkg:apk/alpine/py3-sphinxcontrib-websupport
 pkg:apk/alpine/py3-sphinxcontrib-websupport-pyc
+pkg:apk/alpine/py3-sphinxfeed
+pkg:apk/alpine/py3-sphinxfeed-pyc
 pkg:apk/alpine/py3-sphobjinv
 pkg:apk/alpine/py3-sphobjinv-pyc
 pkg:apk/alpine/py3-spidev
@@ -36629,6 +36641,8 @@ pkg:apk/alpine/samba-winbind
 pkg:apk/alpine/samba-winbind-clients
 pkg:apk/alpine/samba-winbind-krb5-locator
 pkg:apk/alpine/samba36
+pkg:apk/alpine/samefile
+pkg:apk/alpine/samefile-doc
 pkg:apk/alpine/samurai
 pkg:apk/alpine/samurai-dbg
 pkg:apk/alpine/samurai-doc
@@ -40847,6 +40861,10 @@ pkg:apk/alpine/waylandpp-doc
 pkg:apk/alpine/waylevel
 pkg:apk/alpine/waylock
 pkg:apk/alpine/waylock-doc
+pkg:apk/alpine/wayneko
+pkg:apk/alpine/wayneko-bash-completion
+pkg:apk/alpine/wayneko-doc
+pkg:apk/alpine/wayneko-zsh-completion
 pkg:apk/alpine/waynergy
 pkg:apk/alpine/wayout
 pkg:apk/alpine/wayout-doc
