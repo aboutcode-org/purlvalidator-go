@@ -63,6 +63,11 @@ purlvalidator.Validate("test:nuget/FluentValidation");
 
 ```
 
+## How to get latest Package-URL data?
+
+A patch release is published daily with the latest FST generated from newly mined package-urls.
+
+
 ## Contribution
 
 We welcome contributions from the community! If you find a bug or have an idea for a new feature, please open an issue on the GitHub repository. If you want to contribute code, you can fork the repository, make your changes, and submit a pull request.
