@@ -1376,6 +1376,8 @@ pkg:apk/alpine/autoscan
 pkg:apk/alpine/autoscan-openrc
 pkg:apk/alpine/autossh
 pkg:apk/alpine/autossh-doc
+pkg:apk/alpine/autosuspend
+pkg:apk/alpine/autosuspend-systemd
 pkg:apk/alpine/autotiling
 pkg:apk/alpine/autotiling-pyc
 pkg:apk/alpine/autotrash
@@ -3140,6 +3142,7 @@ pkg:apk/alpine/caerbannog
 pkg:apk/alpine/caffeine-ng
 pkg:apk/alpine/caffeine-ng-doc
 pkg:apk/alpine/caffeine-ng-lang
+pkg:apk/alpine/caffeine-ng-pyc
 pkg:apk/alpine/cage
 pkg:apk/alpine/cage-doc
 pkg:apk/alpine/cage-run
@@ -8615,6 +8618,7 @@ pkg:apk/alpine/gfbgraph-static
 pkg:apk/alpine/gflags
 pkg:apk/alpine/gflags-dev
 pkg:apk/alpine/gfold
+pkg:apk/alpine/gfold-doc
 pkg:apk/alpine/gfortran
 pkg:apk/alpine/ghc
 pkg:apk/alpine/ghc-current
@@ -17496,6 +17500,7 @@ pkg:apk/alpine/lokalize-lang
 pkg:apk/alpine/loki
 pkg:apk/alpine/loki-canary
 pkg:apk/alpine/loki-logcli
+pkg:apk/alpine/loki-lokitool
 pkg:apk/alpine/loki-openrc
 pkg:apk/alpine/loki-promtail
 pkg:apk/alpine/loki-promtail-openrc
@@ -18815,6 +18820,7 @@ pkg:apk/alpine/magic-wormhole-rs
 pkg:apk/alpine/magic-wormhole-rs-bash-completion
 pkg:apk/alpine/magic-wormhole-rs-fish-completion
 pkg:apk/alpine/magic-wormhole-rs-zsh-completion
+pkg:apk/alpine/magika
 pkg:apk/alpine/magpie
 pkg:apk/alpine/magpie-dev
 pkg:apk/alpine/magpie-lang
@@ -21453,6 +21459,8 @@ pkg:apk/alpine/notcurses-static
 pkg:apk/alpine/notcurses-tetris
 pkg:apk/alpine/notcurses-view
 pkg:apk/alpine/notification-daemon
+pkg:apk/alpine/notify-fd
+pkg:apk/alpine/notify-fd-doc
 pkg:apk/alpine/notmuch
 pkg:apk/alpine/notmuch-bash-completion
 pkg:apk/alpine/notmuch-dev
@@ -27504,6 +27512,9 @@ pkg:apk/alpine/pipeleek-doc
 pkg:apk/alpine/pipeline
 pkg:apk/alpine/pipeline-doc
 pkg:apk/alpine/pipeline-lang
+pkg:apk/alpine/pipemixer
+pkg:apk/alpine/pipemixer-doc
+pkg:apk/alpine/pipemixer-zsh-completion
 pkg:apk/alpine/piper
 pkg:apk/alpine/piper-doc
 pkg:apk/alpine/piper-lang
@@ -27795,9 +27806,11 @@ pkg:apk/alpine/podman-compose-pyc
 pkg:apk/alpine/podman-doc
 pkg:apk/alpine/podman-docker
 pkg:apk/alpine/podman-docker-doc
+pkg:apk/alpine/podman-docker-systemd
 pkg:apk/alpine/podman-fish-completion
 pkg:apk/alpine/podman-openrc
 pkg:apk/alpine/podman-remote
+pkg:apk/alpine/podman-systemd
 pkg:apk/alpine/podman-tui
 pkg:apk/alpine/podman-zsh-completion
 pkg:apk/alpine/podofo
@@ -30907,6 +30920,9 @@ pkg:apk/alpine/py3-fpdf-pyc
 pkg:apk/alpine/py3-freecell-solver
 pkg:apk/alpine/py3-freecell-solver-pyc
 pkg:apk/alpine/py3-freetype-py
+pkg:apk/alpine/py3-freeze-core
+pkg:apk/alpine/py3-freeze-core-dev
+pkg:apk/alpine/py3-freeze-core-pyc
 pkg:apk/alpine/py3-freezegun
 pkg:apk/alpine/py3-freezegun-pyc
 pkg:apk/alpine/py3-frozendict
@@ -31513,6 +31529,8 @@ pkg:apk/alpine/py3-ldap3-pyc
 pkg:apk/alpine/py3-ldb
 pkg:apk/alpine/py3-leap_ec
 pkg:apk/alpine/py3-leap_ec-pyc
+pkg:apk/alpine/py3-legacy-cgi
+pkg:apk/alpine/py3-legacy-cgi-pyc
 pkg:apk/alpine/py3-lensfun
 pkg:apk/alpine/py3-lensfun-pyc
 pkg:apk/alpine/py3-levenshtein
@@ -32785,6 +32803,8 @@ pkg:apk/alpine/py3-pyqt6-sip
 pkg:apk/alpine/py3-pyqt6-webengine
 pkg:apk/alpine/py3-pyrad
 pkg:apk/alpine/py3-pyrad-pyc
+pkg:apk/alpine/py3-pyrate-limiter
+pkg:apk/alpine/py3-pyrate-limiter-pyc
 pkg:apk/alpine/py3-pyrdfa3
 pkg:apk/alpine/py3-pyrdfa3-pyc
 pkg:apk/alpine/py3-pyrebase
@@ -32930,6 +32950,7 @@ pkg:apk/alpine/py3-pytest-mock-pyc
 pkg:apk/alpine/py3-pytest-mpi
 pkg:apk/alpine/py3-pytest-mpi-pyc
 pkg:apk/alpine/py3-pytest-mypy
+pkg:apk/alpine/py3-pytest-mypy-plugins
 pkg:apk/alpine/py3-pytest-mypy-pyc
 pkg:apk/alpine/py3-pytest-order
 pkg:apk/alpine/py3-pytest-order-doc
@@ -33213,6 +33234,8 @@ pkg:apk/alpine/py3-requests-oauthlib-pyc
 pkg:apk/alpine/py3-requests-pkcs12
 pkg:apk/alpine/py3-requests-pkcs12-pyc
 pkg:apk/alpine/py3-requests-pyc
+pkg:apk/alpine/py3-requests-ratelimiter
+pkg:apk/alpine/py3-requests-ratelimiter-pyc
 pkg:apk/alpine/py3-requests-toolbelt
 pkg:apk/alpine/py3-requests-toolbelt-pyc
 pkg:apk/alpine/py3-requests-unixsocket
@@ -34971,6 +34994,8 @@ pkg:apk/alpine/qterminal-lang
 pkg:apk/alpine/qtermwidget
 pkg:apk/alpine/qtermwidget-dev
 pkg:apk/alpine/qtermwidget-lang
+pkg:apk/alpine/qtfeedback
+pkg:apk/alpine/qtfeedback-dev
 pkg:apk/alpine/qtile
 pkg:apk/alpine/qtile-pyc
 pkg:apk/alpine/qtkeychain
@@ -37171,6 +37196,9 @@ pkg:apk/alpine/shellcheck
 pkg:apk/alpine/shellcheck-doc
 pkg:apk/alpine/shellharden
 pkg:apk/alpine/shellharden-doc
+pkg:apk/alpine/shelli
+pkg:apk/alpine/shelli-openrc
+pkg:apk/alpine/shelli-opinionated
 pkg:apk/alpine/shellinabox
 pkg:apk/alpine/shellinabox-doc
 pkg:apk/alpine/shellinabox-openrc
@@ -40067,6 +40095,8 @@ pkg:apk/alpine/unpaper
 pkg:apk/alpine/unpaper-doc
 pkg:apk/alpine/unrar
 pkg:apk/alpine/unrar-doc
+pkg:apk/alpine/unrar-free
+pkg:apk/alpine/unrar-free-doc
 pkg:apk/alpine/unrealircd
 pkg:apk/alpine/unrealircd-doc
 pkg:apk/alpine/unrealircd-openrc
@@ -41986,6 +42016,7 @@ pkg:apk/alpine/xrdp
 pkg:apk/alpine/xrdp-dev
 pkg:apk/alpine/xrdp-doc
 pkg:apk/alpine/xrdp-openrc
+pkg:apk/alpine/xrdp-systemd
 pkg:apk/alpine/xrefresh
 pkg:apk/alpine/xrefresh-doc
 pkg:apk/alpine/xremap-wlr
