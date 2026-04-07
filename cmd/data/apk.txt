@@ -2472,6 +2472,7 @@ pkg:apk/alpine/bomctl-fish-completion
 pkg:apk/alpine/bomctl-zsh-completion
 pkg:apk/alpine/bonding
 pkg:apk/alpine/bonsai
+pkg:apk/alpine/bonsai-openrc
 pkg:apk/alpine/bonzomatic
 pkg:apk/alpine/boost
 pkg:apk/alpine/boost-atomic
@@ -3815,6 +3816,8 @@ pkg:apk/alpine/circuslinux
 pkg:apk/alpine/circuslinux-data
 pkg:apk/alpine/circuslinux-doc
 pkg:apk/alpine/ciso
+pkg:apk/alpine/civetweb
+pkg:apk/alpine/civetweb-dev
 pkg:apk/alpine/ciwiki
 pkg:apk/alpine/ciwiki-doc
 pkg:apk/alpine/cjdns
@@ -10830,6 +10833,7 @@ pkg:apk/alpine/himitsu-keyring
 pkg:apk/alpine/himitsu-openrc
 pkg:apk/alpine/himitsu-secret-service
 pkg:apk/alpine/himitsu-secret-service-doc
+pkg:apk/alpine/himitsu-secret-service-openrc
 pkg:apk/alpine/himitsu-secret-service-pyc
 pkg:apk/alpine/himitsu-ssh
 pkg:apk/alpine/himitsu-ssh-doc
@@ -14203,6 +14207,8 @@ pkg:apk/alpine/libchewing-dev
 pkg:apk/alpine/libchewing-doc
 pkg:apk/alpine/libchewing-tools
 pkg:apk/alpine/libchewing-tools-doc
+pkg:apk/alpine/libcivetweb
+pkg:apk/alpine/libcivetweb-cpp
 pkg:apk/alpine/libclc
 pkg:apk/alpine/libclc-dev
 pkg:apk/alpine/libclc-next
@@ -26407,7 +26413,9 @@ pkg:apk/alpine/phosh-doc
 pkg:apk/alpine/phosh-lang
 pkg:apk/alpine/phosh-mobile-settings
 pkg:apk/alpine/phosh-mobile-settings-dbg
+pkg:apk/alpine/phosh-mobile-settings-dev
 pkg:apk/alpine/phosh-mobile-settings-lang
+pkg:apk/alpine/phosh-mobile-settings-libs
 pkg:apk/alpine/phosh-osk-data
 pkg:apk/alpine/phosh-osk-data-bg
 pkg:apk/alpine/phosh-osk-data-de
@@ -27531,6 +27539,7 @@ pkg:apk/alpine/pimd-doc
 pkg:apk/alpine/pimd-openrc
 pkg:apk/alpine/pimsync
 pkg:apk/alpine/pimsync-doc
+pkg:apk/alpine/pimsync-openrc
 pkg:apk/alpine/pimsync-zsh-completion
 pkg:apk/alpine/pinenote-service
 pkg:apk/alpine/pinenote-service-systemd
@@ -40060,9 +40069,13 @@ pkg:apk/alpine/uhttpmock-static
 pkg:apk/alpine/uhubctl
 pkg:apk/alpine/uidmapshift
 pkg:apk/alpine/uim
+pkg:apk/alpine/uim-anthy
 pkg:apk/alpine/uim-dev
 pkg:apk/alpine/uim-doc
+pkg:apk/alpine/uim-emacs
+pkg:apk/alpine/uim-gtk3
 pkg:apk/alpine/uim-lang
+pkg:apk/alpine/uim-pref
 pkg:apk/alpine/ukify
 pkg:apk/alpine/ukify-kernel-hook
 pkg:apk/alpine/ulogd
@@ -40833,6 +40846,7 @@ pkg:apk/alpine/vulkan-validation-layers-static
 pkg:apk/alpine/vvave
 pkg:apk/alpine/vvave-lang
 pkg:apk/alpine/vvmd
+pkg:apk/alpine/vvmd-openrc
 pkg:apk/alpine/vvmd-systemd
 pkg:apk/alpine/vvmplayer
 pkg:apk/alpine/vvmplayer-bash-completion
@@ -42376,6 +42390,9 @@ pkg:apk/alpine/ytnef
 pkg:apk/alpine/ytnef-dev
 pkg:apk/alpine/ytnef-libs
 pkg:apk/alpine/ytt
+pkg:apk/alpine/yubico-authenticator
+pkg:apk/alpine/yubico-authenticator-helper
+pkg:apk/alpine/yubico-authenticator-helper-pyc
 pkg:apk/alpine/yubico-c
 pkg:apk/alpine/yubico-c-client
 pkg:apk/alpine/yubico-c-client-dev
