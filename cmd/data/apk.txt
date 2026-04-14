@@ -3255,6 +3255,10 @@ pkg:apk/alpine/calibre
 pkg:apk/alpine/calibre-bash-completion
 pkg:apk/alpine/calibre-doc
 pkg:apk/alpine/calibre-pyc
+pkg:apk/alpine/calibre-web
+pkg:apk/alpine/calibre-web-doc
+pkg:apk/alpine/calibre-web-openrc
+pkg:apk/alpine/calibre-web-pyc
 pkg:apk/alpine/calibre-zsh-completion
 pkg:apk/alpine/calindori
 pkg:apk/alpine/calindori-lang
@@ -31700,6 +31704,7 @@ pkg:apk/alpine/py3-librtmp-pyc
 pkg:apk/alpine/py3-libsass
 pkg:apk/alpine/py3-libsass-pyc
 pkg:apk/alpine/py3-libseccomp
+pkg:apk/alpine/py3-libselinux
 pkg:apk/alpine/py3-libteam
 pkg:apk/alpine/py3-libteam-pyc
 pkg:apk/alpine/py3-libtorrent-rasterbar
@@ -32089,6 +32094,8 @@ pkg:apk/alpine/py3-netaddr-pyc
 pkg:apk/alpine/py3-nethsm
 pkg:apk/alpine/py3-nethsm-pyc
 pkg:apk/alpine/py3-netifaces
+pkg:apk/alpine/py3-netifaces-plus
+pkg:apk/alpine/py3-netifaces-plus-pyc
 pkg:apk/alpine/py3-netifaces2
 pkg:apk/alpine/py3-netifaces2-pyc
 pkg:apk/alpine/py3-netjsonconfig
@@ -37139,6 +37146,15 @@ pkg:apk/alpine/seed7-doc
 pkg:apk/alpine/seed7-nano
 pkg:apk/alpine/seed7-vim
 pkg:apk/alpine/selinux-dbus
+pkg:apk/alpine/selinux-gui
+pkg:apk/alpine/selinux-gui-doc
+pkg:apk/alpine/selinux-gui-lang
+pkg:apk/alpine/selinux-policy
+pkg:apk/alpine/selinux-python
+pkg:apk/alpine/selinux-python-bash-completion
+pkg:apk/alpine/selinux-python-doc
+pkg:apk/alpine/selinux-python-lang
+pkg:apk/alpine/selinux-python-pyc
 pkg:apk/alpine/semaphoreui
 pkg:apk/alpine/semaphoreui-bash-completion
 pkg:apk/alpine/semaphoreui-doc
@@ -37221,6 +37237,11 @@ pkg:apk/alpine/sethrawall-doc
 pkg:apk/alpine/setpriv
 pkg:apk/alpine/setroot
 pkg:apk/alpine/setroot-doc
+pkg:apk/alpine/setroubleshoot
+pkg:apk/alpine/setroubleshoot-doc
+pkg:apk/alpine/setroubleshoot-lang
+pkg:apk/alpine/setroubleshoot-pyc
+pkg:apk/alpine/setroubleshoot-systemd
 pkg:apk/alpine/setserial
 pkg:apk/alpine/setserial-doc
 pkg:apk/alpine/setup-box
@@ -37357,6 +37378,7 @@ pkg:apk/alpine/showmethekey-doc
 pkg:apk/alpine/showmethekey-lang
 pkg:apk/alpine/showtime
 pkg:apk/alpine/showtime-lang
+pkg:apk/alpine/showtime-pyc
 pkg:apk/alpine/shunit2
 pkg:apk/alpine/shunit2-doc
 pkg:apk/alpine/shutdown-clear-machine-id
