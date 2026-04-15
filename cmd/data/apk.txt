@@ -1120,6 +1120,7 @@ pkg:apk/alpine/arturo-doc
 pkg:apk/alpine/arturo-full
 pkg:apk/alpine/asahi-audio
 pkg:apk/alpine/asahi-fwextract
+pkg:apk/alpine/asahi-fwextract-pyc
 pkg:apk/alpine/asahi-scripts
 pkg:apk/alpine/asciidoc
 pkg:apk/alpine/asciidoc-doc
@@ -8102,6 +8103,8 @@ pkg:apk/alpine/fuzzylite-libs
 pkg:apk/alpine/fvwm
 pkg:apk/alpine/fvwm-doc
 pkg:apk/alpine/fvwm-lang
+pkg:apk/alpine/fw-ectool
+pkg:apk/alpine/fw-ectool-doc
 pkg:apk/alpine/fwallet
 pkg:apk/alpine/fwknop
 pkg:apk/alpine/fwknop-dev
@@ -9153,6 +9156,7 @@ pkg:apk/alpine/gnome-dust-icon-theme
 pkg:apk/alpine/gnome-extensions-app
 pkg:apk/alpine/gnome-feeds
 pkg:apk/alpine/gnome-feeds-lang
+pkg:apk/alpine/gnome-feeds-pyc
 pkg:apk/alpine/gnome-firmware
 pkg:apk/alpine/gnome-firmware-doc
 pkg:apk/alpine/gnome-firmware-lang
@@ -11225,6 +11229,7 @@ pkg:apk/alpine/ibmswtpm2
 pkg:apk/alpine/ibus
 pkg:apk/alpine/ibus-anthy
 pkg:apk/alpine/ibus-anthy-lang
+pkg:apk/alpine/ibus-anthy-pyc
 pkg:apk/alpine/ibus-bash-completion
 pkg:apk/alpine/ibus-dev
 pkg:apk/alpine/ibus-doc
@@ -12043,6 +12048,9 @@ pkg:apk/alpine/jsonrpc-glib-dev
 pkg:apk/alpine/jsonrpc-glib-doc
 pkg:apk/alpine/jsvc
 pkg:apk/alpine/jsvc-doc
+pkg:apk/alpine/juce
+pkg:apk/alpine/juce-examples
+pkg:apk/alpine/juce-extras
 pkg:apk/alpine/judo
 pkg:apk/alpine/judo-doc
 pkg:apk/alpine/judy
@@ -12081,6 +12089,7 @@ pkg:apk/alpine/jupyter-server-pyc
 pkg:apk/alpine/jupyter-server-terminals
 pkg:apk/alpine/jupyter-server-terminals-pyc
 pkg:apk/alpine/jupyterlab
+pkg:apk/alpine/jupyterlab-pyc
 pkg:apk/alpine/jupyterlab3
 pkg:apk/alpine/just
 pkg:apk/alpine/just-bash-completion
@@ -14376,6 +14385,7 @@ pkg:apk/alpine/libdeflate-utils
 pkg:apk/alpine/libdex
 pkg:apk/alpine/libdex-dbg
 pkg:apk/alpine/libdex-dev
+pkg:apk/alpine/libdex-pyc
 pkg:apk/alpine/libdiscid
 pkg:apk/alpine/libdiscid-dev
 pkg:apk/alpine/libdispatch
@@ -16972,6 +16982,9 @@ pkg:apk/alpine/linphone-libs
 pkg:apk/alpine/linux-apfs-rw-src
 pkg:apk/alpine/linux-asahi
 pkg:apk/alpine/linux-asahi-dev
+pkg:apk/alpine/linux-av
+pkg:apk/alpine/linux-av-cbook
+pkg:apk/alpine/linux-av-dev
 pkg:apk/alpine/linux-edge
 pkg:apk/alpine/linux-edge-dev
 pkg:apk/alpine/linux-edge-doc
@@ -17742,6 +17755,7 @@ pkg:apk/alpine/lua-alt-getopt
 pkg:apk/alpine/lua-ansicolors
 pkg:apk/alpine/lua-apkbuild
 pkg:apk/alpine/lua-aports
+pkg:apk/alpine/lua-aports-doc
 pkg:apk/alpine/lua-argparse
 pkg:apk/alpine/lua-asn1
 pkg:apk/alpine/lua-augeas
@@ -18591,6 +18605,7 @@ pkg:apk/alpine/lua5.5-middleclass
 pkg:apk/alpine/lua5.5-mosquitto
 pkg:apk/alpine/lua5.5-mqtt-publish
 pkg:apk/alpine/lua5.5-openrc
+pkg:apk/alpine/lua5.5-optarg
 pkg:apk/alpine/lua5.5-optparse
 pkg:apk/alpine/lua5.5-ossl
 pkg:apk/alpine/lua5.5-pc
@@ -20114,6 +20129,7 @@ pkg:apk/alpine/mqttui-fish-completion
 pkg:apk/alpine/mqttui-zsh-completion
 pkg:apk/alpine/mrhlpr
 pkg:apk/alpine/mrhlpr-common
+pkg:apk/alpine/mrhlpr-pyc
 pkg:apk/alpine/mrsh
 pkg:apk/alpine/mrsh-dbg
 pkg:apk/alpine/mrsh-dev
@@ -31123,6 +31139,7 @@ pkg:apk/alpine/py3-gnupg
 pkg:apk/alpine/py3-gnupg-pyc
 pkg:apk/alpine/py3-gobject3
 pkg:apk/alpine/py3-gobject3-atspi
+pkg:apk/alpine/py3-gobject3-atspi-pyc
 pkg:apk/alpine/py3-gobject3-dev
 pkg:apk/alpine/py3-gobject3-pyc
 pkg:apk/alpine/py3-goodreads
@@ -31550,6 +31567,7 @@ pkg:apk/alpine/py3-jupyter_core-pyc
 pkg:apk/alpine/py3-jupyterlab_pygments
 pkg:apk/alpine/py3-jupyterlab_pygments-pyc
 pkg:apk/alpine/py3-jupyterlab_server
+pkg:apk/alpine/py3-jupyterlab_server-pyc
 pkg:apk/alpine/py3-jwcrypto
 pkg:apk/alpine/py3-jwcrypto-doc
 pkg:apk/alpine/py3-jwcrypto-pyc
@@ -31661,6 +31679,7 @@ pkg:apk/alpine/py3-libbytesize
 pkg:apk/alpine/py3-libcaca
 pkg:apk/alpine/py3-libcaca-pyc
 pkg:apk/alpine/py3-libcamera
+pkg:apk/alpine/py3-libcamera-pyc
 pkg:apk/alpine/py3-libcap-ng
 pkg:apk/alpine/py3-libcec
 pkg:apk/alpine/py3-libcec-rpi
@@ -35117,6 +35136,7 @@ pkg:apk/alpine/qtermwidget-dev
 pkg:apk/alpine/qtermwidget-lang
 pkg:apk/alpine/qtfeedback
 pkg:apk/alpine/qtfeedback-dev
+pkg:apk/alpine/qtfeedback-doc
 pkg:apk/alpine/qtile
 pkg:apk/alpine/qtile-pyc
 pkg:apk/alpine/qtkeychain
@@ -40246,6 +40266,8 @@ pkg:apk/alpine/unrar-free-doc
 pkg:apk/alpine/unrealircd
 pkg:apk/alpine/unrealircd-doc
 pkg:apk/alpine/unrealircd-openrc
+pkg:apk/alpine/unrs-resolver
+pkg:apk/alpine/unrs-resolver-doc
 pkg:apk/alpine/unrtf
 pkg:apk/alpine/unrtf-doc
 pkg:apk/alpine/unshield
