@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.15.18 (2026-04-19)
+
+ - Update FST with latest PURLs
+
 ## v1.15.17 (2026-04-18)
 
  - Update FST with latest PURLs
