@@ -2057,6 +2057,7 @@ pkg:apk/alpine/baobab-doc
 pkg:apk/alpine/baobab-lang
 pkg:apk/alpine/barcode
 pkg:apk/alpine/bareos
+pkg:apk/alpine/bareos-bat
 pkg:apk/alpine/bareos-dbg
 pkg:apk/alpine/bareos-dev
 pkg:apk/alpine/bareos-doc
@@ -2253,6 +2254,7 @@ pkg:apk/alpine/biboumi
 pkg:apk/alpine/biboumi-doc
 pkg:apk/alpine/biboumi-openrc
 pkg:apk/alpine/bigreqsproto
+pkg:apk/alpine/bigreqsproto-doc
 pkg:apk/alpine/bim
 pkg:apk/alpine/binaryen
 pkg:apk/alpine/binaryen-dev
@@ -4413,6 +4415,7 @@ pkg:apk/alpine/composer
 pkg:apk/alpine/composer-bash-completion
 pkg:apk/alpine/composer-zsh-completion
 pkg:apk/alpine/compositeproto
+pkg:apk/alpine/compositeproto-doc
 pkg:apk/alpine/compton
 pkg:apk/alpine/compton-doc
 pkg:apk/alpine/comrak
@@ -4945,6 +4948,8 @@ pkg:apk/alpine/dahdi-linux
 pkg:apk/alpine/dahdi-linux-dev
 pkg:apk/alpine/dahdi-linux-grsec
 pkg:apk/alpine/dahdi-linux-grsec-dev
+pkg:apk/alpine/dahdi-linux-hardened
+pkg:apk/alpine/dahdi-linux-hardened-dev
 pkg:apk/alpine/dahdi-linux-lts
 pkg:apk/alpine/dahdi-linux-lts-dev
 pkg:apk/alpine/dahdi-linux-vanilla
@@ -4960,6 +4965,7 @@ pkg:apk/alpine/daktilo-zsh-completion
 pkg:apk/alpine/dam
 pkg:apk/alpine/dam-doc
 pkg:apk/alpine/damageproto
+pkg:apk/alpine/damageproto-doc
 pkg:apk/alpine/dansguardian
 pkg:apk/alpine/dansguardian-doc
 pkg:apk/alpine/dansguardian-openrc
@@ -5921,7 +5927,9 @@ pkg:apk/alpine/drbd9-hardened
 pkg:apk/alpine/drbdmanage
 pkg:apk/alpine/drbdmanage-doc
 pkg:apk/alpine/dri2proto
+pkg:apk/alpine/dri2proto-doc
 pkg:apk/alpine/dri3proto
+pkg:apk/alpine/dri3proto-doc
 pkg:apk/alpine/drill
 pkg:apk/alpine/drkonqi
 pkg:apk/alpine/drkonqi-lang
@@ -7229,6 +7237,7 @@ pkg:apk/alpine/fish-tools
 pkg:apk/alpine/fisher
 pkg:apk/alpine/fisher-openrc
 pkg:apk/alpine/fixesproto
+pkg:apk/alpine/fixesproto-doc
 pkg:apk/alpine/flac
 pkg:apk/alpine/flac-dev
 pkg:apk/alpine/flac-doc
@@ -7765,6 +7774,7 @@ pkg:apk/alpine/fontforge-gui
 pkg:apk/alpine/fontforge-lang
 pkg:apk/alpine/fontforge-libs
 pkg:apk/alpine/fontsproto
+pkg:apk/alpine/fontsproto-doc
 pkg:apk/alpine/foolsm
 pkg:apk/alpine/foolsm-doc
 pkg:apk/alpine/foolsm-openrc
@@ -9306,6 +9316,8 @@ pkg:apk/alpine/gnome-themes
 pkg:apk/alpine/gnome-themes-extra
 pkg:apk/alpine/gnome-themes-extra-lang
 pkg:apk/alpine/gnome-themes-lang
+pkg:apk/alpine/gnome-themes-standard
+pkg:apk/alpine/gnome-themes-standard-lang
 pkg:apk/alpine/gnome-tour
 pkg:apk/alpine/gnome-tour-lang
 pkg:apk/alpine/gnome-tweaks
@@ -9443,6 +9455,9 @@ pkg:apk/alpine/go-task-task
 pkg:apk/alpine/go-task-zshcomp
 pkg:apk/alpine/go-tools
 pkg:apk/alpine/go-vim
+pkg:apk/alpine/go1.10
+pkg:apk/alpine/go1.10-doc
+pkg:apk/alpine/go1.10-tools
 pkg:apk/alpine/go2rtc
 pkg:apk/alpine/go2rtc-openrc
 pkg:apk/alpine/goaccess
@@ -10154,6 +10169,7 @@ pkg:apk/alpine/gst-plugin-pipewire
 pkg:apk/alpine/gst-plugins-bad
 pkg:apk/alpine/gst-plugins-bad-dbg
 pkg:apk/alpine/gst-plugins-bad-dev
+pkg:apk/alpine/gst-plugins-bad-doc
 pkg:apk/alpine/gst-plugins-bad-lang
 pkg:apk/alpine/gst-plugins-bad0.10
 pkg:apk/alpine/gst-plugins-bad0.10-dev
@@ -10179,6 +10195,7 @@ pkg:apk/alpine/gst-plugins-base1-doc
 pkg:apk/alpine/gst-plugins-base1-lang
 pkg:apk/alpine/gst-plugins-good
 pkg:apk/alpine/gst-plugins-good-dbg
+pkg:apk/alpine/gst-plugins-good-doc
 pkg:apk/alpine/gst-plugins-good-gnome
 pkg:apk/alpine/gst-plugins-good-gtk
 pkg:apk/alpine/gst-plugins-good-lang
@@ -12339,6 +12356,7 @@ pkg:apk/alpine/kbounce
 pkg:apk/alpine/kbounce-doc
 pkg:apk/alpine/kbounce-lang
 pkg:apk/alpine/kbproto
+pkg:apk/alpine/kbproto-doc
 pkg:apk/alpine/kbreakout
 pkg:apk/alpine/kbreakout-doc
 pkg:apk/alpine/kbreakout-lang
@@ -15941,6 +15959,9 @@ pkg:apk/alpine/libressl2.4-libtls
 pkg:apk/alpine/libressl2.5-libcrypto
 pkg:apk/alpine/libressl2.5-libssl
 pkg:apk/alpine/libressl2.5-libtls
+pkg:apk/alpine/libressl2.6-libcrypto
+pkg:apk/alpine/libressl2.6-libssl
+pkg:apk/alpine/libressl2.6-libtls
 pkg:apk/alpine/libressl2.7-libcrypto
 pkg:apk/alpine/libressl2.7-libssl
 pkg:apk/alpine/libressl2.7-libtls
@@ -17174,6 +17195,8 @@ pkg:apk/alpine/linux-virt-grsec
 pkg:apk/alpine/linux-virt-grsec-dev
 pkg:apk/alpine/linux-virtgrsec
 pkg:apk/alpine/linux-virtgrsec-dev
+pkg:apk/alpine/linux-virthardened
+pkg:apk/alpine/linux-virthardened-dev
 pkg:apk/alpine/linuxconsoletools
 pkg:apk/alpine/linuxconsoletools-doc
 pkg:apk/alpine/linuxkit
@@ -17196,6 +17219,7 @@ pkg:apk/alpine/lipstick-asteroidos
 pkg:apk/alpine/lipstick-asteroidos-dbg
 pkg:apk/alpine/lipstick-asteroidos-dev
 pkg:apk/alpine/lipstick-asteroidos-tools
+pkg:apk/alpine/lipstick-dbg
 pkg:apk/alpine/lipstick-dev
 pkg:apk/alpine/lipstick-nemo
 pkg:apk/alpine/lipstick-nemo-dbg
@@ -20578,6 +20602,7 @@ pkg:apk/alpine/nemo-qml-plugin-alarms
 pkg:apk/alpine/nemo-qml-plugin-calendar
 pkg:apk/alpine/nemo-qml-plugin-configuration
 pkg:apk/alpine/nemo-qml-plugin-connectivity
+pkg:apk/alpine/nemo-qml-plugin-connectivity-dev
 pkg:apk/alpine/nemo-qml-plugin-contacts
 pkg:apk/alpine/nemo-qml-plugin-dbus
 pkg:apk/alpine/nemo-qml-plugin-dbus-dev
@@ -20841,9 +20866,11 @@ pkg:apk/alpine/nextcloud-gallery
 pkg:apk/alpine/nextcloud-initscript
 pkg:apk/alpine/nextcloud-ldap
 pkg:apk/alpine/nextcloud-logreader
+pkg:apk/alpine/nextcloud-lookup_server_connector
 pkg:apk/alpine/nextcloud-mysql
 pkg:apk/alpine/nextcloud-nextcloud_announcements
 pkg:apk/alpine/nextcloud-notifications
+pkg:apk/alpine/nextcloud-oauth2
 pkg:apk/alpine/nextcloud-password_policy
 pkg:apk/alpine/nextcloud-pdfviewer
 pkg:apk/alpine/nextcloud-pgsql
@@ -20861,11 +20888,14 @@ pkg:apk/alpine/nextcloud-templateeditor
 pkg:apk/alpine/nextcloud-text
 pkg:apk/alpine/nextcloud-texteditor
 pkg:apk/alpine/nextcloud-theming
+pkg:apk/alpine/nextcloud-twofactor_backupcodes
+pkg:apk/alpine/nextcloud-user_external
 pkg:apk/alpine/nextcloud-user_ldap
 pkg:apk/alpine/nextcloud-user_status
 pkg:apk/alpine/nextcloud-videoplayer
 pkg:apk/alpine/nextcloud-viewer
 pkg:apk/alpine/nextcloud-weather_status
+pkg:apk/alpine/nextcloud-workflowengine
 pkg:apk/alpine/nextcloud19
 pkg:apk/alpine/nextcloud19-accessibility
 pkg:apk/alpine/nextcloud19-activity
@@ -23548,6 +23578,7 @@ pkg:apk/alpine/pcre2-doc
 pkg:apk/alpine/pcre2-static
 pkg:apk/alpine/pcre2-tools
 pkg:apk/alpine/pcsc-cyberjack
+pkg:apk/alpine/pcsc-cyberjack-doc
 pkg:apk/alpine/pcsc-lite
 pkg:apk/alpine/pcsc-lite-dev
 pkg:apk/alpine/pcsc-lite-doc
@@ -26665,6 +26696,7 @@ pkg:apk/alpine/php5-snmp
 pkg:apk/alpine/php5-soap
 pkg:apk/alpine/php5-sockets
 pkg:apk/alpine/php5-sqlite3
+pkg:apk/alpine/php5-suhosin
 pkg:apk/alpine/php5-sysvmsg
 pkg:apk/alpine/php5-sysvsem
 pkg:apk/alpine/php5-sysvshm
@@ -26719,6 +26751,7 @@ pkg:apk/alpine/php7-mcrypt
 pkg:apk/alpine/php7-memcached
 pkg:apk/alpine/php7-mysqli
 pkg:apk/alpine/php7-mysqlnd
+pkg:apk/alpine/php7-oauth
 pkg:apk/alpine/php7-odbc
 pkg:apk/alpine/php7-opcache
 pkg:apk/alpine/php7-openssl
@@ -26790,6 +26823,7 @@ pkg:apk/alpine/php7-soap
 pkg:apk/alpine/php7-sockets
 pkg:apk/alpine/php7-sodium
 pkg:apk/alpine/php7-sqlite3
+pkg:apk/alpine/php7-ssh2
 pkg:apk/alpine/php7-static
 pkg:apk/alpine/php7-sysvmsg
 pkg:apk/alpine/php7-sysvsem
@@ -28321,6 +28355,7 @@ pkg:apk/alpine/presage-dev
 pkg:apk/alpine/presage-doc
 pkg:apk/alpine/presage-static
 pkg:apk/alpine/presentproto
+pkg:apk/alpine/presentproto-doc
 pkg:apk/alpine/prettier
 pkg:apk/alpine/prettier-doc
 pkg:apk/alpine/prime_server
@@ -29642,6 +29677,7 @@ pkg:apk/alpine/py2-udev
 pkg:apk/alpine/py2-ukpostcodeparser
 pkg:apk/alpine/py2-unidecode
 pkg:apk/alpine/py2-uritemplate
+pkg:apk/alpine/py2-uritemplate.py
 pkg:apk/alpine/py2-urllib3
 pkg:apk/alpine/py2-urwid
 pkg:apk/alpine/py2-virtualenv
@@ -31177,6 +31213,8 @@ pkg:apk/alpine/py3-gql
 pkg:apk/alpine/py3-gql-pyc
 pkg:apk/alpine/py3-grapheme
 pkg:apk/alpine/py3-grapheme-pyc
+pkg:apk/alpine/py3-graphemeu
+pkg:apk/alpine/py3-graphemeu-pyc
 pkg:apk/alpine/py3-graphql-core
 pkg:apk/alpine/py3-graphql-core-pyc
 pkg:apk/alpine/py3-graphviz
@@ -34240,6 +34278,7 @@ pkg:apk/alpine/py3-uptime
 pkg:apk/alpine/py3-uptime-pyc
 pkg:apk/alpine/py3-uritemplate
 pkg:apk/alpine/py3-uritemplate-pyc
+pkg:apk/alpine/py3-uritemplate.py
 pkg:apk/alpine/py3-uritools
 pkg:apk/alpine/py3-uritools-pyc
 pkg:apk/alpine/py3-url-normalize
@@ -35039,6 +35078,8 @@ pkg:apk/alpine/qt5-qtxmlpatterns
 pkg:apk/alpine/qt5-qtxmlpatterns-dev
 pkg:apk/alpine/qt5-qwt
 pkg:apk/alpine/qt5-qwt-designer
+pkg:apk/alpine/qt5-websockets
+pkg:apk/alpine/qt5-websockets-dev
 pkg:apk/alpine/qt5ct
 pkg:apk/alpine/qt5ct-dev
 pkg:apk/alpine/qt6-qt3d
@@ -35437,6 +35478,7 @@ pkg:apk/alpine/rancid-doc
 pkg:apk/alpine/randrctl
 pkg:apk/alpine/randrctl-pyc
 pkg:apk/alpine/randrproto
+pkg:apk/alpine/randrproto-doc
 pkg:apk/alpine/range-v3
 pkg:apk/alpine/range-v3-dev
 pkg:apk/alpine/ranger
@@ -35656,6 +35698,7 @@ pkg:apk/alpine/recon-ng
 pkg:apk/alpine/recordmydesktop
 pkg:apk/alpine/recordmydesktop-doc
 pkg:apk/alpine/recordproto
+pkg:apk/alpine/recordproto-doc
 pkg:apk/alpine/recutils
 pkg:apk/alpine/recutils-dev
 pkg:apk/alpine/recutils-doc
@@ -35756,6 +35799,7 @@ pkg:apk/alpine/rescrobbled
 pkg:apk/alpine/rescrobbled-doc
 pkg:apk/alpine/rescrobbled-openrc
 pkg:apk/alpine/resourceproto
+pkg:apk/alpine/resourceproto-doc
 pkg:apk/alpine/resources
 pkg:apk/alpine/resources-lang
 pkg:apk/alpine/responder
@@ -37040,6 +37084,7 @@ pkg:apk/alpine/scribus
 pkg:apk/alpine/scribus-doc
 pkg:apk/alpine/scribus-lang
 pkg:apk/alpine/scrnsaverproto
+pkg:apk/alpine/scrnsaverproto-doc
 pkg:apk/alpine/scrot
 pkg:apk/alpine/scrot-doc
 pkg:apk/alpine/scrub
@@ -38006,6 +38051,8 @@ pkg:apk/alpine/spl
 pkg:apk/alpine/spl-doc
 pkg:apk/alpine/spl-grsec
 pkg:apk/alpine/spl-grsec-dev
+pkg:apk/alpine/spl-hardened
+pkg:apk/alpine/spl-hardened-dev
 pkg:apk/alpine/spl-vanilla
 pkg:apk/alpine/spl-vanilla-dev
 pkg:apk/alpine/splitter
@@ -40699,6 +40746,7 @@ pkg:apk/alpine/viddy-doc
 pkg:apk/alpine/video-trimmer
 pkg:apk/alpine/video-trimmer-lang
 pkg:apk/alpine/videoproto
+pkg:apk/alpine/videoproto-doc
 pkg:apk/alpine/vidstab
 pkg:apk/alpine/vidstab-dev
 pkg:apk/alpine/viewnior
@@ -41678,6 +41726,7 @@ pkg:apk/alpine/xclip-doc
 pkg:apk/alpine/xclock
 pkg:apk/alpine/xclock-doc
 pkg:apk/alpine/xcmiscproto
+pkg:apk/alpine/xcmiscproto-doc
 pkg:apk/alpine/xcmsdb
 pkg:apk/alpine/xcmsdb-doc
 pkg:apk/alpine/xcompmgr
@@ -41783,6 +41832,7 @@ pkg:apk/alpine/xerces-c-samples
 pkg:apk/alpine/xev
 pkg:apk/alpine/xev-doc
 pkg:apk/alpine/xextproto
+pkg:apk/alpine/xextproto-doc
 pkg:apk/alpine/xeyes
 pkg:apk/alpine/xeyes-doc
 pkg:apk/alpine/xf86-input-evdev
@@ -42626,6 +42676,8 @@ pkg:apk/alpine/zfs-doc
 pkg:apk/alpine/zfs-dracut
 pkg:apk/alpine/zfs-grsec
 pkg:apk/alpine/zfs-grsec-dev
+pkg:apk/alpine/zfs-hardened
+pkg:apk/alpine/zfs-hardened-dev
 pkg:apk/alpine/zfs-libs
 pkg:apk/alpine/zfs-lts
 pkg:apk/alpine/zfs-lts-dev
