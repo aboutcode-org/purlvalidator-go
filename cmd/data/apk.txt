@@ -5209,6 +5209,10 @@ pkg:apk/alpine/devhelp-dev
 pkg:apk/alpine/devhelp-doc
 pkg:apk/alpine/devhelp-lang
 pkg:apk/alpine/device-mapper
+pkg:apk/alpine/device-mapper-dev
+pkg:apk/alpine/device-mapper-dmeventd
+pkg:apk/alpine/device-mapper-dmeventd-openrc
+pkg:apk/alpine/device-mapper-doc
 pkg:apk/alpine/device-mapper-event-libs
 pkg:apk/alpine/device-mapper-event-static
 pkg:apk/alpine/device-mapper-libs
@@ -16015,6 +16019,9 @@ pkg:apk/alpine/libressl4.1-libtls
 pkg:apk/alpine/libressl4.2-libcrypto
 pkg:apk/alpine/libressl4.2-libssl
 pkg:apk/alpine/libressl4.2-libtls
+pkg:apk/alpine/libressl4.3-libcrypto
+pkg:apk/alpine/libressl4.3-libssl
+pkg:apk/alpine/libressl4.3-libtls
 pkg:apk/alpine/libreswan
 pkg:apk/alpine/libreswan-doc
 pkg:apk/alpine/libreswan-openrc
@@ -20775,6 +20782,7 @@ pkg:apk/alpine/nettle
 pkg:apk/alpine/nettle-dev
 pkg:apk/alpine/nettle-static
 pkg:apk/alpine/nettle-utils
+pkg:apk/alpine/netwatch
 pkg:apk/alpine/network-extras
 pkg:apk/alpine/network-manager-applet
 pkg:apk/alpine/network-manager-applet-dev
