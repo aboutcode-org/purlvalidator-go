@@ -5057,6 +5057,9 @@ pkg:apk/alpine/datovka
 pkg:apk/alpine/datovka-doc
 pkg:apk/alpine/dav1d
 pkg:apk/alpine/dav1d-dev
+pkg:apk/alpine/dav2d
+pkg:apk/alpine/dav2d-dev
+pkg:apk/alpine/dav2d-doc
 pkg:apk/alpine/davfs2
 pkg:apk/alpine/davfs2-doc
 pkg:apk/alpine/davmail
@@ -14407,6 +14410,7 @@ pkg:apk/alpine/libdatrie-dev
 pkg:apk/alpine/libdatrie-doc
 pkg:apk/alpine/libdatrie-libs
 pkg:apk/alpine/libdav1d
+pkg:apk/alpine/libdav2d
 pkg:apk/alpine/libdazzle
 pkg:apk/alpine/libdazzle-dev
 pkg:apk/alpine/libdazzle-lang
@@ -23072,6 +23076,7 @@ pkg:apk/alpine/openssl-dbg
 pkg:apk/alpine/openssl-dev
 pkg:apk/alpine/openssl-doc
 pkg:apk/alpine/openssl-fips
+pkg:apk/alpine/openssl-fips-test
 pkg:apk/alpine/openssl-libs-static
 pkg:apk/alpine/openssl-misc
 pkg:apk/alpine/openssl1.1-compat
@@ -27755,6 +27760,7 @@ pkg:apk/alpine/pipewire-filter-graph-ffmpeg
 pkg:apk/alpine/pipewire-filter-graph-ladspa
 pkg:apk/alpine/pipewire-filter-graph-lv2
 pkg:apk/alpine/pipewire-filter-graph-onnx
+pkg:apk/alpine/pipewire-filter-graph-sofa
 pkg:apk/alpine/pipewire-jack
 pkg:apk/alpine/pipewire-jack-dev
 pkg:apk/alpine/pipewire-lang
@@ -33267,6 +33273,8 @@ pkg:apk/alpine/py3-python-archive
 pkg:apk/alpine/py3-python-archive-pyc
 pkg:apk/alpine/py3-python-crontab
 pkg:apk/alpine/py3-python-crontab-pyc
+pkg:apk/alpine/py3-python-discovery
+pkg:apk/alpine/py3-python-discovery-pyc
 pkg:apk/alpine/py3-python-editor
 pkg:apk/alpine/py3-python-editor-pyc
 pkg:apk/alpine/py3-python-gssapi
@@ -37242,6 +37250,7 @@ pkg:apk/alpine/sdl3
 pkg:apk/alpine/sdl3-dbg
 pkg:apk/alpine/sdl3-dev
 pkg:apk/alpine/sdl3-doc
+pkg:apk/alpine/sdl3-static
 pkg:apk/alpine/sdl3_image
 pkg:apk/alpine/sdl3_image-dev
 pkg:apk/alpine/sdl3_image-doc
@@ -38578,6 +38587,8 @@ pkg:apk/alpine/suricata-openrc
 pkg:apk/alpine/suru-icon-theme
 pkg:apk/alpine/sushi
 pkg:apk/alpine/sushi-lang
+pkg:apk/alpine/sushy-tools
+pkg:apk/alpine/sushy-tools-pyc
 pkg:apk/alpine/sutf
 pkg:apk/alpine/svgbob
 pkg:apk/alpine/svkbd
