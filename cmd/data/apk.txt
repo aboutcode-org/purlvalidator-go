@@ -10068,6 +10068,8 @@ pkg:apk/alpine/gram-remote-server
 pkg:apk/alpine/granatier
 pkg:apk/alpine/granatier-doc
 pkg:apk/alpine/granatier-lang
+pkg:apk/alpine/granian
+pkg:apk/alpine/granian-pyc
 pkg:apk/alpine/granite
 pkg:apk/alpine/granite-dev
 pkg:apk/alpine/granite-lang
@@ -28672,6 +28674,8 @@ pkg:apk/alpine/proftpd-mod_ban
 pkg:apk/alpine/proftpd-mod_copy
 pkg:apk/alpine/proftpd-mod_ctrls_admin
 pkg:apk/alpine/proftpd-mod_deflate
+pkg:apk/alpine/proftpd-mod_digest
+pkg:apk/alpine/proftpd-mod_dnsbl
 pkg:apk/alpine/proftpd-mod_dynmasq
 pkg:apk/alpine/proftpd-mod_exec
 pkg:apk/alpine/proftpd-mod_facl
@@ -28681,7 +28685,9 @@ pkg:apk/alpine/proftpd-mod_ifversion
 pkg:apk/alpine/proftpd-mod_lang
 pkg:apk/alpine/proftpd-mod_ldap
 pkg:apk/alpine/proftpd-mod_load
+pkg:apk/alpine/proftpd-mod_log_forensic
 pkg:apk/alpine/proftpd-mod_memcache
+pkg:apk/alpine/proftpd-mod_qos
 pkg:apk/alpine/proftpd-mod_quotatab
 pkg:apk/alpine/proftpd-mod_quotatab_file
 pkg:apk/alpine/proftpd-mod_quotatab_ldap
@@ -28703,7 +28709,9 @@ pkg:apk/alpine/proftpd-mod_sql_odbc
 pkg:apk/alpine/proftpd-mod_sql_passwd
 pkg:apk/alpine/proftpd-mod_sql_postgres
 pkg:apk/alpine/proftpd-mod_sql_sqlite
+pkg:apk/alpine/proftpd-mod_statcache
 pkg:apk/alpine/proftpd-mod_tls
+pkg:apk/alpine/proftpd-mod_tls_fscache
 pkg:apk/alpine/proftpd-mod_tls_memcache
 pkg:apk/alpine/proftpd-mod_tls_redis
 pkg:apk/alpine/proftpd-mod_tls_shmcache
