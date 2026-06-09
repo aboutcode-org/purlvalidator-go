@@ -2835,20 +2835,24 @@ pkg:cargo/adk-artifact
 pkg:cargo/adk-audio
 pkg:cargo/adk-auth
 pkg:cargo/adk-awp
+pkg:cargo/adk-bench
 pkg:cargo/adk-browser
 pkg:cargo/adk-cli
 pkg:cargo/adk-code
 pkg:cargo/adk-core
 pkg:cargo/adk-deploy
 pkg:cargo/adk-doc-audit
+pkg:cargo/adk-enterprise
 pkg:cargo/adk-eval
 pkg:cargo/adk-gemini
 pkg:cargo/adk-graph
 pkg:cargo/adk-guardrail
 pkg:cargo/adk-macros
+pkg:cargo/adk-managed
 pkg:cargo/adk-mcp-github
 pkg:cargo/adk-mcp-sdk
 pkg:cargo/adk-memory
+pkg:cargo/adk-mistralrs
 pkg:cargo/adk-model
 pkg:cargo/adk-payments
 pkg:cargo/adk-plugin
@@ -11451,6 +11455,7 @@ pkg:cargo/arete-server
 pkg:cargo/arexibo
 pkg:cargo/areyouok
 pkg:cargo/arf
+pkg:cargo/arf-cli
 pkg:cargo/arf-console
 pkg:cargo/arf-harp
 pkg:cargo/arf-libr
@@ -11915,6 +11920,7 @@ pkg:cargo/arkbot
 pkg:cargo/arkd
 pkg:cargo/arkecosystem-client
 pkg:cargo/arkecosystem-crypto
+pkg:cargo/arkeion
 pkg:cargo/arkenar
 pkg:cargo/arkenar-core
 pkg:cargo/arkflow
@@ -22663,6 +22669,7 @@ pkg:cargo/bep-mongodb
 pkg:cargo/bep-neo4j
 pkg:cargo/bep-qdrant
 pkg:cargo/bep-sqlite
+pkg:cargo/bepr
 pkg:cargo/ber
 pkg:cargo/berblom
 pkg:cargo/berdicles
@@ -22899,6 +22906,7 @@ pkg:cargo/bettercp
 pkg:cargo/betterdisplay-kvm
 pkg:cargo/betterhook
 pkg:cargo/betterhook-cli
+pkg:cargo/betterlog
 pkg:cargo/betterls
 pkg:cargo/betterops
 pkg:cargo/betterschool-sdk
@@ -22985,6 +22993,7 @@ pkg:cargo/bevy-flights
 pkg:cargo/bevy-fps-counter
 pkg:cargo/bevy-fps-ui
 pkg:cargo/bevy-fpscam
+pkg:cargo/bevy-fragment-shader-plugin
 pkg:cargo/bevy-fusabi
 pkg:cargo/bevy-glsl-to-spirv
 pkg:cargo/bevy-glsl-to-spirv-builder
@@ -24405,6 +24414,7 @@ pkg:cargo/bevy_spark
 pkg:cargo/bevy_sparse_grid_2d
 pkg:cargo/bevy_sparse_tilemap
 pkg:cargo/bevy_spatial
+pkg:cargo/bevy_spatialgrid2d
 pkg:cargo/bevy_spawn_fn
 pkg:cargo/bevy_spawn_fn_derive
 pkg:cargo/bevy_spawn_observer
@@ -25061,6 +25071,7 @@ pkg:cargo/biconnected-components
 pkg:cargo/bicoro
 pkg:cargo/bicrypt
 pkg:cargo/bicubic
+pkg:cargo/bicycl
 pkg:cargo/bicycl-rs
 pkg:cargo/bicycl-rs-sys
 pkg:cargo/bicycle
@@ -26053,6 +26064,7 @@ pkg:cargo/bismark-dedup
 pkg:cargo/bismark-io
 pkg:cargo/bismit
 pkg:cargo/bismuth
+pkg:cargo/bison-db
 pkg:cargo/bisonmq
 pkg:cargo/bisonn
 pkg:cargo/bisq_client
@@ -26743,6 +26755,7 @@ pkg:cargo/bitmask
 pkg:cargo/bitmask-cli
 pkg:cargo/bitmask-core
 pkg:cargo/bitmask-enum
+pkg:cargo/bitmask-logger
 pkg:cargo/bitmatch
 pkg:cargo/bitmath
 pkg:cargo/bitmath_macros
@@ -45062,6 +45075,8 @@ pkg:cargo/code-splitter
 pkg:cargo/code-status
 pkg:cargo/code-status-macros
 pkg:cargo/code-status-scanner
+pkg:cargo/code-steps
+pkg:cargo/code-steps-macros
 pkg:cargo/code-tester
 pkg:cargo/code-timing-macros
 pkg:cargo/code-to-pdf
@@ -45807,6 +45822,7 @@ pkg:cargo/colback
 pkg:cargo/colback-derive
 pkg:cargo/colci
 pkg:cargo/colcon
+pkg:cargo/colconv
 pkg:cargo/cold
 pkg:cargo/cold-io
 pkg:cargo/cold-stat
@@ -47011,9 +47027,12 @@ pkg:cargo/comprehensive_traits
 pkg:cargo/comprehensive_warm_channels
 pkg:cargo/comprende
 pkg:cargo/compress
+pkg:cargo/compress-huffman-rs
 pkg:cargo/compress-irmf
 pkg:cargo/compress-json-rs
+pkg:cargo/compress-lz77-rs
 pkg:cargo/compress-manager
+pkg:cargo/compress-rle-rs
 pkg:cargo/compress-tools
 pkg:cargo/compress_comics
 pkg:cargo/compress_history
@@ -48607,6 +48626,7 @@ pkg:cargo/convex-bonds
 pkg:cargo/convex-core
 pkg:cargo/convex-curves
 pkg:cargo/convex-doctor
+pkg:cargo/convex-hull-rs
 pkg:cargo/convex-math
 pkg:cargo/convex-opt
 pkg:cargo/convex-risk
@@ -49531,6 +49551,7 @@ pkg:cargo/corund
 pkg:cargo/corundum
 pkg:cargo/coruscant
 pkg:cargo/corvid-agent-nano
+pkg:cargo/corvid-ai
 pkg:cargo/corvid-pet
 pkg:cargo/corvo-client
 pkg:cargo/corvo-lang
@@ -49855,6 +49876,8 @@ pkg:cargo/courier
 pkg:cargo/courier-rust
 pkg:cargo/couriers
 pkg:cargo/course
+pkg:cargo/course-matcher
+pkg:cargo/course-service
 pkg:cargo/coursehku
 pkg:cargo/coursemap
 pkg:cargo/coursepointer
@@ -49987,6 +50010,7 @@ pkg:cargo/cow-replace
 pkg:cargo/cow-rewrite
 pkg:cargo/cow-rs
 pkg:cargo/cow-sdk
+pkg:cargo/cow-sdk-alloy
 pkg:cargo/cow-sdk-alloy-provider
 pkg:cargo/cow-sdk-app-data
 pkg:cargo/cow-sdk-bridging
@@ -50002,7 +50026,10 @@ pkg:cargo/cow-sdk-flash-loans
 pkg:cargo/cow-sdk-orderbook
 pkg:cargo/cow-sdk-signing
 pkg:cargo/cow-sdk-subgraph
+pkg:cargo/cow-sdk-test
 pkg:cargo/cow-sdk-trading
+pkg:cargo/cow-sdk-transport-policy
+pkg:cargo/cow-sdk-wasm
 pkg:cargo/cow-sdk-weiroll
 pkg:cargo/cow-settlement
 pkg:cargo/cow-shed
@@ -57485,6 +57512,7 @@ pkg:cargo/decompression-plz
 pkg:cargo/decon-spf
 pkg:cargo/decondenser
 pkg:cargo/decondenser-cli
+pkg:cargo/deconvolution
 pkg:cargo/deconz
 pkg:cargo/deconz-exporter
 pkg:cargo/decorators
@@ -57633,6 +57661,7 @@ pkg:cargo/deep-unpack
 pkg:cargo/deep_causality
 pkg:cargo/deep_causality_algorithms
 pkg:cargo/deep_causality_ast
+pkg:cargo/deep_causality_calculus
 pkg:cargo/deep_causality_core
 pkg:cargo/deep_causality_data_structures
 pkg:cargo/deep_causality_discovery
@@ -71680,6 +71709,7 @@ pkg:cargo/ephemera
 pkg:cargo/ephemeral
 pkg:cargo/ephemeral-dir
 pkg:cargo/ephemeral-env
+pkg:cargo/ephemeral-postgres
 pkg:cargo/ephemeral-rollups-pinocchio
 pkg:cargo/ephemeral-rollups-sdk
 pkg:cargo/ephemeral-rollups-sdk-attribute-action
@@ -94316,6 +94346,8 @@ pkg:cargo/gpt-macro
 pkg:cargo/gpt-model
 pkg:cargo/gpt-parser
 pkg:cargo/gpt-partition
+pkg:cargo/gpt-partition-core
+pkg:cargo/gpt-partition-forensic
 pkg:cargo/gpt-partition-type
 pkg:cargo/gpt-pipe
 pkg:cargo/gpt-rs
@@ -179976,6 +180008,7 @@ pkg:cargo/pumpkin-conflict-resolvers
 pkg:cargo/pumpkin-constraints
 pkg:cargo/pumpkin-core
 pkg:cargo/pumpkin-data
+pkg:cargo/pumpkin-db-dyn
 pkg:cargo/pumpkin-inventory
 pkg:cargo/pumpkin-macros
 pkg:cargo/pumpkin-mc
@@ -206823,6 +206856,9 @@ pkg:cargo/satispay
 pkg:cargo/satkit
 pkg:cargo/satlog
 pkg:cargo/sato
+pkg:cargo/sator
+pkg:cargo/sator_core
+pkg:cargo/sator_macros
 pkg:cargo/satori
 pkg:cargo/satori-cli
 pkg:cargo/satori-client
@@ -209697,6 +209733,7 @@ pkg:cargo/securer-string
 pkg:cargo/securerand
 pkg:cargo/securerand-rs
 pkg:cargo/securestore
+pkg:cargo/securetar
 pkg:cargo/securiety
 pkg:cargo/securities-identifiery
 pkg:cargo/securitree
@@ -209973,6 +210010,7 @@ pkg:cargo/segment-display
 pkg:cargo/segment-map
 pkg:cargo/segment-rs
 pkg:cargo/segment-tree
+pkg:cargo/segment-tree-rs
 pkg:cargo/segment_analytics
 pkg:cargo/segment_dumper
 pkg:cargo/segmentdb
@@ -212704,11 +212742,17 @@ pkg:cargo/sh-builtin-bash
 pkg:cargo/sh-builtin-bash-bindings
 pkg:cargo/sh-builtin-bash-proc
 pkg:cargo/sh-builtin-common-util
+pkg:cargo/sh-core
 pkg:cargo/sh-exec
 pkg:cargo/sh-guard-cli
 pkg:cargo/sh-guard-core
 pkg:cargo/sh-guard-mcp
 pkg:cargo/sh-inline
+pkg:cargo/sh-layer0
+pkg:cargo/sh-layer1
+pkg:cargo/sh-layer2
+pkg:cargo/sh-layer3
+pkg:cargo/sh-layer4
 pkg:cargo/sh-macro
 pkg:cargo/sh-openai-responses
 pkg:cargo/sh-secgen
@@ -213161,6 +213205,7 @@ pkg:cargo/shardex
 pkg:cargo/shardio
 pkg:cargo/shardize
 pkg:cargo/shardize-core
+pkg:cargo/shardlib
 pkg:cargo/shardmap
 pkg:cargo/shards
 pkg:cargo/shards-macro
@@ -213653,6 +213698,7 @@ pkg:cargo/shiguredo_toml
 pkg:cargo/shiguredo_v4l2
 pkg:cargo/shiguredo_video_device
 pkg:cargo/shiguredo_video_toolbox
+pkg:cargo/shiguredo_vmaf
 pkg:cargo/shiguredo_vpl
 pkg:cargo/shiguredo_webrtc
 pkg:cargo/shiguredo_websocket
@@ -240787,6 +240833,7 @@ pkg:cargo/tiny-gl
 pkg:cargo/tiny-gradient
 pkg:cargo/tiny-grep
 pkg:cargo/tiny-hderive
+pkg:cargo/tiny-hnsw
 pkg:cargo/tiny-http-server
 pkg:cargo/tiny-i18n
 pkg:cargo/tiny-i18n-derive
@@ -258285,6 +258332,7 @@ pkg:cargo/vmd-rs
 pkg:cargo/vmd_parser
 pkg:cargo/vmdk
 pkg:cargo/vmdk-cli
+pkg:cargo/vmdk-core
 pkg:cargo/vmdk-forensic
 pkg:cargo/vmdl
 pkg:cargo/vme-pkix
@@ -268942,6 +268990,7 @@ pkg:cargo/xmlschema
 pkg:cargo/xmlsec
 pkg:cargo/xmlserde
 pkg:cargo/xmlserde_derives
+pkg:cargo/xmlsig-lc-rs
 pkg:cargo/xmlstats
 pkg:cargo/xmltojson
 pkg:cargo/xmltree
