@@ -10725,6 +10725,7 @@ pkg:cargo/arbitrary-int
 pkg:cargo/arbitrary-json
 pkg:cargo/arbitrary-lock
 pkg:cargo/arbitrary-model-tests
+pkg:cargo/arbitrary-type
 pkg:cargo/arbitrary_ext
 pkg:cargo/arbitrary_with
 pkg:cargo/arbitrator
@@ -12117,6 +12118,7 @@ pkg:cargo/armour
 pkg:cargo/armour-core
 pkg:cargo/armour-derive
 pkg:cargo/armour-rpc
+pkg:cargo/armour-typ
 pkg:cargo/arms
 pkg:cargo/arms-core
 pkg:cargo/arms-hat
@@ -22549,6 +22551,7 @@ pkg:cargo/bench-ai
 pkg:cargo/bench-rs
 pkg:cargo/bench-runner
 pkg:cargo/bench-sdk
+pkg:cargo/bench-tracker
 pkg:cargo/bench-trie
 pkg:cargo/bench_diff
 pkg:cargo/bench_matrix
@@ -26102,6 +26105,7 @@ pkg:cargo/bit-parallel-search
 pkg:cargo/bit-parallelism
 pkg:cargo/bit-set
 pkg:cargo/bit-set-omnitool
+pkg:cargo/bit-string
 pkg:cargo/bit-struct
 pkg:cargo/bit-vec
 pkg:cargo/bit-vec-omnitool
@@ -31243,6 +31247,7 @@ pkg:cargo/bsharp_parser
 pkg:cargo/bsharp_tokens
 pkg:cargo/bshelper
 pkg:cargo/bside
+pkg:cargo/bsize
 pkg:cargo/bsky
 pkg:cargo/bsky-cli
 pkg:cargo/bsky-rs
@@ -57429,6 +57434,7 @@ pkg:cargo/decimax
 pkg:cargo/decimus
 pkg:cargo/decision
 pkg:cargo/decision-drift
+pkg:cargo/decision-tree-rs
 pkg:cargo/decision_cockpit
 pkg:cargo/decision_table
 pkg:cargo/decision_transformer_dfdx
@@ -58095,6 +58101,7 @@ pkg:cargo/delatin
 pkg:cargo/delaunator
 pkg:cargo/delaunay
 pkg:cargo/delaunay-rs
+pkg:cargo/delaunay-triang-rs
 pkg:cargo/delaunay2d
 pkg:cargo/delaunay_creator
 pkg:cargo/delay
@@ -59447,6 +59454,7 @@ pkg:cargo/dev-fuzz
 pkg:cargo/dev-kit
 pkg:cargo/dev-mmio
 pkg:cargo/dev-mutate
+pkg:cargo/dev-port-killer
 pkg:cargo/dev-pulse
 pkg:cargo/dev-radars
 pkg:cargo/dev-report
@@ -180056,6 +180064,7 @@ pkg:cargo/punda
 pkg:cargo/punfetch
 pkg:cargo/punfetch-derive
 pkg:cargo/puni
+pkg:cargo/puniq
 pkg:cargo/punisher
 pkg:cargo/puniyu-cli
 pkg:cargo/puniyu-skia-bindings
@@ -205414,8 +205423,10 @@ pkg:cargo/sabana
 pkg:cargo/sabaton-mw
 pkg:cargo/sabbatical
 pkg:cargo/saber
+pkg:cargo/saber-cw
 pkg:cargo/saber-redeemer-ntoken
 pkg:cargo/saber-rs
+pkg:cargo/saber-sw
 pkg:cargo/saberdb
 pkg:cargo/saberrs
 pkg:cargo/sabi
@@ -206316,6 +206327,7 @@ pkg:cargo/sandbox-namespace
 pkg:cargo/sandbox-proxy
 pkg:cargo/sandbox-quant
 pkg:cargo/sandbox-rs
+pkg:cargo/sandbox-run
 pkg:cargo/sandbox-runtime
 pkg:cargo/sandbox-scan
 pkg:cargo/sandbox-seccomp
@@ -206371,6 +206383,7 @@ pkg:cargo/sandpit_derive
 pkg:cargo/sandpolis
 pkg:cargo/sandrs
 pkg:cargo/sands
+pkg:cargo/sandslash
 pkg:cargo/sandspy
 pkg:cargo/sandstone
 pkg:cargo/sandstone-derive
@@ -206754,6 +206767,8 @@ pkg:cargo/sashite-epin
 pkg:cargo/sashite-feen
 pkg:cargo/sashite-pin
 pkg:cargo/sashite-qi
+pkg:cargo/sashite-sanki-arbiter
+pkg:cargo/sashite-sanki-engine
 pkg:cargo/sashite-sin
 pkg:cargo/sasja_euler
 pkg:cargo/sasl
@@ -207651,8 +207666,16 @@ pkg:cargo/sce
 pkg:cargo/sceatta
 pkg:cargo/scell
 pkg:cargo/sceller
+pkg:cargo/scema-agent-playground
 pkg:cargo/scemadex-sdk
+pkg:cargo/scematica-ai
+pkg:cargo/scematica-core
+pkg:cargo/scematica-dashboard
+pkg:cargo/scematica-executor
 pkg:cargo/scematica-nn
+pkg:cargo/scematica-protocol
+pkg:cargo/scematica-sniper
+pkg:cargo/scematica-suite
 pkg:cargo/scena
 pkg:cargo/scena-core
 pkg:cargo/scena-input
@@ -208335,6 +208358,7 @@ pkg:cargo/scrape-cli
 pkg:cargo/scrape-core
 pkg:cargo/scrape-me
 pkg:cargo/scrape_blogger
+pkg:cargo/scrapebadger
 pkg:cargo/scrapelect
 pkg:cargo/scrapelect-filter-proc-macro
 pkg:cargo/scraper
@@ -208445,6 +208469,7 @@ pkg:cargo/screen-buffer-ui
 pkg:cargo/screen-capture
 pkg:cargo/screen-capture-kit
 pkg:cargo/screen-capturer
+pkg:cargo/screen-drop
 pkg:cargo/screen-flash
 pkg:cargo/screen-framing
 pkg:cargo/screen-info
@@ -210021,6 +210046,7 @@ pkg:cargo/segmented_string
 pkg:cargo/segmented_vector
 pkg:cargo/segmentmap
 pkg:cargo/segments
+pkg:cargo/segovia
 pkg:cargo/segsource
 pkg:cargo/segsource-derive
 pkg:cargo/segtok
@@ -213194,6 +213220,7 @@ pkg:cargo/sharded-counter
 pkg:cargo/sharded-lock
 pkg:cargo/sharded-log
 pkg:cargo/sharded-offset-map
+pkg:cargo/sharded-sink
 pkg:cargo/sharded-slab
 pkg:cargo/sharded-thread
 pkg:cargo/sharded-vec-writer
@@ -241007,6 +241034,7 @@ pkg:cargo/tinyetl
 pkg:cargo/tinyexpr
 pkg:cargo/tinyfield
 pkg:cargo/tinyfiledialogs
+pkg:cargo/tinyfiledialogs-rs
 pkg:cargo/tinygame-core
 pkg:cargo/tinyget
 pkg:cargo/tinygif
@@ -253287,6 +253315,7 @@ pkg:cargo/ursandbox
 pkg:cargo/urshort
 pkg:cargo/ursula
 pkg:cargo/ursula-bench
+pkg:cargo/ursula-observability
 pkg:cargo/ursula-proto
 pkg:cargo/ursula-raft
 pkg:cargo/ursula-runtime
@@ -255320,6 +255349,7 @@ pkg:cargo/vaporlight
 pkg:cargo/vaporwave
 pkg:cargo/vapory-types
 pkg:cargo/vapour
+pkg:cargo/vapour-protocol
 pkg:cargo/vapours
 pkg:cargo/vapoursynth
 pkg:cargo/vapoursynth-sys
