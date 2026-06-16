@@ -34158,6 +34158,7 @@ pkg:cargo/calpro-core
 pkg:cargo/calstr
 pkg:cargo/calsync
 pkg:cargo/caltemps
+pkg:cargo/caltui
 pkg:cargo/calver
 pkg:cargo/calvery
 pkg:cargo/calx
@@ -34956,6 +34957,7 @@ pkg:cargo/car-automation
 pkg:cargo/car-browser
 pkg:cargo/car-builder
 pkg:cargo/car-bundle
+pkg:cargo/car-connectors
 pkg:cargo/car-desktop
 pkg:cargo/car-engine
 pkg:cargo/car-eventlog
@@ -35726,6 +35728,7 @@ pkg:cargo/cargo-dad
 pkg:cargo/cargo-daddy
 pkg:cargo/cargo-daku
 pkg:cargo/cargo-danger
+pkg:cargo/cargo-danmuji
 pkg:cargo/cargo-dao
 pkg:cargo/cargo-daruse-test-app
 pkg:cargo/cargo-darwin
@@ -35910,6 +35913,7 @@ pkg:cargo/cargo-expand
 pkg:cargo/cargo-expect
 pkg:cargo/cargo-explain
 pkg:cargo/cargo-explain-build
+pkg:cargo/cargo-explain-error
 pkg:cargo/cargo-export
 pkg:cargo/cargo-extensions
 pkg:cargo/cargo-external-doc
@@ -37429,6 +37433,7 @@ pkg:cargo/cartogen-rng
 pkg:cargo/cartogen-rs
 pkg:cargo/cartograph
 pkg:cargo/cartographer
+pkg:cargo/cartographer-ai
 pkg:cargo/cartographer-rs
 pkg:cargo/cartography
 pkg:cargo/cartomancer
@@ -63846,6 +63851,7 @@ pkg:cargo/dos-like-sys
 pkg:cargo/dos-uid
 pkg:cargo/dos-uid-derive
 pkg:cargo/dos2unix
+pkg:cargo/dosa
 pkg:cargo/dose
 pkg:cargo/dose-derive
 pkg:cargo/dose2gmsh
@@ -63941,6 +63947,8 @@ pkg:cargo/dotenv
 pkg:cargo/dotenv-aggregator
 pkg:cargo/dotenv-analyzer
 pkg:cargo/dotenv-build
+pkg:cargo/dotenv-cloud-protocol
+pkg:cargo/dotenv-cloud-provider-sdk
 pkg:cargo/dotenv-core
 pkg:cargo/dotenv-enum
 pkg:cargo/dotenv-exec
@@ -66729,6 +66737,7 @@ pkg:cargo/dz_art
 pkg:cargo/dzero-abi
 pkg:cargo/dzgt-utils
 pkg:cargo/dzi
+pkg:cargo/dziber-omemo
 pkg:cargo/dzjungy
 pkg:cargo/dzl
 pkg:cargo/dzn-rs
@@ -67004,6 +67013,7 @@ pkg:cargo/easy-ffi-wrapper
 pkg:cargo/easy-ffprobe
 pkg:cargo/easy-fs
 pkg:cargo/easy-git
+pkg:cargo/easy-git-ignore
 pkg:cargo/easy-gltf
 pkg:cargo/easy-gpgpu
 pkg:cargo/easy-gpu
@@ -68386,6 +68396,7 @@ pkg:cargo/egaku2d
 pkg:cargo/egaku2d_core
 pkg:cargo/egaprotocol
 pkg:cargo/egc
+pkg:cargo/egcode
 pkg:cargo/egconf
 pkg:cargo/egdata-manifests-parser
 pkg:cargo/ege
@@ -78170,11 +78181,14 @@ pkg:cargo/fency-pgn
 pkg:cargo/fend
 pkg:cargo/fend-core
 pkg:cargo/fenestra
+pkg:cargo/fenestra-cef
 pkg:cargo/fenestra-charts
+pkg:cargo/fenestra-cli
 pkg:cargo/fenestra-core
 pkg:cargo/fenestra-kit
 pkg:cargo/fenestra-looks
 pkg:cargo/fenestra-markdown
+pkg:cargo/fenestra-runtime
 pkg:cargo/fenestra-shell
 pkg:cargo/fenestroj
 pkg:cargo/fenetre
@@ -89669,6 +89683,7 @@ pkg:cargo/ghee-lang
 pkg:cargo/ghelper-linux
 pkg:cargo/ghelpr
 pkg:cargo/gherkin
+pkg:cargo/gherkin-fmt
 pkg:cargo/gherkin_rust
 pkg:cargo/gherkin_sync
 pkg:cargo/gherrit
@@ -89904,6 +89919,7 @@ pkg:cargo/gigastt
 pkg:cargo/gigastt-core
 pkg:cargo/gigastt-ffi
 pkg:cargo/gigi
+pkg:cargo/gigi-core
 pkg:cargo/gign
 pkg:cargo/gignore
 pkg:cargo/gigs
@@ -90168,6 +90184,7 @@ pkg:cargo/git-contributors
 pkg:cargo/git-conventional
 pkg:cargo/git-conventional-commits
 pkg:cargo/git-core
+pkg:cargo/git-crate
 pkg:cargo/git-credential
 pkg:cargo/git-credential-1password-cli
 pkg:cargo/git-credential-github-app-auth
@@ -90367,6 +90384,7 @@ pkg:cargo/git-paw
 pkg:cargo/git-perf
 pkg:cargo/git-persona
 pkg:cargo/git-persona-cli
+pkg:cargo/git-pika
 pkg:cargo/git-plumber
 pkg:cargo/git-pm
 pkg:cargo/git-point
@@ -92524,6 +92542,7 @@ pkg:cargo/golden
 pkg:cargo/golden-dkg
 pkg:cargo/golden-files
 pkg:cargo/golden-float-ffi
+pkg:cargo/golden-magic
 pkg:cargo/golden-oak-library
 pkg:cargo/golden_apple
 pkg:cargo/golden_axe
@@ -100052,6 +100071,7 @@ pkg:cargo/heavykeeper
 pkg:cargo/heavyli
 pkg:cargo/heavyli_engine
 pkg:cargo/hebb
+pkg:cargo/hebbcode
 pkg:cargo/hebcal
 pkg:cargo/hebi
 pkg:cargo/hebi_derive
@@ -100257,6 +100277,10 @@ pkg:cargo/hel-rs
 pkg:cargo/hel-thread-pool
 pkg:cargo/hel-time
 pkg:cargo/held-karp-core
+pkg:cargo/heldar-entry
+pkg:cargo/heldar-kernel
+pkg:cargo/heldar-movement
+pkg:cargo/heldar-search
 pkg:cargo/helen
 pkg:cargo/helenos-ui
 pkg:cargo/helge
@@ -100296,6 +100320,9 @@ pkg:cargo/heliograph
 pkg:cargo/heliometer
 pkg:cargo/helion
 pkg:cargo/helios
+pkg:cargo/helios-audit
+pkg:cargo/helios-auth
+pkg:cargo/helios-cds-hooks
 pkg:cargo/helios-core
 pkg:cargo/helios-dac
 pkg:cargo/helios-dac-sys
@@ -100308,6 +100335,7 @@ pkg:cargo/helios-fhir-macro
 pkg:cargo/helios-fhirpath
 pkg:cargo/helios-fhirpath-support
 pkg:cargo/helios-hfs
+pkg:cargo/helios-hts
 pkg:cargo/helios-light-client
 pkg:cargo/helios-opstack
 pkg:cargo/helios-persistence
@@ -100315,6 +100343,7 @@ pkg:cargo/helios-rest
 pkg:cargo/helios-serde
 pkg:cargo/helios-serde-support
 pkg:cargo/helios-sof
+pkg:cargo/helios-subscriptions
 pkg:cargo/heliosdb-codekb-mcp
 pkg:cargo/heliosdb-nano
 pkg:cargo/heliosdb-proxy
@@ -131817,6 +131846,7 @@ pkg:cargo/lucid-client
 pkg:cargo/lucid-core
 pkg:cargo/lucid-kv-client
 pkg:cargo/lucid-lint
+pkg:cargo/lucid-train
 pkg:cargo/lucide-dioxus
 pkg:cargo/lucide-floem
 pkg:cargo/lucide-icon-name
@@ -150773,6 +150803,7 @@ pkg:cargo/nectar-lang
 pkg:cargo/nectar-mantaray
 pkg:cargo/nectar-postage
 pkg:cargo/nectar-postage-issuer
+pkg:cargo/nectar-postage-usage
 pkg:cargo/nectar-primitives
 pkg:cargo/nectar-swarms
 pkg:cargo/necto
@@ -151711,6 +151742,7 @@ pkg:cargo/netrc-rs
 pkg:cargo/netrc_util
 pkg:cargo/netres
 pkg:cargo/netring
+pkg:cargo/netring-exporters
 pkg:cargo/netrix
 pkg:cargo/netron
 pkg:cargo/netron_axum_server_hook
@@ -152200,6 +152232,7 @@ pkg:cargo/newt
 pkg:cargo/newt-acp-worker
 pkg:cargo/newt-coder
 pkg:cargo/newt-core
+pkg:cargo/newt-data
 pkg:cargo/newt-hype
 pkg:cargo/newt-identity
 pkg:cargo/newt-inference
@@ -183800,6 +183833,7 @@ pkg:cargo/quetta
 pkg:cargo/quetty
 pkg:cargo/quetty-server
 pkg:cargo/quetzal
+pkg:cargo/quetzal-uring
 pkg:cargo/quetzalcoatl
 pkg:cargo/queue
 pkg:cargo/queue-ast-hop
@@ -184352,6 +184386,7 @@ pkg:cargo/quote_precise
 pkg:cargo/quoted
 pkg:cargo/quoted-string
 pkg:cargo/quoted-string-parser
+pkg:cargo/quoted-values
 pkg:cargo/quoted_printable
 pkg:cargo/quoted_strings
 pkg:cargo/quoteln
@@ -231199,6 +231234,7 @@ pkg:cargo/superior-minigrep
 pkg:cargo/superjson-rs
 pkg:cargo/superkeyloader
 pkg:cargo/superlighttui
+pkg:cargo/superline
 pkg:cargo/superlink
 pkg:cargo/superlu
 pkg:cargo/superlu-sys
@@ -252362,6 +252398,7 @@ pkg:cargo/ufmt-utils
 pkg:cargo/ufmt-write
 pkg:cargo/ufmt_float
 pkg:cargo/ufo
+pkg:cargo/ufo-cli
 pkg:cargo/ufo2fontir
 pkg:cargo/ufo_rs
 pkg:cargo/ufofmt
@@ -258661,6 +258698,7 @@ pkg:cargo/vibesql-ast
 pkg:cargo/vibesql-bench-common
 pkg:cargo/vibesql-catalog
 pkg:cargo/vibesql-cli
+pkg:cargo/vibesql-consensus
 pkg:cargo/vibesql-executor
 pkg:cargo/vibesql-l10n
 pkg:cargo/vibesql-parser
@@ -267749,11 +267787,17 @@ pkg:cargo/wolfpack
 pkg:cargo/wolfram-app-discovery
 pkg:cargo/wolfram-ast
 pkg:cargo/wolfram-error
+pkg:cargo/wolfram-export
+pkg:cargo/wolfram-export-core
+pkg:cargo/wolfram-export-macros
 pkg:cargo/wolfram-expr
 pkg:cargo/wolfram-library-link
 pkg:cargo/wolfram-library-link-macros
 pkg:cargo/wolfram-library-link-sys
 pkg:cargo/wolfram-pest
+pkg:cargo/wolfram-serialize
+pkg:cargo/wolfram-serialize-macros
+pkg:cargo/wolfram-wxf-macros
 pkg:cargo/wolfram_alpha
 pkg:cargo/wolfram_wxf
 pkg:cargo/wolframalpha_api
@@ -267921,6 +267965,7 @@ pkg:cargo/wordle-rust
 pkg:cargo/wordle-solver
 pkg:cargo/wordle-solvers
 pkg:cargo/wordle-suggest
+pkg:cargo/wordle-tui
 pkg:cargo/wordle_clone
 pkg:cargo/wordle_rs
 pkg:cargo/wordle_solver_
