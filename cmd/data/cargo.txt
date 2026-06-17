@@ -1285,6 +1285,7 @@ pkg:cargo/absolut-core
 pkg:cargo/absolut-derive
 pkg:cargo/absolut-macros
 pkg:cargo/absolute_unit
+pkg:cargo/absolutepay
 pkg:cargo/absolution
 pkg:cargo/absorb
 pkg:cargo/abspath
@@ -28458,6 +28459,7 @@ pkg:cargo/bmpfntgen
 pkg:cargo/bmputil
 pkg:cargo/bmpwatch
 pkg:cargo/bmrankin_grrs
+pkg:cargo/bmrc
 pkg:cargo/bmrk
 pkg:cargo/bmrng
 pkg:cargo/bms
@@ -34083,6 +34085,7 @@ pkg:cargo/caliper
 pkg:cargo/caliph
 pkg:cargo/caliphui
 pkg:cargo/calisp
+pkg:cargo/calki
 pkg:cargo/call
 pkg:cargo/call-agent
 pkg:cargo/call-by
@@ -35384,6 +35387,7 @@ pkg:cargo/cargo-android
 pkg:cargo/cargo-anger
 pkg:cargo/cargo-anneal
 pkg:cargo/cargo-antigen
+pkg:cargo/cargo-anvil
 pkg:cargo/cargo-anypoint
 pkg:cargo/cargo-aoc
 pkg:cargo/cargo-aoc-zen-runner
@@ -63381,6 +63385,7 @@ pkg:cargo/dodo-derive
 pkg:cargo/dodo-open
 pkg:cargo/dodo-zh
 pkg:cargo/dodo_payments
+pkg:cargo/dodopayments
 pkg:cargo/dodopayments_rust
 pkg:cargo/dodopow
 pkg:cargo/dodot
@@ -91080,6 +91085,7 @@ pkg:cargo/gitt
 pkg:cargo/gitt-monitor
 pkg:cargo/gitten
 pkg:cargo/gitter
+pkg:cargo/gitter-rs
 pkg:cargo/gitter-slack
 pkg:cargo/gitto
 pkg:cargo/gitto-rs
@@ -94652,6 +94658,7 @@ pkg:cargo/goto-rs
 pkg:cargo/goto1717
 pkg:cargo/goto_project
 pkg:cargo/gotobykkrwhofrags
+pkg:cargo/gotoken
 pkg:cargo/gotoo
 pkg:cargo/gotop
 pkg:cargo/gotopub
@@ -151136,6 +151143,8 @@ pkg:cargo/neotty-term
 pkg:cargo/neoutils
 pkg:cargo/neovide
 pkg:cargo/neovide-derive
+pkg:cargo/neoview
+pkg:cargo/neoview-macro
 pkg:cargo/neovim
 pkg:cargo/neovim-ctrl
 pkg:cargo/neovim-lib
@@ -155532,6 +155541,7 @@ pkg:cargo/npcsh
 pkg:cargo/npcterm
 pkg:cargo/npd
 pkg:cargo/npdatetime
+pkg:cargo/npe-graph
 pkg:cargo/nperf
 pkg:cargo/npezza93-tree-sitter-haskell
 pkg:cargo/npezza93-tree-sitter-nix
@@ -183018,6 +183028,7 @@ pkg:cargo/qrc-opensource-rs
 pkg:cargo/qrcli
 pkg:cargo/qrcli-rs
 pkg:cargo/qrcode
+pkg:cargo/qrcode-ai-scanner
 pkg:cargo/qrcode-ai-scanner-cli
 pkg:cargo/qrcode-ai-scanner-core
 pkg:cargo/qrcode-cli
@@ -183063,6 +183074,7 @@ pkg:cargo/qrism
 pkg:cargo/qrl
 pkg:cargo/qrlew
 pkg:cargo/qrlew-sarus
+pkg:cargo/qrllib
 pkg:cargo/qrmax
 pkg:cargo/qroc
 pkg:cargo/qrock
@@ -220881,6 +220893,7 @@ pkg:cargo/sol-did-cpi
 pkg:cargo/sol-lang
 pkg:cargo/sol-log-parser
 pkg:cargo/sol-parser-sdk
+pkg:cargo/sol-plex-problems
 pkg:cargo/sol-postmortem
 pkg:cargo/sol-profit-core
 pkg:cargo/sol-rpc-router
@@ -221134,6 +221147,7 @@ pkg:cargo/solana-genesis
 pkg:cargo/solana-genesis-config
 pkg:cargo/solana-genesis-programs
 pkg:cargo/solana-genesis-utils
+pkg:cargo/solana-get-sysvar
 pkg:cargo/solana-geyser-plugin-bigtable
 pkg:cargo/solana-geyser-plugin-interface
 pkg:cargo/solana-geyser-plugin-manager
@@ -221617,7 +221631,9 @@ pkg:cargo/solar
 pkg:cargo/solar-api
 pkg:cargo/solar-ast
 pkg:cargo/solar-calendar-events
+pkg:cargo/solar-capi
 pkg:cargo/solar-cli
+pkg:cargo/solar-codegen
 pkg:cargo/solar-compiler
 pkg:cargo/solar-config
 pkg:cargo/solar-core
@@ -231571,6 +231587,7 @@ pkg:cargo/surge-opf
 pkg:cargo/surge-output
 pkg:cargo/surge-param
 pkg:cargo/surge-ping
+pkg:cargo/surge-profile
 pkg:cargo/surge-qfunit
 pkg:cargo/surge-quadrosc
 pkg:cargo/surge-samplerate
@@ -231949,6 +231966,9 @@ pkg:cargo/sutures-comptime
 pkg:cargo/sutures-derive
 pkg:cargo/suukon
 pkg:cargo/suvadu
+pkg:cargo/suwi
+pkg:cargo/suwi_lir
+pkg:cargo/suwi_vm
 pkg:cargo/suwrap
 pkg:cargo/sux
 pkg:cargo/suzume
@@ -250113,6 +250133,7 @@ pkg:cargo/turbocollatz-internal
 pkg:cargo/turbocommit
 pkg:cargo/turbocop
 pkg:cargo/turbocore
+pkg:cargo/turbocow
 pkg:cargo/turbodiff
 pkg:cargo/turboengine
 pkg:cargo/turboengine-macros
@@ -257424,6 +257445,7 @@ pkg:cargo/vector-analysis-core
 pkg:cargo/vector-array
 pkg:cargo/vector-basis
 pkg:cargo/vector-commit
+pkg:cargo/vector-core
 pkg:cargo/vector-db-core
 pkg:cargo/vector-editor-core
 pkg:cargo/vector-expr
@@ -257849,6 +257871,7 @@ pkg:cargo/vendorman
 pkg:cargo/veneer
 pkg:cargo/veneer-macros
 pkg:cargo/venial
+pkg:cargo/venice-e2ee-proxy
 pkg:cargo/venko
 pkg:cargo/venn
 pkg:cargo/venn-diagrams
@@ -259312,6 +259335,7 @@ pkg:cargo/vips-rs
 pkg:cargo/vips-sys
 pkg:cargo/vipune
 pkg:cargo/vir
+pkg:cargo/vira
 pkg:cargo/viral32111-stomp
 pkg:cargo/viral32111-xml
 pkg:cargo/virdant
@@ -259685,6 +259709,7 @@ pkg:cargo/vizia_winit
 pkg:cargo/vizier
 pkg:cargo/vizier-adql
 pkg:cargo/vizier-ai
+pkg:cargo/vizier-derive
 pkg:cargo/vizier-tui
 pkg:cargo/vizio-openrtb
 pkg:cargo/vizmat
@@ -276200,6 +276225,7 @@ pkg:cargo/zutil-logger
 pkg:cargo/zuu
 pkg:cargo/zuul
 pkg:cargo/zuul-secrets
+pkg:cargo/zuzu-designer
 pkg:cargo/zuzu-rust
 pkg:cargo/zv
 pkg:cargo/zvariant
