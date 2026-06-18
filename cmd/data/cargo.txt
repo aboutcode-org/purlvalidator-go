@@ -28442,6 +28442,7 @@ pkg:cargo/bmp280-driver
 pkg:cargo/bmp280-ehal
 pkg:cargo/bmp280-rs
 pkg:cargo/bmp280-spi
+pkg:cargo/bmp280_rust_no_std
 pkg:cargo/bmp3
 pkg:cargo/bmp388
 pkg:cargo/bmp388-embedded
@@ -34225,12 +34226,14 @@ pkg:cargo/camel-component-http
 pkg:cargo/camel-component-jms
 pkg:cargo/camel-component-kafka
 pkg:cargo/camel-component-keycloak
+pkg:cargo/camel-component-llm
 pkg:cargo/camel-component-log
 pkg:cargo/camel-component-mock
 pkg:cargo/camel-component-opensearch
 pkg:cargo/camel-component-redis
 pkg:cargo/camel-component-seda
 pkg:cargo/camel-component-sql
+pkg:cargo/camel-component-surrealdb
 pkg:cargo/camel-component-timer
 pkg:cargo/camel-component-validator
 pkg:cargo/camel-component-wasm
@@ -35577,6 +35580,7 @@ pkg:cargo/cargo-check-external-types-detail
 pkg:cargo/cargo-check-tag
 pkg:cargo/cargo-check-updates
 pkg:cargo/cargo-checkmate
+pkg:cargo/cargo-cheers
 pkg:cargo/cargo-chef
 pkg:cargo/cargo-cheh
 pkg:cargo/cargo-chill
@@ -35964,6 +35968,7 @@ pkg:cargo/cargo-files-core
 pkg:cargo/cargo-fill
 pkg:cargo/cargo-filter
 pkg:cargo/cargo-find
+pkg:cargo/cargo-find-unsafe
 pkg:cargo/cargo-finestra
 pkg:cargo/cargo-first
 pkg:cargo/cargo-firstpage
@@ -36697,6 +36702,7 @@ pkg:cargo/cargo-rustrails
 pkg:cargo/cargo-rusty
 pkg:cargo/cargo-rutin-tizen
 pkg:cargo/cargo-ruukh
+pkg:cargo/cargo-rvtest
 pkg:cargo/cargo-rx
 pkg:cargo/cargo-s
 pkg:cargo/cargo-safe
@@ -37613,6 +37619,7 @@ pkg:cargo/cask
 pkg:cargo/cask-cli
 pkg:cargo/caslex
 pkg:cargo/caslex-extra
+pkg:cargo/casm
 pkg:cargo/casmap
 pkg:cargo/caso
 pkg:cargo/caspar
@@ -63037,6 +63044,7 @@ pkg:cargo/doc_chunk
 pkg:cargo/doc_consts
 pkg:cargo/doc_consts_derive
 pkg:cargo/doc_demo_2024
+pkg:cargo/doc_extractor
 pkg:cargo/doc_file
 pkg:cargo/doc_for
 pkg:cargo/doc_for_derive
@@ -78418,6 +78426,7 @@ pkg:cargo/ferra-openapi
 pkg:cargo/ferra-rs
 pkg:cargo/ferra-server
 pkg:cargo/ferramentum
+pkg:cargo/ferranet
 pkg:cargo/ferrate
 pkg:cargo/ferrax
 pkg:cargo/ferray
@@ -78609,6 +78618,7 @@ pkg:cargo/ferrite-core
 pkg:cargo/ferrite-dl
 pkg:cargo/ferrite-image
 pkg:cargo/ferrite-json
+pkg:cargo/ferrite-llm
 pkg:cargo/ferrite-logging
 pkg:cargo/ferrite-ml
 pkg:cargo/ferrite-navigation
@@ -78856,6 +78866,7 @@ pkg:cargo/ferrum-testkit
 pkg:cargo/ferrum-tokenizer
 pkg:cargo/ferrum-types
 pkg:cargo/ferrum-ufunc
+pkg:cargo/ferrum-wgpu
 pkg:cargo/ferrum-window
 pkg:cargo/ferrumDF
 pkg:cargo/ferrum_cloud
@@ -87490,6 +87501,7 @@ pkg:cargo/gc
 pkg:cargo/gc-adapter
 pkg:cargo/gc-arena
 pkg:cargo/gc-arena-derive
+pkg:cargo/gc-download
 pkg:cargo/gc-gcm
 pkg:cargo/gc-image
 pkg:cargo/gc-lite
@@ -90814,6 +90826,7 @@ pkg:cargo/githop
 pkg:cargo/githops
 pkg:cargo/githops-core
 pkg:cargo/githops-graphui
+pkg:cargo/githttp-fs
 pkg:cargo/github
 pkg:cargo/github-action-runner
 pkg:cargo/github-actions
@@ -132181,6 +132194,7 @@ pkg:cargo/lumux-server
 pkg:cargo/lun
 pkg:cargo/luna
 pkg:cargo/luna-lib
+pkg:cargo/luna-model
 pkg:cargo/luna-orm
 pkg:cargo/luna-orm-macro
 pkg:cargo/luna-orm-trait
@@ -150983,6 +150997,7 @@ pkg:cargo/neo-cli
 pkg:cargo/neo-crypto
 pkg:cargo/neo-decompiler
 pkg:cargo/neo-devpack
+pkg:cargo/neo-devpack-solidity
 pkg:cargo/neo-email
 pkg:cargo/neo-install
 pkg:cargo/neo-lolcat
@@ -152112,6 +152127,19 @@ pkg:cargo/neuxdb
 pkg:cargo/neva
 pkg:cargo/neva_macros
 pkg:cargo/neve
+pkg:cargo/neve-config
+pkg:cargo/neve-derive
+pkg:cargo/neve-diagnostic
+pkg:cargo/neve-eval
+pkg:cargo/neve-fetch
+pkg:cargo/neve-fmt
+pkg:cargo/neve-frontend
+pkg:cargo/neve-lexer
+pkg:cargo/neve-lsp
+pkg:cargo/neve-parser
+pkg:cargo/neve-std
+pkg:cargo/neve-store
+pkg:cargo/neve-syntax
 pkg:cargo/never
 pkg:cargo/never-say-never
 pkg:cargo/never-type
@@ -221204,6 +221232,7 @@ pkg:cargo/solana-keypair
 pkg:cargo/solana-keypair-utils
 pkg:cargo/solana-keyring-biometric
 pkg:cargo/solana-keytool
+pkg:cargo/solana-kita-cache
 pkg:cargo/solana-kite
 pkg:cargo/solana-kvstore
 pkg:cargo/solana-last-restart-slot
@@ -250393,6 +250422,7 @@ pkg:cargo/turul-rpc
 pkg:cargo/turul-rpc-core
 pkg:cargo/turul-rpc-jsonrpc
 pkg:cargo/turul-rpc-server
+pkg:cargo/turva
 pkg:cargo/tus
 pkg:cargo/tus_async_client
 pkg:cargo/tus_client
@@ -257503,6 +257533,7 @@ pkg:cargo/vectordb-cli
 pkg:cargo/vectordb-client
 pkg:cargo/vectordb-proto
 pkg:cargo/vectordraw
+pkg:cargo/vectoria-core
 pkg:cargo/vectorial
 pkg:cargo/vectorize
 pkg:cargo/vectorize-rs
@@ -259540,6 +259571,7 @@ pkg:cargo/visual
 pkg:cargo/visual-basm
 pkg:cargo/visual-cryptography
 pkg:cargo/visual-hash
+pkg:cargo/visual-hashing
 pkg:cargo/visual-odometry-rs
 pkg:cargo/visual-rubric
 pkg:cargo/visual-search
@@ -268325,6 +268357,7 @@ pkg:cargo/worldbank
 pkg:cargo/worldclock
 pkg:cargo/worldclock-tui
 pkg:cargo/worldcoin-ark-circom
+pkg:cargo/worldcup26
 pkg:cargo/worlde-automaton
 pkg:cargo/worldforge
 pkg:cargo/worldgen
