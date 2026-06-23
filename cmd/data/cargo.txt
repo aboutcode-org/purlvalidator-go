@@ -37440,6 +37440,11 @@ pkg:cargo/cartan-optim
 pkg:cargo/cartan-remesh
 pkg:cargo/cartan-stochastic
 pkg:cargo/cartel
+pkg:cargo/cartel-core
+pkg:cargo/cartel-gen
+pkg:cargo/cartel-pg
+pkg:cargo/cartel-redis
+pkg:cargo/cartel-sqlite
 pkg:cargo/cartel_api
 pkg:cargo/cartes_rbpf
 pkg:cargo/cartesi-coprocessor
@@ -63807,9 +63812,13 @@ pkg:cargo/doot
 pkg:cargo/dop
 pkg:cargo/dop-ensemble
 pkg:cargo/dope
+pkg:cargo/dope-amqp091
 pkg:cargo/dope-core
+pkg:cargo/dope-extra
 pkg:cargo/dope-futures
+pkg:cargo/dope-gen
 pkg:cargo/dope-kqueue
+pkg:cargo/dope-quic
 pkg:cargo/dope-runtime
 pkg:cargo/dope-session
 pkg:cargo/dope-tls
@@ -67005,6 +67014,8 @@ pkg:cargo/easerx
 pkg:cargo/easey
 pkg:cargo/eashy
 pkg:cargo/easi-job
+pkg:cargo/easi-publish
+pkg:cargo/easi-publish-axum
 pkg:cargo/easier
 pkg:cargo/easify
 pkg:cargo/easify-macros
@@ -78482,6 +78493,7 @@ pkg:cargo/ferra-http
 pkg:cargo/ferra-openapi
 pkg:cargo/ferra-rs
 pkg:cargo/ferra-server
+pkg:cargo/ferragent
 pkg:cargo/ferramentum
 pkg:cargo/ferranet
 pkg:cargo/ferrate
@@ -78524,6 +78536,7 @@ pkg:cargo/ferretlog
 pkg:cargo/ferreus_bbfmm
 pkg:cargo/ferreus_rbf
 pkg:cargo/ferreus_rbf_utils
+pkg:cargo/ferreus_rmt
 pkg:cargo/ferrex-contracts
 pkg:cargo/ferrex-model
 pkg:cargo/ferrexctl
@@ -89944,6 +89957,7 @@ pkg:cargo/gid
 pkg:cargo/gid-core
 pkg:cargo/gid-dev-cli
 pkg:cargo/gid_cli
+pkg:cargo/gideon
 pkg:cargo/gideon-mef
 pkg:cargo/gidle_future
 pkg:cargo/gie-client
@@ -90656,6 +90670,7 @@ pkg:cargo/git-viewer
 pkg:cargo/git-vmr
 pkg:cargo/git-voyage
 pkg:cargo/git-wait
+pkg:cargo/git-walk
 pkg:cargo/git-ward
 pkg:cargo/git-warden
 pkg:cargo/git-warden-core
@@ -100169,6 +100184,7 @@ pkg:cargo/heartbit-core
 pkg:cargo/heartfelt
 pkg:cargo/hearth
 pkg:cargo/hearth-interconnect
+pkg:cargo/hearth-sdk
 pkg:cargo/hearthstone
 pkg:cargo/heartless
 pkg:cargo/heartless_assets
@@ -100260,6 +100276,7 @@ pkg:cargo/hedate
 pkg:cargo/heddle-cli
 pkg:cargo/heddle-cli-shared
 pkg:cargo/heddle-client
+pkg:cargo/heddle-core
 pkg:cargo/heddle-crypto
 pkg:cargo/heddle-daemon
 pkg:cargo/heddle-devtools
@@ -100804,6 +100821,7 @@ pkg:cargo/hephae-text
 pkg:cargo/hephae-ui
 pkg:cargo/hephae-utils
 pkg:cargo/hephae-utils-derive
+pkg:cargo/hephaes
 pkg:cargo/hephasm
 pkg:cargo/hepmc2
 pkg:cargo/hepmc2-macros
@@ -132784,6 +132802,8 @@ pkg:cargo/lut
 pkg:cargo/lut-cube
 pkg:cargo/lut_parser
 pkg:cargo/lute
+pkg:cargo/lute_core
+pkg:cargo/lute_macros
 pkg:cargo/lutetia
 pkg:cargo/lutetium
 pkg:cargo/lutgen
@@ -147088,6 +147108,7 @@ pkg:cargo/mtp-rs-cli
 pkg:cargo/mtp-sdk
 pkg:cargo/mtp_rs1
 pkg:cargo/mtp_spec
+pkg:cargo/mtparser
 pkg:cargo/mtpng
 pkg:cargo/mtproto
 pkg:cargo/mtproto-proxy
@@ -151188,6 +151209,7 @@ pkg:cargo/necto_strings
 pkg:cargo/ned
 pkg:cargo/neda-cli
 pkg:cargo/neda-lib
+pkg:cargo/nedb-engine
 pkg:cargo/nedis
 pkg:cargo/nedots
 pkg:cargo/nedry
@@ -151583,6 +151605,7 @@ pkg:cargo/nerfsurf
 pkg:cargo/nerio
 pkg:cargo/nero
 pkg:cargo/nerror
+pkg:cargo/nerrs
 pkg:cargo/nersent_pace
 pkg:cargo/nerum
 pkg:cargo/nerum-core
@@ -163887,6 +163910,7 @@ pkg:cargo/osm-geo-mapper-macros
 pkg:cargo/osm-gps-map-sys
 pkg:cargo/osm-io
 pkg:cargo/osm-is-area
+pkg:cargo/osm-katana
 pkg:cargo/osm-lump-ways
 pkg:cargo/osm-pbf
 pkg:cargo/osm-pbf-proto
@@ -250418,6 +250442,7 @@ pkg:cargo/tuneutils
 pkg:cargo/tungsay
 pkg:cargo/tungsten
 pkg:cargo/tungsten-cli
+pkg:cargo/tungsten-wg
 pkg:cargo/tungstenite
 pkg:cargo/tungstenite-get-stream
 pkg:cargo/tuni
@@ -251003,6 +251028,7 @@ pkg:cargo/tuxtui-termion
 pkg:cargo/tuxtui-termwiz
 pkg:cargo/tuya
 pkg:cargo/tuya-rs
+pkg:cargo/tuyen
 pkg:cargo/tuyere
 pkg:cargo/tv
 pkg:cargo/tv-cli
@@ -251022,6 +251048,8 @@ pkg:cargo/tvi
 pkg:cargo/tvid
 pkg:cargo/tvis
 pkg:cargo/tvis_util
+pkg:cargo/tvision-rs
+pkg:cargo/tvision-rs-macros
 pkg:cargo/tvm
 pkg:cargo/tvm-build
 pkg:cargo/tvm-ffi
@@ -256442,6 +256470,8 @@ pkg:cargo/uuid-enum-proc-macros
 pkg:cargo/uuid-extra
 pkg:cargo/uuid-generate
 pkg:cargo/uuid-like
+pkg:cargo/uuid-lite
+pkg:cargo/uuid-lite2
 pkg:cargo/uuid-macro-internal
 pkg:cargo/uuid-map
 pkg:cargo/uuid-mc
@@ -268331,8 +268361,11 @@ pkg:cargo/wlpower
 pkg:cargo/wlprobe
 pkg:cargo/wlproxy
 pkg:cargo/wlqrkrhtlvek
+pkg:cargo/wlr-capture
 pkg:cargo/wlr-chooser
+pkg:cargo/wlr-pip
 pkg:cargo/wlr-screen-fade
+pkg:cargo/wlr-utils
 pkg:cargo/wlr-which-key
 pkg:cargo/wlr-workspace-rs
 pkg:cargo/wlrb
@@ -268836,6 +268869,18 @@ pkg:cargo/working
 pkg:cargo/working-memory
 pkg:cargo/working_dir
 pkg:cargo/workit
+pkg:cargo/worklane
+pkg:cargo/worklane-cli
+pkg:cargo/worklane-core
+pkg:cargo/worklane-memory
+pkg:cargo/worklane-metrics
+pkg:cargo/worklane-otel
+pkg:cargo/worklane-postgres
+pkg:cargo/worklane-pubsub
+pkg:cargo/worklane-redis
+pkg:cargo/worklane-scheduler
+pkg:cargo/worklane-sqlite
+pkg:cargo/worklane-test
 pkg:cargo/workman
 pkg:cargo/workmn
 pkg:cargo/workmux
