@@ -28693,6 +28693,7 @@ pkg:apk/alpine/proftpd-mod_dynmasq
 pkg:apk/alpine/proftpd-mod_exec
 pkg:apk/alpine/proftpd-mod_facl
 pkg:apk/alpine/proftpd-mod_geoip
+pkg:apk/alpine/proftpd-mod_geoip2
 pkg:apk/alpine/proftpd-mod_ifsession
 pkg:apk/alpine/proftpd-mod_ifversion
 pkg:apk/alpine/proftpd-mod_lang
@@ -28700,6 +28701,9 @@ pkg:apk/alpine/proftpd-mod_ldap
 pkg:apk/alpine/proftpd-mod_load
 pkg:apk/alpine/proftpd-mod_log_forensic
 pkg:apk/alpine/proftpd-mod_memcache
+pkg:apk/alpine/proftpd-mod_prometheus
+pkg:apk/alpine/proftpd-mod_proxy
+pkg:apk/alpine/proftpd-mod_proxy_protocol
 pkg:apk/alpine/proftpd-mod_qos
 pkg:apk/alpine/proftpd-mod_quotatab
 pkg:apk/alpine/proftpd-mod_quotatab_file
@@ -28723,6 +28727,7 @@ pkg:apk/alpine/proftpd-mod_sql_passwd
 pkg:apk/alpine/proftpd-mod_sql_postgres
 pkg:apk/alpine/proftpd-mod_sql_sqlite
 pkg:apk/alpine/proftpd-mod_statcache
+pkg:apk/alpine/proftpd-mod_statsd
 pkg:apk/alpine/proftpd-mod_tls
 pkg:apk/alpine/proftpd-mod_tls_fscache
 pkg:apk/alpine/proftpd-mod_tls_memcache
@@ -34978,6 +34983,7 @@ pkg:apk/alpine/qalculate-qt
 pkg:apk/alpine/qalculate-qt-doc
 pkg:apk/alpine/qbe
 pkg:apk/alpine/qbe-dbg
+pkg:apk/alpine/qbe-doc
 pkg:apk/alpine/qbittorrent
 pkg:apk/alpine/qbittorrent-cli
 pkg:apk/alpine/qbittorrent-doc
