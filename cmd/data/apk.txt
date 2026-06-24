@@ -1429,6 +1429,7 @@ pkg:apk/alpine/avahi-ui
 pkg:apk/alpine/avahi-ui-dev
 pkg:apk/alpine/avahi-ui-gtk3
 pkg:apk/alpine/avahi-ui-tools
+pkg:apk/alpine/avahi-unbound
 pkg:apk/alpine/avahi2dns
 pkg:apk/alpine/avahi2dns-openrc
 pkg:apk/alpine/avahi2dns-systemd
@@ -8341,6 +8342,7 @@ pkg:apk/alpine/g%2b%2b
 pkg:apk/alpine/g%2b%2b-aarch64-none-elf
 pkg:apk/alpine/g%2b%2b-arm-none-eabi
 pkg:apk/alpine/g%2b%2b-cross-embedded
+pkg:apk/alpine/g%2b%2b-msp430-elf
 pkg:apk/alpine/g%2b%2b-or1k-elf
 pkg:apk/alpine/g%2b%2b-riscv-none-elf
 pkg:apk/alpine/g%2b%2b6
@@ -17433,6 +17435,7 @@ pkg:apk/alpine/liquid-dsp
 pkg:apk/alpine/liquid-dsp-dev
 pkg:apk/alpine/liquidctl
 pkg:apk/alpine/liquidctl-doc
+pkg:apk/alpine/liquidctl-openrc
 pkg:apk/alpine/liquidctl-pyc
 pkg:apk/alpine/liquidctl-udev
 pkg:apk/alpine/lirc
@@ -19424,6 +19427,8 @@ pkg:apk/alpine/materia-light-kde-yakuake
 pkg:apk/alpine/mathjax2
 pkg:apk/alpine/mathomatic
 pkg:apk/alpine/mathomatic-doc
+pkg:apk/alpine/matridge
+pkg:apk/alpine/matridge-pyc
 pkg:apk/alpine/matrix-appservice-irc
 pkg:apk/alpine/matrix-appservice-irc-openrc
 pkg:apk/alpine/matrix2051
@@ -29012,6 +29017,8 @@ pkg:apk/alpine/purpose-lang
 pkg:apk/alpine/purpose5
 pkg:apk/alpine/purpose5-dev
 pkg:apk/alpine/purpose5-lang
+pkg:apk/alpine/push2talk
+pkg:apk/alpine/push2talk-doc
 pkg:apk/alpine/pushgateway
 pkg:apk/alpine/pushgateway-openrc
 pkg:apk/alpine/putty
@@ -32241,6 +32248,7 @@ pkg:apk/alpine/py3-matplotlib-wx-pyc
 pkg:apk/alpine/py3-matrix-common
 pkg:apk/alpine/py3-matrix-common-pyc
 pkg:apk/alpine/py3-matrix-nio
+pkg:apk/alpine/py3-matrix-nio-e2e
 pkg:apk/alpine/py3-matrix-nio-pyc
 pkg:apk/alpine/py3-mattermostdriver
 pkg:apk/alpine/py3-mattermostdriver-pyc
@@ -33997,6 +34005,8 @@ pkg:apk/alpine/py3-slack-sdk
 pkg:apk/alpine/py3-slack-sdk-pyc
 pkg:apk/alpine/py3-slack_sdk
 pkg:apk/alpine/py3-slack_sdk-pyc
+pkg:apk/alpine/py3-slidge
+pkg:apk/alpine/py3-slidge-pyc
 pkg:apk/alpine/py3-slidge-style-parser
 pkg:apk/alpine/py3-slidge-style-parser-pyc
 pkg:apk/alpine/py3-slixmpp
@@ -34375,6 +34385,8 @@ pkg:apk/alpine/py3-thinc-doc
 pkg:apk/alpine/py3-thinc-pyc
 pkg:apk/alpine/py3-threadpoolctl
 pkg:apk/alpine/py3-threadpoolctl-pyc
+pkg:apk/alpine/py3-thumbhash
+pkg:apk/alpine/py3-thumbhash-pyc
 pkg:apk/alpine/py3-thumbnails-readme
 pkg:apk/alpine/py3-thumbnails-readme-pyc
 pkg:apk/alpine/py3-ticket-auth
