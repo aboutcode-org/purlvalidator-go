@@ -21857,6 +21857,7 @@ pkg:cargo/bbx_net
 pkg:cargo/bbx_player
 pkg:cargo/bbx_plugin
 pkg:cargo/bc
+pkg:cargo/bc-aliyun-sdk
 pkg:cargo/bc-components
 pkg:cargo/bc-crypto
 pkg:cargo/bc-envelope
@@ -33563,6 +33564,7 @@ pkg:cargo/caco3-build-info
 pkg:cargo/caco3-pty
 pkg:cargo/caco3-serde
 pkg:cargo/caco3-web
+pkg:cargo/cacophony
 pkg:cargo/cacrt
 pkg:cargo/cacti
 pkg:cargo/cacti_cfg_env
@@ -34278,6 +34280,8 @@ pkg:cargo/camel-util
 pkg:cargo/camel-wit
 pkg:cargo/camel-xj
 pkg:cargo/camel-xslt
+pkg:cargo/camelcase
+pkg:cargo/camelcase-keys
 pkg:cargo/cameleon
 pkg:cargo/cameleon-device
 pkg:cargo/cameleon-genapi
@@ -34590,6 +34594,7 @@ pkg:cargo/canlink-tscan-sys
 pkg:cargo/canlog
 pkg:cargo/canlog_derive
 pkg:cargo/cann
+pkg:cargo/cann-sys
 pkg:cargo/canned
 pkg:cargo/cannon-heap
 pkg:cargo/cannon-io
@@ -35483,6 +35488,8 @@ pkg:cargo/cargo-bdd
 pkg:cargo/cargo-bdeps
 pkg:cargo/cargo-begin
 pkg:cargo/cargo-behavior-diff
+pkg:cargo/cargo-bench-history
+pkg:cargo/cargo-bench-history-core
 pkg:cargo/cargo-benchcmp
 pkg:cargo/cargo-bencher
 pkg:cargo/cargo-big-clean
@@ -36617,6 +36624,7 @@ pkg:cargo/cargo-r3
 pkg:cargo/cargo-rack
 pkg:cargo/cargo-raic
 pkg:cargo/cargo-rail
+pkg:cargo/cargo-rake
 pkg:cargo/cargo-ram
 pkg:cargo/cargo-ramdisk
 pkg:cargo/cargo-rapk
@@ -36645,6 +36653,7 @@ pkg:cargo/cargo-reg
 pkg:cargo/cargo-registry
 pkg:cargo/cargo-registry-markdown
 pkg:cargo/cargo-registry-s3
+pkg:cargo/cargo-regress
 pkg:cargo/cargo-regression
 pkg:cargo/cargo-reinstall
 pkg:cargo/cargo-release
@@ -38071,6 +38080,7 @@ pkg:cargo/caver
 pkg:cargo/caves
 pkg:cargo/cavestory-save-lib
 pkg:cargo/cavestory_save_editor
+pkg:cargo/caviarder
 pkg:cargo/cavif
 pkg:cargo/cavint
 pkg:cargo/cavity
@@ -63418,10 +63428,12 @@ pkg:cargo/docx-rust
 pkg:cargo/docx-store
 pkg:cargo/docx-template
 pkg:cargo/docx_mcp_rust
+pkg:cargo/docxcore
 pkg:cargo/docxide-pdf
 pkg:cargo/docxide-template
 pkg:cargo/docxide-template-derive
 pkg:cargo/docxsidepdf
+pkg:cargo/docxy
 pkg:cargo/docz
 pkg:cargo/dod-table
 pkg:cargo/dod_1488
@@ -63743,6 +63755,8 @@ pkg:cargo/domrs
 pkg:cargo/domtree
 pkg:cargo/domus
 pkg:cargo/don
+pkg:cargo/don_core
+pkg:cargo/don_macros
 pkg:cargo/donadb
 pkg:cargo/donadb-rel
 pkg:cargo/donder-release
@@ -63953,6 +63967,7 @@ pkg:cargo/dot-multisample
 pkg:cargo/dot-over
 pkg:cargo/dot-parser
 pkg:cargo/dot-parser-macros
+pkg:cargo/dot-prop
 pkg:cargo/dot-properties
 pkg:cargo/dot-silo
 pkg:cargo/dot-structures
@@ -78102,6 +78117,7 @@ pkg:cargo/fedora-coreos-metrics-client
 pkg:cargo/fedora-coreos-pinger
 pkg:cargo/fedora-cve-triage
 pkg:cargo/fedora-prime
+pkg:cargo/fedora-review-digest
 pkg:cargo/fedora-update-feedback
 pkg:cargo/fedri_browser
 pkg:cargo/fee
@@ -89815,12 +89831,15 @@ pkg:cargo/ghopac
 pkg:cargo/ghost
 pkg:cargo/ghost-cell
 pkg:cargo/ghost-code
+pkg:cargo/ghost-core
 pkg:cargo/ghost-crab
 pkg:cargo/ghost-crab-common
 pkg:cargo/ghost-crab-macros
+pkg:cargo/ghost-eyes
 pkg:cargo/ghost-fabric
 pkg:cargo/ghost-flow
 pkg:cargo/ghost-gc
+pkg:cargo/ghost-hands
 pkg:cargo/ghost-io-api
 pkg:cargo/ghost-lib
 pkg:cargo/ghost-link
@@ -91226,6 +91245,7 @@ pkg:cargo/gitweb
 pkg:cargo/gitweb-release-downloader
 pkg:cargo/gitwell
 pkg:cargo/gitwife
+pkg:cargo/gitwig
 pkg:cargo/gitwrap
 pkg:cargo/gitx
 pkg:cargo/gity
@@ -132886,6 +132906,7 @@ pkg:cargo/lux-rs
 pkg:cargo/lux-vision
 pkg:cargo/lux-workspace-hack
 pkg:cargo/luxafor
+pkg:cargo/luxc
 pkg:cargo/luxctl
 pkg:cargo/luxe
 pkg:cargo/luxide
@@ -164038,6 +164059,7 @@ pkg:cargo/osom_lib_primitives
 pkg:cargo/osom_lib_prng
 pkg:cargo/osom_lib_reprc
 pkg:cargo/osom_lib_strings
+pkg:cargo/osom_lib_test_helpers
 pkg:cargo/osom_lib_try_clone
 pkg:cargo/osom_structa_cvr
 pkg:cargo/osora0302_cratesio_test
@@ -183891,6 +183913,7 @@ pkg:cargo/qualify-derive
 pkg:cargo/qualinvest
 pkg:cargo/qualinvest_cli
 pkg:cargo/qualinvest_core
+pkg:cargo/qualirs
 pkg:cargo/quality-time
 pkg:cargo/qualname
 pkg:cargo/qualomat_schema
@@ -184792,6 +184815,16 @@ pkg:cargo/quiver-storage
 pkg:cargo/quiver-web
 pkg:cargo/quiver_derive
 pkg:cargo/quiver_types
+pkg:cargo/quiverdb-cli
+pkg:cargo/quiverdb-core
+pkg:cargo/quiverdb-crypto
+pkg:cargo/quiverdb-import
+pkg:cargo/quiverdb-index
+pkg:cargo/quiverdb-mcp
+pkg:cargo/quiverdb-proto
+pkg:cargo/quiverdb-query
+pkg:cargo/quiverdb-server
+pkg:cargo/quiverdb-simd
 pkg:cargo/quiverquant
 pkg:cargo/quix
 pkg:cargo/quix-build
@@ -231586,6 +231619,7 @@ pkg:cargo/sunset-async
 pkg:cargo/sunset-embassy
 pkg:cargo/sunset-macro-rs
 pkg:cargo/sunset-rs
+pkg:cargo/sunset-sftp
 pkg:cargo/sunset-sshwire-derive
 pkg:cargo/sunset-stdasync
 pkg:cargo/sunshine
@@ -250810,6 +250844,7 @@ pkg:cargo/turbosql
 pkg:cargo/turbosql-impl
 pkg:cargo/turbostate
 pkg:cargo/turbostore
+pkg:cargo/turboswarm-core
 pkg:cargo/turbotest
 pkg:cargo/turbotrace
 pkg:cargo/turbovault
@@ -259962,6 +259997,13 @@ pkg:cargo/vipers-tests
 pkg:cargo/viperus
 pkg:cargo/vipi
 pkg:cargo/vipr
+pkg:cargo/viprs
+pkg:cargo/viprs-core
+pkg:cargo/viprs-ops-colour
+pkg:cargo/viprs-ops-composite
+pkg:cargo/viprs-ops-pixel
+pkg:cargo/viprs-ops-spatial
+pkg:cargo/viprs-runtime
 pkg:cargo/vips
 pkg:cargo/vips-rs
 pkg:cargo/vips-sys
@@ -260089,6 +260131,7 @@ pkg:cargo/viscone
 pkg:cargo/viscous
 pkg:cargo/visctl
 pkg:cargo/visdom
+pkg:cargo/visdom-ai-tracing-protocol
 pkg:cargo/vise
 pkg:cargo/vise-exporter
 pkg:cargo/vise-macros
