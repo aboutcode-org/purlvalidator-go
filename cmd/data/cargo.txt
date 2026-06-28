@@ -37039,6 +37039,7 @@ pkg:cargo/cargo-unused-workspace-deps
 pkg:cargo/cargo-up
 pkg:cargo/cargo-update
 pkg:cargo/cargo-update-IOH8Grd3611
+pkg:cargo/cargo-update-check
 pkg:cargo/cargo-update-dep
 pkg:cargo/cargo-update-installed
 pkg:cargo/cargo-updater
@@ -37462,6 +37463,7 @@ pkg:cargo/cartan-optim
 pkg:cargo/cartan-remesh
 pkg:cargo/cartan-simplicial
 pkg:cargo/cartan-stochastic
+pkg:cargo/cartconf
 pkg:cargo/cartel
 pkg:cargo/cartel-core
 pkg:cargo/cartel-gen
@@ -37469,6 +37471,7 @@ pkg:cargo/cartel-pg
 pkg:cargo/cartel-redis
 pkg:cargo/cartel-sqlite
 pkg:cargo/cartel_api
+pkg:cargo/carter
 pkg:cargo/cartes_rbpf
 pkg:cargo/cartesi-coprocessor
 pkg:cargo/cartesi-rollups-contracts
@@ -38062,6 +38065,7 @@ pkg:cargo/causality-mcp-storage
 pkg:cargo/causality-mcp-types
 pkg:cargo/causasv
 pkg:cargo/cause
+pkg:cargo/causeway
 pkg:cargo/causeway-btc
 pkg:cargo/causeway-cpi
 pkg:cargo/causeway-derive
@@ -38071,7 +38075,11 @@ pkg:cargo/causeway-reddsa
 pkg:cargo/causeway-sapling
 pkg:cargo/causeway-types
 pkg:cargo/causeway-zec
+pkg:cargo/causlane-contracts
+pkg:cargo/causlane-core
+pkg:cargo/causlane-formal
 pkg:cargo/caustic
+pkg:cargo/cautious-carnival
 pkg:cargo/cautious-octo-funicular
 pkg:cargo/cautomata
 pkg:cargo/cauuu
@@ -78742,7 +78750,9 @@ pkg:cargo/ferrium
 pkg:cargo/ferrix
 pkg:cargo/ferrix-app
 pkg:cargo/ferrix-core
+pkg:cargo/ferrix-data
 pkg:cargo/ferrix-lib
+pkg:cargo/ferrix-widgets
 pkg:cargo/ferro
 pkg:cargo/ferro-ai
 pkg:cargo/ferro-airflow-dag-parser
@@ -100614,7 +100624,9 @@ pkg:cargo/helius-signals
 pkg:cargo/helius-signals-protocol
 pkg:cargo/helius-stream
 pkg:cargo/helix
+pkg:cargo/helix-bioage
 pkg:cargo/helix-calc
+pkg:cargo/helix-connect
 pkg:cargo/helix-core
 pkg:cargo/helix-crossterm
 pkg:cargo/helix-db
@@ -100623,17 +100635,21 @@ pkg:cargo/helix-dsl-macros
 pkg:cargo/helix-editor
 pkg:cargo/helix-enterprise-ql
 pkg:cargo/helix-evidence
+pkg:cargo/helix-focus
 pkg:cargo/helix-gateway
+pkg:cargo/helix-genome
 pkg:cargo/helix-kanban
 pkg:cargo/helix-lsp
 pkg:cargo/helix-macros
 pkg:cargo/helix-metrics
 pkg:cargo/helix-numeric
 pkg:cargo/helix-provenance
+pkg:cargo/helix-refranges
 pkg:cargo/helix-rs
 pkg:cargo/helix-score
 pkg:cargo/helix-syntax
 pkg:cargo/helix-term
+pkg:cargo/helix-timeline
 pkg:cargo/helix-tui
 pkg:cargo/helix-view
 pkg:cargo/helix-visual
@@ -100913,6 +100929,7 @@ pkg:cargo/hephae-ui
 pkg:cargo/hephae-utils
 pkg:cargo/hephae-utils-derive
 pkg:cargo/hephaes
+pkg:cargo/hephaes-core
 pkg:cargo/hephasm
 pkg:cargo/hepmc2
 pkg:cargo/hepmc2-macros
@@ -101403,6 +101420,7 @@ pkg:cargo/hexponent
 pkg:cargo/hexpr
 pkg:cargo/hexput-ast-api
 pkg:cargo/hexput-runtime
+pkg:cargo/hexr
 pkg:cargo/hexroll3
 pkg:cargo/hexroll3-scroll
 pkg:cargo/hexrw
@@ -132271,6 +132289,7 @@ pkg:cargo/luars_debugger
 pkg:cargo/luars_doc
 pkg:cargo/luaskills
 pkg:cargo/luasocket
+pkg:cargo/luatalk-cli
 pkg:cargo/luatos-rs
 pkg:cargo/luau
 pkg:cargo/luau-analysis
@@ -151239,6 +151258,10 @@ pkg:cargo/necessist
 pkg:cargo/necessist-backends
 pkg:cargo/necessist-core
 pkg:cargo/necessist-frameworks
+pkg:cargo/necko3-blockchain
+pkg:cargo/necko3-core
+pkg:cargo/necko3-database
+pkg:cargo/necko3-types
 pkg:cargo/neco-argon2
 pkg:cargo/neco-argparse
 pkg:cargo/neco-array2
@@ -164184,6 +164207,11 @@ pkg:cargo/ospm
 pkg:cargo/ospre
 pkg:cargo/osprey
 pkg:cargo/osproto
+pkg:cargo/osproxy-config
+pkg:cargo/osproxy-core
+pkg:cargo/osproxy-observe
+pkg:cargo/osproxy-rewrite
+pkg:cargo/osproxy-spi
 pkg:cargo/osql_parser
 pkg:cargo/osqp
 pkg:cargo/osqp-rust
@@ -183402,6 +183430,7 @@ pkg:cargo/qmat
 pkg:cargo/qmc
 pkg:cargo/qmc5883l
 pkg:cargo/qmc5883p
+pkg:cargo/qmc6309
 pkg:cargo/qmd
 pkg:cargo/qmd-cli
 pkg:cargo/qmd-mcp
@@ -183975,6 +184004,7 @@ pkg:cargo/quadsort
 pkg:cargo/quadtree
 pkg:cargo/quadtree-cd
 pkg:cargo/quadtree-f32
+pkg:cargo/quadtree_core
 pkg:cargo/quadtree_rs
 pkg:cargo/quadtree_simple
 pkg:cargo/quaere-cli
@@ -184427,6 +184457,7 @@ pkg:cargo/querydown
 pkg:cargo/querydown-cli
 pkg:cargo/queryer
 pkg:cargo/queryer-sql-polars
+pkg:cargo/querygraph
 pkg:cargo/querylib
 pkg:cargo/querylizer
 pkg:cargo/queryparse
@@ -221633,6 +221664,8 @@ pkg:cargo/solaire
 pkg:cargo/solalumin-attribute-event
 pkg:cargo/solalumin-state
 pkg:cargo/solami
+pkg:cargo/solami-index-sdk
+pkg:cargo/solami-index-sdk-macros
 pkg:cargo/solan
 pkg:cargo/solana
 pkg:cargo/solana-account
@@ -222699,6 +222732,10 @@ pkg:cargo/solzempic
 pkg:cargo/solzempic-macros
 pkg:cargo/som
 pkg:cargo/soma
+pkg:cargo/soma-audit-client
+pkg:cargo/soma-audit-core
+pkg:cargo/soma-audit-pg
+pkg:cargo/soma-audit-server
 pkg:cargo/soma-core
 pkg:cargo/soma-ctf
 pkg:cargo/soma-macros
@@ -223002,6 +223039,7 @@ pkg:cargo/soppo
 pkg:cargo/soppo-lsp
 pkg:cargo/soprintln
 pkg:cargo/sops-batch
+pkg:cargo/sopsy
 pkg:cargo/soqlx-lsp
 pkg:cargo/sora
 pkg:cargo/sora-cli
@@ -223091,6 +223129,7 @@ pkg:cargo/soroban-rpc
 pkg:cargo/soroban-rpc-client
 pkg:cargo/soroban-rs
 pkg:cargo/soroban-rs-macros
+pkg:cargo/soroban-scanner
 pkg:cargo/soroban-sdk
 pkg:cargo/soroban-sdk-macros
 pkg:cargo/soroban-sdk-tools
@@ -223119,6 +223158,8 @@ pkg:cargo/soroban-wasmi
 pkg:cargo/soroban-wasmi-validation
 pkg:cargo/soroban-wasmi_core
 pkg:cargo/soroban-workspace-contract-a-interface
+pkg:cargo/soroban-zk-core
+pkg:cargo/soroban-zk-std
 pkg:cargo/soroban_decimal_numbers
 pkg:cargo/sorock
 pkg:cargo/soroswap-library
@@ -231966,8 +232007,10 @@ pkg:cargo/supergtk
 pkg:cargo/superh
 pkg:cargo/superharness
 pkg:cargo/superhawk610_minigrep
+pkg:cargo/superinstance-core
 pkg:cargo/superinstance-ffi
 pkg:cargo/superinstance-keel
+pkg:cargo/superinstance-protocol
 pkg:cargo/superintervals
 pkg:cargo/superior-minigrep
 pkg:cargo/superjson-rs
@@ -250355,6 +250398,7 @@ pkg:cargo/tui-equalizer
 pkg:cargo/tui-explorer
 pkg:cargo/tui-file-dialog
 pkg:cargo/tui-file-explorer
+pkg:cargo/tui-flow
 pkg:cargo/tui-form-widget
 pkg:cargo/tui-framework-experiment
 pkg:cargo/tui-globe
@@ -269804,6 +269848,7 @@ pkg:cargo/writeup
 pkg:cargo/writhing_mass_of_flesh
 pkg:cargo/writing
 pkg:cargo/writing-analysis
+pkg:cargo/writing-prompts
 pkg:cargo/writingbuddy
 pkg:cargo/writings
 pkg:cargo/writings-macros
