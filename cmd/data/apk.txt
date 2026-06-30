@@ -4309,6 +4309,9 @@ pkg:apk/alpine/cocogitto-bash-completion
 pkg:apk/alpine/cocogitto-doc
 pkg:apk/alpine/cocogitto-fish-completion
 pkg:apk/alpine/cocogitto-zsh-completion
+pkg:apk/alpine/cocoon
+pkg:apk/alpine/cocoon-doc
+pkg:apk/alpine/cocoon-openrc
 pkg:apk/alpine/code-minimap
 pkg:apk/alpine/code-minimap-doc
 pkg:apk/alpine/code-oss
@@ -5355,6 +5358,7 @@ pkg:apk/alpine/diceware-pyc
 pkg:apk/alpine/didder
 pkg:apk/alpine/didder-doc
 pkg:apk/alpine/diff-pdf
+pkg:apk/alpine/diffoci
 pkg:apk/alpine/diffoscope
 pkg:apk/alpine/diffoscope-pyc
 pkg:apk/alpine/diffsitter
@@ -6116,6 +6120,7 @@ pkg:apk/alpine/dunst
 pkg:apk/alpine/dunst-bash-completion
 pkg:apk/alpine/dunst-doc
 pkg:apk/alpine/dunst-fish-completion
+pkg:apk/alpine/dunst-openrc
 pkg:apk/alpine/dunst-zsh-completion
 pkg:apk/alpine/dunstify
 pkg:apk/alpine/duo_unix
@@ -10017,6 +10022,7 @@ pkg:apk/alpine/gpick
 pkg:apk/alpine/gpick-doc
 pkg:apk/alpine/gpick-lang
 pkg:apk/alpine/gpicview
+pkg:apk/alpine/gpicview-doc
 pkg:apk/alpine/gpicview-lang
 pkg:apk/alpine/gping
 pkg:apk/alpine/gpm
@@ -11827,6 +11833,7 @@ pkg:apk/alpine/ipmiutil-openrc
 pkg:apk/alpine/ipp-usb
 pkg:apk/alpine/ipp-usb-doc
 pkg:apk/alpine/ipp-usb-openrc
+pkg:apk/alpine/ipp-usb-udev
 pkg:apk/alpine/ipptool
 pkg:apk/alpine/iprange
 pkg:apk/alpine/iprange-doc
@@ -13350,6 +13357,9 @@ pkg:apk/alpine/knot
 pkg:apk/alpine/knot-bash-completion
 pkg:apk/alpine/knot-dev
 pkg:apk/alpine/knot-doc
+pkg:apk/alpine/knot-git
+pkg:apk/alpine/knot-git-doc
+pkg:apk/alpine/knot-git-openrc
 pkg:apk/alpine/knot-libs
 pkg:apk/alpine/knot-libs-static
 pkg:apk/alpine/knot-mod-dnstap
@@ -17891,6 +17901,12 @@ pkg:apk/alpine/lomiri-weather-app-lang
 pkg:apk/alpine/looking-glass
 pkg:apk/alpine/looking-glass-module
 pkg:apk/alpine/looking-glass-obs
+pkg:apk/alpine/lore
+pkg:apk/alpine/lore-bash-completion
+pkg:apk/alpine/lore-fish-completion
+pkg:apk/alpine/lore-server
+pkg:apk/alpine/lore-server-openrc
+pkg:apk/alpine/lore-zsh-completion
 pkg:apk/alpine/losetup
 pkg:apk/alpine/lotide
 pkg:apk/alpine/lotide-openrc
@@ -20771,6 +20787,7 @@ pkg:apk/alpine/nbsdgames-doc
 pkg:apk/alpine/nbtscan
 pkg:apk/alpine/nbtscan-dbg
 pkg:apk/alpine/nbtscan-doc
+pkg:apk/alpine/ncdeck
 pkg:apk/alpine/ncdu
 pkg:apk/alpine/ncdu-doc
 pkg:apk/alpine/ncdu2
@@ -23493,6 +23510,7 @@ pkg:apk/alpine/otf-agent-openrc
 pkg:apk/alpine/otf-atkinson-hyperlegible
 pkg:apk/alpine/otf-atkinson-hyperlegible-doc
 pkg:apk/alpine/otf-cli
+pkg:apk/alpine/otf-job
 pkg:apk/alpine/otf-server
 pkg:apk/alpine/otf-server-openrc
 pkg:apk/alpine/otf2bdf
@@ -38653,7 +38671,9 @@ pkg:apk/alpine/starship-zsh-completion
 pkg:apk/alpine/starship-zsh-plugin
 pkg:apk/alpine/startup
 pkg:apk/alpine/startup-bridge-dconf
+pkg:apk/alpine/startup-bridge-dconf-event
 pkg:apk/alpine/startup-bridge-udev
+pkg:apk/alpine/startup-bridge-udev-event
 pkg:apk/alpine/startup-dev
 pkg:apk/alpine/startup-doc
 pkg:apk/alpine/startup-fish-completion
