@@ -223,6 +223,11 @@ pkg:apk/alpine/abuild-muon
 pkg:apk/alpine/abuild-rootbld
 pkg:apk/alpine/abuild-sudo
 pkg:apk/alpine/abuild-zsh-completion
+pkg:apk/alpine/abuild4
+pkg:apk/alpine/abuild4-doc
+pkg:apk/alpine/abuild4-rootbld
+pkg:apk/alpine/abuild4-sudo
+pkg:apk/alpine/abuild4-zsh-completion
 pkg:apk/alpine/acccheck
 pkg:apk/alpine/accel-ppp
 pkg:apk/alpine/accel-ppp-doc
@@ -892,6 +897,9 @@ pkg:apk/alpine/apk-tools-zsh-completion
 pkg:apk/alpine/apkbuild-cpan
 pkg:apk/alpine/apkbuild-gem-resolver
 pkg:apk/alpine/apkbuild-pypi
+pkg:apk/alpine/apkbuild4-cpan
+pkg:apk/alpine/apkbuild4-gem-resolver
+pkg:apk/alpine/apkbuild4-pypi
 pkg:apk/alpine/apko
 pkg:apk/alpine/apko-bash-completion
 pkg:apk/alpine/apko-fish-completion
@@ -2150,6 +2158,7 @@ pkg:apk/alpine/battery-limit-openrc
 pkg:apk/alpine/bazaar
 pkg:apk/alpine/bazaar-dev
 pkg:apk/alpine/bazaar-lang
+pkg:apk/alpine/bazaar-libs
 pkg:apk/alpine/bazaar-systemd
 pkg:apk/alpine/bazel6
 pkg:apk/alpine/bazel6-bash-completion
@@ -4224,6 +4233,8 @@ pkg:apk/alpine/cloud-init-logrotate
 pkg:apk/alpine/cloud-init-openrc
 pkg:apk/alpine/cloud-init-pyc
 pkg:apk/alpine/cloud-init-udev
+pkg:apk/alpine/cloud-provider-kind
+pkg:apk/alpine/cloud-provider-kind-doc
 pkg:apk/alpine/cloud-utils
 pkg:apk/alpine/cloud-utils-doc
 pkg:apk/alpine/cloud-utils-ec2metadata
@@ -7137,6 +7148,7 @@ pkg:apk/alpine/fenneljit-doc
 pkg:apk/alpine/fenrir
 pkg:apk/alpine/fenrir-doc
 pkg:apk/alpine/fenrir-lang
+pkg:apk/alpine/fenrir-openrc
 pkg:apk/alpine/fenrir-progs
 pkg:apk/alpine/fenrir-pyc
 pkg:apk/alpine/fenrir-scripts
@@ -13159,6 +13171,8 @@ pkg:apk/alpine/kirigami-addons-lang
 pkg:apk/alpine/kirigami-addons5
 pkg:apk/alpine/kirigami-addons5-dev
 pkg:apk/alpine/kirigami-addons5-lang
+pkg:apk/alpine/kirigami-app-components
+pkg:apk/alpine/kirigami-app-components-dev
 pkg:apk/alpine/kirigami-dev
 pkg:apk/alpine/kirigami-gallery
 pkg:apk/alpine/kirigami-gallery-lang
@@ -20330,6 +20344,9 @@ pkg:apk/alpine/mp3splt-gtk
 pkg:apk/alpine/mp3splt-gtk-doc
 pkg:apk/alpine/mp3splt-gtk-lang
 pkg:apk/alpine/mp3val
+pkg:apk/alpine/mpb
+pkg:apk/alpine/mpb-dev
+pkg:apk/alpine/mpb-doc
 pkg:apk/alpine/mpc
 pkg:apk/alpine/mpc-bash-completion
 pkg:apk/alpine/mpc-doc
@@ -36285,6 +36302,7 @@ pkg:apk/alpine/rizin-cutter-dev
 pkg:apk/alpine/rizin-dev
 pkg:apk/alpine/rizin-doc
 pkg:apk/alpine/rizin-libs
+pkg:apk/alpine/rkbin
 pkg:apk/alpine/rkdeveloptool
 pkg:apk/alpine/rkdeveloptool-doc
 pkg:apk/alpine/rkdeveloptool-udev
