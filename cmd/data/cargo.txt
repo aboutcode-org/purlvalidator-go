@@ -35384,6 +35384,7 @@ pkg:cargo/cargo-abi-audit-cli
 pkg:cargo/cargo-about
 pkg:cargo/cargo-about-features
 pkg:cargo/cargo-acap
+pkg:cargo/cargo-accelerate
 pkg:cargo/cargo-acceptance
 pkg:cargo/cargo-acj
 pkg:cargo/cargo-acl
@@ -35623,6 +35624,9 @@ pkg:cargo/cargo-chronoscope
 pkg:cargo/cargo-ci
 pkg:cargo/cargo-ci-cache-clean
 pkg:cargo/cargo-ci-template
+pkg:cargo/cargo-cicd
+pkg:cargo/cargo-cicd-core
+pkg:cargo/cargo-cicd-lsp
 pkg:cargo/cargo-cifuzz
 pkg:cargo/cargo-cite
 pkg:cargo/cargo-claim
@@ -63364,6 +63368,7 @@ pkg:cargo/docs
 pkg:cargo/docs-exploit-demo
 pkg:cargo/docs-fzf
 pkg:cargo/docs-gen
+pkg:cargo/docs-health
 pkg:cargo/docs-mcp
 pkg:cargo/docs-rs-env-print
 pkg:cargo/docs-rs-kgs-test
@@ -63571,6 +63576,20 @@ pkg:cargo/dohy
 pkg:cargo/doi
 pkg:cargo/doi2bib
 pkg:cargo/doiTAG
+pkg:cargo/doido
+pkg:cargo/doido-cable
+pkg:cargo/doido-cable-macros
+pkg:cargo/doido-cache
+pkg:cargo/doido-controller
+pkg:cargo/doido-controller-macros
+pkg:cargo/doido-core
+pkg:cargo/doido-generators
+pkg:cargo/doido-jobs
+pkg:cargo/doido-jobs-macros
+pkg:cargo/doido-mailer
+pkg:cargo/doido-mailer-macros
+pkg:cargo/doido-model
+pkg:cargo/doido-view
 pkg:cargo/doiget-cli
 pkg:cargo/doiget-core
 pkg:cargo/doiget-mcp
@@ -67310,6 +67329,7 @@ pkg:cargo/easy_ssl
 pkg:cargo/easy_stats
 pkg:cargo/easy_storage
 pkg:cargo/easy_store
+pkg:cargo/easy_strfmt
 pkg:cargo/easy_strings
 pkg:cargo/easy_switch
 pkg:cargo/easy_syntax
@@ -91187,6 +91207,7 @@ pkg:cargo/gitory-cli
 pkg:cargo/gitostat
 pkg:cargo/gitoui
 pkg:cargo/gitout
+pkg:cargo/gitow
 pkg:cargo/gitoxide
 pkg:cargo/gitoxide-core
 pkg:cargo/gitp
@@ -100242,6 +100263,14 @@ pkg:cargo/healthchecks
 pkg:cargo/healthchecks-monitor
 pkg:cargo/healthdog
 pkg:cargo/healthkit-to-sqlite-cli
+pkg:cargo/healthpoint-cli
+pkg:cargo/healthpoint-client
+pkg:cargo/healthpoint-core
+pkg:cargo/healthpoint-export
+pkg:cargo/healthpoint-fhir
+pkg:cargo/healthpoint-mcp
+pkg:cargo/healthpoint-osd-adapter
+pkg:cargo/healthpoint-testkit
 pkg:cargo/healthscript
 pkg:cargo/healthscript-cli
 pkg:cargo/healthstatus
@@ -100447,6 +100476,8 @@ pkg:cargo/hedl-toon
 pkg:cargo/hedl-wasm
 pkg:cargo/hedl-xml
 pkg:cargo/hedl-yaml
+pkg:cargo/hedra
+pkg:cargo/hedra-cli
 pkg:cargo/hedron
 pkg:cargo/hedu
 pkg:cargo/hedwig
@@ -101299,6 +101330,7 @@ pkg:cargo/hex_ln
 pkg:cargo/hex_math
 pkg:cargo/hex_pp
 pkg:cargo/hex_renderer
+pkg:cargo/hex_rgb_converter
 pkg:cargo/hex_str
 pkg:cargo/hex_table
 pkg:cargo/hex_win
@@ -132562,6 +132594,7 @@ pkg:cargo/luma
 pkg:cargo/luma-prism
 pkg:cargo/lumalla
 pkg:cargo/lumalla_shared
+pkg:cargo/lumamba
 pkg:cargo/lumand
 pkg:cargo/lumber
 pkg:cargo/lumberjack
@@ -164318,6 +164351,7 @@ pkg:cargo/ossify
 pkg:cargo/ossium
 pkg:cargo/ossl
 pkg:cargo/ossl-provider
+pkg:cargo/ossl-sys
 pkg:cargo/ossplate
 pkg:cargo/osst
 pkg:cargo/osstrtools
@@ -222051,6 +222085,7 @@ pkg:cargo/solana-package-metadata
 pkg:cargo/solana-package-metadata-macro
 pkg:cargo/solana-packet
 pkg:cargo/solana-pay
+pkg:cargo/solana-pay-kit
 pkg:cargo/solana-payments
 pkg:cargo/solana-perf
 pkg:cargo/solana-pipkit
@@ -222795,6 +222830,7 @@ pkg:cargo/soma-audit-pg
 pkg:cargo/soma-audit-server
 pkg:cargo/soma-core
 pkg:cargo/soma-ctf
+pkg:cargo/soma-infra
 pkg:cargo/soma-macros
 pkg:cargo/soma-player
 pkg:cargo/soma-schema
@@ -250799,6 +250835,7 @@ pkg:cargo/tupdate-catgen
 pkg:cargo/tupelo
 pkg:cargo/tupelo-vulkan
 pkg:cargo/tupelo_guessing_game
+pkg:cargo/tuphium
 pkg:cargo/tupiter
 pkg:cargo/tupiter-proc-macro
 pkg:cargo/tupl
@@ -258740,6 +258777,7 @@ pkg:cargo/velr-runtime-linux-aarch64
 pkg:cargo/velr-runtime-linux-x86_64
 pkg:cargo/velr-runtime-macos-universal
 pkg:cargo/velr-runtime-windows-x86_64
+pkg:cargo/velr-types
 pkg:cargo/velrim
 pkg:cargo/velstra-proto
 pkg:cargo/velto
@@ -269857,6 +269895,7 @@ pkg:cargo/wrecked
 pkg:cargo/wref
 pkg:cargo/wren
 pkg:cargo/wren-babel
+pkg:cargo/wren-bfd
 pkg:cargo/wren-bgp
 pkg:cargo/wren-config
 pkg:cargo/wren-core
@@ -276257,6 +276296,7 @@ pkg:cargo/zip-extensions
 pkg:cargo/zip-extract
 pkg:cargo/zip-fill
 pkg:cargo/zip-forensic
+pkg:cargo/zip-forensic-core
 pkg:cargo/zip-format
 pkg:cargo/zip-full-core
 pkg:cargo/zip-http-server
