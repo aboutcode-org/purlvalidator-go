@@ -33732,6 +33732,7 @@ pkg:cargo/cairn-core
 pkg:cargo/cairn-drift
 pkg:cargo/cairn-ehr
 pkg:cargo/cairn-extract
+pkg:cargo/cairn-framework
 pkg:cargo/cairn-geocoder
 pkg:cargo/cairn-import-geonames
 pkg:cargo/cairn-import-oa
@@ -33746,6 +33747,7 @@ pkg:cargo/cairn-lang-lsp
 pkg:cargo/cairn-lang-nbt
 pkg:cargo/cairn-lang-redstone
 pkg:cargo/cairn-lang-wasm
+pkg:cargo/cairn-macros
 pkg:cargo/cairn-mod
 pkg:cargo/cairn-p2p
 pkg:cargo/cairn-parse
@@ -34780,6 +34782,7 @@ pkg:cargo/capabilities
 pkg:cargo/capability
 pkg:cargo/capability-3p
 pkg:cargo/capability-cli
+pkg:cargo/capability-core
 pkg:cargo/capability-core-string-skeleton
 pkg:cargo/capability-crate-writer
 pkg:cargo/capability-example
@@ -34793,6 +34796,7 @@ pkg:cargo/capability-grower-configuration-from-skeleton
 pkg:cargo/capability-grower-configuration-reconciliation
 pkg:cargo/capability-patch-bay
 pkg:cargo/capability-pushdown
+pkg:cargo/capability-registry
 pkg:cargo/capability-skeleton
 pkg:cargo/capability-skeleton-mock
 pkg:cargo/capability-skeleton-string
@@ -34966,6 +34970,9 @@ pkg:cargo/capter
 pkg:cargo/caption-compiler
 pkg:cargo/captionrs
 pkg:cargo/captis
+pkg:cargo/captrack
+pkg:cargo/captrack-macros
+pkg:cargo/captrack-pgo
 pkg:cargo/captrs
 pkg:cargo/captrs2
 pkg:cargo/captube
@@ -35009,6 +35016,7 @@ pkg:cargo/car-browser
 pkg:cargo/car-builder
 pkg:cargo/car-bundle
 pkg:cargo/car-connectors
+pkg:cargo/car-daemon-client
 pkg:cargo/car-desktop
 pkg:cargo/car-engine
 pkg:cargo/car-eventlog
@@ -35016,6 +35024,7 @@ pkg:cargo/car-external-agents
 pkg:cargo/car-ffi-common
 pkg:cargo/car-health
 pkg:cargo/car-inference
+pkg:cargo/car-inference-types
 pkg:cargo/car-integrations
 pkg:cargo/car-ir
 pkg:cargo/car-mcp
@@ -35027,6 +35036,7 @@ pkg:cargo/car-mirror-axum
 pkg:cargo/car-mirror-reqwest
 pkg:cargo/car-mirror-wasm
 pkg:cargo/car-multi
+pkg:cargo/car-nlp
 pkg:cargo/car-nostd
 pkg:cargo/car-parser
 pkg:cargo/car-parser-bom
@@ -35046,6 +35056,7 @@ pkg:cargo/car-secrets
 pkg:cargo/car-server-core
 pkg:cargo/car-server-types
 pkg:cargo/car-state
+pkg:cargo/car-sync
 pkg:cargo/car-telemetry
 pkg:cargo/car-ui-agent
 pkg:cargo/car-utils
@@ -36425,6 +36436,7 @@ pkg:cargo/cargo-mote
 pkg:cargo/cargo-move
 pkg:cargo/cargo-movemint
 pkg:cargo/cargo-mpirun
+pkg:cargo/cargo-mre
 pkg:cargo/cargo-msix
 pkg:cargo/cargo-msrv
 pkg:cargo/cargo-msrv-cargo_metadata
@@ -36462,6 +36474,7 @@ pkg:cargo/cargo-newcpp
 pkg:cargo/cargo-newvsc
 pkg:cargo/cargo-next
 pkg:cargo/cargo-nextest
+pkg:cargo/cargo-nextrs-dev
 pkg:cargo/cargo-nfpm
 pkg:cargo/cargo-nfs3-server
 pkg:cargo/cargo-ngrok
@@ -63855,6 +63868,7 @@ pkg:cargo/don_core
 pkg:cargo/don_macros
 pkg:cargo/donadb
 pkg:cargo/donadb-rel
+pkg:cargo/donadb-x
 pkg:cargo/donder-release
 pkg:cargo/done
 pkg:cargo/doner
@@ -90216,6 +90230,8 @@ pkg:cargo/gimpey-sol-gateway
 pkg:cargo/gimura-preprocessor-lib
 pkg:cargo/gin
 pkg:cargo/gin-pkg
+pkg:cargo/gin-rummy
+pkg:cargo/gin-rummy-engine
 pkg:cargo/gin-tonic
 pkg:cargo/gin-tonic-core
 pkg:cargo/gin-tonic-derive
@@ -91126,6 +91142,7 @@ pkg:cargo/github-user-cli
 pkg:cargo/github-webhook
 pkg:cargo/github-webhook-dts-downloader
 pkg:cargo/github-webhook-extract
+pkg:cargo/github-webhook-notification
 pkg:cargo/github-webhook-type-generator
 pkg:cargo/github-webhooks
 pkg:cargo/github-workflow
@@ -100954,9 +100971,19 @@ pkg:cargo/hellstone
 pkg:cargo/hellthrower_common
 pkg:cargo/helm
 pkg:cargo/helm-api
+pkg:cargo/helm-client
+pkg:cargo/helm-coordination
+pkg:cargo/helm-governed-jobs
+pkg:cargo/helm-module-contracts
+pkg:cargo/helm-notes
+pkg:cargo/helm-operator-control
+pkg:cargo/helm-plugin-runtime
 pkg:cargo/helm-sdk
+pkg:cargo/helm-session-contracts
+pkg:cargo/helm-session-host
 pkg:cargo/helm-template-parser
 pkg:cargo/helm-templexer
+pkg:cargo/helm-truth-execution
 pkg:cargo/helm-wrapper-rs
 pkg:cargo/helm2oci
 pkg:cargo/helmet-core
@@ -147395,6 +147422,7 @@ pkg:cargo/mtp-mount
 pkg:cargo/mtp-rs
 pkg:cargo/mtp-rs-cli
 pkg:cargo/mtp-sdk
+pkg:cargo/mtp3
 pkg:cargo/mtp_rs1
 pkg:cargo/mtp_spec
 pkg:cargo/mtparser
@@ -164422,6 +164450,7 @@ pkg:cargo/ossl
 pkg:cargo/ossl-provider
 pkg:cargo/ossl-sys
 pkg:cargo/ossplate
+pkg:cargo/ossrandom-lane
 pkg:cargo/osst
 pkg:cargo/osstrtools
 pkg:cargo/osstrtools-fix
@@ -269268,6 +269297,7 @@ pkg:cargo/work_dispatcher
 pkg:cargo/work_pool
 pkg:cargo/work_tock
 pkg:cargo/work_tock2
+pkg:cargo/workbench-backend
 pkg:cargo/workbloom
 pkg:cargo/workctl
 pkg:cargo/workdays
@@ -276283,6 +276313,7 @@ pkg:cargo/zine-rs
 pkg:cargo/zinfo
 pkg:cargo/zing
 pkg:cargo/zing-art
+pkg:cargo/zing-cli
 pkg:cargo/zingen
 pkg:cargo/zingo-memo
 pkg:cargo/zingo-netutils
