@@ -8735,6 +8735,7 @@ pkg:apk/alpine/gensio-libs
 pkg:apk/alpine/geoclue
 pkg:apk/alpine/geoclue-dev
 pkg:apk/alpine/geoclue-doc
+pkg:apk/alpine/geoclue-lang
 pkg:apk/alpine/geoclue-stumbler
 pkg:apk/alpine/geoclue-systemd
 pkg:apk/alpine/geocode-glib
@@ -14327,6 +14328,9 @@ pkg:apk/alpine/libax25-doc
 pkg:apk/alpine/libax25-static
 pkg:apk/alpine/libayatana-appindicator
 pkg:apk/alpine/libayatana-appindicator-dev
+pkg:apk/alpine/libayatana-appindicator-glib
+pkg:apk/alpine/libayatana-appindicator-glib-dev
+pkg:apk/alpine/libayatana-appindicator-glib-doc
 pkg:apk/alpine/libayatana-common
 pkg:apk/alpine/libayatana-common-dev
 pkg:apk/alpine/libayatana-common-lang
@@ -26826,6 +26830,8 @@ pkg:apk/alpine/phosh-mobile-settings-dbg
 pkg:apk/alpine/phosh-mobile-settings-dev
 pkg:apk/alpine/phosh-mobile-settings-lang
 pkg:apk/alpine/phosh-mobile-settings-libs
+pkg:apk/alpine/phosh-os-updater
+pkg:apk/alpine/phosh-os-updater-systemd
 pkg:apk/alpine/phosh-osk-data
 pkg:apk/alpine/phosh-osk-data-bg
 pkg:apk/alpine/phosh-osk-data-de
@@ -26846,6 +26852,7 @@ pkg:apk/alpine/phosh-osk-stub-doc
 pkg:apk/alpine/phosh-osk-stub-lang
 pkg:apk/alpine/phosh-portalsconf
 pkg:apk/alpine/phosh-schemas
+pkg:apk/alpine/phosh-session-services
 pkg:apk/alpine/phosh-systemd
 pkg:apk/alpine/phosh-tour
 pkg:apk/alpine/phosh-tour-lang
@@ -27901,6 +27908,7 @@ pkg:apk/alpine/php86-pecl-igbinary
 pkg:apk/alpine/php86-pecl-mailparse
 pkg:apk/alpine/php86-pecl-mongodb
 pkg:apk/alpine/php86-pecl-msgpack
+pkg:apk/alpine/php86-pecl-pcov
 pkg:apk/alpine/php86-pecl-smbclient
 pkg:apk/alpine/php86-pecl-uploadprogress
 pkg:apk/alpine/php86-pecl-uploadprogress-doc
