@@ -31651,6 +31651,9 @@ pkg:composer/barechain/ethereum-tx
 pkg:composer/barechain/general
 pkg:composer/barechain/guzzle-jsonrpc
 pkg:composer/barechain/rlp
+pkg:composer/barefootjs/blade
+pkg:composer/barefootjs/php
+pkg:composer/barefootjs/twig
 pkg:composer/barelab/cakephp-adminlte-theme
 pkg:composer/barell/json-rpc-server
 pkg:composer/baremetalphp/baremetalphp
@@ -38576,6 +38579,7 @@ pkg:composer/blazon/psr11-monolog
 pkg:composer/blazon/psr11-symfony-cache
 pkg:composer/blazorazem/sanitizer
 pkg:composer/blchv/convert-blog
+pkg:composer/blcklab/panulat
 pkg:composer/blcklab/panulat-cli
 pkg:composer/blcklab/panulat-core
 pkg:composer/blcklab/panulat-jwt
@@ -48196,6 +48200,7 @@ pkg:composer/carvinglabs/monolog-cascade
 pkg:composer/carvx/sdk
 pkg:composer/caryley/laravel-inventory
 pkg:composer/carzozz/web3.php
+pkg:composer/cas-system/laravel-client
 pkg:composer/casa-parks/extract-routes
 pkg:composer/casa-parks/extract-translations
 pkg:composer/casa-publicadora-brasileira/portal-utils
@@ -49323,6 +49328,7 @@ pkg:composer/ceeram/cakephp-blame
 pkg:composer/ceeram/clear_cache
 pkg:composer/ceesvanegmond/minify
 pkg:composer/cegeka/symfony-toolkit
+pkg:composer/cegem360/laravel-withdrawal
 pkg:composer/cegem360/rector-filament
 pkg:composer/cegepth-info/slim-skeleton
 pkg:composer/ceghirepro/current
@@ -49806,6 +49812,7 @@ pkg:composer/cetria/laravel-dummy-models
 pkg:composer/cetria/laravel-filter
 pkg:composer/cetria/laravel-form
 pkg:composer/cetria/laravel-http-logger
+pkg:composer/cetria/laravel-route-model-upcaster
 pkg:composer/cetria/number-helper
 pkg:composer/cetria/reflection-helper
 pkg:composer/cetria/simple-xml-element
@@ -52213,6 +52220,7 @@ pkg:composer/chr0n1x/php_codesniffer_tests
 pkg:composer/chr15k/array
 pkg:composer/chr15k/http-command-generator
 pkg:composer/chr15k/laravel-blade
+pkg:composer/chr15k/laravel-legacy-bridge
 pkg:composer/chr15k/laravel-meilisearch-advanced-query
 pkg:composer/chr15k/laravel-mysql-encrypt
 pkg:composer/chr15k/laravel-repository
@@ -54941,6 +54949,7 @@ pkg:composer/cloudcake/nova-fixed-bars
 pkg:composer/cloudcake/nova-snowball
 pkg:composer/cloudcake/php-fluent
 pkg:composer/cloudcastle/di
+pkg:composer/cloudcastle/http-router
 pkg:composer/cloudcatch/gravityforms-phone-validation
 pkg:composer/cloudcatch/user-roles-table
 pkg:composer/cloudcms/cloudcms
@@ -56879,6 +56888,7 @@ pkg:composer/codehell/psd2
 pkg:composer/codehero-mx/nova-json-wrapper
 pkg:composer/codehero-mx/nova-permission-tool
 pkg:composer/codehero-mx/nova-settings-tool
+pkg:composer/codeheures-fr/scrutineer
 pkg:composer/codeheures/laravel-utils
 pkg:composer/codeholic/codeholic-php-mvc-core
 pkg:composer/codehouse/estcard
@@ -62146,6 +62156,7 @@ pkg:composer/coringawc/filament-action-approvals
 pkg:composer/coringawc/filament-input-loading
 pkg:composer/coringawc/filament-plugin-workbench
 pkg:composer/coringawc/filament-single-record-resource
+pkg:composer/coringawc/filament-tutorials
 pkg:composer/coriolis/sell-and-sign
 pkg:composer/corleonis/formmetadata
 pkg:composer/corleonis/oauth
@@ -83521,6 +83532,7 @@ pkg:composer/dragon-code/laravel-http-user-agent
 pkg:composer/dragon-code/laravel-ide-facades-helper
 pkg:composer/dragon-code/laravel-json-response
 pkg:composer/dragon-code/laravel-migration-actions
+pkg:composer/dragon-code/laravel-model-settings
 pkg:composer/dragon-code/laravel-request-tracker
 pkg:composer/dragon-code/laravel-route-names
 pkg:composer/dragon-code/laravel-routes-core
@@ -90667,7 +90679,37 @@ pkg:composer/elattar/laravel-mysql-spatial
 pkg:composer/elattar/prepare
 pkg:composer/elattar/pusher-notification
 pkg:composer/elavon/tpv
+pkg:composer/elavora/api-cache-apcu
+pkg:composer/elavora/api-cache-redis
+pkg:composer/elavora/api-database-mysql
+pkg:composer/elavora/api-database-pdo
+pkg:composer/elavora/api-database-postgresql
+pkg:composer/elavora/api-database-sqlite
+pkg:composer/elavora/api-datatype-base64
+pkg:composer/elavora/api-datatype-cnpj
+pkg:composer/elavora/api-datatype-core
+pkg:composer/elavora/api-datatype-cpf
+pkg:composer/elavora/api-datatype-date-time
+pkg:composer/elavora/api-datatype-email
+pkg:composer/elavora/api-datatype-file-name
+pkg:composer/elavora/api-datatype-file-path
+pkg:composer/elavora/api-datatype-folder-name
+pkg:composer/elavora/api-datatype-folder-path
+pkg:composer/elavora/api-datatype-json
+pkg:composer/elavora/api-datatype-storage-key
+pkg:composer/elavora/api-datatype-url
+pkg:composer/elavora/api-datatype-uuid
+pkg:composer/elavora/api-datatypes
 pkg:composer/elavora/api-framework
+pkg:composer/elavora/api-log-file
+pkg:composer/elavora/api-log-mongodb
+pkg:composer/elavora/api-log-stdout
+pkg:composer/elavora/api-queue-redis
+pkg:composer/elavora/api-queue-worker
+pkg:composer/elavora/api-redis
+pkg:composer/elavora/api-skeleton
+pkg:composer/elavora/api-storage-local
+pkg:composer/elavora/api-storage-s3
 pkg:composer/elavrom/cryptor
 pkg:composer/elaxer/router
 pkg:composer/elazar/auryn-configuration
@@ -93231,6 +93273,7 @@ pkg:composer/encore1/laravel-admin1
 pkg:composer/encore2/laravel-admin2
 pkg:composer/encoredigitalgroup/atlassian-sdk
 pkg:composer/encoredigitalgroup/business-hours
+pkg:composer/encoredigitalgroup/devtools
 pkg:composer/encoredigitalgroup/dynamicdata
 pkg:composer/encoredigitalgroup/filament-helpers
 pkg:composer/encoredigitalgroup/foundation
@@ -95557,6 +95600,7 @@ pkg:composer/ernestdefoe/google-fonts
 pkg:composer/ernestdefoe/gridiron-nation
 pkg:composer/ernestdefoe/group-messages
 pkg:composer/ernestdefoe/hero-builder
+pkg:composer/ernestdefoe/importer
 pkg:composer/ernestdefoe/janitor
 pkg:composer/ernestdefoe/maintenance
 pkg:composer/ernestdefoe/mobile-tab
@@ -95669,6 +95713,8 @@ pkg:composer/error/artisan-pgsql-initializer
 pkg:composer/error500/yii2-bootstrap-vue
 pkg:composer/error500/yii2-debug-cli
 pkg:composer/errorcode/tim
+pkg:composer/errorgap/errorgap
+pkg:composer/errorgap/laravel
 pkg:composer/erroronline1/markdown
 pkg:composer/errors/any
 pkg:composer/errors/exceptions
@@ -98103,6 +98149,7 @@ pkg:composer/exceldb/dbtoexcel
 pkg:composer/excelent/excelent
 pkg:composer/excelent/telegram-bot
 pkg:composer/excelhelper/excel
+pkg:composer/excelle-insights/whatsapp
 pkg:composer/excellencestar/invisiblecaptcha
 pkg:composer/excellens/manifest
 pkg:composer/excellent3207/captcha
@@ -98927,6 +98974,7 @@ pkg:composer/ezermeno/fmx-version-app
 pkg:composer/ezermeno/fmxpluck
 pkg:composer/ezeroldan/voyager-tools
 pkg:composer/ezerway/amazon-advertising-api-php-sdk
+pkg:composer/ezesha/end-year-reports
 pkg:composer/ezetech/wp-mailchimp
 pkg:composer/ezgaribotti/epagos-php
 pkg:composer/ezhasyafaat/laravel-view
@@ -100854,6 +100902,7 @@ pkg:composer/fastleo/fastleo
 pkg:composer/fastly/cdn
 pkg:composer/fastly/fastly
 pkg:composer/fastly/magento2
+pkg:composer/fastmcphp/fastmcphp
 pkg:composer/fastnetksa/laravel-applogger
 pkg:composer/fastnloud/zf2-dkim
 pkg:composer/fastnorth/property-mapper
@@ -103521,6 +103570,7 @@ pkg:composer/financialplugins/omnipay-trongrid
 pkg:composer/financialsistemas/sped-common
 pkg:composer/finaplus/laravel-menus
 pkg:composer/finaplus/rabbitmq
+pkg:composer/finatto/filament-theme
 pkg:composer/finazon/finazon-grpc-php
 pkg:composer/finbarrmccarthy/goalio-forgotpassword
 pkg:composer/finbarrmccarthy/goalio-mailservice
@@ -104964,6 +105014,7 @@ pkg:composer/fleet-dispatch/sdk
 pkg:composer/fleet-management-and-control/fmc-php-sdk
 pkg:composer/fleet-tower/essentials
 pkg:composer/fleet-tracking-technology/laravel-mail-transport
+pkg:composer/fleetbase/ai
 pkg:composer/fleetbase/core-api
 pkg:composer/fleetbase/countries
 pkg:composer/fleetbase/customer-portal-api
@@ -105597,6 +105648,7 @@ pkg:composer/flow-php/etl-adapter-meilisearch
 pkg:composer/flow-php/etl-adapter-parquet
 pkg:composer/flow-php/etl-adapter-postgresql
 pkg:composer/flow-php/etl-adapter-reactphp
+pkg:composer/flow-php/etl-adapter-seal
 pkg:composer/flow-php/etl-adapter-text
 pkg:composer/flow-php/etl-adapter-xml
 pkg:composer/flow-php/filesystem
@@ -105787,6 +105839,7 @@ pkg:composer/flowpack/nodetemplates
 pkg:composer/flowpack/nodevariantselector
 pkg:composer/flowpack/postgres-doctrine-tools
 pkg:composer/flowpack/prunner
+pkg:composer/flowpack/query-object-builder
 pkg:composer/flowpack/restrictcreation
 pkg:composer/flowpack/searchplugin
 pkg:composer/flowpack/seo-routing
@@ -106405,6 +106458,7 @@ pkg:composer/fof/analytics
 pkg:composer/fof/anti-spam
 pkg:composer/fof/auth-discord
 pkg:composer/fof/auth-gitlab
+pkg:composer/fof/author-change
 pkg:composer/fof/badges
 pkg:composer/fof/ban-ips
 pkg:composer/fof/bbcode-details
@@ -106491,6 +106545,7 @@ pkg:composer/fof/terms
 pkg:composer/fof/top-posters-widget
 pkg:composer/fof/transliterator
 pkg:composer/fof/ui-kit
+pkg:composer/fof/upgrade-advisor
 pkg:composer/fof/upload
 pkg:composer/fof/user-bio
 pkg:composer/fof/user-directory
