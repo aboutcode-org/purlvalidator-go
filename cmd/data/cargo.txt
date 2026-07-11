@@ -33700,6 +33700,7 @@ pkg:cargo/cage
 pkg:cargo/cage-bro
 pkg:cargo/cage-bro-code
 pkg:cargo/cage-bro-runtime
+pkg:cargo/cagelock
 pkg:cargo/cagent
 pkg:cargo/cagette
 pkg:cargo/cagra
@@ -34263,6 +34264,7 @@ pkg:cargo/camel-component-container
 pkg:cargo/camel-component-controlbus
 pkg:cargo/camel-component-cxf
 pkg:cargo/camel-component-direct
+pkg:cargo/camel-component-exec
 pkg:cargo/camel-component-file
 pkg:cargo/camel-component-grpc
 pkg:cargo/camel-component-http
@@ -35854,6 +35856,7 @@ pkg:cargo/cargo-debstatus
 pkg:cargo/cargo-debt
 pkg:cargo/cargo-debug
 pkg:cargo/cargo-debugger
+pkg:cargo/cargo-deck
 pkg:cargo/cargo-declared
 pkg:cargo/cargo-dedup
 pkg:cargo/cargo-dedupe
@@ -35919,6 +35922,7 @@ pkg:cargo/cargo-disassemble
 pkg:cargo/cargo-dist
 pkg:cargo/cargo-dist-schema
 pkg:cargo/cargo-distant
+pkg:cargo/cargo-distil
 pkg:cargo/cargo-distribute
 pkg:cargo/cargo-djogi
 pkg:cargo/cargo-dl
@@ -37088,6 +37092,7 @@ pkg:cargo/cargo-travis-fork
 pkg:cargo/cargo-tree
 pkg:cargo/cargo-treemap
 pkg:cargo/cargo-trend
+pkg:cargo/cargo-triage
 pkg:cargo/cargo-tribute
 pkg:cargo/cargo-trim
 pkg:cargo/cargo-truce
@@ -68397,6 +68402,8 @@ pkg:cargo/eei
 pkg:cargo/eei_vfd
 pkg:cargo/eejit
 pkg:cargo/eelco
+pkg:cargo/eelden-storage
+pkg:cargo/eelden-wal
 pkg:cargo/eelu-login
 pkg:cargo/eenn
 pkg:cargo/eenv
@@ -68725,6 +68732,11 @@ pkg:cargo/eggsh
 pkg:cargo/eggshell
 pkg:cargo/eggshell-app
 pkg:cargo/eggtimer
+pkg:cargo/egide-crypto
+pkg:cargo/egide-kms
+pkg:cargo/egide-storage
+pkg:cargo/egide-storage-postgres
+pkg:cargo/egide-storage-sqlite
 pkg:cargo/egis
 pkg:cargo/egl
 pkg:cargo/egli
@@ -78839,6 +78851,7 @@ pkg:cargo/ferrilog
 pkg:cargo/ferrilog-core
 pkg:cargo/ferrilog-macros
 pkg:cargo/ferrimind
+pkg:cargo/ferrimock-cli
 pkg:cargo/ferriorm-cli
 pkg:cargo/ferriorm-codegen
 pkg:cargo/ferriorm-core
@@ -79239,6 +79252,7 @@ pkg:cargo/ferry-core
 pkg:cargo/ferry-tui
 pkg:cargo/ferryllm
 pkg:cargo/fert-calc
+pkg:cargo/ferth
 pkg:cargo/feruca
 pkg:cargo/ferveo-common-nucypher-temp
 pkg:cargo/ferveo-common-nucypher-temp2
@@ -90316,6 +90330,7 @@ pkg:cargo/gihex-hc-sr04
 pkg:cargo/giit_rbpf
 pkg:cargo/gil
 pkg:cargo/gild
+pkg:cargo/gildara
 pkg:cargo/gilded
 pkg:cargo/gilder
 pkg:cargo/gildlab-cli
@@ -91188,6 +91203,11 @@ pkg:cargo/gitfile
 pkg:cargo/gitflect
 pkg:cargo/gitfleet
 pkg:cargo/gitflow
+pkg:cargo/gitflow-cli
+pkg:cargo/gitflow-cli-core
+pkg:cargo/gitflow-cli-gitcode
+pkg:cargo/gitflow-cli-github
+pkg:cargo/gitflow-cli-gitlab
 pkg:cargo/gitfluff
 pkg:cargo/gitflux
 pkg:cargo/gitforge
@@ -91928,6 +91948,7 @@ pkg:cargo/glio
 pkg:cargo/glip
 pkg:cargo/gliror
 pkg:cargo/glisp
+pkg:cargo/gliss
 pkg:cargo/glissade
 pkg:cargo/glissade-macro
 pkg:cargo/glissile
@@ -91984,6 +92005,7 @@ pkg:cargo/glm-vision-rs
 pkg:cargo/glm_color
 pkg:cargo/glmath
 pkg:cargo/glmatrix
+pkg:cargo/glmatrix-rs
 pkg:cargo/glmedlock_art
 pkg:cargo/glmimage-app-oss
 pkg:cargo/glmm
@@ -99104,6 +99126,8 @@ pkg:cargo/hanzo-compute
 pkg:cargo/hanzo-config
 pkg:cargo/hanzo-consensus
 pkg:cargo/hanzo-crypto
+pkg:cargo/hanzo-cubecl-hip
+pkg:cargo/hanzo-cubecl-hip-sys
 pkg:cargo/hanzo-database
 pkg:cargo/hanzo-datasets
 pkg:cargo/hanzo-db-sqlite
@@ -99393,6 +99417,7 @@ pkg:cargo/harn-rules
 pkg:cargo/harn-rules-hostlib
 pkg:cargo/harn-secret-catalog
 pkg:cargo/harn-serve
+pkg:cargo/harn-session-store
 pkg:cargo/harn-skills
 pkg:cargo/harn-stdlib
 pkg:cargo/harn-vm
@@ -99443,6 +99468,7 @@ pkg:cargo/harness-rs-sensors-common
 pkg:cargo/harness-rs-sensors-rust
 pkg:cargo/harness-rs-skills
 pkg:cargo/harness-rs-templates
+pkg:cargo/harness-rs-tools-docs
 pkg:cargo/harness-rs-tools-fs
 pkg:cargo/harness-rs-tools-memory
 pkg:cargo/harness-rs-tools-shell
@@ -132896,6 +132922,15 @@ pkg:cargo/luff
 pkg:cargo/luff_sys
 pkg:cargo/lufs
 pkg:cargo/lufsgen
+pkg:cargo/luft
+pkg:cargo/luft-adapters
+pkg:cargo/luft-cli
+pkg:cargo/luft-core
+pkg:cargo/luft-mcp
+pkg:cargo/luft-planner
+pkg:cargo/luft-runtime
+pkg:cargo/luft-service
+pkg:cargo/luft-storage
 pkg:cargo/luftpost
 pkg:cargo/lugnut
 pkg:cargo/luhanxin-searchlight
@@ -133334,6 +133369,7 @@ pkg:cargo/lupine-sign
 pkg:cargo/lupine-wasm
 pkg:cargo/lupp
 pkg:cargo/lupt
+pkg:cargo/lupus
 pkg:cargo/lura
 pkg:cargo/lurch
 pkg:cargo/lure
@@ -152482,6 +152518,7 @@ pkg:cargo/net-literals-impl
 pkg:cargo/net-mc
 pkg:cargo/net-mel
 pkg:cargo/net-mesh
+pkg:cargo/net-mesh-mcp
 pkg:cargo/net-mesh-sdk
 pkg:cargo/net-mesh-sdk-macros
 pkg:cargo/net-mumu
@@ -153723,6 +153760,7 @@ pkg:cargo/nexus-id
 pkg:cargo/nexus-inference
 pkg:cargo/nexus-lang
 pkg:cargo/nexus-lang-cli
+pkg:cargo/nexus-lang-cxx
 pkg:cargo/nexus-lang-ffi
 pkg:cargo/nexus-lib
 pkg:cargo/nexus-logbuf
@@ -153990,6 +154028,9 @@ pkg:cargo/nginx_derive
 pkg:cargo/nginx_module
 pkg:cargo/nginxfmt
 pkg:cargo/ngit
+pkg:cargo/ngit-ci
+pkg:cargo/ngit-ci-adapter-microvm
+pkg:cargo/ngit-ci-adapter-protocol
 pkg:cargo/ngit-grasp
 pkg:cargo/ngl
 pkg:cargo/ngl-migration
@@ -185603,6 +185644,7 @@ pkg:cargo/quiverdb-server
 pkg:cargo/quiverdb-simd
 pkg:cargo/quiverdb-tui
 pkg:cargo/quiverquant
+pkg:cargo/quivora
 pkg:cargo/quix
 pkg:cargo/quix-build
 pkg:cargo/quix-derive
@@ -222219,6 +222261,7 @@ pkg:cargo/soket
 pkg:cargo/soketi-rs
 pkg:cargo/soketto
 pkg:cargo/sokgi
+pkg:cargo/soklyn
 pkg:cargo/sokoban
 pkg:cargo/sokoban-rs
 pkg:cargo/sokoke
@@ -223501,6 +223544,8 @@ pkg:cargo/sonar
 pkg:cargo/sonar-as-code
 pkg:cargo/sonar-cli
 pkg:cargo/sonar-core
+pkg:cargo/sonar-flows-cli
+pkg:cargo/sonar-flows-core
 pkg:cargo/sonar-mcp
 pkg:cargo/sonar-rna
 pkg:cargo/sonar-rna-cli
@@ -223624,6 +223669,7 @@ pkg:cargo/soos-sample-project
 pkg:cargo/soot
 pkg:cargo/soot-cli
 pkg:cargo/soot-core
+pkg:cargo/sooth
 pkg:cargo/sop
 pkg:cargo/sopass
 pkg:cargo/sope
@@ -232482,6 +232528,7 @@ pkg:cargo/sunset-rs
 pkg:cargo/sunset-sftp
 pkg:cargo/sunset-sshwire-derive
 pkg:cargo/sunset-stdasync
+pkg:cargo/sunsetr
 pkg:cargo/sunshine
 pkg:cargo/sunshine-bank
 pkg:cargo/sunshine-bank-offchain
@@ -233215,6 +233262,7 @@ pkg:cargo/surrealdb-tikv-client-common
 pkg:cargo/surrealdb-tikv-client-pd
 pkg:cargo/surrealdb-tikv-client-proto
 pkg:cargo/surrealdb-tikv-client-store
+pkg:cargo/surrealdb-token
 pkg:cargo/surrealdb-types
 pkg:cargo/surrealdb-types-derive
 pkg:cargo/surrealdb_client
@@ -251655,6 +251703,7 @@ pkg:cargo/turbo-vec
 pkg:cargo/turbo-vision
 pkg:cargo/turbo-xlsx-core
 pkg:cargo/turbo_atlas_icons
+pkg:cargo/turbo_crc
 pkg:cargo/turbo_input
 pkg:cargo/turbo_pfor_sys
 pkg:cargo/turbo_r
@@ -270866,6 +270915,8 @@ pkg:cargo/ws2_32-sys
 pkg:cargo/ws2can
 pkg:cargo/ws2markdown
 pkg:cargo/ws2tcp-local
+pkg:cargo/ws2tcp-local-core
+pkg:cargo/ws2tcp-local-ffi
 pkg:cargo/ws2tcp-router
 pkg:cargo/ws63-hal
 pkg:cargo/ws63-pac
