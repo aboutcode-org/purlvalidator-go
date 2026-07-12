@@ -33522,6 +33522,7 @@ pkg:cargo/cachedb
 pkg:cargo/cachedhash
 pkg:cargo/cachedir
 pkg:cargo/cachefetch
+pkg:cargo/cacheflight
 pkg:cargo/cacheflush-sys
 pkg:cargo/cacheguard
 pkg:cargo/cachekit
@@ -33632,6 +33633,14 @@ pkg:cargo/cadir
 pkg:cargo/cadk
 pkg:cargo/cadk-bnf
 pkg:cargo/cadmium-yellow
+pkg:cargo/cadmpeg
+pkg:cargo/cadmpeg-codec-catia
+pkg:cargo/cadmpeg-codec-creo
+pkg:cargo/cadmpeg-codec-f3d
+pkg:cargo/cadmpeg-codec-nx
+pkg:cargo/cadmpeg-codec-sldprt
+pkg:cargo/cadmpeg-ir
+pkg:cargo/cadmpeg-step
 pkg:cargo/cadnano-format
 pkg:cargo/cadom
 pkg:cargo/cadra
@@ -33652,9 +33661,11 @@ pkg:cargo/cae
 pkg:cargo/caead
 pkg:cargo/caelix
 pkg:cargo/caelix-actix
+pkg:cargo/caelix-axum
 pkg:cargo/caelix-cli
 pkg:cargo/caelix-core
 pkg:cargo/caelix-macros
+pkg:cargo/caelix-socketio
 pkg:cargo/caelum
 pkg:cargo/caelum-diddoc
 pkg:cargo/caelum-id
@@ -33918,6 +33929,7 @@ pkg:cargo/calcbits
 pkg:cargo/calceph-sys
 pkg:cargo/calcer
 pkg:cargo/calcfyi
+pkg:cargo/calchemy
 pkg:cargo/calchy
 pkg:cargo/calcifer-client
 pkg:cargo/calcifer-howl-gui
@@ -35815,6 +35827,7 @@ pkg:cargo/cargo-criterion-means
 pkg:cargo/cargo-crofty
 pkg:cargo/cargo-cross
 pkg:cargo/cargo-cross-test
+pkg:cargo/cargo-crossbuild-cli
 pkg:cargo/cargo-crosscut
 pkg:cargo/cargo-crusader
 pkg:cargo/cargo-cryptile
@@ -37195,6 +37208,7 @@ pkg:cargo/cargo-vroom
 pkg:cargo/cargo-vs
 pkg:cargo/cargo-vsc
 pkg:cargo/cargo-vsql
+pkg:cargo/cargo-vuln-check
 pkg:cargo/cargo-wa
 pkg:cargo/cargo-wabt
 pkg:cargo/cargo-walk
@@ -37544,6 +37558,7 @@ pkg:cargo/cart_prod
 pkg:cargo/carta
 pkg:cargo/carta-ast
 pkg:cargo/carta-core
+pkg:cargo/carta-highlight
 pkg:cargo/carta-readers
 pkg:cargo/carta-schema
 pkg:cargo/carta-writers
@@ -38223,6 +38238,7 @@ pkg:cargo/cavs-analyzer
 pkg:cargo/cavs-chunker
 pkg:cargo/cavs-cli
 pkg:cargo/cavs-client
+pkg:cargo/cavs-fetch
 pkg:cargo/cavs-ffi
 pkg:cargo/cavs-format
 pkg:cargo/cavs-hash
@@ -63300,6 +63316,7 @@ pkg:cargo/docdb
 pkg:cargo/docdiff
 pkg:cargo/docdigitizer
 pkg:cargo/docdoc
+pkg:cargo/docenta
 pkg:cargo/docer
 pkg:cargo/docext
 pkg:cargo/docfg
@@ -64339,6 +64356,7 @@ pkg:cargo/dotrepo-lsp
 pkg:cargo/dotrepo-mcp
 pkg:cargo/dotrepo-schema
 pkg:cargo/dotrepo-transport
+pkg:cargo/dotrig
 pkg:cargo/dotrix
 pkg:cargo/dotrix_core
 pkg:cargo/dotrix_ecs
@@ -78760,6 +78778,7 @@ pkg:cargo/ferra-server
 pkg:cargo/ferragent
 pkg:cargo/ferramentum
 pkg:cargo/ferranet
+pkg:cargo/ferrant
 pkg:cargo/ferrate
 pkg:cargo/ferrax
 pkg:cargo/ferray
@@ -78851,6 +78870,7 @@ pkg:cargo/ferrilog
 pkg:cargo/ferrilog-core
 pkg:cargo/ferrilog-macros
 pkg:cargo/ferrimind
+pkg:cargo/ferrimock
 pkg:cargo/ferrimock-cli
 pkg:cargo/ferriorm-cli
 pkg:cargo/ferriorm-codegen
@@ -78958,11 +78978,14 @@ pkg:cargo/ferrite-cli
 pkg:cargo/ferrite-config
 pkg:cargo/ferrite-core
 pkg:cargo/ferrite-dl
+pkg:cargo/ferrite-fixtures
 pkg:cargo/ferrite-image
+pkg:cargo/ferrite-inference
 pkg:cargo/ferrite-json
 pkg:cargo/ferrite-llm
 pkg:cargo/ferrite-logging
 pkg:cargo/ferrite-ml
+pkg:cargo/ferrite-model
 pkg:cargo/ferrite-navigation
 pkg:cargo/ferrite-rs
 pkg:cargo/ferrite-session
@@ -90263,6 +90286,10 @@ pkg:cargo/gideon
 pkg:cargo/gideon-mef
 pkg:cargo/gidle_future
 pkg:cargo/gie-client
+pkg:cargo/gieter
+pkg:cargo/gieter_core
+pkg:cargo/gieter_postgres
+pkg:cargo/gieter_typescript
 pkg:cargo/gif
 pkg:cargo/gif-dispose
 pkg:cargo/gif2tty
@@ -90777,6 +90804,7 @@ pkg:cargo/git-odb
 pkg:cargo/git-oidc
 pkg:cargo/git-oof
 pkg:cargo/git-open
+pkg:cargo/git-opendal
 pkg:cargo/git-ops
 pkg:cargo/git-outpost
 pkg:cargo/git-overlay
@@ -90829,6 +90857,7 @@ pkg:cargo/git-remote-codecommit
 pkg:cargo/git-remote-cospan
 pkg:cargo/git-remote-fetcher
 pkg:cargo/git-remote-htree
+pkg:cargo/git-remote-iroh
 pkg:cargo/git-remote-k8s
 pkg:cargo/git-remote-object-store
 pkg:cargo/git-remote-object-store-cli
@@ -132969,6 +132998,8 @@ pkg:cargo/luke
 pkg:cargo/lukkid
 pkg:cargo/luks
 pkg:cargo/luks-and
+pkg:cargo/luks-core
+pkg:cargo/luks-forensic
 pkg:cargo/luks-header-backup
 pkg:cargo/luks-module-sys
 pkg:cargo/luks2
@@ -133134,6 +133165,7 @@ pkg:cargo/luminous
 pkg:cargo/luminvent-raw-window-handle
 pkg:cargo/luminvent_winit
 pkg:cargo/lumio
+pkg:cargo/lumio-gui
 pkg:cargo/lumio_core
 pkg:cargo/lumio_help
 pkg:cargo/lumis
@@ -147660,8 +147692,15 @@ pkg:cargo/mtemp
 pkg:cargo/mterm
 pkg:cargo/mtf
 pkg:cargo/mtfs
+pkg:cargo/mtg-alien-raid
+pkg:cargo/mtg-breaker
+pkg:cargo/mtg-breakout
+pkg:cargo/mtg-brick-breaker
+pkg:cargo/mtg-core
 pkg:cargo/mtg-deck-stats
 pkg:cargo/mtg-mcp
+pkg:cargo/mtg-paddle-battle
+pkg:cargo/mtg-snek
 pkg:cargo/mtg_color
 pkg:cargo/mtga_resources_locator
 pkg:cargo/mtgadmin
@@ -148910,6 +148949,7 @@ pkg:cargo/mxml_dep
 pkg:cargo/mxmlextrema
 pkg:cargo/mxmlextrema-as3parser
 pkg:cargo/mxmlextrema-mxmlcaot
+pkg:cargo/mxmxmx2tiles
 pkg:cargo/mxo_env_logger
 pkg:cargo/mxp
 pkg:cargo/mxp-agents
@@ -196318,6 +196358,7 @@ pkg:cargo/rmem
 pkg:cargo/rmemo
 pkg:cargo/rmemstore
 pkg:cargo/rmemstore-messages
+pkg:cargo/rmen
 pkg:cargo/rmenu
 pkg:cargo/rmeow
 pkg:cargo/rmesg
@@ -196448,6 +196489,7 @@ pkg:cargo/rmqtt-raft-core
 pkg:cargo/rmqtt-raft-proto
 pkg:cargo/rmqtt-retainer
 pkg:cargo/rmqtt-session-storage
+pkg:cargo/rmqtt-shared-subscription
 pkg:cargo/rmqtt-storage
 pkg:cargo/rmqtt-sys-topic
 pkg:cargo/rmqtt-topic-rewrite
@@ -251511,6 +251553,7 @@ pkg:cargo/tunnelto_protocol
 pkg:cargo/tunnix
 pkg:cargo/tunnl-cli
 pkg:cargo/tunnl-shared
+pkg:cargo/tunnr-vm
 pkg:cargo/tunny
 pkg:cargo/tuntap
 pkg:cargo/tunuki
@@ -251907,6 +251950,7 @@ pkg:cargo/turndown-cdp
 pkg:cargo/turndown-core
 pkg:cargo/turngate
 pkg:cargo/turnhammer
+pkg:cargo/turnhold
 pkg:cargo/turnip
 pkg:cargo/turnip-tunnel
 pkg:cargo/turnkeeper
@@ -278141,6 +278185,7 @@ pkg:cargo/zuit-report
 pkg:cargo/zuit-show
 pkg:cargo/zuix
 pkg:cargo/zuk
+pkg:cargo/zuko
 pkg:cargo/zul
 pkg:cargo/zula
 pkg:cargo/zula-core
