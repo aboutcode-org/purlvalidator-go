@@ -112,6 +112,7 @@ pkg:apk/alpine/abseil-cpp-bad-variant-access
 pkg:apk/alpine/abseil-cpp-base
 pkg:apk/alpine/abseil-cpp-city
 pkg:apk/alpine/abseil-cpp-civil-time
+pkg:apk/alpine/abseil-cpp-clock-interface
 pkg:apk/alpine/abseil-cpp-cord
 pkg:apk/alpine/abseil-cpp-cord-internal
 pkg:apk/alpine/abseil-cpp-cordz-functions
@@ -144,6 +145,7 @@ pkg:apk/alpine/abseil-cpp-flags-program-name
 pkg:apk/alpine/abseil-cpp-flags-reflection
 pkg:apk/alpine/abseil-cpp-flags-usage
 pkg:apk/alpine/abseil-cpp-flags-usage-internal
+pkg:apk/alpine/abseil-cpp-generic-printer-internal
 pkg:apk/alpine/abseil-cpp-graphcycles-internal
 pkg:apk/alpine/abseil-cpp-hash
 pkg:apk/alpine/abseil-cpp-hash-generator-testing
@@ -194,11 +196,14 @@ pkg:apk/alpine/abseil-cpp-raw-hash-set
 pkg:apk/alpine/abseil-cpp-raw-logging-internal
 pkg:apk/alpine/abseil-cpp-scoped-mock-log
 pkg:apk/alpine/abseil-cpp-scoped-set-env
+pkg:apk/alpine/abseil-cpp-simulated-clock
+pkg:apk/alpine/abseil-cpp-source-location
 pkg:apk/alpine/abseil-cpp-spinlock-test-common
 pkg:apk/alpine/abseil-cpp-spinlock-wait
 pkg:apk/alpine/abseil-cpp-stack-consumption
 pkg:apk/alpine/abseil-cpp-stacktrace
 pkg:apk/alpine/abseil-cpp-status
+pkg:apk/alpine/abseil-cpp-status-builder
 pkg:apk/alpine/abseil-cpp-status-matchers
 pkg:apk/alpine/abseil-cpp-statusor
 pkg:apk/alpine/abseil-cpp-str-format-internal
@@ -748,6 +753,8 @@ pkg:apk/alpine/android-udev-rules
 pkg:apk/alpine/angband
 pkg:apk/alpine/angelfish
 pkg:apk/alpine/angelfish-lang
+pkg:apk/alpine/angie
+pkg:apk/alpine/angie-openrc
 pkg:apk/alpine/animatch
 pkg:apk/alpine/animatch-doc
 pkg:apk/alpine/animatch-static
@@ -5990,6 +5997,7 @@ pkg:apk/alpine/dragon-lang
 pkg:apk/alpine/draw
 pkg:apk/alpine/drawing
 pkg:apk/alpine/drawing-lang
+pkg:apk/alpine/drawio-desktop
 pkg:apk/alpine/drawpile
 pkg:apk/alpine/drawpile-base
 pkg:apk/alpine/drawpile-client
@@ -9736,6 +9744,7 @@ pkg:apk/alpine/google-cloud-cpp-bigtable
 pkg:apk/alpine/google-cloud-cpp-billing
 pkg:apk/alpine/google-cloud-cpp-binaryauthorization
 pkg:apk/alpine/google-cloud-cpp-certificatemanager
+pkg:apk/alpine/google-cloud-cpp-ces
 pkg:apk/alpine/google-cloud-cpp-channel
 pkg:apk/alpine/google-cloud-cpp-chronicle
 pkg:apk/alpine/google-cloud-cpp-cloud-common-common-protos
@@ -9860,6 +9869,7 @@ pkg:apk/alpine/google-cloud-cpp-eventarc
 pkg:apk/alpine/google-cloud-cpp-filestore
 pkg:apk/alpine/google-cloud-cpp-financialservices
 pkg:apk/alpine/google-cloud-cpp-functions
+pkg:apk/alpine/google-cloud-cpp-geminidataanalytics
 pkg:apk/alpine/google-cloud-cpp-gkebackup
 pkg:apk/alpine/google-cloud-cpp-gkeconnect
 pkg:apk/alpine/google-cloud-cpp-gkehub
@@ -9867,6 +9877,7 @@ pkg:apk/alpine/google-cloud-cpp-gkemulticloud
 pkg:apk/alpine/google-cloud-cpp-gkerecommender
 pkg:apk/alpine/google-cloud-cpp-grafeas-protos
 pkg:apk/alpine/google-cloud-cpp-grpc-utils
+pkg:apk/alpine/google-cloud-cpp-hypercomputecluster
 pkg:apk/alpine/google-cloud-cpp-iam
 pkg:apk/alpine/google-cloud-cpp-iap
 pkg:apk/alpine/google-cloud-cpp-ids
@@ -9891,6 +9902,7 @@ pkg:apk/alpine/google-cloud-cpp-networksecurity
 pkg:apk/alpine/google-cloud-cpp-networkservices
 pkg:apk/alpine/google-cloud-cpp-notebooks
 pkg:apk/alpine/google-cloud-cpp-oauth2
+pkg:apk/alpine/google-cloud-cpp-opentelemetry
 pkg:apk/alpine/google-cloud-cpp-optimization
 pkg:apk/alpine/google-cloud-cpp-oracledatabase
 pkg:apk/alpine/google-cloud-cpp-orgpolicy
@@ -9967,15 +9979,18 @@ pkg:apk/alpine/google-cloud-cpp-type-postal-address
 pkg:apk/alpine/google-cloud-cpp-type-quaternion
 pkg:apk/alpine/google-cloud-cpp-type-timeofday
 pkg:apk/alpine/google-cloud-cpp-universe_domain
+pkg:apk/alpine/google-cloud-cpp-vectorsearch
 pkg:apk/alpine/google-cloud-cpp-video
 pkg:apk/alpine/google-cloud-cpp-videointelligence
 pkg:apk/alpine/google-cloud-cpp-vision
+pkg:apk/alpine/google-cloud-cpp-visionai
 pkg:apk/alpine/google-cloud-cpp-vmmigration
 pkg:apk/alpine/google-cloud-cpp-vmwareengine
 pkg:apk/alpine/google-cloud-cpp-vpcaccess
 pkg:apk/alpine/google-cloud-cpp-webrisk
 pkg:apk/alpine/google-cloud-cpp-websecurityscanner
 pkg:apk/alpine/google-cloud-cpp-workflows
+pkg:apk/alpine/google-cloud-cpp-workloadmanager
 pkg:apk/alpine/google-cloud-cpp-workstations
 pkg:apk/alpine/goomwwm
 pkg:apk/alpine/gopass
