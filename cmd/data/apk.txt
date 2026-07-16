@@ -4687,6 +4687,7 @@ pkg:apk/alpine/cosmic-icons
 pkg:apk/alpine/cosmic-idle
 pkg:apk/alpine/cosmic-initial-setup
 pkg:apk/alpine/cosmic-launcher
+pkg:apk/alpine/cosmic-monitor
 pkg:apk/alpine/cosmic-notifications
 pkg:apk/alpine/cosmic-osd
 pkg:apk/alpine/cosmic-panel
@@ -4699,6 +4700,7 @@ pkg:apk/alpine/cosmic-settings
 pkg:apk/alpine/cosmic-settings-daemon
 pkg:apk/alpine/cosmic-store
 pkg:apk/alpine/cosmic-term
+pkg:apk/alpine/cosmic-wallpapers
 pkg:apk/alpine/cosmic-workspaces
 pkg:apk/alpine/cosmopolitan
 pkg:apk/alpine/cosmopolitan-doc
@@ -7353,6 +7355,10 @@ pkg:apk/alpine/firewalld-lang
 pkg:apk/alpine/firewalld-openrc
 pkg:apk/alpine/firewalld-systemd
 pkg:apk/alpine/firewalld-zsh-completion
+pkg:apk/alpine/firewallfabrik
+pkg:apk/alpine/firewallfabrik-gui
+pkg:apk/alpine/firewallfabrik-gui-pyc
+pkg:apk/alpine/firewallfabrik-pyc
 pkg:apk/alpine/fish
 pkg:apk/alpine/fish-dev
 pkg:apk/alpine/fish-doc
@@ -19837,6 +19843,7 @@ pkg:apk/alpine/merlin
 pkg:apk/alpine/merlin-dev
 pkg:apk/alpine/merlin-emacs
 pkg:apk/alpine/merlin-vim
+pkg:apk/alpine/mermaid-rs-renderer
 pkg:apk/alpine/mesa
 pkg:apk/alpine/mesa-dbg
 pkg:apk/alpine/mesa-demos
@@ -28139,12 +28146,16 @@ pkg:apk/alpine/pipewire-openrc
 pkg:apk/alpine/pipewire-pulse
 pkg:apk/alpine/pipewire-pulse-openrc
 pkg:apk/alpine/pipewire-pulse-systemd
+pkg:apk/alpine/pipewire-rtp
+pkg:apk/alpine/pipewire-snapcast
 pkg:apk/alpine/pipewire-spa-bluez
+pkg:apk/alpine/pipewire-spa-libcamera
 pkg:apk/alpine/pipewire-spa-tools
 pkg:apk/alpine/pipewire-spa-vulkan
 pkg:apk/alpine/pipewire-systemd
 pkg:apk/alpine/pipewire-tools
 pkg:apk/alpine/pipewire-udev
+pkg:apk/alpine/pipewire-webrtc
 pkg:apk/alpine/pipewire-x11
 pkg:apk/alpine/pipewire-zeroconf
 pkg:apk/alpine/pipexec
