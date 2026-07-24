@@ -6091,6 +6091,9 @@ pkg:apk/alpine/dtach
 pkg:apk/alpine/dtach-doc
 pkg:apk/alpine/dtc
 pkg:apk/alpine/dtc-dev
+pkg:apk/alpine/dte
+pkg:apk/alpine/dte-bash-completion
+pkg:apk/alpine/dte-doc
 pkg:apk/alpine/dtools
 pkg:apk/alpine/dtools-ddemangle
 pkg:apk/alpine/dtools-dustmite
@@ -10951,6 +10954,8 @@ pkg:apk/alpine/headscale-bash-completion
 pkg:apk/alpine/headscale-fish-completion
 pkg:apk/alpine/headscale-openrc
 pkg:apk/alpine/headscale-zsh-completion
+pkg:apk/alpine/heatshrink
+pkg:apk/alpine/heatshrink-dev
 pkg:apk/alpine/heh
 pkg:apk/alpine/heh-doc
 pkg:apk/alpine/heif-thumbnailer
@@ -18548,6 +18553,7 @@ pkg:apk/alpine/lua5.2-lume
 pkg:apk/alpine/lua5.2-lunit
 pkg:apk/alpine/lua5.2-lunix
 pkg:apk/alpine/lua5.2-lustache
+pkg:apk/alpine/lua5.2-luv
 pkg:apk/alpine/lua5.2-lxc
 pkg:apk/alpine/lua5.2-lyaml
 pkg:apk/alpine/lua5.2-lzlib
@@ -18700,6 +18706,7 @@ pkg:apk/alpine/lua5.3-lume
 pkg:apk/alpine/lua5.3-lunit
 pkg:apk/alpine/lua5.3-lunix
 pkg:apk/alpine/lua5.3-lustache
+pkg:apk/alpine/lua5.3-luv
 pkg:apk/alpine/lua5.3-lxc
 pkg:apk/alpine/lua5.3-lyaml
 pkg:apk/alpine/lua5.3-lzlib
@@ -18911,6 +18918,7 @@ pkg:apk/alpine/lua5.5-luatz
 pkg:apk/alpine/lua5.5-luaxml
 pkg:apk/alpine/lua5.5-lume
 pkg:apk/alpine/lua5.5-lunit
+pkg:apk/alpine/lua5.5-luv
 pkg:apk/alpine/lua5.5-lxc
 pkg:apk/alpine/lua5.5-lzlib
 pkg:apk/alpine/lua5.5-lzmq
@@ -36616,6 +36624,9 @@ pkg:apk/alpine/roundcubemail-openrc
 pkg:apk/alpine/roundcubemail-pgsql
 pkg:apk/alpine/roundcubemail-sqlite
 pkg:apk/alpine/roundcubemail-zipdownload
+pkg:apk/alpine/routewrangler
+pkg:apk/alpine/routewrangler-openrc
+pkg:apk/alpine/routewrangler-systemd
 pkg:apk/alpine/rover
 pkg:apk/alpine/rover-doc
 pkg:apk/alpine/roxterm
@@ -37249,6 +37260,7 @@ pkg:apk/alpine/rustypaste
 pkg:apk/alpine/rustypaste-cli
 pkg:apk/alpine/rustypaste-cli-doc
 pkg:apk/alpine/rustypaste-doc
+pkg:apk/alpine/rustypaste-openrc
 pkg:apk/alpine/rutorrent
 pkg:apk/alpine/ruuvi-prometheus
 pkg:apk/alpine/ruuvi-prometheus-openrc
@@ -42215,6 +42227,8 @@ pkg:apk/alpine/wxwidgets-gtk3
 pkg:apk/alpine/wxwidgets-qt5
 pkg:apk/alpine/wxwidgets-webview
 pkg:apk/alpine/wys
+pkg:apk/alpine/wys-openrc
+pkg:apk/alpine/wys-systemd
 pkg:apk/alpine/x11-calc
 pkg:apk/alpine/x11-calc-prg
 pkg:apk/alpine/x11docker
