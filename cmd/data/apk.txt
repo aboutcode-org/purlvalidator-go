@@ -4877,6 +4877,7 @@ pkg:apk/alpine/cryptsetup1-libs
 pkg:apk/alpine/crystal
 pkg:apk/alpine/crystal-bash-completion
 pkg:apk/alpine/crystal-doc
+pkg:apk/alpine/crystal-fish-completion
 pkg:apk/alpine/crystal-zsh-completion
 pkg:apk/alpine/cs-firewall-bouncer
 pkg:apk/alpine/cs-firewall-bouncer-awall
@@ -23352,6 +23353,7 @@ pkg:apk/alpine/openssh
 pkg:apk/alpine/openssh-askpass
 pkg:apk/alpine/openssh-client
 pkg:apk/alpine/openssh-client-common
+pkg:apk/alpine/openssh-client-common-openrc
 pkg:apk/alpine/openssh-client-default
 pkg:apk/alpine/openssh-client-krb5
 pkg:apk/alpine/openssh-client-yash-completion
@@ -40062,7 +40064,9 @@ pkg:apk/alpine/tiny-cloud-network
 pkg:apk/alpine/tiny-cloud-nocloud
 pkg:apk/alpine/tiny-cloud-oci
 pkg:apk/alpine/tiny-cloud-openrc
+pkg:apk/alpine/tiny-cloud-openstack
 pkg:apk/alpine/tiny-cloud-scaleway
+pkg:apk/alpine/tiny-cloud-systemd
 pkg:apk/alpine/tiny-dfr
 pkg:apk/alpine/tiny-dfr-openrc
 pkg:apk/alpine/tiny-doc
