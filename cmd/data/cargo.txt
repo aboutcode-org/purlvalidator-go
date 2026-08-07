@@ -1241,6 +1241,7 @@ pkg:cargo/ableton-link
 pkg:cargo/ableton-link-rs
 pkg:cargo/ablf
 pkg:cargo/ably
+pkg:cargo/ably-auth-openapi
 pkg:cargo/ably-chat-openapi
 pkg:cargo/ably-chat-rs
 pkg:cargo/abn-gpm
@@ -34294,6 +34295,7 @@ pkg:cargo/caden
 pkg:cargo/cadence
 pkg:cargo/cadence-agent
 pkg:cargo/cadence-forge
+pkg:cargo/cadence-ime
 pkg:cargo/cadence-macb
 pkg:cargo/cadence-macros
 pkg:cargo/cadence-with-flush
@@ -34319,6 +34321,7 @@ pkg:cargo/cadk
 pkg:cargo/cadk-bnf
 pkg:cargo/cadmium-yellow
 pkg:cargo/cadmpeg
+pkg:cargo/cadmpeg-asm
 pkg:cargo/cadmpeg-codec-catia
 pkg:cargo/cadmpeg-codec-core
 pkg:cargo/cadmpeg-codec-creo
@@ -34327,8 +34330,11 @@ pkg:cargo/cadmpeg-codec-freecad
 pkg:cargo/cadmpeg-codec-iges
 pkg:cargo/cadmpeg-codec-nx
 pkg:cargo/cadmpeg-codec-rhino
+pkg:cargo/cadmpeg-codec-sat
 pkg:cargo/cadmpeg-codec-sldprt
+pkg:cargo/cadmpeg-codec-step
 pkg:cargo/cadmpeg-container
+pkg:cargo/cadmpeg-core
 pkg:cargo/cadmpeg-ir
 pkg:cargo/cadmpeg-step
 pkg:cargo/cadnano-format
@@ -40407,6 +40413,7 @@ pkg:cargo/cf-gears-toolkit-gts
 pkg:cargo/cf-gears-toolkit-gts-macros
 pkg:cargo/cf-gears-toolkit-http
 pkg:cargo/cf-gears-toolkit-http-middleware
+pkg:cargo/cf-gears-toolkit-k8s-auth
 pkg:cargo/cf-gears-toolkit-macros
 pkg:cargo/cf-gears-toolkit-node-info
 pkg:cargo/cf-gears-toolkit-odata
@@ -71426,6 +71433,7 @@ pkg:cargo/embassy-agb-macros
 pkg:cargo/embassy-am2302
 pkg:cargo/embassy-arm
 pkg:cargo/embassy-async
+pkg:cargo/embassy-atmega328p
 pkg:cargo/embassy-atsamd
 pkg:cargo/embassy-atsame
 pkg:cargo/embassy-avr
@@ -71932,6 +71940,7 @@ pkg:cargo/embedsearch
 pkg:cargo/embedvec
 pkg:cargo/embedwards25519
 pkg:cargo/embellama
+pkg:cargo/embeprom
 pkg:cargo/ember
 pkg:cargo/ember-cli
 pkg:cargo/ember-client
@@ -77942,20 +77951,27 @@ pkg:cargo/facett
 pkg:cargo/facett-about
 pkg:cargo/facett-app
 pkg:cargo/facett-arrow
+pkg:cargo/facett-auth-ui
+pkg:cargo/facett-binview
 pkg:cargo/facett-brokkr
 pkg:cargo/facett-brokkrview
+pkg:cargo/facett-buildthing
 pkg:cargo/facett-calendar
 pkg:cargo/facett-card
 pkg:cargo/facett-cfd
 pkg:cargo/facett-cicd
 pkg:cargo/facett-claude
+pkg:cargo/facett-coderoom-view
 pkg:cargo/facett-confirm
 pkg:cargo/facett-console
 pkg:cargo/facett-core
 pkg:cargo/facett-demo
+pkg:cargo/facett-deploykey
 pkg:cargo/facett-docview
 pkg:cargo/facett-file
 pkg:cargo/facett-filedialog
+pkg:cargo/facett-fleet-view
+pkg:cargo/facett-flowsim
 pkg:cargo/facett-form
 pkg:cargo/facett-gantt
 pkg:cargo/facett-geomap
@@ -77974,6 +77990,7 @@ pkg:cargo/facett-kanban
 pkg:cargo/facett-korp
 pkg:cargo/facett-lineage
 pkg:cargo/facett-log
+pkg:cargo/facett-manual
 pkg:cargo/facett-map
 pkg:cargo/facett-map3d
 pkg:cargo/facett-map3d-flight
@@ -77987,6 +78004,7 @@ pkg:cargo/facett-plandag
 pkg:cargo/facett-plot
 pkg:cargo/facett-plotters
 pkg:cargo/facett-pop
+pkg:cargo/facett-releaseview
 pkg:cargo/facett-sdp
 pkg:cargo/facett-search
 pkg:cargo/facett-security
@@ -78155,6 +78173,7 @@ pkg:cargo/faf-rust-sdk
 pkg:cargo/faf-syscall
 pkg:cargo/faf-wasm
 pkg:cargo/faf-wasm-sdk
+pkg:cargo/fafa
 pkg:cargo/fafaster_art
 pkg:cargo/fafb
 pkg:cargo/fafb-q
@@ -78906,6 +78925,7 @@ pkg:cargo/fast-sparse-merkle-tree
 pkg:cargo/fast-spsc-queue
 pkg:cargo/fast-srgb8
 pkg:cargo/fast-ssh
+pkg:cargo/fast-ssim-core
 pkg:cargo/fast-ssim2
 pkg:cargo/fast-stats
 pkg:cargo/fast-steal
@@ -86046,8 +86066,11 @@ pkg:cargo/formation-chess-tui
 pkg:cargo/formation-chess-web
 pkg:cargo/formations
 pkg:cargo/formatjs_cli
+pkg:cargo/formatjs_icu_messageformat
 pkg:cargo/formatjs_icu_messageformat_parser
 pkg:cargo/formatjs_icu_skeleton_parser
+pkg:cargo/formatjs_intl
+pkg:cargo/formatjs_intl_macros
 pkg:cargo/formatjson
 pkg:cargo/formato
 pkg:cargo/formatorbit-cli
@@ -97810,6 +97833,7 @@ pkg:cargo/gpui-mcp
 pkg:cargo/gpui-mobile
 pkg:cargo/gpui-nav
 pkg:cargo/gpui-navigator
+pkg:cargo/gpui-phosphor
 pkg:cargo/gpui-platform-gpui-unofficial
 pkg:cargo/gpui-plot
 pkg:cargo/gpui-pretext
@@ -106088,7 +106112,13 @@ pkg:cargo/hopper-vesting
 pkg:cargo/hoppy-cli
 pkg:cargo/hopr-api
 pkg:cargo/hopr-bindings
+pkg:cargo/hopr-chain-connector
+pkg:cargo/hopr-ct-full-network
+pkg:cargo/hopr-network-graph
+pkg:cargo/hopr-session-server-forwarder
 pkg:cargo/hopr-strategy
+pkg:cargo/hopr-ticket-manager
+pkg:cargo/hopr-transport-p2p
 pkg:cargo/hopr-types
 pkg:cargo/hopr-utilities
 pkg:cargo/hopscotch
@@ -106159,6 +106189,8 @@ pkg:cargo/horntail
 pkg:cargo/hornvale
 pkg:cargo/horokai-network
 pkg:cargo/horologe
+pkg:cargo/horon
+pkg:cargo/horon-engine
 pkg:cargo/horos
 pkg:cargo/horoscope
 pkg:cargo/horrible-katex-hack
@@ -127035,7 +127067,9 @@ pkg:cargo/latera
 pkg:cargo/lateral
 pkg:cargo/laterite
 pkg:cargo/laterite-ags4-core
+pkg:cargo/laterite-ags4-diff
 pkg:cargo/laterite-ags4-emit
+pkg:cargo/laterite-ags4-merge
 pkg:cargo/laterite-ags4-parse
 pkg:cargo/laterite-ags4-reference
 pkg:cargo/laterite-ags4-trust
@@ -145074,6 +145108,7 @@ pkg:cargo/mi6-otel-server
 pkg:cargo/mi6-storage-sqlite
 pkg:cargo/mi6-tui
 pkg:cargo/miHoYo-API
+pkg:cargo/mi_cow
 pkg:cargo/mi_lib
 pkg:cargo/mi_primera_lib
 pkg:cargo/mi_result
@@ -149286,6 +149321,7 @@ pkg:cargo/model_macro_derive
 pkg:cargo/model_to_image
 pkg:cargo/modelassetlib-native
 pkg:cargo/modelator
+pkg:cargo/modelbridge
 pkg:cargo/modelbuilder
 pkg:cargo/modelc
 pkg:cargo/modelcards
@@ -149307,6 +149343,7 @@ pkg:cargo/modelite
 pkg:cargo/modelite-macros
 pkg:cargo/modelizer
 pkg:cargo/modelmux
+pkg:cargo/modelo
 pkg:cargo/modelplease
 pkg:cargo/modelrelay
 pkg:cargo/models
@@ -150610,8 +150647,11 @@ pkg:cargo/monstertruck
 pkg:cargo/monstertruck-assembly
 pkg:cargo/monstertruck-core
 pkg:cargo/monstertruck-derive
+pkg:cargo/monstertruck-fillet
 pkg:cargo/monstertruck-geometry
 pkg:cargo/monstertruck-gpu
+pkg:cargo/monstertruck-healing
+pkg:cargo/monstertruck-io
 pkg:cargo/monstertruck-mesh
 pkg:cargo/monstertruck-meshing
 pkg:cargo/monstertruck-modeling
@@ -150656,6 +150696,7 @@ pkg:cargo/month
 pkg:cargo/month-and-season
 pkg:cargo/monto
 pkg:cargo/monty
+pkg:cargo/monty-alloc
 pkg:cargo/monty-cli
 pkg:cargo/monty-compat
 pkg:cargo/monty-compat-extract
@@ -160538,6 +160579,7 @@ pkg:cargo/nixinfo
 pkg:cargo/nixl-sys
 pkg:cargo/nixman
 pkg:cargo/nixmodule
+pkg:cargo/nixos-home-assistant-autofade-generator
 pkg:cargo/nixpacks
 pkg:cargo/nixpkgs-cache-status
 pkg:cargo/nixpkgs-context
@@ -171741,6 +171783,7 @@ pkg:cargo/osv-analyzer
 pkg:cargo/osv-bloom
 pkg:cargo/osv-bloom-build
 pkg:cargo/osv-db
+pkg:cargo/osv-mcp
 pkg:cargo/osv-types
 pkg:cargo/osvg
 pkg:cargo/osvm
@@ -191131,6 +191174,7 @@ pkg:cargo/qhull-sys-enhanced
 pkg:cargo/qhyccd-alpaca
 pkg:cargo/qhyccd-rs
 pkg:cargo/qi
+pkg:cargo/qi-alignment
 pkg:cargo/qi-rs
 pkg:cargo/qi_openapi
 pkg:cargo/qianli
@@ -224297,6 +224341,7 @@ pkg:cargo/shell-string
 pkg:cargo/shell-tools
 pkg:cargo/shell-toy
 pkg:cargo/shell-tunnel
+pkg:cargo/shell-use
 pkg:cargo/shell-util
 pkg:cargo/shell-wallet-nft
 pkg:cargo/shell-words
@@ -224851,6 +224896,7 @@ pkg:cargo/shmall
 pkg:cargo/shmalloc
 pkg:cargo/shmap
 pkg:cargo/shmarks
+pkg:cargo/shmcache
 pkg:cargo/shmem
 pkg:cargo/shmem-bind
 pkg:cargo/shmem-ipc
@@ -264204,6 +264250,7 @@ pkg:cargo/unarray
 pkg:cargo/unary
 pkg:cargo/unative
 pkg:cargo/unavi
+pkg:cargo/unb
 pkg:cargo/unbag-rs
 pkg:cargo/unbase
 pkg:cargo/unbinder
