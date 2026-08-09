@@ -28537,6 +28537,7 @@ pkg:cargo/blitzagent
 pkg:cargo/blitzar
 pkg:cargo/blitzar-sys
 pkg:cargo/blitzdenk
+pkg:cargo/blitzgen
 pkg:cargo/blitzi
 pkg:cargo/blitzkrieg
 pkg:cargo/blitzortung
@@ -29664,6 +29665,7 @@ pkg:cargo/boatramp-docker
 pkg:cargo/boatramp-firecracker
 pkg:cargo/boatramp-handlers
 pkg:cargo/boatramp-mcp
+pkg:cargo/boatramp-node
 pkg:cargo/boatramp-rpktls
 pkg:cargo/boatramp-server
 pkg:cargo/boatramp-storage
@@ -29858,6 +29860,7 @@ pkg:cargo/bolic-network
 pkg:cargo/bolivar
 pkg:cargo/bolivar-cli
 pkg:cargo/bolivar-core
+pkg:cargo/bolivar-icu
 pkg:cargo/bollard
 pkg:cargo/bollard-buildkit-proto
 pkg:cargo/bollard-containerd
@@ -34723,6 +34726,7 @@ pkg:cargo/cachedhash
 pkg:cargo/cachedir
 pkg:cargo/cachefetch
 pkg:cargo/cacheflight
+pkg:cargo/cacheflow
 pkg:cargo/cacheflush-sys
 pkg:cargo/cacheguard
 pkg:cargo/cachekit
@@ -34819,6 +34823,7 @@ pkg:cargo/cadence-with-flush
 pkg:cargo/cadence_json_derive
 pkg:cargo/cadent
 pkg:cargo/cadenza
+pkg:cargo/cadenzier
 pkg:cargo/cadforge
 pkg:cargo/cadi
 pkg:cargo/cadi-atomizer-java
@@ -35631,6 +35636,7 @@ pkg:cargo/camellia-env
 pkg:cargo/camellia-net
 pkg:cargo/camellia-rs
 pkg:cargo/camelliakv
+pkg:cargo/camelot-rabbitmq-controller
 pkg:cargo/camelot_kconfig
 pkg:cargo/camelot_kconfig_import
 pkg:cargo/camelpaste
@@ -80386,6 +80392,7 @@ pkg:cargo/fastlanes
 pkg:cargo/fastlanes_rs
 pkg:cargo/fastlanez
 pkg:cargo/fastlanez-sys
+pkg:cargo/fastlap
 pkg:cargo/fastlaz
 pkg:cargo/fastlem
 pkg:cargo/fastleng
@@ -86506,6 +86513,7 @@ pkg:cargo/folklore
 pkg:cargo/folktime
 pkg:cargo/follow
 pkg:cargo/follow-redirects
+pkg:cargo/followability
 pkg:cargo/followfile
 pkg:cargo/folly
 pkg:cargo/folo
@@ -99150,6 +99158,7 @@ pkg:cargo/gpcas_cpu_model
 pkg:cargo/gpcas_forwardcom
 pkg:cargo/gpcas_isa
 pkg:cargo/gpcas_simulator
+pkg:cargo/gpcc
 pkg:cargo/gpecs
 pkg:cargo/gperf-sys
 pkg:cargo/gperftools
@@ -99421,6 +99430,7 @@ pkg:cargo/gpui-form-prototyping-core
 pkg:cargo/gpui-ghostty
 pkg:cargo/gpui-hooks
 pkg:cargo/gpui-hooks-macros
+pkg:cargo/gpui-hugeicons
 pkg:cargo/gpui-icons-bs
 pkg:cargo/gpui-keybinding
 pkg:cargo/gpui-linux-gpui-unofficial
@@ -115697,6 +115707,9 @@ pkg:cargo/interior-point
 pkg:cargo/interior_mut
 pkg:cargo/interior_mutability_pointer
 pkg:cargo/interiors
+pkg:cargo/interlace
+pkg:cargo/interlace-cli
+pkg:cargo/interlace-core
 pkg:cargo/interleave
 pkg:cargo/interleave_n
 pkg:cargo/interleaved-ordered
@@ -129333,6 +129346,9 @@ pkg:cargo/lattice-tune
 pkg:cargo/lattice_qcd_rs-procedural_macro
 pkg:cargo/latticearc
 pkg:cargo/latticeclient
+pkg:cargo/latticedb-core
+pkg:cargo/latticedb-server
+pkg:cargo/latticedb-storage
 pkg:cargo/latticeon
 pkg:cargo/latticeon-macros
 pkg:cargo/latticequeries
@@ -129513,6 +129529,7 @@ pkg:cargo/lava-helm
 pkg:cargo/lava-http
 pkg:cargo/lava-kubernetes
 pkg:cargo/lava-modules
+pkg:cargo/lava-operator
 pkg:cargo/lava-outcome-chain
 pkg:cargo/lava-prelude
 pkg:cargo/lava-presets
@@ -129665,6 +129682,7 @@ pkg:cargo/lazer
 pkg:cargo/lazerpay
 pkg:cargo/lazerpay-rust-sdk
 pkg:cargo/lazers
+pkg:cargo/lazier
 pkg:cargo/lazier_static
 pkg:cargo/laziergit
 pkg:cargo/lazily
@@ -148358,6 +148376,7 @@ pkg:cargo/mimir-mem-proxy
 pkg:cargo/mimir-syntax
 pkg:cargo/mimir_front_matter
 pkg:cargo/mimir_progress
+pkg:cargo/mimirs
 pkg:cargo/mimirs-agent
 pkg:cargo/mimirs-auda
 pkg:cargo/mimirs-bridge
@@ -148840,6 +148859,8 @@ pkg:cargo/mini_super_grep
 pkg:cargo/mini_template
 pkg:cargo/mini_template_macro
 pkg:cargo/mini_threadpool
+pkg:cargo/mini_udp
+pkg:cargo/mini_udp_derive
 pkg:cargo/mini_uuid
 pkg:cargo/miniabi
 pkg:cargo/miniactor
@@ -150075,6 +150096,7 @@ pkg:cargo/miscreant
 pkg:cargo/miscreant-aes-v05
 pkg:cargo/misdreavus-test
 pkg:cargo/mise
+pkg:cargo/mise-cache
 pkg:cargo/mise-client
 pkg:cargo/mise-completions-sync
 pkg:cargo/mise-interactive-config
@@ -152833,6 +152855,7 @@ pkg:cargo/monoutils-store
 pkg:cargo/monovault
 pkg:cargo/monover
 pkg:cargo/monoverse
+pkg:cargo/monovm-whois-rust
 pkg:cargo/monowiki
 pkg:cargo/monoxide
 pkg:cargo/monqyclouds_guessing_game
@@ -162771,6 +162794,7 @@ pkg:cargo/niwa-generator
 pkg:cargo/niwl
 pkg:cargo/nix
 pkg:cargo/nix-activate
+pkg:cargo/nix-archive
 pkg:cargo/nix-audit
 pkg:cargo/nix-base32
 pkg:cargo/nix-bindings
@@ -192015,6 +192039,7 @@ pkg:cargo/ptyprocess
 pkg:cargo/ptytest
 pkg:cargo/ptywin
 pkg:cargo/ptywright
+pkg:cargo/ptzcam-mcp
 pkg:cargo/pu
 pkg:cargo/pu-239
 pkg:cargo/pu2
@@ -227782,6 +227807,7 @@ pkg:cargo/shiotsuchi-core
 pkg:cargo/shiotsuchi-mcp
 pkg:cargo/ship
 pkg:cargo/ship-shape
+pkg:cargo/ship-tui
 pkg:cargo/ship162
 pkg:cargo/ship8
 pkg:cargo/shipbob
@@ -288425,6 +288451,13 @@ pkg:cargo/yield-return
 pkg:cargo/yieldin-cli
 pkg:cargo/yielding-executor
 pkg:cargo/yields
+pkg:cargo/yieldskill
+pkg:cargo/yieldskill-runtime-darwin-amd64
+pkg:cargo/yieldskill-runtime-darwin-arm64
+pkg:cargo/yieldskill-runtime-linux-amd64
+pkg:cargo/yieldskill-runtime-linux-arm64
+pkg:cargo/yieldskill-runtime-windows-amd64
+pkg:cargo/yieldskill-runtime-windows-arm64
 pkg:cargo/yihan
 pkg:cargo/yii
 pkg:cargo/yikes
@@ -291852,6 +291885,7 @@ pkg:cargo/zpdf-pptx-export
 pkg:cargo/zpdf-render
 pkg:cargo/zpdf-render-cpu
 pkg:cargo/zpdf-render-wgpu
+pkg:cargo/zpdf-svg-export
 pkg:cargo/zpdf-writer
 pkg:cargo/zpic
 pkg:cargo/zpic-config
