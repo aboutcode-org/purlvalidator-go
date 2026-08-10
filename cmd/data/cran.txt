@@ -429,8 +429,10 @@ pkg:cran/BIS
 pkg:cran/BISdata
 pkg:cran/BJM
 pkg:cran/BKBreed
+pkg:cran/BKMutate
 pkg:cran/BKP
 pkg:cran/BKPC
+pkg:cran/BKQualit
 pkg:cran/BKT
 pkg:cran/BKTR
 pkg:cran/BLA
@@ -984,6 +986,7 @@ pkg:cran/CPoptim
 pkg:cran/CPsurv
 pkg:cran/CR2
 pkg:cran/CRABS
+pkg:cran/CRAFT
 pkg:cran/CRANsearcher
 pkg:cran/CRBHSF
 pkg:cran/CRE
@@ -1262,6 +1265,7 @@ pkg:cran/CompositionalML
 pkg:cran/CompositionalNAimp
 pkg:cran/CompositionalRF
 pkg:cran/CompositionalSR
+pkg:cran/Compositionalzerocens
 pkg:cran/CompoundEvents
 pkg:cran/ComradesM
 pkg:cran/ConFluxPro
@@ -1782,6 +1786,7 @@ pkg:cran/DramaAnalysis
 pkg:cran/DriftBurstHypothesis
 pkg:cran/DrillR
 pkg:cran/DrivePlotR
+pkg:cran/DropCens
 pkg:cran/DrugExposureDiagnostics
 pkg:cran/DrugSim2DR
 pkg:cran/DrugUtilisation
@@ -2161,6 +2166,7 @@ pkg:cran/FIESTA
 pkg:cran/FIESTAutils
 pkg:cran/FILEST
 pkg:cran/FIND
+pkg:cran/FINN
 pkg:cran/FIRM
 pkg:cran/FIT
 pkg:cran/FITSio
@@ -2194,6 +2200,7 @@ pkg:cran/FPCA3D
 pkg:cran/FPCdpca
 pkg:cran/FPDclustering
 pkg:cran/FPLdata
+pkg:cran/FPScausal
 pkg:cran/FPV
 pkg:cran/FRACTION
 pkg:cran/FRAPO
@@ -2364,6 +2371,7 @@ pkg:cran/FuncNN
 pkg:cran/FunctanSNP
 pkg:cran/FunctionalCalibration
 pkg:cran/FunnelPlotR
+pkg:cran/FusionForests
 pkg:cran/FusionLearn
 pkg:cran/Fuzzy.p.value
 pkg:cran/FuzzyAHP
@@ -2494,6 +2502,7 @@ pkg:cran/GLBFP
 pkg:cran/GLCMTextures
 pkg:cran/GLDEX
 pkg:cran/GLDreg
+pkg:cran/GLHD
 pkg:cran/GLMBasedRaschEstimation
 pkg:cran/GLMMRR
 pkg:cran/GLMMadaptive
@@ -2629,6 +2638,7 @@ pkg:cran/GaSP
 pkg:cran/GalaxyR
 pkg:cran/GameTheory
 pkg:cran/GammaFrailty
+pkg:cran/GammaFrailtySPC
 pkg:cran/Gammareg
 pkg:cran/GapAnalysis
 pkg:cran/GauPro
@@ -3174,6 +3184,7 @@ pkg:cran/InspectionPlanner
 pkg:cran/InsuSensCalc
 pkg:cran/IntCal
 pkg:cran/IntNMF
+pkg:cran/IntegMultiReg
 pkg:cran/IntegrateBs
 pkg:cran/IntegratedJM
 pkg:cran/InterNL
@@ -3264,7 +3275,9 @@ pkg:cran/JumpDiffSim
 pkg:cran/JustifyAlpha
 pkg:cran/K4PrestasiSiswa
 pkg:cran/K4ProsesSiswa
+pkg:cran/K4Rumah
 pkg:cran/K4Sekolah
+pkg:cran/K4Siswa
 pkg:cran/KCSKNNShiny
 pkg:cran/KCSNBShiny
 pkg:cran/KDEmcmc
@@ -3710,6 +3723,7 @@ pkg:cran/MEFM
 pkg:cran/MEGB
 pkg:cran/MEGENA
 pkg:cran/MEMSS
+pkg:cran/MEMWAS
 pkg:cran/MEPDF
 pkg:cran/MERO
 pkg:cran/MESS
@@ -4059,6 +4073,7 @@ pkg:cran/MexBrewer
 pkg:cran/MexicoDataAPI
 pkg:cran/MfUSampler
 pkg:cran/Mhorseshoe
+pkg:cran/MiCT
 pkg:cran/MiRKAT
 pkg:cran/MiRNAQCD
 pkg:cran/MiRSEA
@@ -4124,6 +4139,7 @@ pkg:cran/ModEstM
 pkg:cran/ModLR
 pkg:cran/ModStatR
 pkg:cran/ModTools
+pkg:cran/ModToppLeone
 pkg:cran/ModalCens
 pkg:cran/ModalForecast
 pkg:cran/Modalclust
@@ -4389,6 +4405,7 @@ pkg:cran/NeuralNetTools
 pkg:cran/NeuralSens
 pkg:cran/NeuroDataSets
 pkg:cran/NeuroDecodeR
+pkg:cran/NeutroBasicDesignsAnalysis
 pkg:cran/NeutroCODsAnalysis
 pkg:cran/NeutroCrdRcbdAnalysis
 pkg:cran/NeutroIBDAnalysis
@@ -4701,6 +4718,7 @@ pkg:cran/PHeval
 pkg:cran/PICBayes
 pkg:cran/PIE
 pkg:cran/PINMA
+pkg:cran/PINNProgCens
 pkg:cran/PINSPlus
 pkg:cran/PINstimation
 pkg:cran/PITS
@@ -4723,6 +4741,7 @@ pkg:cran/PLNmodels
 pkg:cran/PLORN
 pkg:cran/PLRModels
 pkg:cran/PLSiMCpp
+pkg:cran/PLSsemEngine
 pkg:cran/PLUCR
 pkg:cran/PLindleyROC
 pkg:cran/PLmixed
@@ -5089,6 +5108,7 @@ pkg:cran/ProfessR
 pkg:cran/ProfileGLMM
 pkg:cran/ProfileLadder
 pkg:cran/ProfileLikelihood
+pkg:cran/ProgVine
 pkg:cran/ProjectManagement
 pkg:cran/ProjectTemplate
 pkg:cran/ProjectionBasedClustering
@@ -5414,6 +5434,7 @@ pkg:cran/RHybridFinder
 pkg:cran/RI2by2
 pkg:cran/RIA
 pkg:cran/RIFS
+pkg:cran/RIFanalysis
 pkg:cran/RIIM
 pkg:cran/RISCA
 pkg:cran/RISmed
@@ -5969,6 +5990,7 @@ pkg:cran/Rglottography
 pkg:cran/Rglpk
 pkg:cran/Rgof
 pkg:cran/RgoogleMaps
+pkg:cran/Rhobots
 pkg:cran/Rhpc
 pkg:cran/RhpcBLASctl
 pkg:cran/Ricrt
@@ -6661,6 +6683,7 @@ pkg:cran/SimplicialCubature
 pkg:cran/SimplyAgree
 pkg:cran/SimtablR
 pkg:cran/SimuRg
+pkg:cran/SingRegKrig
 pkg:cran/SingleArmMRCT
 pkg:cran/SingleCaseES
 pkg:cran/SingleCellComplexHeatMap
@@ -7339,6 +7362,7 @@ pkg:cran/UpDown
 pkg:cran/UpSetR
 pkg:cran/Upsilon
 pkg:cran/UsingR
+pkg:cran/Usmile
 pkg:cran/V8
 pkg:cran/VAJointSurv
 pkg:cran/VALERIE
@@ -8245,6 +8269,7 @@ pkg:cran/asciicast
 pkg:cran/asciichartr
 pkg:cran/asciiruler
 pkg:cran/ascotraceR
+pkg:cran/ascribe
 pkg:cran/asd
 pkg:cran/asdreader
 pkg:cran/ash
@@ -8786,6 +8811,7 @@ pkg:cran/bigSurvSGD
 pkg:cran/bigalgebra
 pkg:cran/biganalytics
 pkg:cran/bigassertr
+pkg:cran/bigbang
 pkg:cran/bigdatadist
 pkg:cran/bigergm
 pkg:cran/biglasso
@@ -9189,6 +9215,7 @@ pkg:cran/bs4cards
 pkg:cran/bsTools
 pkg:cran/bsam
 pkg:cran/bsamGP
+pkg:cran/bscm
 pkg:cran/bscui
 pkg:cran/bsearchtools
 pkg:cran/bsgof
@@ -9465,6 +9492,7 @@ pkg:cran/causaldef
 pkg:cran/causaldrf
 pkg:cran/causaleffect
 pkg:cran/causalfrag
+pkg:cran/causalgenerics
 pkg:cran/causalnet
 pkg:cran/causaloptim
 pkg:cran/causalplot
@@ -9612,6 +9640,7 @@ pkg:cran/cgmguru
 pkg:cran/cgmquantify
 pkg:cran/cgvR
 pkg:cran/cgwtools
+pkg:cran/chaidr
 pkg:cran/chainbinomial
 pkg:cran/chameleon
 pkg:cran/chandwich
@@ -9739,6 +9768,7 @@ pkg:cran/ciftiTools
 pkg:cran/cimir
 pkg:cran/cinaR
 pkg:cran/cinaRgenesets
+pkg:cran/cincinnatiOpenData
 pkg:cran/cinterpolate
 pkg:cran/cipheR
 pkg:cran/ciphertext
@@ -9993,6 +10023,7 @@ pkg:cran/cobiclust
 pkg:cran/cobin
 pkg:cran/cobs
 pkg:cran/coca
+pkg:cran/cochranSize
 pkg:cran/cocktailApp
 pkg:cran/coconots
 pkg:cran/cocons
@@ -10028,6 +10059,7 @@ pkg:cran/codexcopd
 pkg:cran/codez
 pkg:cran/codified
 pkg:cran/codingMatrices
+pkg:cran/codriver
 pkg:cran/codyn
 pkg:cran/codyna
 pkg:cran/coefa
@@ -11086,6 +11118,7 @@ pkg:cran/denoiSeq
 pkg:cran/denovolyzeR
 pkg:cran/densEstBayes
 pkg:cran/denseFLMM
+pkg:cran/densemlp
 pkg:cran/densitr
 pkg:cran/densityClust
 pkg:cran/densityarea
@@ -11243,6 +11276,7 @@ pkg:cran/diffmatchpatch
 pkg:cran/diffobj
 pkg:cran/diffpriv
 pkg:cran/diffr
+pkg:cran/diffuseR
 pkg:cran/diffusion
 pkg:cran/diffusionMap
 pkg:cran/diffval
@@ -12288,6 +12322,7 @@ pkg:cran/ewp
 pkg:cran/exCon
 pkg:cran/exact.n
 pkg:cran/exact2x2
+pkg:cran/exactGMH
 pkg:cran/exactLTRE
 pkg:cran/exactRankTests
 pkg:cran/exactamente
@@ -12340,6 +12375,7 @@ pkg:cran/exploratory
 pkg:cran/explore
 pkg:cran/exploreR
 pkg:cran/expm
+pkg:cran/expoquimR
 pkg:cran/export
 pkg:cran/expowo
 pkg:cran/expperm
@@ -13718,6 +13754,7 @@ pkg:cran/gghighlight
 pkg:cran/gghilbertstrings
 pkg:cran/gghinton
 pkg:cran/gghist
+pkg:cran/gghotelling
 pkg:cran/gghourglass
 pkg:cran/ggimage
 pkg:cran/ggimg
@@ -13753,6 +13790,7 @@ pkg:cran/ggmr
 pkg:cran/ggmugs
 pkg:cran/ggmuller
 pkg:cran/ggmulti
+pkg:cran/ggmultiglyph
 pkg:cran/ggnetwork
 pkg:cran/ggnewscale
 pkg:cran/ggnormalviolin
@@ -13885,6 +13923,7 @@ pkg:cran/ggwordcloud
 pkg:cran/ggx
 pkg:cran/gh
 pkg:cran/ghapps
+pkg:cran/ghcclm
 pkg:cran/ghclass
 pkg:cran/ghcm
 pkg:cran/ghibli
@@ -14065,6 +14104,7 @@ pkg:cran/godley
 pkg:cran/goeveg
 pkg:cran/gofCopula
 pkg:cran/gofIG
+pkg:cran/gofLorenz
 pkg:cran/gofPHCS
 pkg:cran/gofar
 pkg:cran/gofcat
@@ -14120,6 +14160,7 @@ pkg:cran/gower
 pkg:cran/goweragreement
 pkg:cran/goxygen
 pkg:cran/gp
+pkg:cran/gp3bayes
 pkg:cran/gp3ml
 pkg:cran/gp3sequences
 pkg:cran/gp3tools
@@ -14127,7 +14168,9 @@ pkg:cran/gpairs
 pkg:cran/gpbStat
 pkg:cran/gpbiometrics
 pkg:cran/gpboost
+pkg:cran/gpciEMprogII
 pkg:cran/gpciImpSam
+pkg:cran/gpciIntCensor
 pkg:cran/gpciProgTyII
 pkg:cran/gpciProgTyIIImpSam
 pkg:cran/gpcp
@@ -16880,6 +16923,7 @@ pkg:cran/metaSurvival
 pkg:cran/metabias
 pkg:cran/metaboData
 pkg:cran/metabodecon
+pkg:cran/metabodeconplus
 pkg:cran/metabolic
 pkg:cran/metabook
 pkg:cran/metabup
@@ -18019,6 +18063,7 @@ pkg:cran/netropy
 pkg:cran/nets
 pkg:cran/netseer
 pkg:cran/netseg
+pkg:cran/netsimhelpers
 pkg:cran/netstat
 pkg:cran/netsubsamp
 pkg:cran/nett
@@ -18871,6 +18916,7 @@ pkg:cran/paleomorph
 pkg:cran/paleopop
 pkg:cran/paleotree
 pkg:cran/palette
+pkg:cran/palettecore
 pkg:cran/paletteer
 pkg:cran/paletteknife
 pkg:cran/palettephines
@@ -19287,6 +19333,7 @@ pkg:cran/phonenumber
 pkg:cran/phonetisr
 pkg:cran/phonfieldwork
 pkg:cran/phonics
+pkg:cran/phontrast
 pkg:cran/phosphoricons
 pkg:cran/photobiology
 pkg:cran/photobiologyFilters
@@ -20341,6 +20388,7 @@ pkg:cran/quotedargs
 pkg:cran/qvcalc
 pkg:cran/qviewparsR
 pkg:cran/qvirus
+pkg:cran/qvivid
 pkg:cran/qwalkr
 pkg:cran/qwraps2
 pkg:cran/r.blip
@@ -20613,6 +20661,7 @@ pkg:cran/rapportools
 pkg:cran/rappsflyer
 pkg:cran/rapr
 pkg:cran/rapsimng
+pkg:cran/rapsimng.decide.core
 pkg:cran/raptools
 pkg:cran/raptr
 pkg:cran/raqs
@@ -20647,6 +20696,7 @@ pkg:cran/rater
 pkg:cran/rateratio.test
 pkg:cran/raters
 pkg:cran/ratesci
+pkg:cran/ratingtables
 pkg:cran/ratioOfQsprays
 pkg:cran/rationalfun
 pkg:cran/ratios
@@ -22239,6 +22289,7 @@ pkg:cran/seasonalview
 pkg:cran/seasonalytics
 pkg:cran/seastests
 pkg:cran/sebkc
+pkg:cran/secfile
 pkg:cran/secr
 pkg:cran/secrdesign
 pkg:cran/secret
@@ -22906,6 +22957,7 @@ pkg:cran/smallsets
 pkg:cran/smallstuff
 pkg:cran/smam
 pkg:cran/smartDesign
+pkg:cran/smartcor
 pkg:cran/smarter
 pkg:cran/smartmap
 pkg:cran/smartsheetr
@@ -24672,6 +24724,7 @@ pkg:cran/tpAUC
 pkg:cran/tpc
 pkg:cran/tpfp
 pkg:cran/tpglp
+pkg:cran/tplyr2
 pkg:cran/tpm
 pkg:cran/tpn
 pkg:cran/tpr
@@ -25687,6 +25740,7 @@ pkg:cran/wordcloud2
 pkg:cran/wordler
 pkg:cran/wordmap
 pkg:cran/wordnet
+pkg:cran/wordorientation
 pkg:cran/wordpiece
 pkg:cran/wordpiece.data
 pkg:cran/wordpredictor
@@ -25828,6 +25882,7 @@ pkg:cran/xray
 pkg:cran/xreg2
 pkg:cran/xrf
 pkg:cran/xrnet
+pkg:cran/xsdm
 pkg:cran/xslt
 pkg:cran/xsp
 pkg:cran/xtable
