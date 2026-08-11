@@ -5199,6 +5199,7 @@ pkg:apk/alpine/ddcci-driver-linux-src
 pkg:apk/alpine/ddclient
 pkg:apk/alpine/ddclient-doc
 pkg:apk/alpine/ddclient-openrc
+pkg:apk/alpine/ddclient-systemd
 pkg:apk/alpine/ddcutil
 pkg:apk/alpine/ddcutil-dev
 pkg:apk/alpine/ddcutil-doc
@@ -10961,6 +10962,7 @@ pkg:apk/alpine/headscale
 pkg:apk/alpine/headscale-bash-completion
 pkg:apk/alpine/headscale-fish-completion
 pkg:apk/alpine/headscale-openrc
+pkg:apk/alpine/headscale-systemd
 pkg:apk/alpine/headscale-zsh-completion
 pkg:apk/alpine/heatshrink
 pkg:apk/alpine/heatshrink-dev
@@ -41935,6 +41937,7 @@ pkg:apk/alpine/weston
 pkg:apk/alpine/weston-backend-drm
 pkg:apk/alpine/weston-backend-fbdev
 pkg:apk/alpine/weston-backend-headless
+pkg:apk/alpine/weston-backend-pipewire
 pkg:apk/alpine/weston-backend-rdp
 pkg:apk/alpine/weston-backend-wayland
 pkg:apk/alpine/weston-backend-x11
@@ -41948,6 +41951,8 @@ pkg:apk/alpine/weston-info
 pkg:apk/alpine/weston-shell-desktop
 pkg:apk/alpine/weston-shell-fullscreen
 pkg:apk/alpine/weston-shell-ivi
+pkg:apk/alpine/weston-shell-kiosk
+pkg:apk/alpine/weston-shell-lua
 pkg:apk/alpine/weston-terminal
 pkg:apk/alpine/weston-wcap-decode
 pkg:apk/alpine/weston-xwayland
