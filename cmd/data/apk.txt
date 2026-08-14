@@ -3172,6 +3172,7 @@ pkg:apk/alpine/c-stdaux-dev
 pkg:apk/alpine/c-utf8
 pkg:apk/alpine/c-utf8-dev
 pkg:apk/alpine/c2rust
+pkg:apk/alpine/c3c
 pkg:apk/alpine/ca-certificates
 pkg:apk/alpine/ca-certificates-bundle
 pkg:apk/alpine/ca-certificates-cacert
@@ -10671,6 +10672,7 @@ pkg:apk/alpine/guile-gnutls-doc
 pkg:apk/alpine/guile-json
 pkg:apk/alpine/guile-libs
 pkg:apk/alpine/guile-lzlib
+pkg:apk/alpine/guile-mu
 pkg:apk/alpine/guile-reader
 pkg:apk/alpine/guile-reader-doc
 pkg:apk/alpine/guile-readline
@@ -20618,7 +20620,9 @@ pkg:apk/alpine/mtx-doc
 pkg:apk/alpine/mtxclient
 pkg:apk/alpine/mtxclient-dev
 pkg:apk/alpine/mu
+pkg:apk/alpine/mu-bash-completion
 pkg:apk/alpine/mu-doc
+pkg:apk/alpine/mu-zsh-completion
 pkg:apk/alpine/mu4e
 pkg:apk/alpine/muacme
 pkg:apk/alpine/muffin
@@ -39332,6 +39336,9 @@ pkg:apk/alpine/sxmo-utils-common
 pkg:apk/alpine/sxmo-utils-doc
 pkg:apk/alpine/sxmo-utils-dwm
 pkg:apk/alpine/sxmo-utils-i3
+pkg:apk/alpine/sxmo-utils-modem
+pkg:apk/alpine/sxmo-utils-modem-mms
+pkg:apk/alpine/sxmo-utils-modem-vvm
 pkg:apk/alpine/sxmo-utils-openrc
 pkg:apk/alpine/sxmo-utils-river
 pkg:apk/alpine/sxmo-utils-sway
