@@ -8471,6 +8471,7 @@ pkg:cargo/angsd-io-core
 pkg:cargo/angsd-saf
 pkg:cargo/angst
 pkg:cargo/angular
+pkg:cargo/angular-migrator
 pkg:cargo/angular-rs
 pkg:cargo/angular-switcher
 pkg:cargo/angular-units
@@ -10060,6 +10061,14 @@ pkg:cargo/aphelion-core
 pkg:cargo/aphelion-macros
 pkg:cargo/aphelion-util
 pkg:cargo/aphid
+pkg:cargo/aphid-agent
+pkg:cargo/aphid-ai
+pkg:cargo/aphid-alate
+pkg:cargo/aphid-code
+pkg:cargo/aphid-colony
+pkg:cargo/aphid-core
+pkg:cargo/aphid-nostr
+pkg:cargo/aphid-plugin
 pkg:cargo/aphily
 pkg:cargo/aphomie_db_client
 pkg:cargo/aphorme
@@ -10289,6 +10298,7 @@ pkg:cargo/apistos-schemars
 pkg:cargo/apistos-schemars_derive
 pkg:cargo/apistos-shuttle
 pkg:cargo/apistos-swagger-ui
+pkg:cargo/apisync
 pkg:cargo/apitally
 pkg:cargo/apithing
 pkg:cargo/apitrace
@@ -10825,6 +10835,13 @@ pkg:cargo/appmenu-glib-translator-sys
 pkg:cargo/appmesh
 pkg:cargo/appmobile
 pkg:cargo/appmop
+pkg:cargo/appose-ir
+pkg:cargo/appose-model
+pkg:cargo/appose-plan
+pkg:cargo/appose-resolve
+pkg:cargo/appose-runtime
+pkg:cargo/appose-supervise
+pkg:cargo/appose-translate
 pkg:cargo/apppass
 pkg:cargo/appr_dbscan_rust
 pkg:cargo/apprentice_lib
@@ -24312,6 +24329,7 @@ pkg:cargo/bevy-networker-multiplayer
 pkg:cargo/bevy-networker-multiplayer-macros
 pkg:cargo/bevy-notify
 pkg:cargo/bevy-open-world
+pkg:cargo/bevy-opus-audio
 pkg:cargo/bevy-orbit-camera
 pkg:cargo/bevy-orbit-controls
 pkg:cargo/bevy-overlay-plugin
@@ -25434,6 +25452,10 @@ pkg:cargo/bevy_persist
 pkg:cargo/bevy_persist_derive
 pkg:cargo/bevy_persistence_database
 pkg:cargo/bevy_persistence_database_derive
+pkg:cargo/bevy_pf
+pkg:cargo/bevy_pf_macros
+pkg:cargo/bevy_pf_vector
+pkg:cargo/bevy_pf_xaml
 pkg:cargo/bevy_physics
 pkg:cargo/bevy_physics_types
 pkg:cargo/bevy_physimple
@@ -34768,6 +34790,10 @@ pkg:cargo/byewlma
 pkg:cargo/byewlma-macros
 pkg:cargo/bygge
 pkg:cargo/byggis
+pkg:cargo/bylaw
+pkg:cargo/bylaw-analyzer
+pkg:cargo/bylaw-config
+pkg:cargo/bylaw-core
 pkg:cargo/byml
 pkg:cargo/bymsdfgen-cli
 pkg:cargo/bymsdfgen-core
@@ -56435,6 +56461,7 @@ pkg:cargo/ctx-telemetry
 pkg:cargo/ctx-thread
 pkg:cargo/ctx-token
 pkg:cargo/ctx_
+pkg:cargo/ctxai-cli
 pkg:cargo/ctxbuilder
 pkg:cargo/ctxctl
 pkg:cargo/ctxd-client
@@ -80481,6 +80508,7 @@ pkg:cargo/faf-replay-parser
 pkg:cargo/faf-replay-parser-derive
 pkg:cargo/faf-rust-sdk
 pkg:cargo/faf-syscall
+pkg:cargo/faf-text
 pkg:cargo/faf-wasm
 pkg:cargo/faf-wasm-sdk
 pkg:cargo/fafa
@@ -80533,6 +80561,7 @@ pkg:cargo/fairseq-crypto
 pkg:cargo/fairseq-lighthouse
 pkg:cargo/fairseq-sdk
 pkg:cargo/fairsquare
+pkg:cargo/fairway
 pkg:cargo/fairyvoid
 pkg:cargo/fairyvoid-lateformat
 pkg:cargo/fairyvoid-path
@@ -88173,6 +88202,7 @@ pkg:cargo/forge_grpc
 pkg:cargo/forge_hasher
 pkg:cargo/forge_migrate
 pkg:cargo/forge_move
+pkg:cargo/forge_msgs
 pkg:cargo/forge_sdk
 pkg:cargo/forge_signer
 pkg:cargo/forge_util
@@ -88249,6 +88279,7 @@ pkg:cargo/forgekit-agent
 pkg:cargo/forgekit-core
 pkg:cargo/forgekit-reasoning
 pkg:cargo/forgekit-runtime
+pkg:cargo/forgelab_common
 pkg:cargo/forgelib
 pkg:cargo/forgelink
 pkg:cargo/forgelink-cli
@@ -88339,6 +88370,7 @@ pkg:cargo/forkithardermakeitbetter
 pkg:cargo/forkjoin
 pkg:cargo/forklaunch
 pkg:cargo/forklift
+pkg:cargo/forkpkg
 pkg:cargo/forkstack
 pkg:cargo/forktree
 pkg:cargo/forkunion
@@ -103666,6 +103698,7 @@ pkg:cargo/haalka_futures_signals_ext
 pkg:cargo/haalka_futures_util_ext
 pkg:cargo/hab-rs
 pkg:cargo/hab-rs-api-client
+pkg:cargo/habena
 pkg:cargo/habit_tracker_parser
 pkg:cargo/habitica
 pkg:cargo/habitica-api
@@ -127188,6 +127221,10 @@ pkg:cargo/knet
 pkg:cargo/knet-bindings
 pkg:cargo/knetrs
 pkg:cargo/knf
+pkg:cargo/knf-cli
+pkg:cargo/knf-core
+pkg:cargo/knf-dotted
+pkg:cargo/knf-merge
 pkg:cargo/knf-rs
 pkg:cargo/knf-rs-new
 pkg:cargo/knf-rs-sys
@@ -156361,10 +156398,12 @@ pkg:cargo/ms-concurrency
 pkg:cargo/ms-convert
 pkg:cargo/ms-converter
 pkg:cargo/ms-crtd
+pkg:cargo/ms-csra
 pkg:cargo/ms-detours
 pkg:cargo/ms-dnsp
 pkg:cargo/ms-drsr
 pkg:cargo/ms-even6
+pkg:cargo/ms-fve
 pkg:cargo/ms-gkdi
 pkg:cargo/ms-icpr
 pkg:cargo/ms-io
@@ -156381,6 +156420,7 @@ pkg:cargo/ms-pdb-mcp
 pkg:cargo/ms-pdb-msf
 pkg:cargo/ms-pdb-msfz
 pkg:cargo/ms-pkca
+pkg:cargo/ms-rodc
 pkg:cargo/ms-rs
 pkg:cargo/ms-sh
 pkg:cargo/ms-symfetch
@@ -156627,6 +156667,7 @@ pkg:cargo/msp
 pkg:cargo/msp430
 pkg:cargo/msp430-asm
 pkg:cargo/msp430-atomic
+pkg:cargo/msp430-hal
 pkg:cargo/msp430-periph
 pkg:cargo/msp430-rt
 pkg:cargo/msp430-rt-macros
@@ -158072,6 +158113,14 @@ pkg:cargo/mx3
 pkg:cargo/mx4
 pkg:cargo/mxadm
 pkg:cargo/mxbs
+pkg:cargo/mxc-alpha-isolation-session-bindings
+pkg:cargo/mxc-alpha-learning-mode-core
+pkg:cargo/mxc-alpha-mxc-pty
+pkg:cargo/mxc-alpha-mxc-telemetry
+pkg:cargo/mxc-alpha-nanvix-common
+pkg:cargo/mxc-alpha-process-security-environment-spec
+pkg:cargo/mxc-alpha-windows-secenv-projection
+pkg:cargo/mxc-alpha-wxc-common
 pkg:cargo/mxclear
 pkg:cargo/mxdns
 pkg:cargo/mxdx-core-wasm
@@ -160569,6 +160618,8 @@ pkg:cargo/navi-server
 pkg:cargo/navi-tui
 pkg:cargo/navi-vfs
 pkg:cargo/navi-voice
+pkg:cargo/navian-dst
+pkg:cargo/navian-dst-cli
 pkg:cargo/navidrome-rs
 pkg:cargo/navier
 pkg:cargo/navig18xx
@@ -168615,6 +168666,7 @@ pkg:cargo/nxtquic-proto
 pkg:cargo/nxtquic-qlog
 pkg:cargo/nxtquic-sim
 pkg:cargo/nxtquic-udp
+pkg:cargo/nxtquic-webtransport
 pkg:cargo/nxtrtc
 pkg:cargo/nxtusb
 pkg:cargo/nxu
@@ -172038,6 +172090,10 @@ pkg:cargo/one-of-futures
 pkg:cargo/one-of-many-proofs
 pkg:cargo/one-or-both
 pkg:cargo/one-or-many
+pkg:cargo/one-saves
+pkg:cargo/one-saves-cli
+pkg:cargo/one-saves-convert
+pkg:cargo/one-saves-registry
 pkg:cargo/one-shot-cli
 pkg:cargo/one-shot-mutex
 pkg:cargo/one-stack-vec
@@ -172120,6 +172176,7 @@ pkg:cargo/onechatsocial-presence
 pkg:cargo/onechatsocial-result
 pkg:cargo/oneclickclaw
 pkg:cargo/onecode
+pkg:cargo/onedevice
 pkg:cargo/onednn-src
 pkg:cargo/onednn-sys
 pkg:cargo/onednnl
@@ -182059,6 +182116,7 @@ pkg:cargo/pdf-renamer-ai
 pkg:cargo/pdf-render
 pkg:cargo/pdf-rs
 pkg:cargo/pdf-sign
+pkg:cargo/pdf-standard-fonts
 pkg:cargo/pdf-struct-chunker
 pkg:cargo/pdf-syntax
 pkg:cargo/pdf-text-extract
@@ -196561,6 +196619,7 @@ pkg:cargo/qorm
 pkg:cargo/qorrection
 pkg:cargo/qorx
 pkg:cargo/qos
+pkg:cargo/qos-threads
 pkg:cargo/qos_client
 pkg:cargo/qos_core
 pkg:cargo/qos_crypto
@@ -283911,6 +283970,7 @@ pkg:cargo/when2task
 pkg:cargo/when3meet
 pkg:cargo/whence
 pkg:cargo/whenever-parser
+pkg:cargo/whenparse
 pkg:cargo/whep
 pkg:cargo/where39
 pkg:cargo/where_am_i
