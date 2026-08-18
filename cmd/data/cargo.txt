@@ -23959,6 +23959,7 @@ pkg:cargo/berk
 pkg:cargo/berkelium
 pkg:cargo/berlin
 pkg:cargo/berlin-core
+pkg:cargo/berm
 pkg:cargo/bermuda
 pkg:cargo/bern-arch
 pkg:cargo/bern-build
@@ -24118,6 +24119,7 @@ pkg:cargo/better-auth-hca
 pkg:cargo/better-auth-macros
 pkg:cargo/better-auth-migration
 pkg:cargo/better-auth-poem
+pkg:cargo/better-auth-rs
 pkg:cargo/better-auth-schema-registry
 pkg:cargo/better-auth-seaorm
 pkg:cargo/better-auth-seaorm-macros
@@ -25507,6 +25509,7 @@ pkg:cargo/bevy_pixel_art_shader
 pkg:cargo/bevy_pixel_buffer
 pkg:cargo/bevy_pixel_camera
 pkg:cargo/bevy_pixel_perfect
+pkg:cargo/bevy_pixel_shader_3d
 pkg:cargo/bevy_pixels
 pkg:cargo/bevy_pkv
 pkg:cargo/bevy_plane_cut
@@ -25895,6 +25898,7 @@ pkg:cargo/bevy_svg_map
 pkg:cargo/bevy_switch
 pkg:cargo/bevy_symbios
 pkg:cargo/bevy_symbios_audio
+pkg:cargo/bevy_symbios_avatar
 pkg:cargo/bevy_symbios_ground
 pkg:cargo/bevy_symbios_multiuser
 pkg:cargo/bevy_symbios_shape
@@ -25923,7 +25927,9 @@ pkg:cargo/bevy_tasks
 pkg:cargo/bevy_tcp
 pkg:cargo/bevy_telemetry
 pkg:cargo/bevy_term
+pkg:cargo/bevy_terminal
 pkg:cargo/bevy_terminal_display
+pkg:cargo/bevy_terminal_ratatui
 pkg:cargo/bevy_terminal_shader
 pkg:cargo/bevy_test
 pkg:cargo/bevy_testing
@@ -27995,6 +28001,8 @@ pkg:cargo/bitcoin-test
 pkg:cargo/bitcoin-test-data
 pkg:cargo/bitcoin-time
 pkg:cargo/bitcoin-tokenpipe
+pkg:cargo/bitcoin-tools
+pkg:cargo/bitcoin-tools-core
 pkg:cargo/bitcoin-top
 pkg:cargo/bitcoin-tor
 pkg:cargo/bitcoin-transaction-utils
@@ -28546,6 +28554,7 @@ pkg:cargo/bitvector_simd
 pkg:cargo/bitvek
 pkg:cargo/bitverify
 pkg:cargo/bitvex
+pkg:cargo/bitview
 pkg:cargo/bitvora
 pkg:cargo/bitwarden
 pkg:cargo/bitwarden-api-api
@@ -33520,6 +33529,7 @@ pkg:cargo/btmgmt-packet
 pkg:cargo/btmgmt-packet-helper
 pkg:cargo/btmgmt-packet-macros
 pkg:cargo/btminer
+pkg:cargo/btmx
 pkg:cargo/btn-recognizer
 pkg:cargo/btnet
 pkg:cargo/btnify
@@ -41172,6 +41182,7 @@ pkg:cargo/cdp-lite
 pkg:cargo/cdp-protocol
 pkg:cargo/cdp-rs
 pkg:cargo/cdp-sdk
+pkg:cargo/cdp-server
 pkg:cargo/cdp-types
 pkg:cargo/cdp-use-rs
 pkg:cargo/cdparanoia
@@ -48313,6 +48324,7 @@ pkg:cargo/code-agent
 pkg:cargo/code-analyze
 pkg:cargo/code-analyze-core
 pkg:cargo/code-analyze-mcp
+pkg:cargo/code-atlas
 pkg:cargo/code-baseline
 pkg:cargo/code-blocks
 pkg:cargo/code-blocks-server
@@ -48863,6 +48875,7 @@ pkg:cargo/codewhale-agent
 pkg:cargo/codewhale-app-server
 pkg:cargo/codewhale-build-support
 pkg:cargo/codewhale-cli
+pkg:cargo/codewhale-command-contract
 pkg:cargo/codewhale-config
 pkg:cargo/codewhale-core
 pkg:cargo/codewhale-execpolicy
@@ -50116,6 +50129,9 @@ pkg:cargo/commitalyzer
 pkg:cargo/commitaura
 pkg:cargo/commitbee
 pkg:cargo/commitbot
+pkg:cargo/commitchi
+pkg:cargo/commitchi-core
+pkg:cargo/commitchi-pet
 pkg:cargo/commitcraft
 pkg:cargo/commiter
 pkg:cargo/commitfmt
@@ -51299,14 +51315,20 @@ pkg:cargo/confium-daemon
 pkg:cargo/confium-deployment
 pkg:cargo/confium-examples
 pkg:cargo/confium-jce-provider
+pkg:cargo/confium-keyless
+pkg:cargo/confium-log-monitor
+pkg:cargo/confium-log-server
 pkg:cargo/confium-macros
 pkg:cargo/confium-mock-plugin
 pkg:cargo/confium-net
 pkg:cargo/confium-net-quic
 pkg:cargo/confium-net-tcp
 pkg:cargo/confium-net-ws
+pkg:cargo/confium-node
 pkg:cargo/confium-observability
+pkg:cargo/confium-oidc
 pkg:cargo/confium-openssl-provider
+pkg:cargo/confium-operator
 pkg:cargo/confium-patterns
 pkg:cargo/confium-pkcs11-server
 pkg:cargo/confium-pki
@@ -51317,6 +51339,7 @@ pkg:cargo/confium-registry
 pkg:cargo/confium-ring
 pkg:cargo/confium-sandbox-process
 pkg:cargo/confium-sandbox-wasm
+pkg:cargo/confium-signatif
 pkg:cargo/confium-store
 pkg:cargo/confium-store-cloud
 pkg:cargo/confium-store-openpgp-card
@@ -51336,8 +51359,11 @@ pkg:cargo/confium-tc-gg18
 pkg:cargo/confium-tc-keys
 pkg:cargo/confium-tc-ml-kem
 pkg:cargo/confium-test-harness
+pkg:cargo/confium-threshold
 pkg:cargo/confium-tls-signer
 pkg:cargo/confium-transparency
+pkg:cargo/confium-verify
+pkg:cargo/confium-verify-server
 pkg:cargo/confium-wasm
 pkg:cargo/confix
 pkg:cargo/conflag
@@ -51445,6 +51471,19 @@ pkg:cargo/conllu-utils
 pkg:cargo/conllx
 pkg:cargo/conlog
 pkg:cargo/conman
+pkg:cargo/conmig
+pkg:cargo/conmig-cli
+pkg:cargo/conmig_caddyfile
+pkg:cargo/conmig_env
+pkg:cargo/conmig_json
+pkg:cargo/conmig_named_token
+pkg:cargo/conmig_otelcol
+pkg:cargo/conmig_prometheus
+pkg:cargo/conmig_squid
+pkg:cargo/conmig_systemd
+pkg:cargo/conmig_token
+pkg:cargo/conmig_tree
+pkg:cargo/conmig_yaml
 pkg:cargo/conmux
 pkg:cargo/conn
 pkg:cargo/conn-flow-state
@@ -52185,6 +52224,7 @@ pkg:cargo/context-mapper-derive
 pkg:cargo/context-mcp
 pkg:cargo/context-notation
 pkg:cargo/context-rs
+pkg:cargo/context-smith
 pkg:cargo/context-snipe
 pkg:cargo/context-spore
 pkg:cargo/context-trait
@@ -52973,6 +53013,10 @@ pkg:cargo/cordata
 pkg:cargo/cordic
 pkg:cargo/cordillera
 pkg:cargo/cordis
+pkg:cargo/cordis-cli
+pkg:cargo/cordis-group
+pkg:cargo/cordis-include
+pkg:cargo/cordis-loader
 pkg:cargo/cordis-rs
 pkg:cargo/cordoba
 pkg:cargo/cordoba-py
@@ -53562,6 +53606,7 @@ pkg:cargo/cortexflow_agent_api
 pkg:cargo/cortexflow_identity
 pkg:cargo/cortexfs
 pkg:cargo/cortexfs-channels
+pkg:cargo/cortexfs-context
 pkg:cargo/cortexfs-metadatas
 pkg:cargo/cortexfs-paths
 pkg:cargo/cortexfs-protocol
@@ -57211,6 +57256,7 @@ pkg:cargo/ctj
 pkg:cargo/ctjs
 pkg:cargo/ctjs_macros
 pkg:cargo/ctl
+pkg:cargo/ctl-core
 pkg:cargo/ctl10n
 pkg:cargo/ctlog
 pkg:cargo/ctltool
@@ -59171,6 +59217,8 @@ pkg:cargo/d1-orm-query
 pkg:cargo/d1-pac
 pkg:cargo/d1-rom-rt
 pkg:cargo/d1-rom-rt-macros
+pkg:cargo/d1v-api
+pkg:cargo/d1v-cli
 pkg:cargo/d2-little
 pkg:cargo/d2-stampede
 pkg:cargo/d2-stampede-macros
@@ -82216,6 +82264,8 @@ pkg:cargo/fast-jump
 pkg:cargo/fast-kd
 pkg:cargo/fast-layer
 pkg:cargo/fast-license-checker
+pkg:cargo/fast-lio
+pkg:cargo/fast-lio-driver
 pkg:cargo/fast-list
 pkg:cargo/fast-logger
 pkg:cargo/fast-lru
@@ -82386,6 +82436,7 @@ pkg:cargo/fast_pool
 pkg:cargo/fast_qr
 pkg:cargo/fast_radix_trie
 pkg:cargo/fast_rands
+pkg:cargo/fast_reader
 pkg:cargo/fast_reqwest
 pkg:cargo/fast_rsync
 pkg:cargo/fast_runner
@@ -93532,6 +93583,8 @@ pkg:cargo/gasripper
 pkg:cargo/gass
 pkg:cargo/gasteiger-rs
 pkg:cargo/gastimation
+pkg:cargo/gat-borrow
+pkg:cargo/gat-borrow-derive
 pkg:cargo/gat-lending-iterator
 pkg:cargo/gat-std
 pkg:cargo/gat-std-proc
@@ -93834,6 +93887,7 @@ pkg:cargo/gc-image
 pkg:cargo/gc-lang
 pkg:cargo/gc-lite
 pkg:cargo/gc-lite-macros
+pkg:cargo/gc-memcard
 pkg:cargo/gc-sequence
 pkg:cargo/gc-shadowstack
 pkg:cargo/gc9106
@@ -113294,6 +113348,13 @@ pkg:cargo/hypernums
 pkg:cargo/hyperoperation
 pkg:cargo/hyperoperator
 pkg:cargo/hyperopt
+pkg:cargo/hyperopt-core
+pkg:cargo/hyperopt-distributed
+pkg:cargo/hyperopt-pruners
+pkg:cargo/hyperopt-rs
+pkg:cargo/hyperopt-samplers
+pkg:cargo/hyperopt-storage
+pkg:cargo/hyperopt-viz
 pkg:cargo/hyperos
 pkg:cargo/hyperpack
 pkg:cargo/hyperparameter
@@ -128615,10 +128676,13 @@ pkg:cargo/knus-derive
 pkg:cargo/knusbaum_consul
 pkg:cargo/knust
 pkg:cargo/knut-bifrost
+pkg:cargo/knut-build
+pkg:cargo/knut-graphdb
 pkg:cargo/knut-pipelines
 pkg:cargo/knut-popsim
 pkg:cargo/knut-popviz
 pkg:cargo/knut-thund
+pkg:cargo/knut-tracing
 pkg:cargo/knuth-bendix
 pkg:cargo/knx-core
 pkg:cargo/knx-device
@@ -132848,6 +132912,7 @@ pkg:cargo/lci-gateway
 pkg:cargo/lcid
 pkg:cargo/lcl
 pkg:cargo/lcm
+pkg:cargo/lcm-bus
 pkg:cargo/lcm_gen
 pkg:cargo/lcms2
 pkg:cargo/lcms2-sys
@@ -132873,6 +132938,7 @@ pkg:cargo/lcowsay
 pkg:cargo/lcp-add-one
 pkg:cargo/lcp-adder
 pkg:cargo/lcp-core
+pkg:cargo/lcp-sdk
 pkg:cargo/lcp-server
 pkg:cargo/lcpc-2d
 pkg:cargo/lcpc-brakedown-pc
@@ -153839,6 +153905,7 @@ pkg:cargo/mn_hello_world
 pkg:cargo/mnabila-say-hello
 pkg:cargo/mnamer
 pkg:cargo/mncalc
+pkg:cargo/mndp-rs
 pkg:cargo/mnem
 pkg:cargo/mnem-ann
 pkg:cargo/mnem-backend-redb
@@ -169150,6 +169217,7 @@ pkg:cargo/nullable-utils-macros
 pkg:cargo/nullable_struct
 pkg:cargo/nullderef
 pkg:cargo/nulled_auth
+pkg:cargo/nullex
 pkg:cargo/nullfs
 pkg:cargo/nullgeo
 pkg:cargo/nullgeo-cli
@@ -169855,6 +169923,7 @@ pkg:cargo/nwd1
 pkg:cargo/nwd1-quic
 pkg:cargo/nwd1-webtransport
 pkg:cargo/nweb
+pkg:cargo/nwebp
 pkg:cargo/nwep
 pkg:cargo/nwep-rs
 pkg:cargo/nwep-sys
@@ -227364,6 +227433,7 @@ pkg:cargo/segovia
 pkg:cargo/segsource
 pkg:cargo/segsource-derive
 pkg:cargo/segstore
+pkg:cargo/segterm
 pkg:cargo/segtok
 pkg:cargo/segtree
 pkg:cargo/segtri
@@ -229356,6 +229426,7 @@ pkg:cargo/serializable_log_record
 pkg:cargo/serialization
 pkg:cargo/serialization_derive
 pkg:cargo/serialization_minecraft
+pkg:cargo/serialize-option
 pkg:cargo/serialize-quill-delta
 pkg:cargo/serialize-to-javascript
 pkg:cargo/serialize-to-javascript-impl
@@ -273317,6 +273388,7 @@ pkg:cargo/uptrakit-service-sdk
 pkg:cargo/uptrakit-shared-macros
 pkg:cargo/uptrakit-shared-types
 pkg:cargo/uptrakit-surfaces
+pkg:cargo/uptrakit-tracing-init
 pkg:cargo/uptrakit-web-api-types
 pkg:cargo/uptrakit-wire
 pkg:cargo/uptrakit-zeroconf
@@ -273339,6 +273411,26 @@ pkg:cargo/upvertex-sdk
 pkg:cargo/upwait
 pkg:cargo/upwd
 pkg:cargo/upwd-lib
+pkg:cargo/upwell
+pkg:cargo/upwell-app
+pkg:cargo/upwell-axum
+pkg:cargo/upwell-axum-json-ws
+pkg:cargo/upwell-axum-macros
+pkg:cargo/upwell-axum-stomp
+pkg:cargo/upwell-build
+pkg:cargo/upwell-client
+pkg:cargo/upwell-config
+pkg:cargo/upwell-core
+pkg:cargo/upwell-di
+pkg:cargo/upwell-dirs
+pkg:cargo/upwell-hooks
+pkg:cargo/upwell-jobs
+pkg:cargo/upwell-jobs-macros
+pkg:cargo/upwell-macros
+pkg:cargo/upwell-macros-core
+pkg:cargo/upwell-rpc
+pkg:cargo/upwell-rpc-macros
+pkg:cargo/upwell-transport
 pkg:cargo/upwhen
 pkg:cargo/upwork-wlroots-bridge
 pkg:cargo/upx
@@ -293345,6 +293437,9 @@ pkg:cargo/yomi
 pkg:cargo/yomichan-rs-dict
 pkg:cargo/yomichan_importer
 pkg:cargo/yomichan_rs
+pkg:cargo/yomikata
+pkg:cargo/yomikata-core
+pkg:cargo/yomikata-kokoro
 pkg:cargo/yomikomi
 pkg:cargo/yomikomi-pyo3
 pkg:cargo/yomitoki
