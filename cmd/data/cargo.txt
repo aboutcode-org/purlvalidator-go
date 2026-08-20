@@ -10646,6 +10646,7 @@ pkg:cargo/appconfiguration
 pkg:cargo/appcore
 pkg:cargo/appcore-api
 pkg:cargo/appcore-app-spec
+pkg:cargo/appcore-args
 pkg:cargo/appcore-bin
 pkg:cargo/appcore-capabilities
 pkg:cargo/appcore-cli
@@ -28103,6 +28104,7 @@ pkg:cargo/bitcoind-json-rpc-types
 pkg:cargo/bitcoind-log-parser
 pkg:cargo/bitcoind-request
 pkg:cargo/bitcoind-rest-api
+pkg:cargo/bitcoind-rpc-client
 pkg:cargo/bitcoind-watcher
 pkg:cargo/bitcoinkernel
 pkg:cargo/bitcoinkernel-covenants
@@ -28323,6 +28325,7 @@ pkg:cargo/bitlist
 pkg:cargo/bitlocker-control
 pkg:cargo/bitlocker-core
 pkg:cargo/bitlocker-forensic
+pkg:cargo/bitloom
 pkg:cargo/bitly-urlshortener
 pkg:cargo/bitm
 pkg:cargo/bitmac
@@ -49848,6 +49851,7 @@ pkg:cargo/columnstore
 pkg:cargo/colvec
 pkg:cargo/colvec-derive
 pkg:cargo/colx
+pkg:cargo/colyseus
 pkg:cargo/com
 pkg:cargo/com-com
 pkg:cargo/com-croftsoft
@@ -81339,6 +81343,7 @@ pkg:cargo/facere
 pkg:cargo/facere-cli
 pkg:cargo/faces
 pkg:cargo/faces-pfm
+pkg:cargo/facesign
 pkg:cargo/facet
 pkg:cargo/facet-actix
 pkg:cargo/facet-ansi
@@ -88800,6 +88805,7 @@ pkg:cargo/fog-pic
 pkg:cargo/fog-schemars
 pkg:cargo/fog-schemars-derive
 pkg:cargo/fog-svg
+pkg:cargo/fog-tui
 pkg:cargo/fog-wav
 pkg:cargo/foglet_game
 pkg:cargo/fognet
@@ -105899,6 +105905,7 @@ pkg:cargo/hapl
 pkg:cargo/haply
 pkg:cargo/happenstance
 pkg:cargo/happenstance-core
+pkg:cargo/happenstance-sqlite
 pkg:cargo/happenstance-testkit
 pkg:cargo/happi
 pkg:cargo/happi-derive
@@ -106438,6 +106445,7 @@ pkg:cargo/hashicorp-lru
 pkg:cargo/hashicorp_vault
 pkg:cargo/hashids
 pkg:cargo/hashify
+pkg:cargo/hashigo
 pkg:cargo/hashinator
 pkg:cargo/hashindexed
 pkg:cargo/hashing
@@ -108860,6 +108868,7 @@ pkg:cargo/hg-git-fast-import
 pkg:cargo/hg-ignore
 pkg:cargo/hg-parser
 pkg:cargo/hg-tui
+pkg:cargo/hg80
 pkg:cargo/hgame
 pkg:cargo/hgdirectffi
 pkg:cargo/hgg
@@ -128829,6 +128838,7 @@ pkg:cargo/knack-core
 pkg:cargo/knack-registry
 pkg:cargo/knack-types
 pkg:cargo/knafeh
+pkg:cargo/knap
 pkg:cargo/knapp
 pkg:cargo/knapsack
 pkg:cargo/knapsack-oxigen
@@ -128906,6 +128916,8 @@ pkg:cargo/knok-macros
 pkg:cargo/knoll
 pkg:cargo/knolo-agent
 pkg:cargo/knolo-agent-core
+pkg:cargo/knolo-core-rust
+pkg:cargo/knolo-icp-canister
 pkg:cargo/knope
 pkg:cargo/knope-config
 pkg:cargo/knope-versioning
@@ -162032,6 +162044,7 @@ pkg:cargo/native-timer
 pkg:cargo/native-tls
 pkg:cargo/native-tls-gmssl
 pkg:cargo/native-to-anchor
+pkg:cargo/native-v86-core
 pkg:cargo/native-whisperx
 pkg:cargo/native-whisperx-cli
 pkg:cargo/native-windows-canvas
@@ -162086,6 +162099,7 @@ pkg:cargo/nats-counters
 pkg:cargo/nats-extra
 pkg:cargo/nats-handling
 pkg:cargo/nats-io-jwt
+pkg:cargo/nats-jetstream-pull-consumer
 pkg:cargo/nats-jwt
 pkg:cargo/nats-jwt-rs
 pkg:cargo/nats-kv
@@ -169390,6 +169404,7 @@ pkg:cargo/nu_plugin_xpath
 pkg:cargo/nua
 pkg:cargo/nuage
 pkg:cargo/nuance
+pkg:cargo/nuance-cli
 pkg:cargo/nub
 pkg:cargo/nuban
 pkg:cargo/nuban_rust
@@ -227575,6 +227590,7 @@ pkg:cargo/secretmangle
 pkg:cargo/secretpad
 pkg:cargo/secretrs
 pkg:cargo/secrets
+pkg:cargo/secrets-app
 pkg:cargo/secrets-cli
 pkg:cargo/secrets-le
 pkg:cargo/secrets-manager-macro
@@ -230128,6 +230144,7 @@ pkg:cargo/series_breaker
 pkg:cargo/series_matcher
 pkg:cargo/serif
 pkg:cargo/serifs
+pkg:cargo/serify
 pkg:cargo/serini
 pkg:cargo/serio
 pkg:cargo/seripack
@@ -230522,6 +230539,9 @@ pkg:cargo/session-process-monitor
 pkg:cargo/session-rs
 pkg:cargo/session_log
 pkg:cargo/session_types
+pkg:cargo/sessiond-dhall
+pkg:cargo/sessiond-dhall-proc-macros
+pkg:cargo/sessiond-serde-dhall
 pkg:cargo/sessionguard
 pkg:cargo/sessionizer
 pkg:cargo/sessionless
@@ -261704,6 +261724,7 @@ pkg:cargo/tloop-cli
 pkg:cargo/tloop-config
 pkg:cargo/tloop-preprocess
 pkg:cargo/tlparse
+pkg:cargo/tlpm-rs
 pkg:cargo/tlpsign
 pkg:cargo/tlpt
 pkg:cargo/tlq
@@ -282194,6 +282215,7 @@ pkg:cargo/w-boson
 pkg:cargo/w-chess
 pkg:cargo/w-gui
 pkg:cargo/w-pgn
+pkg:cargo/w-slang
 pkg:cargo/w-wiki
 pkg:cargo/w16
 pkg:cargo/w1_therm_reader
@@ -286662,6 +286684,7 @@ pkg:cargo/white-balancer
 pkg:cargo/white-label
 pkg:cargo/white-whale-std
 pkg:cargo/white_rabbit
+pkg:cargo/whitebit-sdk
 pkg:cargo/whiteboard
 pkg:cargo/whitebox
 pkg:cargo/whitebreadx
@@ -290699,6 +290722,7 @@ pkg:cargo/x8
 pkg:cargo/x86
 pkg:cargo/x86-alignment-check
 pkg:cargo/x86-instruction-set-analyzer
+pkg:cargo/x86-native
 pkg:cargo/x86-pic
 pkg:cargo/x86-rs
 pkg:cargo/x86-simd
@@ -294340,6 +294364,7 @@ pkg:cargo/yomitoki
 pkg:cargo/yomo
 pkg:cargo/yomo_derive
 pkg:cargo/yon
+pkg:cargo/yoneda
 pkg:cargo/yongcat
 pkg:cargo/yonsei-flexible
 pkg:cargo/yoo
