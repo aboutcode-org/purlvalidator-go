@@ -24241,6 +24241,7 @@ pkg:cargo/betteroffice-docx
 pkg:cargo/betteroffice-docx-edit
 pkg:cargo/betteroffice-docx-layout
 pkg:cargo/betteroffice-docx-parse
+pkg:cargo/betteroffice-docx-raster
 pkg:cargo/betteroffice-drawingml
 pkg:cargo/betteroffice-ooxml-text
 pkg:cargo/betteroffice-opc
@@ -80023,6 +80024,8 @@ pkg:cargo/excel_xmlwriter
 pkg:cargo/excelactor
 pkg:cargo/excelize
 pkg:cargo/excelize-rs
+pkg:cargo/excelreader
+pkg:cargo/excelreader-derive
 pkg:cargo/excelsior
 pkg:cargo/excelstream
 pkg:cargo/excelwriter
@@ -106197,6 +106200,7 @@ pkg:cargo/harness-rs-serve
 pkg:cargo/harness-rs-skills
 pkg:cargo/harness-rs-templates
 pkg:cargo/harness-rs-tools-browser
+pkg:cargo/harness-rs-tools-datetime
 pkg:cargo/harness-rs-tools-docs
 pkg:cargo/harness-rs-tools-fs
 pkg:cargo/harness-rs-tools-memory
@@ -106520,6 +106524,7 @@ pkg:cargo/hashseq
 pkg:cargo/hashset_ext
 pkg:cargo/hashsigs-rs
 pkg:cargo/hashslab
+pkg:cargo/hashsleuth
 pkg:cargo/hashstash
 pkg:cargo/hashstr
 pkg:cargo/hashstr-derive
@@ -113880,6 +113885,7 @@ pkg:cargo/hyraigne
 pkg:cargo/hyrax
 pkg:cargo/hyrced
 pkg:cargo/hyro
+pkg:cargo/hyro-client-rs
 pkg:cargo/hyrulenode
 pkg:cargo/hysp
 pkg:cargo/hysteresis
@@ -161590,7 +161596,13 @@ pkg:cargo/nanobook-rebalancer
 pkg:cargo/nanobook-risk
 pkg:cargo/nanobot
 pkg:cargo/nanobox
+pkg:cargo/nanobucket-cli
+pkg:cargo/nanobucket-iam
+pkg:cargo/nanobucket-model
+pkg:cargo/nanobucket-proto
+pkg:cargo/nanobucket-store
 pkg:cargo/nanobv
+pkg:cargo/nanocached
 pkg:cargo/nanochat
 pkg:cargo/nanocl
 pkg:cargo/nanocl-client
@@ -162322,6 +162334,8 @@ pkg:cargo/navi-vfs
 pkg:cargo/navi-voice
 pkg:cargo/navian-dst
 pkg:cargo/navian-dst-cli
+pkg:cargo/navian-memcheck
+pkg:cargo/navian-memcheck-cli
 pkg:cargo/navidrome-rs
 pkg:cargo/navier
 pkg:cargo/navig18xx
@@ -173310,6 +173324,7 @@ pkg:cargo/omango-wyhash
 pkg:cargo/omap
 pkg:cargo/omar_minigrep
 pkg:cargo/omarchy-reminders-remix
+pkg:cargo/omarchy-rs
 pkg:cargo/omarchy-studio
 pkg:cargo/omaro
 pkg:cargo/omatrix
@@ -173670,6 +173685,8 @@ pkg:cargo/omnyssh
 pkg:cargo/omnyssh-core
 pkg:cargo/omnyx
 pkg:cargo/omo-config
+pkg:cargo/omoya
+pkg:cargo/omoya-spec
 pkg:cargo/omp
 pkg:cargo/omp-app
 pkg:cargo/omp-ast
@@ -174174,6 +174191,7 @@ pkg:cargo/onlytypes-core
 pkg:cargo/onmcu
 pkg:cargo/onnx
 pkg:cargo/onnx-embedding
+pkg:cargo/onnx-export-rs
 pkg:cargo/onnx-extractor
 pkg:cargo/onnx-genai
 pkg:cargo/onnx-genai-comfyui-config
@@ -174368,6 +174386,7 @@ pkg:cargo/oom-forensics
 pkg:cargo/oom-match
 pkg:cargo/oom-parsing
 pkg:cargo/oom-safe
+pkg:cargo/oom-tui
 pkg:cargo/oombak_gen
 pkg:cargo/oombak_local_sim
 pkg:cargo/oombak_rs
@@ -178968,6 +178987,7 @@ pkg:cargo/owl-logger
 pkg:cargo/owl-logger-macros
 pkg:cargo/owl-ms-language-server
 pkg:cargo/owl-spell
+pkg:cargo/owl-structural-model
 pkg:cargo/owl-write
 pkg:cargo/owl2shacl
 pkg:cargo/owl_midi
@@ -226990,6 +227010,7 @@ pkg:cargo/sdo
 pkg:cargo/sdoc
 pkg:cargo/sdocx
 pkg:cargo/sdocx-cli
+pkg:cargo/sdoppia
 pkg:cargo/sdot
 pkg:cargo/sdp
 pkg:cargo/sdp-nom
@@ -230145,6 +230166,7 @@ pkg:cargo/series_matcher
 pkg:cargo/serif
 pkg:cargo/serifs
 pkg:cargo/serify
+pkg:cargo/serify-derive
 pkg:cargo/serini
 pkg:cargo/serio
 pkg:cargo/seripack
@@ -230274,6 +230296,10 @@ pkg:cargo/serverctl
 pkg:cargo/serverdumbtest
 pkg:cargo/serverforge
 pkg:cargo/serverify
+pkg:cargo/serverkit
+pkg:cargo/serverkit-hyper
+pkg:cargo/serverkit-macros
+pkg:cargo/serverkit-worker
 pkg:cargo/serverless
 pkg:cargo/serverless-cost-calculator
 pkg:cargo/serverless-fn
@@ -274051,6 +274077,12 @@ pkg:cargo/upack
 pkg:cargo/upair
 pkg:cargo/upaste
 pkg:cargo/upb
+pkg:cargo/upb-rs
+pkg:cargo/upb-rs-casefile
+pkg:cargo/upb-rs-core
+pkg:cargo/upb-rs-mini-table
+pkg:cargo/upb-rs-oracle
+pkg:cargo/upb-rs-wire
 pkg:cargo/upb-sys
 pkg:cargo/upbase
 pkg:cargo/upbflib
