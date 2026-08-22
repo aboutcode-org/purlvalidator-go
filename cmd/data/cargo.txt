@@ -8365,6 +8365,7 @@ pkg:cargo/android-launcher
 pkg:cargo/android-logcat
 pkg:cargo/android-logd-logger
 pkg:cargo/android-manifest
+pkg:cargo/android-manifest-derive
 pkg:cargo/android-media
 pkg:cargo/android-mem-kit
 pkg:cargo/android-native-keyring-store
@@ -8593,6 +8594,7 @@ pkg:cargo/animl
 pkg:cargo/animo-secure-env
 pkg:cargo/animsmith
 pkg:cargo/animsmith-core
+pkg:cargo/animsmith-engine
 pkg:cargo/animsmith-fbx
 pkg:cargo/animsmith-gltf
 pkg:cargo/animsmith-report
@@ -9138,6 +9140,8 @@ pkg:cargo/antd
 pkg:cargo/antd-sys
 pkg:cargo/antd-yew
 pkg:cargo/ante
+pkg:cargo/ante-acp
+pkg:cargo/ante-protocol-shape
 pkg:cargo/antecedent
 pkg:cargo/antecedent-attribution
 pkg:cargo/antecedent-core
@@ -9388,6 +9392,7 @@ pkg:cargo/any-gpu
 pkg:cargo/any-intern
 pkg:cargo/any-lexer
 pkg:cargo/any-map
+pkg:cargo/any-mcp
 pkg:cargo/any-mpsc
 pkg:cargo/any-null
 pkg:cargo/any-object-storage
@@ -23203,6 +23208,7 @@ pkg:cargo/bdf2
 pkg:cargo/bdf2surface
 pkg:cargo/bdflib
 pkg:cargo/bdg
+pkg:cargo/bdgm
 pkg:cargo/bdiff
 pkg:cargo/bdinfo-rs
 pkg:cargo/bdinfo-rs-core
@@ -23567,6 +23573,7 @@ pkg:cargo/beep-proto
 pkg:cargo/beep-telemetry
 pkg:cargo/beepboop
 pkg:cargo/beepboopd
+pkg:cargo/beeper
 pkg:cargo/beeper-desktop-api
 pkg:cargo/beepy-display
 pkg:cargo/beer
@@ -24745,6 +24752,7 @@ pkg:cargo/bevy_coroutine_system_macro
 pkg:cargo/bevy_cosmic_edit
 pkg:cargo/bevy_couch_multiplayer
 pkg:cargo/bevy_crab_networking
+pkg:cargo/bevy_crash_capture
 pkg:cargo/bevy_crevice
 pkg:cargo/bevy_cronjob
 pkg:cargo/bevy_crossbeam_event
@@ -26212,6 +26220,7 @@ pkg:cargo/bevyhub_scene
 pkg:cargo/bevyhub_template
 pkg:cargo/bevyinit
 pkg:cargo/bevylder
+pkg:cargo/bevytiles
 pkg:cargo/bevytui
 pkg:cargo/bevyv_cas
 pkg:cargo/bevyv_obj
@@ -26406,6 +26415,7 @@ pkg:cargo/bh_alloc
 pkg:cargo/bh_minigrep
 pkg:cargo/bhai
 pkg:cargo/bhalu
+pkg:cargo/bhandaar
 pkg:cargo/bharat-cafe
 pkg:cargo/bharatlink
 pkg:cargo/bharatlink-core
@@ -27678,6 +27688,7 @@ pkg:cargo/bit-twiddler
 pkg:cargo/bit-vec
 pkg:cargo/bit-vec-omnitool
 pkg:cargo/bit-vec_serde
+pkg:cargo/bit_arch
 pkg:cargo/bit_blend
 pkg:cargo/bit_bool
 pkg:cargo/bit_buffers
@@ -28327,6 +28338,12 @@ pkg:cargo/bitlocker-control
 pkg:cargo/bitlocker-core
 pkg:cargo/bitlocker-forensic
 pkg:cargo/bitloom
+pkg:cargo/bitloom-builder
+pkg:cargo/bitloom-hir
+pkg:cargo/bitloom-macro
+pkg:cargo/bitloom-prelude
+pkg:cargo/bitloom-sim
+pkg:cargo/bitloom-vlog
 pkg:cargo/bitly-urlshortener
 pkg:cargo/bitm
 pkg:cargo/bitmac
@@ -34949,6 +34966,7 @@ pkg:cargo/byte-enum-derive
 pkg:cargo/byte-escape
 pkg:cargo/byte-fmt
 pkg:cargo/byte-io
+pkg:cargo/byte-lru-cache
 pkg:cargo/byte-mutator
 pkg:cargo/byte-num
 pkg:cargo/byte-order
@@ -80044,6 +80062,7 @@ pkg:cargo/exchage
 pkg:cargo/exchange
 pkg:cargo/exchange-apiws
 pkg:cargo/exchange-connectors
+pkg:cargo/exchange-hours
 pkg:cargo/exchange-hyperliquid
 pkg:cargo/exchange-pb
 pkg:cargo/exchange-rate
@@ -80168,6 +80187,7 @@ pkg:cargo/exhaustive-map-macros
 pkg:cargo/exhaustive_macros
 pkg:cargo/exhibit
 pkg:cargo/exhume
+pkg:cargo/exhume_agent
 pkg:cargo/exhume_apfs
 pkg:cargo/exhume_artefacts
 pkg:cargo/exhume_body
@@ -80407,6 +80427,8 @@ pkg:cargo/expanding_slice_rb
 pkg:cargo/expandtabs-rs
 pkg:cargo/expanduser
 pkg:cargo/expanse
+pkg:cargo/expanse-capi
+pkg:cargo/expanse-trie
 pkg:cargo/expansion
 pkg:cargo/expat-sys
 pkg:cargo/expect
@@ -82713,6 +82735,7 @@ pkg:cargo/fasthash-sys-fork
 pkg:cargo/fasthex
 pkg:cargo/fasthooks
 pkg:cargo/fasthttp
+pkg:cargo/fasti
 pkg:cargo/fastid
 pkg:cargo/fastimer
 pkg:cargo/fastimer-core
@@ -82756,6 +82779,7 @@ pkg:cargo/fastlz-sys
 pkg:cargo/fastlz-sys-fork
 pkg:cargo/fastmap
 pkg:cargo/fastmaths
+pkg:cargo/fastmc
 pkg:cargo/fastmcp
 pkg:cargo/fastmcp-cli
 pkg:cargo/fastmcp-client
@@ -89737,6 +89761,7 @@ pkg:cargo/formy_derive
 pkg:cargo/fornax
 pkg:cargo/forne
 pkg:cargo/fornix
+pkg:cargo/forno
 pkg:cargo/foropts
 pkg:cargo/forr
 pkg:cargo/forrest
@@ -104131,6 +104156,7 @@ pkg:cargo/gsva-rust
 pkg:cargo/gsw
 pkg:cargo/gsw-rs
 pkg:cargo/gsym
+pkg:cargo/gsym-cache
 pkg:cargo/gsym-rs
 pkg:cargo/gsync
 pkg:cargo/gsys
@@ -105161,6 +105187,7 @@ pkg:cargo/hacknow
 pkg:cargo/hackrf
 pkg:cargo/hackrf-hal
 pkg:cargo/hackrf-nusb
+pkg:cargo/hackrf-proxyd
 pkg:cargo/hackrf-rs
 pkg:cargo/hackrfone
 pkg:cargo/hacksaw
@@ -105907,6 +105934,7 @@ pkg:cargo/hapic
 pkg:cargo/hapl
 pkg:cargo/haply
 pkg:cargo/happenstance
+pkg:cargo/happenstance-cloudflare
 pkg:cargo/happenstance-core
 pkg:cargo/happenstance-sqlite
 pkg:cargo/happenstance-testkit
@@ -106076,6 +106104,7 @@ pkg:cargo/harfruzz
 pkg:cargo/harfshapedfa
 pkg:cargo/hargrep
 pkg:cargo/hark
+pkg:cargo/harken
 pkg:cargo/harknes
 pkg:cargo/harlaw
 pkg:cargo/harled
@@ -108825,6 +108854,8 @@ pkg:cargo/hf2q
 pkg:cargo/hf2q-convert
 pkg:cargo/hf2q-core
 pkg:cargo/hf2q-infer
+pkg:cargo/hfc-abi
+pkg:cargo/hfc-rules
 pkg:cargo/hfcast
 pkg:cargo/hfdt-rs
 pkg:cargo/hfetch
@@ -113029,6 +113060,7 @@ pkg:cargo/hydracache-sql-lint
 pkg:cargo/hydracache-sqlx
 pkg:cargo/hydracache-transport-nats
 pkg:cargo/hydracache-transport-redis
+pkg:cargo/hydrafetch
 pkg:cargo/hydralite
 pkg:cargo/hydraria
 pkg:cargo/hydrasdr-rs
@@ -113735,6 +113767,7 @@ pkg:cargo/hyphae-client
 pkg:cargo/hyphae-contracts
 pkg:cargo/hyphae-core
 pkg:cargo/hyphae-engine
+pkg:cargo/hyphae-gpui
 pkg:cargo/hyphae-handshake
 pkg:cargo/hyphae-leptos
 pkg:cargo/hyphae-native-ann
@@ -128846,6 +128879,7 @@ pkg:cargo/knack-types
 pkg:cargo/knafeh
 pkg:cargo/knap
 pkg:cargo/knapp
+pkg:cargo/knapper
 pkg:cargo/knapsack
 pkg:cargo/knapsack-oxigen
 pkg:cargo/knaptime
@@ -158097,6 +158131,7 @@ pkg:cargo/ms-icpr
 pkg:cargo/ms-io
 pkg:cargo/ms-kile-fast
 pkg:cargo/ms-learn-md-parser
+pkg:cargo/ms-lsad
 pkg:cargo/ms-lsat
 pkg:cargo/ms-ndr
 pkg:cargo/ms-nrpc
@@ -170064,6 +170099,7 @@ pkg:cargo/nutek-cipher
 pkg:cargo/nutek-cipher-lib
 pkg:cargo/nutek-encode
 pkg:cargo/nutek_crt_sh
+pkg:cargo/nutex
 pkg:cargo/nutexb
 pkg:cargo/nuthatch
 pkg:cargo/nutils
@@ -173572,6 +173608,16 @@ pkg:cargo/omnical
 pkg:cargo/omnicaptcha
 pkg:cargo/omnicat
 pkg:cargo/omnicli
+pkg:cargo/omnicli-app
+pkg:cargo/omnicli-archive
+pkg:cargo/omnicli-backup
+pkg:cargo/omnicli-config
+pkg:cargo/omnicli-convert
+pkg:cargo/omnicli-core
+pkg:cargo/omnicli-dev
+pkg:cargo/omnicli-file
+pkg:cargo/omnicli-search
+pkg:cargo/omnicli-workspace
 pkg:cargo/omnicopy_to_output
 pkg:cargo/omnid
 pkg:cargo/omnidotdev-cli
@@ -174696,12 +174742,14 @@ pkg:cargo/open-kioku-patch
 pkg:cargo/open-kioku-plan
 pkg:cargo/open-kioku-qdrant
 pkg:cargo/open-kioku-ranking
+pkg:cargo/open-kioku-resolution
 pkg:cargo/open-kioku-sandbox
 pkg:cargo/open-kioku-scip
 pkg:cargo/open-kioku-search
 pkg:cargo/open-kioku-search-regex
 pkg:cargo/open-kioku-search-tantivy
 pkg:cargo/open-kioku-semantic
+pkg:cargo/open-kioku-semantic-model
 pkg:cargo/open-kioku-sentry
 pkg:cargo/open-kioku-storage
 pkg:cargo/open-kioku-storage-kv
@@ -228083,6 +228131,7 @@ pkg:cargo/sefirot_testbed
 pkg:cargo/sefr
 pkg:cargo/sefy
 pkg:cargo/sefy-core
+pkg:cargo/sefy-plugin-github
 pkg:cargo/seg
 pkg:cargo/seg-tree
 pkg:cargo/seg_lib
@@ -228804,6 +228853,7 @@ pkg:cargo/sensorlm-rs
 pkg:cargo/sensorlog
 pkg:cargo/sensorml
 pkg:cargo/sensors
+pkg:cargo/sensors-rs
 pkg:cargo/sensors-sys
 pkg:cargo/sensorthings-validator
 pkg:cargo/sensorwatch
@@ -228980,6 +229030,7 @@ pkg:cargo/sentrystr-api
 pkg:cargo/sentrystr-collector
 pkg:cargo/sentrystr-tracing
 pkg:cargo/senv
+pkg:cargo/senviok
 pkg:cargo/senzu
 pkg:cargo/seo
 pkg:cargo/seo-recon
@@ -286575,6 +286626,7 @@ pkg:cargo/whim
 pkg:cargo/whimsi
 pkg:cargo/whimsi-lib
 pkg:cargo/whip
+pkg:cargo/whip-pair
 pkg:cargo/whip-up
 pkg:cargo/whipkit
 pkg:cargo/whipplescript
@@ -290753,6 +290805,7 @@ pkg:cargo/x7z
 pkg:cargo/x8
 pkg:cargo/x86
 pkg:cargo/x86-alignment-check
+pkg:cargo/x86-apic-driver
 pkg:cargo/x86-instruction-set-analyzer
 pkg:cargo/x86-native
 pkg:cargo/x86-pic
