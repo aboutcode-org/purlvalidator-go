@@ -405,6 +405,8 @@ pkg:composer/1tomany/pdf-to-image
 pkg:composer/1tomany/pdf-to-image-bundle
 pkg:composer/1tomany/php-ai
 pkg:composer/1tomany/php-ai-bundle
+pkg:composer/1tomany/php-geocoder
+pkg:composer/1tomany/php-geocoder-bundle
 pkg:composer/1tomany/postgres-bundle
 pkg:composer/1tomany/pretty-print
 pkg:composer/1tomany/rich-bundle
@@ -854,6 +856,8 @@ pkg:composer/3neti/x-change
 pkg:composer/3neti/x-commerce
 pkg:composer/3neti/x-feedback
 pkg:composer/3neti/x-journal
+pkg:composer/3neti/x-mcp
+pkg:composer/3neti/x-provisioning
 pkg:composer/3neti/x-ray
 pkg:composer/3neti/x-rider
 pkg:composer/3nr1c/php-shunting-yard
@@ -1263,6 +1267,7 @@ pkg:composer/6tail/lunar-php
 pkg:composer/6tail/tyme4php
 pkg:composer/6uliver/wpml-installer
 pkg:composer/6wz/shein-sdk-php
+pkg:composer/7-zete-7/audiosocket
 pkg:composer/7-zete-7/number-like-string
 pkg:composer/7-zete-7/reactphp-audiosocket
 pkg:composer/7170/slack-codeception-extension
@@ -1916,6 +1921,8 @@ pkg:composer/aaix/laravel-audit-trails
 pkg:composer/aaix/laravel-countries
 pkg:composer/aaix/laravel-easy-backups
 pkg:composer/aaix/laravel-error-audit
+pkg:composer/aaix/laravel-islands
+pkg:composer/aaix/laravel-islands-datagrid
 pkg:composer/aaix/laravel-patches
 pkg:composer/aaix/laravel-smart-log
 pkg:composer/aak74/bitrix
@@ -2078,6 +2085,7 @@ pkg:composer/aaronkatema/laravel-smilepay
 pkg:composer/aaronkirkham/wp-timber-view-controller
 pkg:composer/aaronlee/sjunit-laravel
 pkg:composer/aaronlei/laravel-feishu-logging
+pkg:composer/aaronlow/proto2-php
 pkg:composer/aaronmacaron/reaction
 pkg:composer/aaronneondigital/livewire-tables
 pkg:composer/aaronosher/php-uls
@@ -2125,6 +2133,7 @@ pkg:composer/aashi/php-perfomance-counter
 pkg:composer/aashirhaq/stub
 pkg:composer/aashley/chef
 pkg:composer/aashley/nagios-livestatus-client
+pkg:composer/aashro/at-analytics-lite
 pkg:composer/aashro/at-bricker
 pkg:composer/aashro/at-cakezone
 pkg:composer/aashro/at-chocolux
@@ -292812,6 +292821,7 @@ pkg:composer/smart-daddy/user-activity
 pkg:composer/smart-dato/afs-logistic-sdk
 pkg:composer/smart-dato/arco-spedizioni-sdk
 pkg:composer/smart-dato/brt
+pkg:composer/smart-dato/brt-documento-di-ritiro
 pkg:composer/smart-dato/brt-tracking
 pkg:composer/smart-dato/correos-sdk
 pkg:composer/smart-dato/correos-shipping-sdk
@@ -295743,6 +295753,7 @@ pkg:composer/sol-parts/payum-monobank
 pkg:composer/sol-parts/payum-monobank-chast
 pkg:composer/sol-parts/payum-novapay
 pkg:composer/sol-parts/payum-privatbank-payparts
+pkg:composer/sol-parts/payum-rozetkapay
 pkg:composer/sol-parts/symfony-alphasms-notifier
 pkg:composer/sol-parts/symfony-smsclub-notifier
 pkg:composer/sol-parts/symfony-smsfly-notifier
@@ -298505,6 +298516,7 @@ pkg:composer/spiffy/spiffy-view
 pkg:composer/spiffy/spiffy-view-twig
 pkg:composer/spiggle/dynamic-fields-core
 pkg:composer/spiggle/filament-spiggle-theme
+pkg:composer/spiggle/form-builder-core
 pkg:composer/spigo/lorem
 pkg:composer/spiicy/flightstats-bundle
 pkg:composer/spiiicy/flightstats-bundle
@@ -323166,6 +323178,7 @@ pkg:composer/tobya/laravel-version
 pkg:composer/tobya/lassi
 pkg:composer/tobya/pprint_r
 pkg:composer/tobya/queuestatus
+pkg:composer/tobya/saloon
 pkg:composer/tobya/summarychart
 pkg:composer/tobya/tailwind-trumpet
 pkg:composer/tobya/telegraph
@@ -328847,6 +328860,7 @@ pkg:composer/twenycode/laravel-bladekit
 pkg:composer/twenycode/laravel-blueprint
 pkg:composer/twenycode/tweny-ui-kit
 pkg:composer/twetech/oauth2-ninjaone
+pkg:composer/twexapi/x-api-scraper
 pkg:composer/twg-group/jquery.scroll-spy
 pkg:composer/twg/omnipay-amex
 pkg:composer/twg/omnipay-exact
@@ -332420,6 +332434,7 @@ pkg:composer/urerued/urerued-token
 pkg:composer/uretral/laravel-admin
 pkg:composer/urfysoft/transactional-outbox
 pkg:composer/urgor/calendarr
+pkg:composer/urgorri/laravel-class-obf
 pkg:composer/urguardian4ngel/flarum-ext-fb-crawler
 pkg:composer/urhitech/urhitech-sms-php
 pkg:composer/uri-interop/impl
@@ -333906,6 +333921,7 @@ pkg:composer/valjak/composer-example-package
 pkg:composer/valk-ui/blade
 pkg:composer/valkey-io/valkey-glide-php
 pkg:composer/valkhan/easymask
+pkg:composer/valkos/laravel-seo
 pkg:composer/valkovic/flash
 pkg:composer/valksystems/bootbuilder
 pkg:composer/valkyriweb/wp-remote-auth
@@ -334484,6 +334500,7 @@ pkg:composer/varibaseinc/sigma
 pkg:composer/varienos/mysql-backup
 pkg:composer/varienos/varien.php.minify
 pkg:composer/variety-pay/test
+pkg:composer/varik-kos/tesseract-laravel
 pkg:composer/varimax/aliyun-sms-sdk
 pkg:composer/varimax/app
 pkg:composer/varimax/varimax
@@ -336854,6 +336871,8 @@ pkg:composer/viewmend/laravel
 pkg:composer/viewmend/sdk
 pkg:composer/viewmend/typo3-auto-replies
 pkg:composer/viewmend/typo3-core
+pkg:composer/viewmend/typo3-inboxmend
+pkg:composer/viewmend/typo3-mailings
 pkg:composer/viewmend/typo3-site-tracker
 pkg:composer/viewtrender/php-youtube-testkit-core
 pkg:composer/viewtrender/php-youtube-testkit-laravel
@@ -345255,6 +345274,7 @@ pkg:composer/webmozart/path-util
 pkg:composer/webmozarts/console-parallelization
 pkg:composer/webmozarts/strict-phpunit
 pkg:composer/webmunkeez/adr-bundle
+pkg:composer/webmunkeez/context-bundle
 pkg:composer/webmunkeez/cqrs-bundle
 pkg:composer/webmunkeez/elastic-bundle
 pkg:composer/webmunkeez/fixture-bundle
@@ -357526,6 +357546,7 @@ pkg:composer/yasser-elgammal/lara-sms
 pkg:composer/yasser-elgammal/laravel-easy-wallet
 pkg:composer/yasser-elgammal/laravel-egypt-national-id-parser
 pkg:composer/yasser-elgammal/laravel-gemini
+pkg:composer/yasser-elgammal/laravel-tamara
 pkg:composer/yasser-elgammal/laravel-wasl-erental
 pkg:composer/yasser-elgammal/logisti-tawseel
 pkg:composer/yasser-elgammal/pure-text
@@ -358039,6 +358060,7 @@ pkg:composer/yelfive/overlord-model
 pkg:composer/yellenli/ali-oss-storage
 pkg:composer/yellenli/laravel-scout-elastic
 pkg:composer/yelles/nova-create-or-add
+pkg:composer/yellow-three/daisyui-starter-kit
 pkg:composer/yellow-three/voyager
 pkg:composer/yellow-twins/fluid-lens
 pkg:composer/yellow-twins/snapshot
@@ -365691,6 +365713,7 @@ pkg:composer/zitkino/zitkino
 pkg:composer/zitrone475/lumen-routes-command
 pkg:composer/zivar/laravel-security
 pkg:composer/zivar/laravel-starter
+pkg:composer/zivar/laravel-ui
 pkg:composer/zivot/laravel-mongodb-passport
 pkg:composer/zivtech/bear
 pkg:composer/zivtech/bear-project
