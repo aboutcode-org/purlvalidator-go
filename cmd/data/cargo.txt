@@ -789,6 +789,7 @@ pkg:cargo/Zhu-li
 pkg:cargo/Zoyatis_first_crate
 pkg:cargo/ZuckGate
 pkg:cargo/a
+pkg:cargo/a-agent
 pkg:cargo/a-bot
 pkg:cargo/a-flags
 pkg:cargo/a-gpt
@@ -7413,11 +7414,13 @@ pkg:cargo/am-fs-erofs
 pkg:cargo/am-fs-ext4
 pkg:cargo/am-fs-ntfs
 pkg:cargo/am-fs-squashfs
+pkg:cargo/am-fs-xfs
 pkg:cargo/am-img-qcow2
 pkg:cargo/am-img-vhd
 pkg:cargo/am-img-vhdx
 pkg:cargo/am-img-vmdk
 pkg:cargo/am-ingest
+pkg:cargo/am-lzo1x
 pkg:cargo/am-parse
 pkg:cargo/am-partitions
 pkg:cargo/am-wordlist
@@ -8580,6 +8583,7 @@ pkg:cargo/anime-dl
 pkg:cargo/anime-grubber
 pkg:cargo/anime-pls
 pkg:cargo/anime-seg-rs
+pkg:cargo/animebytes
 pkg:cargo/animebytes-rs
 pkg:cargo/animechan
 pkg:cargo/animedb
@@ -9517,6 +9521,8 @@ pkg:cargo/anyhash-macros
 pkg:cargo/anyhide
 pkg:cargo/anyhow
 pkg:cargo/anyhow-auto-context
+pkg:cargo/anyhow-fn-context
+pkg:cargo/anyhow-fn-context-macro
 pkg:cargo/anyhow-http
 pkg:cargo/anyhow-http-derive
 pkg:cargo/anyhow-loc
@@ -10653,6 +10659,7 @@ pkg:cargo/appbiotic
 pkg:cargo/appbiotic-code-error
 pkg:cargo/appbundle
 pkg:cargo/appc
+pkg:cargo/appcatalog
 pkg:cargo/appcfg
 pkg:cargo/appconfig
 pkg:cargo/appconfiguration
@@ -23987,6 +23994,7 @@ pkg:cargo/berblom
 pkg:cargo/berdicles
 pkg:cargo/bereal
 pkg:cargo/berg
+pkg:cargo/bergman
 pkg:cargo/bergr
 pkg:cargo/bergshamra
 pkg:cargo/bergshamra-c14n
@@ -24324,11 +24332,20 @@ pkg:cargo/bevy-agent-feedback-plugin
 pkg:cargo/bevy-alt-ui-navigation-lite
 pkg:cargo/bevy-animated-text
 pkg:cargo/bevy-animator
+pkg:cargo/bevy-aqua
 pkg:cargo/bevy-aqua-core
 pkg:cargo/bevy-aqua-fft
+pkg:cargo/bevy-aqua-foam
+pkg:cargo/bevy-aqua-geom
+pkg:cargo/bevy-aqua-light
+pkg:cargo/bevy-aqua-motion
 pkg:cargo/bevy-aqua-optics
 pkg:cargo/bevy-aqua-query
 pkg:cargo/bevy-aqua-reflect
+pkg:cargo/bevy-aqua-sdf
+pkg:cargo/bevy-aqua-shore
+pkg:cargo/bevy-aqua-spray
+pkg:cargo/bevy-aqua-waves
 pkg:cargo/bevy-async-commands
 pkg:cargo/bevy-async-ecs
 pkg:cargo/bevy-async-runner
@@ -24411,6 +24428,7 @@ pkg:cargo/bevy-nest
 pkg:cargo/bevy-networker-multiplayer
 pkg:cargo/bevy-networker-multiplayer-macros
 pkg:cargo/bevy-notify
+pkg:cargo/bevy-nui-plugins
 pkg:cargo/bevy-open-world
 pkg:cargo/bevy-opus-audio
 pkg:cargo/bevy-orbit-camera
@@ -27330,6 +27348,7 @@ pkg:cargo/binky
 pkg:cargo/binky-macro
 pkg:cargo/binlist_rs
 pkg:cargo/binlog
+pkg:cargo/binloom
 pkg:cargo/binmarshal
 pkg:cargo/binmarshal-macros
 pkg:cargo/binmatch
@@ -35106,6 +35125,7 @@ pkg:cargo/bytebox
 pkg:cargo/bytebraise
 pkg:cargo/bytebraise-lexer
 pkg:cargo/bytebraise-syntax
+pkg:cargo/bytebudget
 pkg:cargo/bytebuff
 pkg:cargo/bytebuffer
 pkg:cargo/bytebuffer-new
@@ -41263,6 +41283,7 @@ pkg:cargo/cdk-lnbits
 pkg:cargo/cdk-lnd
 pkg:cargo/cdk-mint-rpc
 pkg:cargo/cdk-mintd
+pkg:cargo/cdk-nostr
 pkg:cargo/cdk-npubcash
 pkg:cargo/cdk-nwc
 pkg:cargo/cdk-payment-processor
@@ -48381,6 +48402,8 @@ pkg:cargo/cocoa-foundation
 pkg:cargo/cocoa-purity
 pkg:cargo/cocoa_image
 pkg:cargo/cocoanut
+pkg:cargo/cocodec
+pkg:cargo/cocodec-derive
 pkg:cargo/cocogitto
 pkg:cargo/cocogitto-dependency-resolver
 pkg:cargo/cocomo
@@ -51930,6 +51953,7 @@ pkg:cargo/const-buffer
 pkg:cargo/const-builder
 pkg:cargo/const-c-str
 pkg:cargo/const-c-str-impl
+pkg:cargo/const-cbor
 pkg:cargo/const-chunks
 pkg:cargo/const-ciphers
 pkg:cargo/const-combinations
@@ -53191,6 +53215,7 @@ pkg:cargo/cordis-rs-loader
 pkg:cargo/cordis-rs-logger-console
 pkg:cargo/cordis-rs-timer
 pkg:cargo/cordis-rs-utils
+pkg:cargo/cordis-rust
 pkg:cargo/cordoba
 pkg:cargo/cordoba-py
 pkg:cargo/cordon
@@ -59172,6 +59197,7 @@ pkg:cargo/cylon
 pkg:cargo/cylon_ast
 pkg:cargo/cylun
 pkg:cargo/cylus
+pkg:cargo/cymatrox
 pkg:cargo/cymbal
 pkg:cargo/cyme
 pkg:cargo/cymrust
@@ -73226,6 +73252,7 @@ pkg:cargo/egnite
 pkg:cargo/egnitely_client
 pkg:cargo/ego
 pkg:cargo/ego-binary-tree
+pkg:cargo/ego-chat
 pkg:cargo/ego-tree
 pkg:cargo/ego_lib
 pkg:cargo/ego_macros
@@ -80500,6 +80527,13 @@ pkg:cargo/exocore-protos
 pkg:cargo/exocore-store
 pkg:cargo/exocore-transport
 pkg:cargo/exocortex
+pkg:cargo/exocortex-cache
+pkg:cargo/exocortex-kernel
+pkg:cargo/exocortex-ops
+pkg:cargo/exocortex-pack-dev-v1
+pkg:cargo/exocortex-reasoning
+pkg:cargo/exocortex-storage
+pkg:cargo/exocortex-wire
 pkg:cargo/exocrate
 pkg:cargo/exodata
 pkg:cargo/exodata-core
@@ -80842,6 +80876,7 @@ pkg:cargo/ext4_rs
 pkg:cargo/ext4fs
 pkg:cargo/ext4fs-cli
 pkg:cargo/ext4fs-core
+pkg:cargo/ext4fs-forensic
 pkg:cargo/ext4fs-fuse
 pkg:cargo/ext4plus
 pkg:cargo/extHarvester
@@ -81435,8 +81470,11 @@ pkg:cargo/fable_data
 pkg:cargo/fable_format
 pkg:cargo/fableflake
 pkg:cargo/fabparse
+pkg:cargo/fabrials-accounts
 pkg:cargo/fabrials-metrics
 pkg:cargo/fabrials-model
+pkg:cargo/fabrials-oauth-grok
+pkg:cargo/fabrials-share
 pkg:cargo/fabric
 pkg:cargo/fabric-accounts
 pkg:cargo/fabric-api
@@ -81945,6 +81983,7 @@ pkg:cargo/fairseq-lighthouse
 pkg:cargo/fairseq-sdk
 pkg:cargo/fairsquare
 pkg:cargo/fairway
+pkg:cargo/fairway-sdk
 pkg:cargo/fairyvoid
 pkg:cargo/fairyvoid-lateformat
 pkg:cargo/fairyvoid-path
@@ -82625,6 +82664,7 @@ pkg:cargo/fast-paillier
 pkg:cargo/fast-posit
 pkg:cargo/fast-powi
 pkg:cargo/fast-pull
+pkg:cargo/fast-reform
 pkg:cargo/fast-registry-json
 pkg:cargo/fast-repo-checkup
 pkg:cargo/fast-rich
@@ -82713,6 +82753,7 @@ pkg:cargo/fast3d-gbi
 pkg:cargo/fast3d-glium-renderer
 pkg:cargo/fast3d-wgpu-renderer
 pkg:cargo/fast42
+pkg:cargo/fast5ever
 pkg:cargo/fast6502
 pkg:cargo/fastLoess
 pkg:cargo/fastLowess
@@ -89430,6 +89471,7 @@ pkg:cargo/foreignc_template
 pkg:cargo/foreignc_util
 pkg:cargo/forem_openapi_client
 pkg:cargo/foreman
+pkg:cargo/foremerge
 pkg:cargo/forensic-adb
 pkg:cargo/forensic-carve
 pkg:cargo/forensic-catalog
@@ -93768,6 +93810,7 @@ pkg:cargo/gantz_egui
 pkg:cargo/gantz_format
 pkg:cargo/gantz_nodetag
 pkg:cargo/gantz_nodetag_derive
+pkg:cargo/gantz_pattern
 pkg:cargo/gantz_plyphon
 pkg:cargo/gantz_std
 pkg:cargo/gantz_ui
@@ -105786,6 +105829,7 @@ pkg:cargo/hamaddr
 pkg:cargo/hamarr
 pkg:cargo/hambands
 pkg:cargo/hamcall
+pkg:cargo/hamclaw
 pkg:cargo/hamcrest
 pkg:cargo/hamcrest2
 pkg:cargo/hamcty
@@ -129132,6 +129176,7 @@ pkg:cargo/knf
 pkg:cargo/knf-cli
 pkg:cargo/knf-core
 pkg:cargo/knf-dotted
+pkg:cargo/knf-interp
 pkg:cargo/knf-merge
 pkg:cargo/knf-rs
 pkg:cargo/knf-rs-new
@@ -175399,6 +175444,15 @@ pkg:cargo/openbao-bootstrap
 pkg:cargo/openbazaar
 pkg:cargo/openbci
 pkg:cargo/openbehavior
+pkg:cargo/openbim-bcf
+pkg:cargo/openbim-codec-xml
+pkg:cargo/openbim-codec-zip
+pkg:cargo/openbim-core
+pkg:cargo/openbim-dt
+pkg:cargo/openbim-icdd
+pkg:cargo/openbim-idm
+pkg:cargo/openbim-ids
+pkg:cargo/openbim-loin
 pkg:cargo/openblas-blas-provider
 pkg:cargo/openblas-build
 pkg:cargo/openblas-build-buildtest
@@ -255515,6 +255569,7 @@ pkg:cargo/tcp-echo
 pkg:cargo/tcp-echo-benchmark
 pkg:cargo/tcp-echo-client
 pkg:cargo/tcp-handler
+pkg:cargo/tcp-health-check
 pkg:cargo/tcp-info-sys
 pkg:cargo/tcp-lib
 pkg:cargo/tcp-loop
@@ -269139,6 +269194,7 @@ pkg:cargo/ttype-app
 pkg:cargo/ttyper
 pkg:cargo/ttypo
 pkg:cargo/ttypr
+pkg:cargo/ttyproxy
 pkg:cargo/ttyrec
 pkg:cargo/ttyrec-bin
 pkg:cargo/ttyskk
@@ -270992,6 +271048,7 @@ pkg:cargo/typeables
 pkg:cargo/typearrays
 pkg:cargo/typebar
 pkg:cargo/typebar-core
+pkg:cargo/typebit
 pkg:cargo/typebitset
 pkg:cargo/typebool
 pkg:cargo/typebox
@@ -292481,6 +292538,7 @@ pkg:cargo/xmtv_api
 pkg:cargo/xmu-health-report-rust-sdk
 pkg:cargo/xmu-login
 pkg:cargo/xmutil
+pkg:cargo/xmux
 pkg:cargo/xmz-snapshot
 pkg:cargo/xn
 pkg:cargo/xn--ls8h
@@ -294729,6 +294787,7 @@ pkg:cargo/yoctui-model
 pkg:cargo/yoctui-protocol
 pkg:cargo/yoctui-ui
 pkg:cargo/yoda-calculator
+pkg:cargo/yodel
 pkg:cargo/yofi
 pkg:cargo/yog
 pkg:cargo/yog-abi
@@ -294908,6 +294967,7 @@ pkg:cargo/youtra-formats
 pkg:cargo/youtra-plurals
 pkg:cargo/youtra-providers
 pkg:cargo/youtrack-commander
+pkg:cargo/youtrack-mcp-rs
 pkg:cargo/youtrack-rs
 pkg:cargo/youtube
 pkg:cargo/youtube-api
@@ -295917,6 +295977,7 @@ pkg:cargo/zcp-lang
 pkg:cargo/zcr
 pkg:cargo/zcred
 pkg:cargo/zcstring
+pkg:cargo/zctl
 pkg:cargo/zd
 pkg:cargo/zd_auth_service
 pkg:cargo/zdaemon
