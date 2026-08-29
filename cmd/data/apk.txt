@@ -1521,8 +1521,11 @@ pkg:apk/alpine/aws-sdk-cpp-AWSMigrationHub
 pkg:apk/alpine/aws-sdk-cpp-access-management
 pkg:apk/alpine/aws-sdk-cpp-accessanalyzer
 pkg:apk/alpine/aws-sdk-cpp-account
+pkg:apk/alpine/aws-sdk-cpp-account-access
 pkg:apk/alpine/aws-sdk-cpp-acm
 pkg:apk/alpine/aws-sdk-cpp-acm-pca
+pkg:apk/alpine/aws-sdk-cpp-agent-registry
+pkg:apk/alpine/aws-sdk-cpp-agent-registry-control
 pkg:apk/alpine/aws-sdk-cpp-aiops
 pkg:apk/alpine/aws-sdk-cpp-alexaforbusiness
 pkg:apk/alpine/aws-sdk-cpp-amp
@@ -1625,6 +1628,7 @@ pkg:apk/alpine/aws-sdk-cpp-connect-contact-lens
 pkg:apk/alpine/aws-sdk-cpp-connectcampaigns
 pkg:apk/alpine/aws-sdk-cpp-connectcampaignsv2
 pkg:apk/alpine/aws-sdk-cpp-connectcases
+pkg:apk/alpine/aws-sdk-cpp-connecthealth
 pkg:apk/alpine/aws-sdk-cpp-connectparticipant
 pkg:apk/alpine/aws-sdk-cpp-controlcatalog
 pkg:apk/alpine/aws-sdk-cpp-controltower
@@ -1642,6 +1646,7 @@ pkg:apk/alpine/aws-sdk-cpp-deadline
 pkg:apk/alpine/aws-sdk-cpp-detective
 pkg:apk/alpine/aws-sdk-cpp-dev
 pkg:apk/alpine/aws-sdk-cpp-devicefarm
+pkg:apk/alpine/aws-sdk-cpp-devops-agent
 pkg:apk/alpine/aws-sdk-cpp-devops-guru
 pkg:apk/alpine/aws-sdk-cpp-directconnect
 pkg:apk/alpine/aws-sdk-cpp-directory-service-data
@@ -1671,6 +1676,7 @@ pkg:apk/alpine/aws-sdk-cpp-elasticloadbalancing
 pkg:apk/alpine/aws-sdk-cpp-elasticloadbalancingv2
 pkg:apk/alpine/aws-sdk-cpp-elasticmapreduce
 pkg:apk/alpine/aws-sdk-cpp-elastictranscoder
+pkg:apk/alpine/aws-sdk-cpp-elementalinference
 pkg:apk/alpine/aws-sdk-cpp-email
 pkg:apk/alpine/aws-sdk-cpp-emr-containers
 pkg:apk/alpine/aws-sdk-cpp-emr-serverless
@@ -1714,6 +1720,7 @@ pkg:apk/alpine/aws-sdk-cpp-importexport
 pkg:apk/alpine/aws-sdk-cpp-inspector
 pkg:apk/alpine/aws-sdk-cpp-inspector-scan
 pkg:apk/alpine/aws-sdk-cpp-inspector2
+pkg:apk/alpine/aws-sdk-cpp-interconnect
 pkg:apk/alpine/aws-sdk-cpp-internetmonitor
 pkg:apk/alpine/aws-sdk-cpp-invoicing
 pkg:apk/alpine/aws-sdk-cpp-iot
@@ -1754,6 +1761,8 @@ pkg:apk/alpine/aws-sdk-cpp-kinesisvideo
 pkg:apk/alpine/aws-sdk-cpp-kms
 pkg:apk/alpine/aws-sdk-cpp-lakeformation
 pkg:apk/alpine/aws-sdk-cpp-lambda
+pkg:apk/alpine/aws-sdk-cpp-lambda-core
+pkg:apk/alpine/aws-sdk-cpp-lambda-microvms
 pkg:apk/alpine/aws-sdk-cpp-launch-wizard
 pkg:apk/alpine/aws-sdk-cpp-lex
 pkg:apk/alpine/aws-sdk-cpp-lex-models
@@ -1777,6 +1786,7 @@ pkg:apk/alpine/aws-sdk-cpp-managedblockchain-query
 pkg:apk/alpine/aws-sdk-cpp-marketplace-agreement
 pkg:apk/alpine/aws-sdk-cpp-marketplace-catalog
 pkg:apk/alpine/aws-sdk-cpp-marketplace-deployment
+pkg:apk/alpine/aws-sdk-cpp-marketplace-discovery
 pkg:apk/alpine/aws-sdk-cpp-marketplace-entitlement
 pkg:apk/alpine/aws-sdk-cpp-marketplace-reporting
 pkg:apk/alpine/aws-sdk-cpp-marketplacecommerceanalytics
@@ -1814,6 +1824,7 @@ pkg:apk/alpine/aws-sdk-cpp-networkmonitor
 pkg:apk/alpine/aws-sdk-cpp-nimble
 pkg:apk/alpine/aws-sdk-cpp-notifications
 pkg:apk/alpine/aws-sdk-cpp-notificationscontacts
+pkg:apk/alpine/aws-sdk-cpp-nova-act
 pkg:apk/alpine/aws-sdk-cpp-oam
 pkg:apk/alpine/aws-sdk-cpp-observabilityadmin
 pkg:apk/alpine/aws-sdk-cpp-odb
@@ -1826,7 +1837,10 @@ pkg:apk/alpine/aws-sdk-cpp-organizations
 pkg:apk/alpine/aws-sdk-cpp-osis
 pkg:apk/alpine/aws-sdk-cpp-outposts
 pkg:apk/alpine/aws-sdk-cpp-panorama
+pkg:apk/alpine/aws-sdk-cpp-partnercentral-account
+pkg:apk/alpine/aws-sdk-cpp-partnercentral-benefits
 pkg:apk/alpine/aws-sdk-cpp-partnercentral-channel
+pkg:apk/alpine/aws-sdk-cpp-partnercentral-revenue-measurement
 pkg:apk/alpine/aws-sdk-cpp-partnercentral-selling
 pkg:apk/alpine/aws-sdk-cpp-payment-cryptography
 pkg:apk/alpine/aws-sdk-cpp-payment-cryptography-data
@@ -1843,6 +1857,7 @@ pkg:apk/alpine/aws-sdk-cpp-pinpoint-sms-voice-v2
 pkg:apk/alpine/aws-sdk-cpp-pipes
 pkg:apk/alpine/aws-sdk-cpp-polly
 pkg:apk/alpine/aws-sdk-cpp-pricing
+pkg:apk/alpine/aws-sdk-cpp-pricing-plan-manager
 pkg:apk/alpine/aws-sdk-cpp-privatenetworks
 pkg:apk/alpine/aws-sdk-cpp-proton
 pkg:apk/alpine/aws-sdk-cpp-qapps
@@ -1862,6 +1877,7 @@ pkg:apk/alpine/aws-sdk-cpp-redshift-serverless
 pkg:apk/alpine/aws-sdk-cpp-rekognition
 pkg:apk/alpine/aws-sdk-cpp-repostspace
 pkg:apk/alpine/aws-sdk-cpp-resiliencehub
+pkg:apk/alpine/aws-sdk-cpp-resiliencehubv2
 pkg:apk/alpine/aws-sdk-cpp-resource-explorer-2
 pkg:apk/alpine/aws-sdk-cpp-resource-groups
 pkg:apk/alpine/aws-sdk-cpp-resourcegroupstaggingapi
@@ -1872,6 +1888,7 @@ pkg:apk/alpine/aws-sdk-cpp-route53-recovery-cluster
 pkg:apk/alpine/aws-sdk-cpp-route53-recovery-control-config
 pkg:apk/alpine/aws-sdk-cpp-route53-recovery-readiness
 pkg:apk/alpine/aws-sdk-cpp-route53domains
+pkg:apk/alpine/aws-sdk-cpp-route53globalresolver
 pkg:apk/alpine/aws-sdk-cpp-route53profiles
 pkg:apk/alpine/aws-sdk-cpp-route53resolver
 pkg:apk/alpine/aws-sdk-cpp-rtbfabric
@@ -1879,7 +1896,9 @@ pkg:apk/alpine/aws-sdk-cpp-rum
 pkg:apk/alpine/aws-sdk-cpp-s3
 pkg:apk/alpine/aws-sdk-cpp-s3-crt
 pkg:apk/alpine/aws-sdk-cpp-s3-encryption
+pkg:apk/alpine/aws-sdk-cpp-s3-transfer
 pkg:apk/alpine/aws-sdk-cpp-s3control
+pkg:apk/alpine/aws-sdk-cpp-s3files
 pkg:apk/alpine/aws-sdk-cpp-s3outposts
 pkg:apk/alpine/aws-sdk-cpp-s3tables
 pkg:apk/alpine/aws-sdk-cpp-s3vectors
@@ -1891,12 +1910,14 @@ pkg:apk/alpine/aws-sdk-cpp-sagemaker-geospatial
 pkg:apk/alpine/aws-sdk-cpp-sagemaker-metrics
 pkg:apk/alpine/aws-sdk-cpp-sagemaker-runtime
 pkg:apk/alpine/aws-sdk-cpp-sagemaker-runtime-http2
+pkg:apk/alpine/aws-sdk-cpp-sagemakerjobruntime
 pkg:apk/alpine/aws-sdk-cpp-savingsplans
 pkg:apk/alpine/aws-sdk-cpp-scheduler
 pkg:apk/alpine/aws-sdk-cpp-schemas
 pkg:apk/alpine/aws-sdk-cpp-sdb
 pkg:apk/alpine/aws-sdk-cpp-secretsmanager
 pkg:apk/alpine/aws-sdk-cpp-security-ir
+pkg:apk/alpine/aws-sdk-cpp-securityagent
 pkg:apk/alpine/aws-sdk-cpp-securityhub
 pkg:apk/alpine/aws-sdk-cpp-securitylake
 pkg:apk/alpine/aws-sdk-cpp-serverlessrepo
@@ -1907,7 +1928,9 @@ pkg:apk/alpine/aws-sdk-cpp-servicediscovery
 pkg:apk/alpine/aws-sdk-cpp-sesv2
 pkg:apk/alpine/aws-sdk-cpp-shield
 pkg:apk/alpine/aws-sdk-cpp-signer
+pkg:apk/alpine/aws-sdk-cpp-signer-data
 pkg:apk/alpine/aws-sdk-cpp-signin
+pkg:apk/alpine/aws-sdk-cpp-simpledbv2
 pkg:apk/alpine/aws-sdk-cpp-simspaceweaver
 pkg:apk/alpine/aws-sdk-cpp-sms
 pkg:apk/alpine/aws-sdk-cpp-sms-voice
@@ -1931,6 +1954,8 @@ pkg:apk/alpine/aws-sdk-cpp-sts
 pkg:apk/alpine/aws-sdk-cpp-supplychain
 pkg:apk/alpine/aws-sdk-cpp-support
 pkg:apk/alpine/aws-sdk-cpp-support-app
+pkg:apk/alpine/aws-sdk-cpp-supportauthz
+pkg:apk/alpine/aws-sdk-cpp-sustainability
 pkg:apk/alpine/aws-sdk-cpp-swf
 pkg:apk/alpine/aws-sdk-cpp-synthetics
 pkg:apk/alpine/aws-sdk-cpp-taxsettings
@@ -1945,6 +1970,7 @@ pkg:apk/alpine/aws-sdk-cpp-transcribestreaming
 pkg:apk/alpine/aws-sdk-cpp-transfer
 pkg:apk/alpine/aws-sdk-cpp-translate
 pkg:apk/alpine/aws-sdk-cpp-trustedadvisor
+pkg:apk/alpine/aws-sdk-cpp-uxc
 pkg:apk/alpine/aws-sdk-cpp-verifiedpermissions
 pkg:apk/alpine/aws-sdk-cpp-voice-id
 pkg:apk/alpine/aws-sdk-cpp-vpc-lattice
@@ -1952,6 +1978,7 @@ pkg:apk/alpine/aws-sdk-cpp-waf
 pkg:apk/alpine/aws-sdk-cpp-waf-regional
 pkg:apk/alpine/aws-sdk-cpp-wafv2
 pkg:apk/alpine/aws-sdk-cpp-wellarchitected
+pkg:apk/alpine/aws-sdk-cpp-wickr
 pkg:apk/alpine/aws-sdk-cpp-wisdom
 pkg:apk/alpine/aws-sdk-cpp-workdocs
 pkg:apk/alpine/aws-sdk-cpp-worklink
@@ -31943,6 +31970,7 @@ pkg:apk/alpine/py3-hiredis
 pkg:apk/alpine/py3-hiredis-pyc
 pkg:apk/alpine/py3-hishel
 pkg:apk/alpine/py3-hishel-pyc
+pkg:apk/alpine/py3-hivex
 pkg:apk/alpine/py3-hjson
 pkg:apk/alpine/py3-hjson-pyc
 pkg:apk/alpine/py3-hkdf
