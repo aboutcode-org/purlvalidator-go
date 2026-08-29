@@ -10859,6 +10859,7 @@ pkg:cargo/apple-xar
 pkg:cargo/apple_ai
 pkg:cargo/apple_auth
 pkg:cargo/apple_codesign_adhoc
+pkg:cargo/apple_container_wrapper
 pkg:cargo/apple_products_parser
 pkg:cargo/apple_srp_client
 pkg:cargo/appleargs
@@ -24243,6 +24244,7 @@ pkg:cargo/better-routes
 pkg:cargo/better-routes-macros
 pkg:cargo/better-rs
 pkg:cargo/better-sms
+pkg:cargo/better-socks
 pkg:cargo/better-stopwatch
 pkg:cargo/better-todo-cli
 pkg:cargo/better-tracing
@@ -27266,6 +27268,7 @@ pkg:cargo/bindizr
 pkg:cargo/bindizr-core
 pkg:cargo/bindizr-db
 pkg:cargo/bindizr-dns
+pkg:cargo/bindizr-external-dns
 pkg:cargo/bindizr-service
 pkg:cargo/bindkey
 pkg:cargo/bindle
@@ -35049,6 +35052,7 @@ pkg:cargo/bypond
 pkg:cargo/byrd
 pkg:cargo/byre
 pkg:cargo/byregot
+pkg:cargo/bysqr
 pkg:cargo/bystr
 pkg:cargo/bystr-impl
 pkg:cargo/bysyncify
@@ -35374,6 +35378,7 @@ pkg:cargo/bytesbox
 pkg:cargo/bytesbuf
 pkg:cargo/bytesbuf_io
 pkg:cargo/bytescale
+pkg:cargo/bytescan
 pkg:cargo/bytescolor
 pkg:cargo/bytescroll
 pkg:cargo/byteseeker
@@ -50181,6 +50186,7 @@ pkg:cargo/comikaze
 pkg:cargo/comlexr
 pkg:cargo/comlexr_macro
 pkg:cargo/comline
+pkg:cargo/comline-core
 pkg:cargo/comm
 pkg:cargo/comma
 pkg:cargo/comma-cache
@@ -51581,6 +51587,7 @@ pkg:cargo/confluence-dc-mcp
 pkg:cargo/confluence-workflow
 pkg:cargo/confluex
 pkg:cargo/conflux
+pkg:cargo/conflux-cli
 pkg:cargo/confly
 pkg:cargo/confmap
 pkg:cargo/confmark
@@ -68762,6 +68769,10 @@ pkg:cargo/douyin-cli
 pkg:cargo/douyin_sdk
 pkg:cargo/dove
 pkg:cargo/dove-move
+pkg:cargo/dovecote
+pkg:cargo/dovecote-sqlx-mysql
+pkg:cargo/dovecote-sqlx-postgres
+pkg:cargo/dovecote-sqlx-sqlite
 pkg:cargo/dovemail
 pkg:cargo/dovepipe
 pkg:cargo/dover
@@ -73492,6 +73503,7 @@ pkg:cargo/egui_backend_selector
 pkg:cargo/egui_cable
 pkg:cargo/egui_canvas
 pkg:cargo/egui_chip
+pkg:cargo/egui_citizen
 pkg:cargo/egui_clickpack_db
 pkg:cargo/egui_clip_textedit
 pkg:cargo/egui_code_editor
@@ -82900,6 +82912,7 @@ pkg:cargo/fasta_tools
 pkg:cargo/fasta_windows
 pkg:cargo/fastagent
 pkg:cargo/fastalloc
+pkg:cargo/fastannoy
 pkg:cargo/fastant
 pkg:cargo/fastanvil
 pkg:cargo/fastapi
@@ -85158,6 +85171,7 @@ pkg:cargo/ff_structure
 pkg:cargo/ff_wasm_unknown_unknown
 pkg:cargo/ffactor
 pkg:cargo/ffai-argus
+pkg:cargo/ffai-argus-wasm
 pkg:cargo/ffai-bench
 pkg:cargo/ffai-carmenta
 pkg:cargo/ffai-carmenta-wasm
@@ -85270,6 +85284,7 @@ pkg:cargo/fflonk-cuda
 pkg:cargo/ffly
 pkg:cargo/ffly-rs
 pkg:cargo/ffm
+pkg:cargo/ffm-parser
 pkg:cargo/ffmetadata
 pkg:cargo/ffmml
 pkg:cargo/ffmmlc
@@ -94175,6 +94190,7 @@ pkg:cargo/gattaca
 pkg:cargo/gattai
 pkg:cargo/gattii
 pkg:cargo/gauc
+pkg:cargo/gauche-rs
 pkg:cargo/gaudium
 pkg:cargo/gauge
 pkg:cargo/gauge-auth
@@ -106286,6 +106302,7 @@ pkg:cargo/hapi-rs
 pkg:cargo/hapi-sys
 pkg:cargo/hapic
 pkg:cargo/hapl
+pkg:cargo/haplodon
 pkg:cargo/haply
 pkg:cargo/happenstance
 pkg:cargo/happenstance-cloudflare
@@ -106545,6 +106562,9 @@ pkg:cargo/harness-glob
 pkg:cargo/harness-grep
 pkg:cargo/harness-hat
 pkg:cargo/harness-heal
+pkg:cargo/harness-lens
+pkg:cargo/harness-lens-cli
+pkg:cargo/harness-lens-core
 pkg:cargo/harness-locate
 pkg:cargo/harness-lsp
 pkg:cargo/harness-macros
@@ -107101,6 +107121,7 @@ pkg:cargo/hauptbuch-parser
 pkg:cargo/haus
 pkg:cargo/haus-cli
 pkg:cargo/hausfold-holt
+pkg:cargo/hausfold-scruff
 pkg:cargo/haussmann
 pkg:cargo/hauto
 pkg:cargo/hav
@@ -113638,6 +113659,7 @@ pkg:cargo/hyper-client-sockets
 pkg:cargo/hyper-compat
 pkg:cargo/hyper-connector-mullvad
 pkg:cargo/hyper-content-encoding
+pkg:cargo/hyper-cors
 pkg:cargo/hyper-custom-cert
 pkg:cargo/hyper-dns
 pkg:cargo/hyper-exchange
@@ -125340,6 +125362,15 @@ pkg:cargo/k2db
 pkg:cargo/k2db-api-client
 pkg:cargo/k2db-api-contract
 pkg:cargo/k2db-api-server
+pkg:cargo/k2f_core
+pkg:cargo/k2f_layout
+pkg:cargo/k2f_markdown
+pkg:cargo/k2f_math
+pkg:cargo/k2f_package
+pkg:cargo/k2f_paint
+pkg:cargo/k2f_pdf
+pkg:cargo/k2f_sdk
+pkg:cargo/k2f_text
 pkg:cargo/k2hash
 pkg:cargo/k2hash-sys
 pkg:cargo/k2hash_rust
@@ -129295,6 +129326,7 @@ pkg:cargo/knet-bindings
 pkg:cargo/knetrs
 pkg:cargo/knf
 pkg:cargo/knf-cli
+pkg:cargo/knf-config
 pkg:cargo/knf-core
 pkg:cargo/knf-dotted
 pkg:cargo/knf-interp
@@ -143810,6 +143842,7 @@ pkg:cargo/lyquid-ai
 pkg:cargo/lyquid-flow
 pkg:cargo/lyquid-llm
 pkg:cargo/lyquid-proc
+pkg:cargo/lyquid-test
 pkg:cargo/lyquor
 pkg:cargo/lyquor-cli
 pkg:cargo/lyquor-db
@@ -154765,6 +154798,7 @@ pkg:cargo/mnemonic-external
 pkg:cargo/mnemonic-gen
 pkg:cargo/mnemonic-generator
 pkg:cargo/mnemonic-gui
+pkg:cargo/mnemonic-io-lib
 pkg:cargo/mnemonic-vault
 pkg:cargo/mnemonic39
 pkg:cargo/mnemonist
@@ -158936,6 +158970,7 @@ pkg:cargo/msvc-demangler
 pkg:cargo/msvc-kit
 pkg:cargo/msvc_def
 pkg:cargo/msvc_spectre_libs
+pkg:cargo/msvc_spectre_libs_build
 pkg:cargo/msvg
 pkg:cargo/msw-hotkey
 pkg:cargo/mswhowrgb
@@ -175351,6 +175386,7 @@ pkg:cargo/open_ui
 pkg:cargo/open_with
 pkg:cargo/openaction
 pkg:cargo/openadp-ocrypt
+pkg:cargo/openagency
 pkg:cargo/openagent
 pkg:cargo/openagent-aegis-core
 pkg:cargo/openagent-aegis-policy
@@ -184555,8 +184591,10 @@ pkg:cargo/pdfboss-core
 pkg:cargo/pdfboss-encoding
 pkg:cargo/pdfboss-icc
 pkg:cargo/pdfboss-jpx
+pkg:cargo/pdfboss-markdown
 pkg:cargo/pdfboss-output
 pkg:cargo/pdfboss-render
+pkg:cargo/pdfboss-style
 pkg:cargo/pdfboss-text
 pkg:cargo/pdfboss-tui
 pkg:cargo/pdfboss-write
@@ -231285,6 +231323,7 @@ pkg:cargo/sets
 pkg:cargo/sets_multisets
 pkg:cargo/setsum
 pkg:cargo/sett
+pkg:cargo/settable
 pkg:cargo/setter
 pkg:cargo/settimeout
 pkg:cargo/setting
@@ -271820,6 +271859,7 @@ pkg:cargo/typst-core
 pkg:cargo/typst-count
 pkg:cargo/typst-cst
 pkg:cargo/typst-diag
+pkg:cargo/typst-doc
 pkg:cargo/typst-edit
 pkg:cargo/typst-embed
 pkg:cargo/typst-embedded-package
@@ -287369,6 +287409,7 @@ pkg:cargo/whisper-guard
 pkg:cargo/whisper-lang
 pkg:cargo/whisper-macos-cli
 pkg:cargo/whisper-mcp-server
+pkg:cargo/whisper-nvidia-cli
 pkg:cargo/whisper-overlay
 pkg:cargo/whisper-rs
 pkg:cargo/whisper-rs-2
@@ -295026,6 +295067,9 @@ pkg:cargo/yoctui-model
 pkg:cargo/yoctui-protocol
 pkg:cargo/yoctui-ui
 pkg:cargo/yoda-calculator
+pkg:cargo/yodb
+pkg:cargo/yodb-macros
+pkg:cargo/yodb-sys
 pkg:cargo/yodel
 pkg:cargo/yofi
 pkg:cargo/yog
@@ -298960,6 +299004,7 @@ pkg:cargo/zynq7000-hal
 pkg:cargo/zynq7000-mmu
 pkg:cargo/zynq7000-qspi-flash-algorithm
 pkg:cargo/zynq7000-rt
+pkg:cargo/zyphor
 pkg:cargo/zyphrs
 pkg:cargo/zypo-lib
 pkg:cargo/zypo-parser
