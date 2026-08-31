@@ -7820,6 +7820,7 @@ pkg:cargo/amg
 pkg:cargo/amg88
 pkg:cargo/amg_match
 pkg:cargo/amgix_client
+pkg:cargo/amharc
 pkg:cargo/ami
 pkg:cargo/ami-forge
 pkg:cargo/ami-uploader
@@ -8503,6 +8504,7 @@ pkg:cargo/angust_macros
 pkg:cargo/angzarr-client
 pkg:cargo/angzarr-macros
 pkg:cargo/ani
+pkg:cargo/ani-cli-rs
 pkg:cargo/ani-derive
 pkg:cargo/ani-dl
 pkg:cargo/ani-l
@@ -9451,6 +9453,7 @@ pkg:cargo/any_vec
 pkg:cargo/anya
 pkg:cargo/anya-core
 pkg:cargo/anya-security-core
+pkg:cargo/anyagent
 pkg:cargo/anyanymap
 pkg:cargo/anyback
 pkg:cargo/anybar
@@ -10096,6 +10099,7 @@ pkg:cargo/aph
 pkg:cargo/aph-cli
 pkg:cargo/aph-core
 pkg:cargo/aph-resolver
+pkg:cargo/aph-sealed
 pkg:cargo/aph_disjoint_set
 pkg:cargo/aphelion-core
 pkg:cargo/aphelion-macros
@@ -10501,6 +10505,7 @@ pkg:cargo/apollo-sdft
 pkg:cargo/apollo-server
 pkg:cargo/apollo-sft
 pkg:cargo/apollo-sht
+pkg:cargo/apollo-signal-sdk
 pkg:cargo/apollo-smith
 pkg:cargo/apollo-spaceport
 pkg:cargo/apollo-stft
@@ -23382,6 +23387,7 @@ pkg:cargo/beamr-cli
 pkg:cargo/beamr-wasm
 pkg:cargo/beams
 pkg:cargo/beamsrch
+pkg:cargo/beamte
 pkg:cargo/beamterm-atlas
 pkg:cargo/beamterm-core
 pkg:cargo/beamterm-data
@@ -26749,6 +26755,7 @@ pkg:cargo/bifid
 pkg:cargo/bifp-core
 pkg:cargo/bifrost
 pkg:cargo/bifrost-ice
+pkg:cargo/bifrost-index
 pkg:cargo/bifrost-sdp
 pkg:cargo/bifrost-stun
 pkg:cargo/bifrost-turn
@@ -41483,6 +41490,7 @@ pkg:cargo/cdwifi
 pkg:cargo/cdx
 pkg:cargo/cdx-cli
 pkg:cargo/cdx-core
+pkg:cargo/cdx-rs
 pkg:cargo/cdxlib
 pkg:cargo/cdylib-link-lines
 pkg:cargo/cdylib-plugin
@@ -53284,6 +53292,7 @@ pkg:cargo/corax
 pkg:cargo/coraza
 pkg:cargo/coraza-go
 pkg:cargo/coraza-sys
+pkg:cargo/corbel
 pkg:cargo/corcept-cli
 pkg:cargo/corcept-contract
 pkg:cargo/corcept-doctrine
@@ -57708,6 +57717,7 @@ pkg:cargo/ctx-symbol
 pkg:cargo/ctx-telemetry
 pkg:cargo/ctx-thread
 pkg:cargo/ctx-token
+pkg:cargo/ctx-tui
 pkg:cargo/ctx_
 pkg:cargo/ctxai-cli
 pkg:cargo/ctxbuilder
@@ -80527,6 +80537,7 @@ pkg:cargo/exex
 pkg:cargo/exfat
 pkg:cargo/exfat-fs
 pkg:cargo/exfat-slim
+pkg:cargo/exfat-slim-macros
 pkg:cargo/exfield
 pkg:cargo/exfields
 pkg:cargo/exfiltrate
@@ -82385,6 +82396,7 @@ pkg:cargo/falcon-xtensa-lx6
 pkg:cargo/falcon-z3
 pkg:cargo/falcon512_rs
 pkg:cargo/falcon_capstone
+pkg:cargo/falcon_mdf
 pkg:cargo/falconed
 pkg:cargo/falconf
 pkg:cargo/falconload
@@ -83044,6 +83056,7 @@ pkg:cargo/fastcgi-sdk
 pkg:cargo/fastcgi-server
 pkg:cargo/fastchemail
 pkg:cargo/fastchr
+pkg:cargo/fastclaw
 pkg:cargo/fastcmp
 pkg:cargo/fastcode
 pkg:cargo/fastcomments-sdk
@@ -83191,6 +83204,8 @@ pkg:cargo/fastmemory
 pkg:cargo/fastmetrics
 pkg:cargo/fastmetrics-derive
 pkg:cargo/fastmetrics-process
+pkg:cargo/fastmind
+pkg:cargo/fastmind-macros
 pkg:cargo/fastmod
 pkg:cargo/fastmurmur3
 pkg:cargo/fastn
@@ -83509,7 +83524,9 @@ pkg:cargo/faucet-transform-wasm
 pkg:cargo/faucetly
 pkg:cargo/fault-cli
 pkg:cargo/fault-ebpf-programs
+pkg:cargo/fault-engine
 pkg:cargo/fault-injection
+pkg:cargo/fault-model
 pkg:cargo/faultbox
 pkg:cargo/faultkit
 pkg:cargo/faultline
@@ -89152,6 +89169,7 @@ pkg:cargo/fnvhash
 pkg:cargo/fo
 pkg:cargo/foa
 pkg:cargo/foa_sta
+pkg:cargo/foac
 pkg:cargo/foam-highlighter
 pkg:cargo/foam-up
 pkg:cargo/fob
@@ -89424,6 +89442,7 @@ pkg:cargo/fontdbvf
 pkg:cargo/fontdrasil
 pkg:cargo/fontdue
 pkg:cargo/fontdue-sdl2
+pkg:cargo/fontdue-spirix
 pkg:cargo/fonterator
 pkg:cargo/fontfinder
 pkg:cargo/fontfor
@@ -90084,6 +90103,8 @@ pkg:cargo/format198x-commodore-c64-art-studio
 pkg:cargo/format198x-commodore-c64-koala
 pkg:cargo/format198x-sinclair-zx-spectrum-scr
 pkg:cargo/format198x-sinclair-zx-spectrum-tap
+pkg:cargo/format198x-spectravideo-svi-cas
+pkg:cargo/format198x-tangerine-oric-tap
 pkg:cargo/format198x-tzx
 pkg:cargo/format_all_args
 pkg:cargo/format_args_conditional
@@ -106242,6 +106263,7 @@ pkg:cargo/hans-http
 pkg:cargo/hansa
 pkg:cargo/hansa-cli
 pkg:cargo/hansard
+pkg:cargo/hanse
 pkg:cargo/hanteker_cli
 pkg:cargo/hanteker_lib
 pkg:cargo/hanuke
@@ -143797,6 +143819,7 @@ pkg:cargo/lx-aura-editor
 pkg:cargo/lx-aura-lv2
 pkg:cargo/lx-aura-midi
 pkg:cargo/lx-aura-params
+pkg:cargo/lx-aura-test
 pkg:cargo/lx-aura-vst3
 pkg:cargo/lx-cli
 pkg:cargo/lx-ls
@@ -160369,6 +160392,8 @@ pkg:cargo/mx-logging
 pkg:cargo/mx-message
 pkg:cargo/mx-metrics
 pkg:cargo/mx-proto
+pkg:cargo/mx-remote
+pkg:cargo/mx-remote-ffi
 pkg:cargo/mx-rs
 pkg:cargo/mx-tester
 pkg:cargo/mx20022
@@ -174462,6 +174487,7 @@ pkg:cargo/onchange
 pkg:cargo/onchg
 pkg:cargo/onda
 pkg:cargo/ondaleta
+pkg:cargo/ondas
 pkg:cargo/onde
 pkg:cargo/onde-candle-core
 pkg:cargo/onde-candle-nn
@@ -174966,6 +174992,10 @@ pkg:cargo/ontogen
 pkg:cargo/ontogen-core
 pkg:cargo/ontogen-macros
 pkg:cargo/ontogen-ts
+pkg:cargo/ontographia-adapters
+pkg:cargo/ontographia-cli
+pkg:cargo/ontographia-core
+pkg:cargo/ontographia-schema
 pkg:cargo/ontoindex-catalog
 pkg:cargo/ontoindex-cli
 pkg:cargo/ontoindex-core
@@ -175004,6 +175034,7 @@ pkg:cargo/ontv
 pkg:cargo/onus
 pkg:cargo/onvif
 pkg:cargo/onvif-cam-rs
+pkg:cargo/onvif-device-rs
 pkg:cargo/onvif-rs
 pkg:cargo/onvif-server
 pkg:cargo/onwards
@@ -175014,6 +175045,8 @@ pkg:cargo/onyx
 pkg:cargo/onyx-dl
 pkg:cargo/onyx-rs
 pkg:cargo/onyx-sdk
+pkg:cargo/onyx-shell
+pkg:cargo/onyx-term
 pkg:cargo/onyx_api
 pkg:cargo/oo
 pkg:cargo/oo-api
@@ -181108,6 +181141,7 @@ pkg:cargo/p-jsm-core
 pkg:cargo/p-json
 pkg:cargo/p-kill
 pkg:cargo/p-macro
+pkg:cargo/p-mod-q-calculator
 pkg:cargo/p-never-nonce
 pkg:cargo/p-speed
 pkg:cargo/p-square
@@ -211804,6 +211838,7 @@ pkg:cargo/rkaiq
 pkg:cargo/rkaiq-sys
 pkg:cargo/rkan
 pkg:cargo/rkat
+pkg:cargo/rkb-rs
 pkg:cargo/rkdb
 pkg:cargo/rkdump
 pkg:cargo/rkeep
@@ -211899,6 +211934,7 @@ pkg:cargo/rkyv_rpc
 pkg:cargo/rkyv_typename
 pkg:cargo/rkyv_typename_derive
 pkg:cargo/rkyv_util
+pkg:cargo/rkyv_versioned
 pkg:cargo/rl
 pkg:cargo/rl-bandit
 pkg:cargo/rl-core
@@ -274986,6 +275022,13 @@ pkg:cargo/uper
 pkg:cargo/upextract
 pkg:cargo/upf
 pkg:cargo/upflow
+pkg:cargo/upgate
+pkg:cargo/upgate-audit
+pkg:cargo/upgate-domain
+pkg:cargo/upgate-infra
+pkg:cargo/upgate-managers
+pkg:cargo/upgate-planning
+pkg:cargo/upgate-release
 pkg:cargo/upget
 pkg:cargo/upgrade
 pkg:cargo/upgrade-program
