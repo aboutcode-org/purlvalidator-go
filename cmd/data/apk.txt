@@ -2466,6 +2466,8 @@ pkg:apk/alpine/bliss
 pkg:apk/alpine/bliss-dev
 pkg:apk/alpine/blists
 pkg:apk/alpine/blkid
+pkg:apk/alpine/blktrace
+pkg:apk/alpine/blktrace-doc
 pkg:apk/alpine/bloaty
 pkg:apk/alpine/bloaty-dev
 pkg:apk/alpine/blocky
@@ -6384,6 +6386,8 @@ pkg:apk/alpine/eggdrop-logs2html
 pkg:apk/alpine/eigen
 pkg:apk/alpine/eigen-dev
 pkg:apk/alpine/eigen-doc
+pkg:apk/alpine/eigen5
+pkg:apk/alpine/eigen5-dev
 pkg:apk/alpine/eina
 pkg:apk/alpine/eina-dev
 pkg:apk/alpine/eiwd
@@ -11808,6 +11812,8 @@ pkg:apk/alpine/inetutils-syslogd-doc
 pkg:apk/alpine/inetutils-syslogd-openrc
 pkg:apk/alpine/inetutils-telnet
 pkg:apk/alpine/inetutils-telnet-doc
+pkg:apk/alpine/inferno
+pkg:apk/alpine/inferno-doc
 pkg:apk/alpine/influxdb
 pkg:apk/alpine/influxdb-doc
 pkg:apk/alpine/influxdb-openrc
@@ -12292,6 +12298,8 @@ pkg:apk/alpine/jpeginfo
 pkg:apk/alpine/jpeginfo-doc
 pkg:apk/alpine/jpegoptim
 pkg:apk/alpine/jpegoptim-doc
+pkg:apk/alpine/jpm
+pkg:apk/alpine/jpm-doc
 pkg:apk/alpine/jq
 pkg:apk/alpine/jq-dev
 pkg:apk/alpine/jq-doc
@@ -14095,6 +14103,9 @@ pkg:apk/alpine/lab
 pkg:apk/alpine/lab-bash-completion
 pkg:apk/alpine/lab-fish-completion
 pkg:apk/alpine/lab-zsh-completion
+pkg:apk/alpine/labar
+pkg:apk/alpine/labar-dbg
+pkg:apk/alpine/labar-doc
 pkg:apk/alpine/lablgtk
 pkg:apk/alpine/lablgtk-dev
 pkg:apk/alpine/lablgtk-doc
@@ -14192,6 +14203,8 @@ pkg:apk/alpine/ldapdomaindump
 pkg:apk/alpine/ldapdomaindump-pyc
 pkg:apk/alpine/ldapvi
 pkg:apk/alpine/ldapvi-doc
+pkg:apk/alpine/ldapx
+pkg:apk/alpine/ldapx-doc
 pkg:apk/alpine/ldb
 pkg:apk/alpine/ldb-dev
 pkg:apk/alpine/ldb-doc
@@ -16796,6 +16809,9 @@ pkg:apk/alpine/libudfread
 pkg:apk/alpine/libudfread-dev
 pkg:apk/alpine/libuecc
 pkg:apk/alpine/libuecc-dev
+pkg:apk/alpine/libuev
+pkg:apk/alpine/libuev-dev
+pkg:apk/alpine/libuev-doc
 pkg:apk/alpine/libunibreak
 pkg:apk/alpine/libunibreak-dev
 pkg:apk/alpine/libunicode
@@ -17427,6 +17443,7 @@ pkg:apk/alpine/linux-firmware-mediatek
 pkg:apk/alpine/linux-firmware-mellanox
 pkg:apk/alpine/linux-firmware-meson
 pkg:apk/alpine/linux-firmware-microchip
+pkg:apk/alpine/linux-firmware-morsemicro
 pkg:apk/alpine/linux-firmware-moxa
 pkg:apk/alpine/linux-firmware-mrvl
 pkg:apk/alpine/linux-firmware-mwl8k
@@ -19413,6 +19430,7 @@ pkg:apk/alpine/mangal
 pkg:apk/alpine/mangal-bash-completion
 pkg:apk/alpine/mangal-fish-completion
 pkg:apk/alpine/mangal-zsh-completion
+pkg:apk/alpine/mangobar
 pkg:apk/alpine/mangohud
 pkg:apk/alpine/mangohud-doc
 pkg:apk/alpine/mangowc
@@ -34232,12 +34250,18 @@ pkg:apk/alpine/py3-saltext-alpine
 pkg:apk/alpine/py3-saltext-alpine-pyc
 pkg:apk/alpine/py3-saltext-incus
 pkg:apk/alpine/py3-saltext-incus-pyc
+pkg:apk/alpine/py3-saltext-kubernetes
+pkg:apk/alpine/py3-saltext-kubernetes-pyc
 pkg:apk/alpine/py3-saltext-nebula
 pkg:apk/alpine/py3-saltext-nebula-pyc
+pkg:apk/alpine/py3-saltext-proxmox
+pkg:apk/alpine/py3-saltext-proxmox-pyc
 pkg:apk/alpine/py3-saltext-s3fs
 pkg:apk/alpine/py3-saltext-s3fs-pyc
 pkg:apk/alpine/py3-saltext-vault
 pkg:apk/alpine/py3-saltext-vault-pyc
+pkg:apk/alpine/py3-saltext-zabbix
+pkg:apk/alpine/py3-saltext-zabbix-pyc
 pkg:apk/alpine/py3-samba
 pkg:apk/alpine/py3-saml2
 pkg:apk/alpine/py3-saml2-pyc
@@ -37376,6 +37400,7 @@ pkg:apk/alpine/ruby2.2-libs
 pkg:apk/alpine/ruby2.2-minitest
 pkg:apk/alpine/ruby2.2-rake
 pkg:apk/alpine/ruby2.2-rdoc
+pkg:apk/alpine/rubyripper
 pkg:apk/alpine/ruff
 pkg:apk/alpine/ruff-bash-completion
 pkg:apk/alpine/ruff-fish-completion
@@ -39821,6 +39846,9 @@ pkg:apk/alpine/termbox
 pkg:apk/alpine/termbox-dev
 pkg:apk/alpine/termbox-doc
 pkg:apk/alpine/termbox-static
+pkg:apk/alpine/termbox2
+pkg:apk/alpine/termbox2-dev
+pkg:apk/alpine/termbox2-doc
 pkg:apk/alpine/termcolor
 pkg:apk/alpine/termcolor-dev
 pkg:apk/alpine/terminalpp
@@ -40205,6 +40233,12 @@ pkg:apk/alpine/time-doc
 pkg:apk/alpine/timed
 pkg:apk/alpine/timed-dev
 pkg:apk/alpine/timed-systemd
+pkg:apk/alpine/timelog
+pkg:apk/alpine/timelog-dev
+pkg:apk/alpine/timelog-doc
+pkg:apk/alpine/timelog-extras
+pkg:apk/alpine/timelog-report
+pkg:apk/alpine/timelog-report-doc
 pkg:apk/alpine/timeshift
 pkg:apk/alpine/timeshift-doc
 pkg:apk/alpine/timeshift-lang
@@ -40817,6 +40851,7 @@ pkg:apk/alpine/tuxedo-yt6801
 pkg:apk/alpine/tuxpaint
 pkg:apk/alpine/tuxpaint-doc
 pkg:apk/alpine/tuxpaint-lang
+pkg:apk/alpine/tuxvdmtool
 pkg:apk/alpine/tvheadend
 pkg:apk/alpine/tvheadend-dbg
 pkg:apk/alpine/tvheadend-doc
@@ -42928,6 +42963,8 @@ pkg:apk/alpine/xfsprogs
 pkg:apk/alpine/xfsprogs-dev
 pkg:apk/alpine/xfsprogs-doc
 pkg:apk/alpine/xfsprogs-extra
+pkg:apk/alpine/xfsprogs-extra-bash
+pkg:apk/alpine/xfsprogs-extra-python
 pkg:apk/alpine/xfsprogs-libs
 pkg:apk/alpine/xfwm4
 pkg:apk/alpine/xfwm4-lang
