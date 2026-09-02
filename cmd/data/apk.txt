@@ -2201,6 +2201,8 @@ pkg:apk/alpine/bazaar-dev
 pkg:apk/alpine/bazaar-lang
 pkg:apk/alpine/bazaar-libs
 pkg:apk/alpine/bazaar-systemd
+pkg:apk/alpine/bazel
+pkg:apk/alpine/bazel-bash-completion
 pkg:apk/alpine/bazel6
 pkg:apk/alpine/bazel6-bash-completion
 pkg:apk/alpine/bazel7
@@ -2301,6 +2303,8 @@ pkg:apk/alpine/beszel-agent-openrc
 pkg:apk/alpine/beszel-openrc
 pkg:apk/alpine/bettercap
 pkg:apk/alpine/bettercap-doc
+pkg:apk/alpine/betterleaks
+pkg:apk/alpine/betterleaks-doc
 pkg:apk/alpine/betula
 pkg:apk/alpine/betula-openrc
 pkg:apk/alpine/bfs
@@ -8030,6 +8034,8 @@ pkg:apk/alpine/fractal
 pkg:apk/alpine/fractal-lang
 pkg:apk/alpine/fragments
 pkg:apk/alpine/fragments-lang
+pkg:apk/alpine/framework-tool-tui
+pkg:apk/alpine/framework-tool-tui-doc
 pkg:apk/alpine/frameworkintegration
 pkg:apk/alpine/frameworkintegration-dev
 pkg:apk/alpine/frameworkintegration5
@@ -9107,6 +9113,7 @@ pkg:apk/alpine/gitstatus-zsh-plugin
 pkg:apk/alpine/gitu
 pkg:apk/alpine/gitu-doc
 pkg:apk/alpine/gitui
+pkg:apk/alpine/gixy
 pkg:apk/alpine/gjs
 pkg:apk/alpine/gjs-dbg
 pkg:apk/alpine/gjs-dev
@@ -10375,6 +10382,8 @@ pkg:apk/alpine/gsettings-desktop-schemas-dev
 pkg:apk/alpine/gsettings-desktop-schemas-lang
 pkg:apk/alpine/gsettings-qt
 pkg:apk/alpine/gsettings-qt-dev
+pkg:apk/alpine/gsettings-qt-qt5
+pkg:apk/alpine/gsettings-qt-qt5-dev
 pkg:apk/alpine/gsimplecal
 pkg:apk/alpine/gsimplecal-doc
 pkg:apk/alpine/gsl
@@ -18020,6 +18029,8 @@ pkg:apk/alpine/lomiri-content-hub
 pkg:apk/alpine/lomiri-content-hub-dev
 pkg:apk/alpine/lomiri-content-hub-doc
 pkg:apk/alpine/lomiri-content-hub-lang
+pkg:apk/alpine/lomiri-content-hub-qt5
+pkg:apk/alpine/lomiri-content-hub-qt5-dev
 pkg:apk/alpine/lomiri-deviceinfo
 pkg:apk/alpine/lomiri-deviceinfo-dev
 pkg:apk/alpine/lomiri-docviewer-app
@@ -18029,6 +18040,8 @@ pkg:apk/alpine/lomiri-download-manager
 pkg:apk/alpine/lomiri-download-manager-dev
 pkg:apk/alpine/lomiri-download-manager-doc
 pkg:apk/alpine/lomiri-download-manager-lang
+pkg:apk/alpine/lomiri-download-manager-qt5
+pkg:apk/alpine/lomiri-download-manager-qt5-dev
 pkg:apk/alpine/lomiri-filemanager-app
 pkg:apk/alpine/lomiri-filemanager-app-lang
 pkg:apk/alpine/lomiri-gallery-app
@@ -18072,9 +18085,12 @@ pkg:apk/alpine/lomiri-trust-store-dev
 pkg:apk/alpine/lomiri-trust-store-lang
 pkg:apk/alpine/lomiri-ui-extras
 pkg:apk/alpine/lomiri-ui-extras-lang
+pkg:apk/alpine/lomiri-ui-extras-qt5
 pkg:apk/alpine/lomiri-ui-toolkit
 pkg:apk/alpine/lomiri-ui-toolkit-dev
 pkg:apk/alpine/lomiri-ui-toolkit-lang
+pkg:apk/alpine/lomiri-ui-toolkit-qt5
+pkg:apk/alpine/lomiri-ui-toolkit-qt5-dev
 pkg:apk/alpine/lomiri-url-dispatcher
 pkg:apk/alpine/lomiri-url-dispatcher-dev
 pkg:apk/alpine/lomiri-url-dispatcher-lang
@@ -20470,6 +20486,7 @@ pkg:apk/alpine/mopidy-pyc
 pkg:apk/alpine/moreutils
 pkg:apk/alpine/moreutils-doc
 pkg:apk/alpine/morph-browser
+pkg:apk/alpine/morph-browser-doc
 pkg:apk/alpine/morph-browser-lang
 pkg:apk/alpine/mosh
 pkg:apk/alpine/mosh-bash-completion
@@ -32023,6 +32040,8 @@ pkg:apk/alpine/py3-httpbin-pyc
 pkg:apk/alpine/py3-httpcore
 pkg:apk/alpine/py3-httpcore-doc
 pkg:apk/alpine/py3-httpcore-pyc
+pkg:apk/alpine/py3-httpcore2
+pkg:apk/alpine/py3-httpcore2-pyc
 pkg:apk/alpine/py3-httplib2
 pkg:apk/alpine/py3-httplib2-pyc
 pkg:apk/alpine/py3-httpretty
@@ -32870,6 +32889,7 @@ pkg:apk/alpine/py3-nevergrad-pyc
 pkg:apk/alpine/py3-newt
 pkg:apk/alpine/py3-nftables
 pkg:apk/alpine/py3-nftables-pyc
+pkg:apk/alpine/py3-ngxparse
 pkg:apk/alpine/py3-nh3
 pkg:apk/alpine/py3-nh3-pyc
 pkg:apk/alpine/py3-niaaml
@@ -35657,6 +35677,7 @@ pkg:apk/alpine/qqc2-desktop-style-lang
 pkg:apk/alpine/qqc2-desktop-style5
 pkg:apk/alpine/qqc2-desktop-style5-dev
 pkg:apk/alpine/qqc2-suru-style
+pkg:apk/alpine/qqc2-suru-style-qt5
 pkg:apk/alpine/qqwing
 pkg:apk/alpine/qqwing-dev
 pkg:apk/alpine/qqwing-doc
@@ -37998,6 +38019,7 @@ pkg:apk/alpine/seed7
 pkg:apk/alpine/seed7-doc
 pkg:apk/alpine/seed7-nano
 pkg:apk/alpine/seed7-vim
+pkg:apk/alpine/seergdb
 pkg:apk/alpine/selinux-dbus
 pkg:apk/alpine/selinux-gui
 pkg:apk/alpine/selinux-gui-doc
@@ -39177,6 +39199,7 @@ pkg:apk/alpine/strawberry-doc
 pkg:apk/alpine/streamlink
 pkg:apk/alpine/streamlink-bash-completion
 pkg:apk/alpine/streamlink-doc
+pkg:apk/alpine/streamlink-fish-completion
 pkg:apk/alpine/streamlink-pyc
 pkg:apk/alpine/streamlink-zsh-completion
 pkg:apk/alpine/stress-ng
@@ -39849,6 +39872,7 @@ pkg:apk/alpine/termbox-static
 pkg:apk/alpine/termbox2
 pkg:apk/alpine/termbox2-dev
 pkg:apk/alpine/termbox2-doc
+pkg:apk/alpine/termbox2-static
 pkg:apk/alpine/termcolor
 pkg:apk/alpine/termcolor-dev
 pkg:apk/alpine/terminalpp
