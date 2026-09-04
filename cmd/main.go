@@ -55,9 +55,11 @@ func main() {
 }
 
 func insert_purls(builder *vellum.Builder, file string) int {
-	var err error
 	// #nosec G304
-	data, _ := os.ReadFile(file)
+	data, err := os.ReadFile(file)
+	if err != nil {
+		log.Fatal(err)
+	}
 	lines := strings.FieldsFunc(string(data), func(r rune) bool {
 		return r == '\n'
 	})
