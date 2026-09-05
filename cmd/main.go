@@ -27,6 +27,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer f.Close()
 
 	dirname := "cmd/data/"
 	entries, err := os.ReadDir(dirname)
