@@ -23874,6 +23874,7 @@ pkg:cargo/beads-rs
 pkg:cargo/beads_rust
 pkg:cargo/beads_viewer_rust
 pkg:cargo/beady
+pkg:cargo/beady-eye
 pkg:cargo/beagle
 pkg:cargo/beagle_turso_core
 pkg:cargo/beagleeditor-cli
@@ -25313,6 +25314,7 @@ pkg:cargo/bevy_chair
 pkg:cargo/bevy_channel_message
 pkg:cargo/bevy_channel_trigger
 pkg:cargo/bevy_chat
+pkg:cargo/bevy_chatter
 pkg:cargo/bevy_child_window
 pkg:cargo/bevy_clap
 pkg:cargo/bevy_clay_tiles
@@ -26022,6 +26024,7 @@ pkg:cargo/bevy_mod_scripting_display
 pkg:cargo/bevy_mod_scripting_functions
 pkg:cargo/bevy_mod_scripting_lua
 pkg:cargo/bevy_mod_scripting_lua_derive
+pkg:cargo/bevy_mod_scripting_luars
 pkg:cargo/bevy_mod_scripting_qcvm
 pkg:cargo/bevy_mod_scripting_rhai
 pkg:cargo/bevy_mod_scripting_rhai_derive
@@ -27676,6 +27679,7 @@ pkg:cargo/binary-utils
 pkg:cargo/binary-vec
 pkg:cargo/binary2treemap
 pkg:cargo/binaryRW
+pkg:cargo/binary_archive
 pkg:cargo/binary_byte
 pkg:cargo/binary_codec_sv2
 pkg:cargo/binary_compat
@@ -28353,6 +28357,7 @@ pkg:cargo/bit-parallelism
 pkg:cargo/bit-set
 pkg:cargo/bit-set-omnitool
 pkg:cargo/bit-string
+pkg:cargo/bit-string-derive
 pkg:cargo/bit-struct
 pkg:cargo/bit-twiddler
 pkg:cargo/bit-vec
@@ -33942,7 +33947,14 @@ pkg:cargo/brokk-rtk
 pkg:cargo/brokk-tree-sitter-kotlin
 pkg:cargo/brokk-valkryie
 pkg:cargo/brokkr
+pkg:cargo/brokkr-bridge
+pkg:cargo/brokkr-cli
 pkg:cargo/brokkr-client
+pkg:cargo/brokkr-core
+pkg:cargo/brokkr-protocol
+pkg:cargo/brokkr-runtime
+pkg:cargo/brokkr-store
+pkg:cargo/brokkr-view
 pkg:cargo/broll
 pkg:cargo/broly
 pkg:cargo/broma-rs
@@ -78027,6 +78039,8 @@ pkg:cargo/enumflags_derive
 pkg:cargo/enumfmt
 pkg:cargo/enumi
 pkg:cargo/enumify
+pkg:cargo/enuminfo
+pkg:cargo/enuminfo_macros
 pkg:cargo/enumit
 pkg:cargo/enumiter
 pkg:cargo/enumizer
@@ -78381,6 +78395,7 @@ pkg:cargo/envy-secrets
 pkg:cargo/envy-store
 pkg:cargo/envy-toml
 pkg:cargo/envy-tui
+pkg:cargo/envypt
 pkg:cargo/envyr
 pkg:cargo/envz
 pkg:cargo/enw
@@ -95085,6 +95100,7 @@ pkg:cargo/game_chess_core
 pkg:cargo/game_chess_cui
 pkg:cargo/game_chess_server
 pkg:cargo/game_clock
+pkg:cargo/game_codec
 pkg:cargo/game_crate_work
 pkg:cargo/game_die
 pkg:cargo/game_engine_1
@@ -95458,6 +95474,7 @@ pkg:cargo/gary-core
 pkg:cargo/gary-plugin-docker
 pkg:cargo/gary_art
 pkg:cargo/gas
+pkg:cargo/gas-force
 pkg:cargo/gas-index-algorithm
 pkg:cargo/gas-lookup
 pkg:cargo/gas-network-sdk
@@ -126652,6 +126669,8 @@ pkg:cargo/jumb
 pkg:cargo/jumbf
 pkg:cargo/jumble
 pkg:cargo/jumia
+pkg:cargo/jumo-derive
+pkg:cargo/jumo-derive-macros
 pkg:cargo/jump
 pkg:cargo/jump-back-hash
 pkg:cargo/jump-consistent-hash
@@ -151267,6 +151286,7 @@ pkg:cargo/media-types
 pkg:cargo/media_analyzer
 pkg:cargo/media_catalogue
 pkg:cargo/media_engine
+pkg:cargo/media_file_info
 pkg:cargo/media_filename
 pkg:cargo/media_gstreamer
 pkg:cargo/media_infer
@@ -151801,6 +151821,7 @@ pkg:cargo/memcell
 pkg:cargo/memchain
 pkg:cargo/memcheck
 pkg:cargo/memchr
+pkg:cargo/memchr-n
 pkg:cargo/memchr-rs
 pkg:cargo/memchunk
 pkg:cargo/memcmp
@@ -151816,6 +151837,7 @@ pkg:cargo/memcontext
 pkg:cargo/memcordon
 pkg:cargo/memcordon-core
 pkg:cargo/memcordon-platform
+pkg:cargo/memcordon-windows-launch-core
 pkg:cargo/memcpy
 pkg:cargo/memcrab
 pkg:cargo/memcrab-cache
@@ -152282,6 +152304,7 @@ pkg:cargo/mentai-agent-core
 pkg:cargo/mentai-tui
 pkg:cargo/mental-poker
 pkg:cargo/mentat
+pkg:cargo/mentat-common
 pkg:cargo/mentat-serve
 pkg:cargo/mentatd
 pkg:cargo/mentatd-serve
@@ -152879,6 +152902,10 @@ pkg:cargo/meshlet-proto
 pkg:cargo/meshlet-server
 pkg:cargo/meshlite
 pkg:cargo/meshlite_ffi
+pkg:cargo/meshloop-adapters
+pkg:cargo/meshloop-cli
+pkg:cargo/meshloop-domain
+pkg:cargo/meshloop-engine
 pkg:cargo/meshmeshmesh
 pkg:cargo/meshopt
 pkg:cargo/meshopt-rs
@@ -166986,6 +167013,10 @@ pkg:cargo/nestjs-nats-connector
 pkg:cargo/nestle
 pkg:cargo/nestle_core
 pkg:cargo/nestle_derives
+pkg:cargo/nestler-array
+pkg:cargo/nestler-hybrid-array
+pkg:cargo/nestler-primeorder
+pkg:cargo/nestler-wnaf
 pkg:cargo/nestmap
 pkg:cargo/nestools
 pkg:cargo/nestor
@@ -173600,11 +173631,16 @@ pkg:cargo/nvibrant
 pkg:cargo/nvidia
 pkg:cargo/nvidia-aftermath-rs
 pkg:cargo/nvidia-checker
+pkg:cargo/nvidia-dlss
 pkg:cargo/nvidia-gamestream-presets-tool
 pkg:cargo/nvidia-gpu-exporter
 pkg:cargo/nvidia-kvcr
+pkg:cargo/nvidia-nrd
 pkg:cargo/nvidia-nvtx
 pkg:cargo/nvidia-nvtx-sys
+pkg:cargo/nvidia-omm
+pkg:cargo/nvidia-sdk
+pkg:cargo/nvidia-streamline
 pkg:cargo/nvidia-video-codec-sdk
 pkg:cargo/nvidia-video-codec-sys
 pkg:cargo/nvidia_oc
@@ -187215,6 +187251,8 @@ pkg:cargo/pbnify
 pkg:cargo/pbo
 pkg:cargo/pboddupalli-helloworld
 pkg:cargo/pbol
+pkg:cargo/pbox-core
+pkg:cargo/pbox-proto
 pkg:cargo/pbp
 pkg:cargo/pbpp
 pkg:cargo/pbr
@@ -218583,6 +218621,7 @@ pkg:cargo/rs-imgextint2mimenum
 pkg:cargo/rs-imghead2mime
 pkg:cargo/rs-ints2arrow
 pkg:cargo/rs-ints2parquet
+pkg:cargo/rs-ints2tinydict
 pkg:cargo/rs-ints2uniq2arrow
 pkg:cargo/rs-io
 pkg:cargo/rs-ipc-stream2df
@@ -242355,6 +242394,7 @@ pkg:cargo/snapdown
 pkg:cargo/snapers
 pkg:cargo/snapfire
 pkg:cargo/snapfire_compiler
+pkg:cargo/snapfire_typecheck
 pkg:cargo/snaphu-rs
 pkg:cargo/snaphu-sys
 pkg:cargo/snapkit
@@ -242689,6 +242729,7 @@ pkg:cargo/snmalloc-rs
 pkg:cargo/snmalloc-sys
 pkg:cargo/snmp
 pkg:cargo/snmp-mib
+pkg:cargo/snmp-min
 pkg:cargo/snmp-parser
 pkg:cargo/snmp-rs
 pkg:cargo/snmp2
@@ -274605,10 +274646,21 @@ pkg:cargo/tur
 pkg:cargo/tur-cli
 pkg:cargo/tur-rs
 pkg:cargo/turbine
+pkg:cargo/turbine-ai
+pkg:cargo/turbine-cli
+pkg:cargo/turbine-core
+pkg:cargo/turbine-execute
+pkg:cargo/turbine-ingest
+pkg:cargo/turbine-ipc
 pkg:cargo/turbine-llm
 pkg:cargo/turbine-pd
 pkg:cargo/turbine-proc
+pkg:cargo/turbine-process
 pkg:cargo/turbine-rpc-proxy
+pkg:cargo/turbine-sdk
+pkg:cargo/turbine-state
+pkg:cargo/turbine-tui
+pkg:cargo/turbine-web
 pkg:cargo/turbine_process3d
 pkg:cargo/turbine_reactive
 pkg:cargo/turbine_scene3d
