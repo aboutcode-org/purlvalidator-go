@@ -7947,8 +7947,10 @@ pkg:cargo/amico-wasm
 pkg:cargo/amicola
 pkg:cargo/amid
 pkg:cargo/amide
+pkg:cargo/amiga-ffs
 pkg:cargo/amiga-lzx
 pkg:cargo/amiga-lzx-cli
+pkg:cargo/amiga-rdb
 pkg:cargo/amiga-starfield-generator
 pkg:cargo/amiga-sys
 pkg:cargo/amigo
@@ -8042,6 +8044,17 @@ pkg:cargo/amp-rust
 pkg:cargo/amp-sdk
 pkg:cargo/amp-serde
 pkg:cargo/ampapi
+pkg:cargo/amparo-agent
+pkg:cargo/amparo-chat
+pkg:cargo/amparo-cli
+pkg:cargo/amparo-inference
+pkg:cargo/amparo-mcp
+pkg:cargo/amparo-memory
+pkg:cargo/amparo-notebook
+pkg:cargo/amparo-policy
+pkg:cargo/amparo-privacy
+pkg:cargo/amparo-sandbox
+pkg:cargo/amparo-tools
 pkg:cargo/ampc
 pkg:cargo/ampcode
 pkg:cargo/ampd
@@ -13618,6 +13631,7 @@ pkg:cargo/array_stump
 pkg:cargo/array_tool
 pkg:cargo/array_trait
 pkg:cargo/array_try_map
+pkg:cargo/array_viewer
 pkg:cargo/array_windows
 pkg:cargo/arraybox
 pkg:cargo/arraybuf
@@ -24997,6 +25011,7 @@ pkg:cargo/bevy-markdown
 pkg:cargo/bevy-mod-indigauge
 pkg:cargo/bevy-mutate-image
 pkg:cargo/bevy-nest
+pkg:cargo/bevy-net-debug
 pkg:cargo/bevy-networker-multiplayer
 pkg:cargo/bevy-networker-multiplayer-macros
 pkg:cargo/bevy-notify
@@ -25650,6 +25665,7 @@ pkg:cargo/bevy_full_asset_path
 pkg:cargo/bevy_full_throttle
 pkg:cargo/bevy_fundsp
 pkg:cargo/bevy_fuzz
+pkg:cargo/bevy_fynix
 pkg:cargo/bevy_game
 pkg:cargo/bevy_gamepad
 pkg:cargo/bevy_gameplay
@@ -26726,6 +26742,7 @@ pkg:cargo/bevy_utilitarian
 pkg:cargo/bevy_utils
 pkg:cargo/bevy_utils_proc_macros
 pkg:cargo/bevy_uuid
+pkg:cargo/bevy_v4l2
 pkg:cargo/bevy_vach_assets
 pkg:cargo/bevy_variable_property
 pkg:cargo/bevy_vector_shapes
@@ -26917,6 +26934,7 @@ pkg:cargo/bezel-gpui-util
 pkg:cargo/bezel-gpui-web
 pkg:cargo/bezel-gpui-wgpu
 pkg:cargo/bezel-gpui-windows
+pkg:cargo/bezel-icons
 pkg:cargo/bezel-markdown
 pkg:cargo/bezel-motion
 pkg:cargo/bezel-syntax
@@ -29163,6 +29181,7 @@ pkg:cargo/bitrouter-sdk
 pkg:cargo/bitrouter-skills
 pkg:cargo/bitrouter-substrate
 pkg:cargo/bitrouter-swig-sdk
+pkg:cargo/bitrouter-telemetry
 pkg:cargo/bitrouter-tui
 pkg:cargo/bitrpc
 pkg:cargo/bitrpc-macros
@@ -33908,6 +33927,7 @@ pkg:cargo/brokerage-statement-importer-cli
 pkg:cargo/brokerapi
 pkg:cargo/brokk-acp-sandbox
 pkg:cargo/brokk-anvil
+pkg:cargo/brokk-anvil-client
 pkg:cargo/brokk-anvil-llm
 pkg:cargo/brokk-anvil-minimizer
 pkg:cargo/brokk-anvil-sdk
@@ -42148,6 +42168,7 @@ pkg:cargo/cd_guessing_game
 pkg:cargo/cda
 pkg:cargo/cda-dl
 pkg:cargo/cdasim
+pkg:cargo/cdate
 pkg:cargo/cdb
 pkg:cargo/cdb-hello
 pkg:cargo/cdb-rust-sample
@@ -72476,6 +72497,7 @@ pkg:cargo/dynamis-gpu
 pkg:cargo/dynamis-layout
 pkg:cargo/dynamis-model
 pkg:cargo/dynamis-physics
+pkg:cargo/dynamis-profile
 pkg:cargo/dynamis-query
 pkg:cargo/dynamis-sim
 pkg:cargo/dynamite
@@ -77150,6 +77172,7 @@ pkg:cargo/endian_codec
 pkg:cargo/endian_codec_derive
 pkg:cargo/endian_trait
 pkg:cargo/endian_trait_derive
+pkg:cargo/endianbytes
 pkg:cargo/endianness
 pkg:cargo/endiannezz
 pkg:cargo/endiannezz_derive
@@ -78234,6 +78257,7 @@ pkg:cargo/envfig
 pkg:cargo/envfile
 pkg:cargo/envfile-cargo
 pkg:cargo/envflag
+pkg:cargo/envflags
 pkg:cargo/envfmt
 pkg:cargo/envforge
 pkg:cargo/envful
@@ -97506,6 +97530,7 @@ pkg:cargo/geojson_d3
 pkg:cargo/geojson_rewind
 pkg:cargo/geojsonseq
 pkg:cargo/geojsonvt
+pkg:cargo/geokernel-sys
 pkg:cargo/geolite
 pkg:cargo/geolith
 pkg:cargo/geolocate
@@ -126616,6 +126641,7 @@ pkg:cargo/juiz_sdk
 pkg:cargo/juju
 pkg:cargo/jujube
 pkg:cargo/jujube-lib
+pkg:cargo/jujuleaf
 pkg:cargo/jujutsu
 pkg:cargo/jujutsu-lib
 pkg:cargo/juke
@@ -145263,6 +145289,7 @@ pkg:cargo/lunab-physics
 pkg:cargo/lunab-spatial
 pkg:cargo/lunac
 pkg:cargo/lunacy
+pkg:cargo/lunacy-macros
 pkg:cargo/lunalib
 pkg:cargo/lunanode
 pkg:cargo/lunanode_macros
@@ -152326,6 +152353,7 @@ pkg:cargo/mentedb-storage
 pkg:cargo/mention
 pkg:cargo/mentions-hashtags
 pkg:cargo/mentisdb
+pkg:cargo/mentore
 pkg:cargo/mentra
 pkg:cargo/mentra-provider
 pkg:cargo/menu
@@ -187251,8 +187279,13 @@ pkg:cargo/pbnify
 pkg:cargo/pbo
 pkg:cargo/pboddupalli-helloworld
 pkg:cargo/pbol
+pkg:cargo/pbox
+pkg:cargo/pbox-agent
+pkg:cargo/pbox-agent-client
 pkg:cargo/pbox-core
+pkg:cargo/pbox-crypto
 pkg:cargo/pbox-proto
+pkg:cargo/pbox-relay
 pkg:cargo/pbp
 pkg:cargo/pbpp
 pkg:cargo/pbr
@@ -218471,6 +218504,9 @@ pkg:cargo/rs-bush
 pkg:cargo/rs-bytebuffer
 pkg:cargo/rs-bytes2qrcode
 pkg:cargo/rs-cache
+pkg:cargo/rs-caj-ir
+pkg:cargo/rs-caj-jbig
+pkg:cargo/rs-caj-pdf
 pkg:cargo/rs-can
 pkg:cargo/rs-canon
 pkg:cargo/rs-car
@@ -218700,6 +218736,7 @@ pkg:cargo/rs-minkvs4redis4grpc
 pkg:cargo/rs-minkvs4valkey
 pkg:cargo/rs-ml
 pkg:cargo/rs-mock-server
+pkg:cargo/rs-mod-lua-core
 pkg:cargo/rs-modbus
 pkg:cargo/rs-moddotplot
 pkg:cargo/rs-mois-dirty
@@ -218828,6 +218865,7 @@ pkg:cargo/rs-teststand-sys
 pkg:cargo/rs-teststand-websocket
 pkg:cargo/rs-text2tokens
 pkg:cargo/rs-tiled_json
+pkg:cargo/rs-tinydict2ints
 pkg:cargo/rs-to-zod
 pkg:cargo/rs-todo-cli
 pkg:cargo/rs-tool
@@ -220568,6 +220606,7 @@ pkg:cargo/rstoken
 pkg:cargo/rstop
 pkg:cargo/rstorage
 pkg:cargo/rstorch
+pkg:cargo/rstorch-derive
 pkg:cargo/rstore
 pkg:cargo/rstow
 pkg:cargo/rstr
@@ -242394,6 +242433,22 @@ pkg:cargo/snapdown
 pkg:cargo/snapers
 pkg:cargo/snapfire
 pkg:cargo/snapfire_compiler
+pkg:cargo/snapfire_fsr
+pkg:cargo/snapfire_fsr_auth
+pkg:cargo/snapfire_fsr_cli
+pkg:cargo/snapfire_fsr_core
+pkg:cargo/snapfire_fsr_engine
+pkg:cargo/snapfire_fsr_host
+pkg:cargo/snapfire_fsr_ir
+pkg:cargo/snapfire_fsr_lower
+pkg:cargo/snapfire_fsr_macros
+pkg:cargo/snapfire_fsr_payload
+pkg:cargo/snapfire_fsr_plan
+pkg:cargo/snapfire_fsr_runtime
+pkg:cargo/snapfire_fsr_service
+pkg:cargo/snapfire_fsr_session
+pkg:cargo/snapfire_fsr_sites
+pkg:cargo/snapfire_fsr_tera
 pkg:cargo/snapfire_typecheck
 pkg:cargo/snaphu-rs
 pkg:cargo/snaphu-sys
@@ -274975,11 +275030,14 @@ pkg:cargo/turse
 pkg:cargo/turse-core
 pkg:cargo/turse-macro
 pkg:cargo/turso
+pkg:cargo/turso-azul
 pkg:cargo/turso-backup
 pkg:cargo/turso-http
 pkg:cargo/turso-mappers
 pkg:cargo/turso-mappers-derive
 pkg:cargo/turso-migrate
+pkg:cargo/turso-sdk-kit-azul
+pkg:cargo/turso-sync-sdk-kit-azul
 pkg:cargo/turso_core
 pkg:cargo/turso_ext
 pkg:cargo/turso_macros
@@ -297563,8 +297621,10 @@ pkg:cargo/xir-scf
 pkg:cargo/xiron
 pkg:cargo/xirr
 pkg:cargo/xisf
+pkg:cargo/xisf-core
 pkg:cargo/xisf-header
 pkg:cargo/xisf-rs
+pkg:cargo/xisftool
 pkg:cargo/xiss
 pkg:cargo/xiss-map
 pkg:cargo/xit
