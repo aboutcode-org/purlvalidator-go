@@ -110,6 +110,7 @@ pkg:apk/alpine/abseil-cpp-bad-any-cast-impl
 pkg:apk/alpine/abseil-cpp-bad-optional-access
 pkg:apk/alpine/abseil-cpp-bad-variant-access
 pkg:apk/alpine/abseil-cpp-base
+pkg:apk/alpine/abseil-cpp-base-cpu-detect
 pkg:apk/alpine/abseil-cpp-city
 pkg:apk/alpine/abseil-cpp-civil-time
 pkg:apk/alpine/abseil-cpp-clock-interface
@@ -147,6 +148,7 @@ pkg:apk/alpine/abseil-cpp-flags-usage
 pkg:apk/alpine/abseil-cpp-flags-usage-internal
 pkg:apk/alpine/abseil-cpp-generic-printer-internal
 pkg:apk/alpine/abseil-cpp-graphcycles-internal
+pkg:apk/alpine/abseil-cpp-hardening
 pkg:apk/alpine/abseil-cpp-hash
 pkg:apk/alpine/abseil-cpp-hash-generator-testing
 pkg:apk/alpine/abseil-cpp-hashtable-profiler
@@ -3240,6 +3242,7 @@ pkg:apk/alpine/cadaver-doc
 pkg:apk/alpine/cadaver-lang
 pkg:apk/alpine/caddy
 pkg:apk/alpine/caddy-openrc
+pkg:apk/alpine/caddy-systemd
 pkg:apk/alpine/cadence
 pkg:apk/alpine/caerbannog
 pkg:apk/alpine/caffeine-ng
@@ -6177,6 +6180,7 @@ pkg:apk/alpine/dufs
 pkg:apk/alpine/dufs-bash-completion
 pkg:apk/alpine/dufs-doc
 pkg:apk/alpine/dufs-fish-completion
+pkg:apk/alpine/dufs-openrc
 pkg:apk/alpine/dufs-zsh-completion
 pkg:apk/alpine/duktape
 pkg:apk/alpine/duktape-dbg
@@ -40440,6 +40444,8 @@ pkg:apk/alpine/tldr-python-client-pyc
 pkg:apk/alpine/tllist
 pkg:apk/alpine/tllist-dev
 pkg:apk/alpine/tllist-doc
+pkg:apk/alpine/tlottie
+pkg:apk/alpine/tlottie-dev
 pkg:apk/alpine/tlp
 pkg:apk/alpine/tlp-bash-completion
 pkg:apk/alpine/tlp-doc
