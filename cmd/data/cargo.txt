@@ -24009,6 +24009,7 @@ pkg:cargo/beastlink
 pkg:cargo/beat
 pkg:cargo/beat-detector
 pkg:cargo/beat-this
+pkg:cargo/beat-track-rs
 pkg:cargo/beat_saber_map
 pkg:cargo/beatblox_midi
 pkg:cargo/beatmap_parser
@@ -25683,6 +25684,7 @@ pkg:cargo/bevy_gearbox
 pkg:cargo/bevy_gearbox_core
 pkg:cargo/bevy_gearbox_editor
 pkg:cargo/bevy_gearbox_macros
+pkg:cargo/bevy_gearbox_macros_impl
 pkg:cargo/bevy_gearbox_protocol
 pkg:cargo/bevy_generative
 pkg:cargo/bevy_generative_grammars
@@ -28083,6 +28085,7 @@ pkg:cargo/binyay
 pkg:cargo/binyl
 pkg:cargo/bio
 pkg:cargo/bio-did-registry
+pkg:cargo/bio-did-resolver
 pkg:cargo/bio-forge
 pkg:cargo/bio-io
 pkg:cargo/bio-jtools
@@ -33962,6 +33965,7 @@ pkg:cargo/brokk-codex-acp
 pkg:cargo/brokk-mj-agents
 pkg:cargo/brokk-mj-anvil
 pkg:cargo/brokk-mj-chat
+pkg:cargo/brokk-mj-client
 pkg:cargo/brokk-mj-controller
 pkg:cargo/brokk-mj-core
 pkg:cargo/brokk-mj-desktop
@@ -34292,9 +34296,16 @@ pkg:cargo/bryte_descriptor_attribute
 pkg:cargo/bryte_descriptor_client
 pkg:cargo/bryte_descriptor_state
 pkg:cargo/brz-ds
+pkg:cargo/brz-http
+pkg:cargo/brz-http-server
+pkg:cargo/brz-http-server-macros
 pkg:cargo/brz-io
 pkg:cargo/brz-json
+pkg:cargo/brz-logs
+pkg:cargo/brz-memcache
 pkg:cargo/brz-metrics
+pkg:cargo/brz-mysql
+pkg:cargo/brz-mysql-derive
 pkg:cargo/brz-net
 pkg:cargo/brzozowski
 pkg:cargo/brzozowski-regex
@@ -58272,6 +58283,7 @@ pkg:cargo/css2xr
 pkg:cargo/css3
 pkg:cargo/css3-selector
 pkg:cargo/css_ast
+pkg:cargo/css_build_system
 pkg:cargo/css_dataset
 pkg:cargo/css_feature_data
 pkg:cargo/css_forge
@@ -71311,6 +71323,8 @@ pkg:cargo/dtl-core
 pkg:cargo/dtlog
 pkg:cargo/dtls
 pkg:cargo/dtls-proto
+pkg:cargo/dtlvnative
+pkg:cargo/dtlvnative-sys
 pkg:cargo/dtm
 pkg:cargo/dtm_client
 pkg:cargo/dtmf
@@ -95025,6 +95039,7 @@ pkg:cargo/galileo-types
 pkg:cargo/galion
 pkg:cargo/galleon
 pkg:cargo/galley
+pkg:cargo/galley-bindings
 pkg:cargo/gallide-bin
 pkg:cargo/gallium
 pkg:cargo/gallium_ecs
@@ -95715,11 +95730,14 @@ pkg:cargo/gaze-assembly
 pkg:cargo/gaze-audit
 pkg:cargo/gaze-cli
 pkg:cargo/gaze-document
+pkg:cargo/gaze-inspection
 pkg:cargo/gaze-mcp-bridge
 pkg:cargo/gaze-mcp-core
 pkg:cargo/gaze-mcp-rmcp
+pkg:cargo/gaze-model-setup
 pkg:cargo/gaze-pii
 pkg:cargo/gaze-proxy
+pkg:cargo/gaze-proxy-dashboard
 pkg:cargo/gaze-recognizers
 pkg:cargo/gaze-token-bridge
 pkg:cargo/gaze-types
@@ -96506,6 +96524,7 @@ pkg:cargo/gel-stream
 pkg:cargo/gel-tokio
 pkg:cargo/gela
 pkg:cargo/gelatin
+pkg:cargo/gelato
 pkg:cargo/gelato-sdk
 pkg:cargo/gelatyx
 pkg:cargo/gelb
@@ -101294,6 +101313,7 @@ pkg:cargo/godot_await
 pkg:cargo/godot_egui
 pkg:cargo/godot_image_replacer
 pkg:cargo/godot_macro
+pkg:cargo/godot_rs
 pkg:cargo/godot_rust_helper
 pkg:cargo/godot_tokio
 pkg:cargo/godotdoc
@@ -146069,6 +146089,7 @@ pkg:cargo/lz_shared_udp
 pkg:cargo/lz_stream_io
 pkg:cargo/lzav
 pkg:cargo/lzbase62
+pkg:cargo/lzbitmap
 pkg:cargo/lzc-sdk
 pkg:cargo/lzcomp
 pkg:cargo/lzcomplexity-core
@@ -166048,6 +166069,7 @@ pkg:cargo/near-chunks-primitives
 pkg:cargo/near-cli-rs
 pkg:cargo/near-client
 pkg:cargo/near-client-primitives
+pkg:cargo/near-compile
 pkg:cargo/near-config-utils
 pkg:cargo/near-contract-standards
 pkg:cargo/near-contract-standards-icebear
@@ -166081,6 +166103,7 @@ pkg:cargo/near-jsonrpc-client
 pkg:cargo/near-jsonrpc-primitives
 pkg:cargo/near-kit
 pkg:cargo/near-kit-macros
+pkg:cargo/near-kit-sandbox
 pkg:cargo/near-lake-context-derive
 pkg:cargo/near-lake-framework
 pkg:cargo/near-lake-parent-transaction-cache
@@ -205757,6 +205780,7 @@ pkg:cargo/rama-http-types
 pkg:cargo/rama-hyper
 pkg:cargo/rama-hyper-util
 pkg:cargo/rama-icap
+pkg:cargo/rama-inspect
 pkg:cargo/rama-js
 pkg:cargo/rama-json
 pkg:cargo/rama-macros
@@ -206415,6 +206439,7 @@ pkg:cargo/rapidquery
 pkg:cargo/rapidrand
 pkg:cargo/rapids
 pkg:cargo/rapids-rs
+pkg:cargo/rapidstr2int
 pkg:cargo/rapidsync
 pkg:cargo/rapidtar
 pkg:cargo/rapidtrees
@@ -207264,6 +207289,7 @@ pkg:cargo/ratex-cairo
 pkg:cargo/ratex-ffi
 pkg:cargo/ratex-font
 pkg:cargo/ratex-font-loader
+pkg:cargo/ratex-gpui
 pkg:cargo/ratex-gtk4
 pkg:cargo/ratex-katex-fonts
 pkg:cargo/ratex-layout
@@ -207355,6 +207381,10 @@ pkg:cargo/rattan
 pkg:cargo/rattan-core
 pkg:cargo/rattan-env
 pkg:cargo/rattan-log
+pkg:cargo/rattery
+pkg:cargo/rattery-app
+pkg:cargo/rattery-build
+pkg:cargo/rattery-macros
 pkg:cargo/rattice
 pkg:cargo/rattish
 pkg:cargo/rattle
@@ -207405,6 +207435,7 @@ pkg:cargo/rattles
 pkg:cargo/ratto
 pkg:cargo/ratty
 pkg:cargo/ratty-vt
+pkg:cargo/ratty-vte
 pkg:cargo/ratune
 pkg:cargo/ratune-player
 pkg:cargo/ratune-scrobble
@@ -207521,6 +207552,7 @@ pkg:cargo/raves_xmltree
 pkg:cargo/ravif
 pkg:cargo/ravine
 pkg:cargo/ravn
+pkg:cargo/ravnpad
 pkg:cargo/ravvi-ratio
 pkg:cargo/raw
 pkg:cargo/raw-acpi
@@ -207689,6 +207721,7 @@ pkg:cargo/ray_tracing_core
 pkg:cargo/ray_tracing_in_one_weekend
 pkg:cargo/ray_tracing_show_image
 pkg:cargo/ray_tracing_utility
+pkg:cargo/raya
 pkg:cargo/rayauth-session
 pkg:cargo/rayban
 pkg:cargo/rayban_macro
@@ -207977,6 +208010,7 @@ pkg:cargo/rbp-nlhe
 pkg:cargo/rbp-server
 pkg:cargo/rbp-transport
 pkg:cargo/rbpf
+pkg:cargo/rbposd
 pkg:cargo/rbrb
 pkg:cargo/rbrep
 pkg:cargo/rbrew
@@ -218098,7 +218132,9 @@ pkg:cargo/rpi
 pkg:cargo/rpi-agent
 pkg:cargo/rpi-ai
 pkg:cargo/rpi-async
+pkg:cargo/rpi-background-tasks
 pkg:cargo/rpi-cli
+pkg:cargo/rpi-codegraph
 pkg:cargo/rpi-derive-key
 pkg:cargo/rpi-extensions
 pkg:cargo/rpi-gpio
@@ -218114,6 +218150,7 @@ pkg:cargo/rpi-led-panel
 pkg:cargo/rpi-loader
 pkg:cargo/rpi-loader-ota
 pkg:cargo/rpi-mailbox
+pkg:cargo/rpi-mcp-adapter
 pkg:cargo/rpi-mh-z19c-exporter
 pkg:cargo/rpi-mmal-rs
 pkg:cargo/rpi-pal
@@ -218122,10 +218159,14 @@ pkg:cargo/rpi-pico-sdk-sys
 pkg:cargo/rpi-plugin-sdk
 pkg:cargo/rpi-relay-lib
 pkg:cargo/rpi-st7789v2-driver
+pkg:cargo/rpi-subagents
 pkg:cargo/rpi-telemetry
+pkg:cargo/rpi-todo
+pkg:cargo/rpi-token-usage
 pkg:cargo/rpi-tools
 pkg:cargo/rpi-tui
 pkg:cargo/rpi-video-rs
+pkg:cargo/rpi-web-access
 pkg:cargo/rpi3
 pkg:cargo/rpi_embedded
 pkg:cargo/rpi_memory_display
@@ -218537,6 +218578,7 @@ pkg:cargo/rs-bush
 pkg:cargo/rs-bytebuffer
 pkg:cargo/rs-bytes2qrcode
 pkg:cargo/rs-cache
+pkg:cargo/rs-caj
 pkg:cargo/rs-caj-ir
 pkg:cargo/rs-caj-jbig
 pkg:cargo/rs-caj-pdf
@@ -220589,6 +220631,7 @@ pkg:cargo/rsticulum-packet
 pkg:cargo/rsticulum-transport
 pkg:cargo/rstidal
 pkg:cargo/rstiff
+pkg:cargo/rstim
 pkg:cargo/rstime
 pkg:cargo/rstix
 pkg:cargo/rstk
@@ -287964,6 +288007,7 @@ pkg:cargo/wad_goldsrc
 pkg:cargo/wad_simulator
 pkg:cargo/wadachi
 pkg:cargo/wadachi-spec
+pkg:cargo/waddle
 pkg:cargo/waddling-errors
 pkg:cargo/waddling-errors-hash
 pkg:cargo/waddling-errors-macros
@@ -290386,6 +290430,7 @@ pkg:cargo/wavefc-cli
 pkg:cargo/wavefile
 pkg:cargo/waveflow-img
 pkg:cargo/waveform
+pkg:cargo/waveform-cli
 pkg:cargo/waveform-data
 pkg:cargo/waveform-mcp
 pkg:cargo/waveform_space
@@ -290419,6 +290464,7 @@ pkg:cargo/wavepeek
 pkg:cargo/waveplot-burnerjhon
 pkg:cargo/waver
 pkg:cargo/waver-core
+pkg:cargo/waverand
 pkg:cargo/waverave
 pkg:cargo/waverave-hackrf
 pkg:cargo/waverave-hackrf-bin
@@ -290662,9 +290708,16 @@ pkg:cargo/waywarp
 pkg:cargo/wayzoomy
 pkg:cargo/waz
 pkg:cargo/waza
+pkg:cargo/wazabin-binary
 pkg:cargo/wazabin-jstd
 pkg:cargo/wazabin-jstd-derive
 pkg:cargo/wazabin-pcode
+pkg:cargo/wazabin-qcode
+pkg:cargo/wazabin-qcode-emulator
+pkg:cargo/wazabin-qcode-jit
+pkg:cargo/wazabin-qcode-passes
+pkg:cargo/wazabin-qcode-sleigh
+pkg:cargo/wazabin-qcode-vm
 pkg:cargo/wazabin-sleigh
 pkg:cargo/wazabin-sleigh-fmt
 pkg:cargo/wazabin-sleigh-precompile
@@ -299467,8 +299520,10 @@ pkg:cargo/yarws
 pkg:cargo/yary
 pkg:cargo/yas
 pkg:cargo/yas-alacritty-terminal
+pkg:cargo/yas-compositor
 pkg:cargo/yas-fssync
 pkg:cargo/yas-terminal-model
+pkg:cargo/yas-wire
 pkg:cargo/yas_scanner
 pkg:cargo/yasec
 pkg:cargo/yasec_derive
