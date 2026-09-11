@@ -24578,6 +24578,7 @@ pkg:cargo/berblom
 pkg:cargo/berdicles
 pkg:cargo/bereal
 pkg:cargo/berg
+pkg:cargo/berger
 pkg:cargo/bergman
 pkg:cargo/bergr
 pkg:cargo/bergshamra
@@ -27528,6 +27529,7 @@ pkg:cargo/bililivex
 pkg:cargo/bilinear_tf
 pkg:cargo/bilingual
 pkg:cargo/bilink
+pkg:cargo/bilisum
 pkg:cargo/biliup
 pkg:cargo/bilive
 pkg:cargo/bilive-danmaku
@@ -33975,7 +33977,9 @@ pkg:cargo/brokk-mj-voice-worker
 pkg:cargo/brokk-mj-worker
 pkg:cargo/brokk-mjolnir
 pkg:cargo/brokk-rtk
+pkg:cargo/brokk-tree-sitter-c-sharp
 pkg:cargo/brokk-tree-sitter-kotlin
+pkg:cargo/brokk-tree-sitter-rust
 pkg:cargo/brokk-valkryie
 pkg:cargo/brokkr
 pkg:cargo/brokkr-bridge
@@ -34045,6 +34049,7 @@ pkg:cargo/broquel
 pkg:cargo/brosdk
 pkg:cargo/brosdk-sdk
 pkg:cargo/brotalibre
+pkg:cargo/brotaparser
 pkg:cargo/brother
 pkg:cargo/brother-cli
 pkg:cargo/brother-label
@@ -34303,10 +34308,12 @@ pkg:cargo/brz-io
 pkg:cargo/brz-json
 pkg:cargo/brz-logs
 pkg:cargo/brz-memcache
+pkg:cargo/brz-memory
 pkg:cargo/brz-metrics
 pkg:cargo/brz-mysql
 pkg:cargo/brz-mysql-derive
 pkg:cargo/brz-net
+pkg:cargo/brz-redis
 pkg:cargo/brzozowski
 pkg:cargo/brzozowski-regex
 pkg:cargo/bs
@@ -77514,6 +77521,7 @@ pkg:cargo/ennbo-py
 pkg:cargo/enneagram
 pkg:cargo/ennius
 pkg:cargo/eno-crest
+pkg:cargo/eno-sdk
 pkg:cargo/enocean
 pkg:cargo/enoceanesp
 pkg:cargo/enocoro128v2
@@ -78398,6 +78406,7 @@ pkg:cargo/envq
 pkg:cargo/envr
 pkg:cargo/envrc
 pkg:cargo/envro
+pkg:cargo/envro-derive
 pkg:cargo/envroll
 pkg:cargo/envrun
 pkg:cargo/envrypt
@@ -95146,6 +95155,11 @@ pkg:cargo/game-toolkit-gfx
 pkg:cargo/game-toolkit-input
 pkg:cargo/game-toolkit-ui
 pkg:cargo/game-utils
+pkg:cargo/game-utils-ai
+pkg:cargo/game-utils-cards
+pkg:cargo/game-utils-combat
+pkg:cargo/game-utils-grid
+pkg:cargo/game-utils-progression
 pkg:cargo/game2048
 pkg:cargo/game2048-rs
 pkg:cargo/game24
@@ -97727,6 +97741,7 @@ pkg:cargo/geoveil_mp
 pkg:cargo/geoverse
 pkg:cargo/geovoxel
 pkg:cargo/geox
+pkg:cargo/geoxi
 pkg:cargo/geozero
 pkg:cargo/geozero-core
 pkg:cargo/geozero-shp
@@ -151199,6 +151214,7 @@ pkg:cargo/mecha10-auth
 pkg:cargo/mecha10-behavior-patterns
 pkg:cargo/mecha10-behavior-runtime
 pkg:cargo/mecha10-binary-naming
+pkg:cargo/mecha10-camera-codec
 pkg:cargo/mecha10-cli
 pkg:cargo/mecha10-cli-core
 pkg:cargo/mecha10-controllers
@@ -166096,6 +166112,7 @@ pkg:cargo/near-fmt
 pkg:cargo/near-gas
 pkg:cargo/near-global-contracts
 pkg:cargo/near-helper
+pkg:cargo/near-indexer-client
 pkg:cargo/near-indexer-primitives
 pkg:cargo/near-indexer-rpc
 pkg:cargo/near-internal-balances-plugin
@@ -167645,6 +167662,11 @@ pkg:cargo/netty-rs
 pkg:cargo/netty4rs
 pkg:cargo/netu
 pkg:cargo/netui
+pkg:cargo/netune
+pkg:cargo/netune-http1
+pkg:cargo/netune-http2
+pkg:cargo/netune-probe
+pkg:cargo/netune-trace
 pkg:cargo/netupi-core
 pkg:cargo/netupi23
 pkg:cargo/netuser
@@ -205152,6 +205174,23 @@ pkg:cargo/radixal
 pkg:cargo/radixaw
 pkg:cargo/radixaw-rs
 pkg:cargo/radixdb
+pkg:cargo/radixdb-api
+pkg:cargo/radixdb-catalog
+pkg:cargo/radixdb-client
+pkg:cargo/radixdb-core
+pkg:cargo/radixdb-database
+pkg:cargo/radixdb-executor
+pkg:cargo/radixdb-functions
+pkg:cargo/radixdb-orm
+pkg:cargo/radixdb-plugin
+pkg:cargo/radixdb-plugin-abi
+pkg:cargo/radixdb-plugin-host
+pkg:cargo/radixdb-plugin-macros
+pkg:cargo/radixdb-procedural
+pkg:cargo/radixdb-protocol
+pkg:cargo/radixdb-spatial
+pkg:cargo/radixdb-sql
+pkg:cargo/radixdb-storage
 pkg:cargo/radixip_rs
 pkg:cargo/radixmap
 pkg:cargo/radixox
@@ -207231,6 +207270,7 @@ pkg:cargo/ratchjob
 pkg:cargo/ratchjob-web-dist-wrap
 pkg:cargo/ratcl
 pkg:cargo/ratcn
+pkg:cargo/ratcn-textbox
 pkg:cargo/ratcrate-cli
 pkg:cargo/ratcrate-tui
 pkg:cargo/ratcsv
@@ -215253,6 +215293,7 @@ pkg:cargo/rkyv_versioned_derive
 pkg:cargo/rl
 pkg:cargo/rl-ast
 pkg:cargo/rl-bandit
+pkg:cargo/rl-cc
 pkg:cargo/rl-checker
 pkg:cargo/rl-cli
 pkg:cargo/rl-commons
@@ -218147,10 +218188,12 @@ pkg:cargo/rpi-info
 pkg:cargo/rpi-led-matrix
 pkg:cargo/rpi-led-matrix-sys
 pkg:cargo/rpi-led-panel
+pkg:cargo/rpi-lens
 pkg:cargo/rpi-loader
 pkg:cargo/rpi-loader-ota
 pkg:cargo/rpi-mailbox
 pkg:cargo/rpi-mcp-adapter
+pkg:cargo/rpi-memory
 pkg:cargo/rpi-mh-z19c-exporter
 pkg:cargo/rpi-mmal-rs
 pkg:cargo/rpi-pal
@@ -221163,6 +221206,7 @@ pkg:cargo/rtmp
 pkg:cargo/rtmp-ingress
 pkg:cargo/rtmp-rs
 pkg:cargo/rtmp-runtime
+pkg:cargo/rtmpx
 pkg:cargo/rtnetlink
 pkg:cargo/rtng
 pkg:cargo/rtnl
@@ -274162,7 +274206,9 @@ pkg:cargo/tu
 pkg:cargo/tu-error
 pkg:cargo/tu-result
 pkg:cargo/tua_lexer
+pkg:cargo/tuack-lib
 pkg:cargo/tuack-ng-parser
+pkg:cargo/tuack-plugin-sdk
 pkg:cargo/tuan
 pkg:cargo/tuas_boussinesq_solver
 pkg:cargo/tuasmavlink
@@ -275005,6 +275051,7 @@ pkg:cargo/turbovault-export
 pkg:cargo/turbovault-git
 pkg:cargo/turbovault-graph
 pkg:cargo/turbovault-parser
+pkg:cargo/turbovault-plugin-api
 pkg:cargo/turbovault-sql
 pkg:cargo/turbovault-tools
 pkg:cargo/turbovault-vault
@@ -275114,6 +275161,7 @@ pkg:cargo/turse-macro
 pkg:cargo/turso
 pkg:cargo/turso-azul
 pkg:cargo/turso-backup
+pkg:cargo/turso-compio
 pkg:cargo/turso-http
 pkg:cargo/turso-mappers
 pkg:cargo/turso-mappers-derive
@@ -287122,6 +287170,7 @@ pkg:cargo/vpn-kill-switch
 pkg:cargo/vpn-link-serde
 pkg:cargo/vpn-shroud
 pkg:cargo/vpn-tool
+pkg:cargo/vpn-tool-cli
 pkg:cargo/vpn_client
 pkg:cargo/vpncli
 pkg:cargo/vpncloud
@@ -299109,6 +299158,8 @@ pkg:cargo/yah-bundled
 pkg:cargo/yah-cloud
 pkg:cargo/yah-dictate
 pkg:cargo/yah-fleet-metrics
+pkg:cargo/yah-floating-ip
+pkg:cargo/yah-floating-ip-adapters
 pkg:cargo/yah-forms
 pkg:cargo/yah-hetzner
 pkg:cargo/yah-image
