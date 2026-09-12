@@ -1100,6 +1100,8 @@ pkg:apk/alpine/aria2-bash-completion
 pkg:apk/alpine/aria2-daemon
 pkg:apk/alpine/aria2-dbg
 pkg:apk/alpine/aria2-doc
+pkg:apk/alpine/ariadne-codegen
+pkg:apk/alpine/ariadne-codegen-pyc
 pkg:apk/alpine/arianna
 pkg:apk/alpine/arianna-lang
 pkg:apk/alpine/arif
@@ -30700,6 +30702,8 @@ pkg:apk/alpine/py3-autobahn
 pkg:apk/alpine/py3-autobahn-pyc
 pkg:apk/alpine/py3-autocommand
 pkg:apk/alpine/py3-autocommand-pyc
+pkg:apk/alpine/py3-autoflake
+pkg:apk/alpine/py3-autoflake-pyc
 pkg:apk/alpine/py3-autograd
 pkg:apk/alpine/py3-autograd-gamma
 pkg:apk/alpine/py3-autograd-gamma-pyc
@@ -32254,6 +32258,8 @@ pkg:apk/alpine/py3-irc
 pkg:apk/alpine/py3-irc-pyc
 pkg:apk/alpine/py3-isbnlib
 pkg:apk/alpine/py3-isbnlib-pyc
+pkg:apk/alpine/py3-iso3166
+pkg:apk/alpine/py3-iso3166-pyc
 pkg:apk/alpine/py3-iso639
 pkg:apk/alpine/py3-iso639-lang
 pkg:apk/alpine/py3-iso639-lang-pyc
@@ -32461,8 +32467,10 @@ pkg:apk/alpine/py3-language-data-pyc
 pkg:apk/alpine/py3-language-server
 pkg:apk/alpine/py3-lap
 pkg:apk/alpine/py3-lap-pyc
+pkg:apk/alpine/py3-lark
 pkg:apk/alpine/py3-lark-parser
 pkg:apk/alpine/py3-lark-parser-pyc
+pkg:apk/alpine/py3-lark-pyc
 pkg:apk/alpine/py3-latex2mathml
 pkg:apk/alpine/py3-latex2mathml-pyc
 pkg:apk/alpine/py3-lazy
@@ -33522,6 +33530,8 @@ pkg:apk/alpine/py3-purl-pyc
 pkg:apk/alpine/py3-pwdlib
 pkg:apk/alpine/py3-pwdlib-pyc
 pkg:apk/alpine/py3-py
+pkg:apk/alpine/py3-py-build-cmake
+pkg:apk/alpine/py3-py-build-cmake-pyc
 pkg:apk/alpine/py3-py-cpuinfo
 pkg:apk/alpine/py3-py-cpuinfo-gns3
 pkg:apk/alpine/py3-py-cpuinfo-pyc
@@ -33667,6 +33677,8 @@ pkg:apk/alpine/py3-pykwalify
 pkg:apk/alpine/py3-pykwalify-pyc
 pkg:apk/alpine/py3-pylast
 pkg:apk/alpine/py3-pylast-pyc
+pkg:apk/alpine/py3-pylatexenc
+pkg:apk/alpine/py3-pylatexenc-pyc
 pkg:apk/alpine/py3-pyld
 pkg:apk/alpine/py3-pyld-pyc
 pkg:apk/alpine/py3-pyldap
@@ -33790,6 +33802,8 @@ pkg:apk/alpine/py3-pyrfc3339
 pkg:apk/alpine/py3-pyrfc3339-pyc
 pkg:apk/alpine/py3-pyro4
 pkg:apk/alpine/py3-pyro4-pyc
+pkg:apk/alpine/py3-pyrofork
+pkg:apk/alpine/py3-pyrofork-pyc
 pkg:apk/alpine/py3-pyroma
 pkg:apk/alpine/py3-pyroma-pyc
 pkg:apk/alpine/py3-pyroute2
@@ -34280,6 +34294,8 @@ pkg:apk/alpine/py3-rjsmin
 pkg:apk/alpine/py3-rjsmin-pyc
 pkg:apk/alpine/py3-rkm-codes
 pkg:apk/alpine/py3-rkm-codes-pyc
+pkg:apk/alpine/py3-rlottie-python
+pkg:apk/alpine/py3-rlottie-python-pyc
 pkg:apk/alpine/py3-rns
 pkg:apk/alpine/py3-rns-pyc
 pkg:apk/alpine/py3-rofi
@@ -34897,6 +34913,7 @@ pkg:apk/alpine/py3-texttable
 pkg:apk/alpine/py3-texttable-pyc
 pkg:apk/alpine/py3-textual
 pkg:apk/alpine/py3-textual-pyc
+pkg:apk/alpine/py3-tgcrypto-pyrofork
 pkg:apk/alpine/py3-thefuzz
 pkg:apk/alpine/py3-thefuzz-pyc
 pkg:apk/alpine/py3-thinc
@@ -36484,6 +36501,9 @@ pkg:apk/alpine/rcon-cli
 pkg:apk/alpine/rcon-doc
 pkg:apk/alpine/rcs
 pkg:apk/alpine/rcs-doc
+pkg:apk/alpine/rcvd
+pkg:apk/alpine/rcvd-doc
+pkg:apk/alpine/rcvd-openrc
 pkg:apk/alpine/rdedup
 pkg:apk/alpine/rdesktop
 pkg:apk/alpine/rdesktop-doc
@@ -38546,6 +38566,9 @@ pkg:apk/alpine/slick-greeter
 pkg:apk/alpine/slick-greeter-doc
 pkg:apk/alpine/slick-greeter-lang
 pkg:apk/alpine/slides
+pkg:apk/alpine/slidgram
+pkg:apk/alpine/slidgram-openrc
+pkg:apk/alpine/slidgram-pyc
 pkg:apk/alpine/sliding-sync
 pkg:apk/alpine/sliding-sync-openrc
 pkg:apk/alpine/slim
