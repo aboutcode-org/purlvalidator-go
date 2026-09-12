@@ -14,7 +14,7 @@ package purlvalidator
 import (
 	_ "embed"
 	"fmt"
-	"log"
+	"sync"
 
 	"github.com/blevesearch/vellum"
 	"github.com/package-url/packageurl-go"
@@ -23,14 +23,17 @@ import (
 //go:embed purls.fst
 var fstData []byte
 
-var validator *vellum.FST
+var (
+	validator     *vellum.FST
+	validatorOnce sync.Once
+	validatorErr  error
+)
 
-func init() {
-	var err error
-	validator, err = vellum.Load(fstData)
-	if err != nil {
-		log.Fatal(err)
-	}
+func getValidator() (*vellum.FST, error) {
+	validatorOnce.Do(func() {
+		validator, validatorErr = vellum.Load(fstData)
+	})
+	return validator, validatorErr
 }
 
 func validate_purl(packageURL string, fstMap *vellum.FST) (bool, error) {
@@ -47,5 +50,9 @@ func validate_purl(packageURL string, fstMap *vellum.FST) (bool, error) {
 }
 
 func Validate(packageURL string) (bool, error) {
-	return validate_purl(packageURL, validator)
+	v, err := getValidator()
+	if err != nil {
+		return false, err
+	}
+	return validate_purl(packageURL, v)
 }
