@@ -19923,6 +19923,7 @@ pkg:cargo/aws-assume-role
 pkg:cargo/aws-assume-role-rs
 pkg:cargo/aws-athena-parser
 pkg:cargo/aws-auth-payload
+pkg:cargo/aws-bedrock-otel
 pkg:cargo/aws-bootstrap
 pkg:cargo/aws-build
 pkg:cargo/aws-build-lib
@@ -23118,6 +23119,8 @@ pkg:cargo/baeru
 pkg:cargo/baffa
 pkg:cargo/baffao
 pkg:cargo/baffle
+pkg:cargo/baffle-client
+pkg:cargo/baffle-proxy
 pkg:cargo/bag
 pkg:cargo/bagatel
 pkg:cargo/bagel
@@ -32609,6 +32612,7 @@ pkg:cargo/bn254
 pkg:cargo/bn254_blackbox_solver
 pkg:cargo/bn254_hash2curve
 pkg:cargo/bnb
+pkg:cargo/bnb-shell
 pkg:cargo/bnb_rs
 pkg:cargo/bnbot
 pkg:cargo/bnc
@@ -67409,6 +67413,7 @@ pkg:cargo/dhall-to-resume
 pkg:cargo/dhall_proc_macros
 pkg:cargo/dhan-rs
 pkg:cargo/dhandho
+pkg:cargo/dhani
 pkg:cargo/dhara_dhbin
 pkg:cargo/dhara_storage
 pkg:cargo/dhara_storage_core
@@ -70346,6 +70351,7 @@ pkg:cargo/dockertags
 pkg:cargo/dockertest
 pkg:cargo/dockertest-server
 pkg:cargo/docket
+pkg:cargo/docket-cli
 pkg:cargo/dockgen
 pkg:cargo/dockguard
 pkg:cargo/docki
@@ -70571,6 +70577,13 @@ pkg:cargo/docxide-template
 pkg:cargo/docxide-template-derive
 pkg:cargo/docxml
 pkg:cargo/docxsidepdf
+pkg:cargo/docxtpl-cli
+pkg:cargo/docxtpl-compat
+pkg:cargo/docxtpl-opc
+pkg:cargo/docxtpl-rich
+pkg:cargo/docxtpl-rs
+pkg:cargo/docxtpl-template
+pkg:cargo/docxtpl-xml
 pkg:cargo/docxtplrs
 pkg:cargo/docxy
 pkg:cargo/docz
@@ -105624,6 +105637,7 @@ pkg:cargo/gorgeous
 pkg:cargo/gorgon
 pkg:cargo/gorgondb
 pkg:cargo/gorilla
+pkg:cargo/gorilla-rust
 pkg:cargo/gorka
 pkg:cargo/gorm
 pkg:cargo/gorm_macros
@@ -117853,6 +117867,7 @@ pkg:cargo/hyperflash
 pkg:cargo/hyperflow-rs-models
 pkg:cargo/hyperfoot
 pkg:cargo/hyperforge
+pkg:cargo/hyperframes
 pkg:cargo/hyperfs
 pkg:cargo/hyperfuel-client
 pkg:cargo/hyperfuel-format
@@ -119157,9 +119172,11 @@ pkg:cargo/iced-box
 pkg:cargo/iced-chat-widget
 pkg:cargo/iced-code-editor
 pkg:cargo/iced-cpuid
+pkg:cargo/iced-cube
 pkg:cargo/iced-fluent-icons
 pkg:cargo/iced-fluent-theme
 pkg:cargo/iced-gauges
+pkg:cargo/iced-kit
 pkg:cargo/iced-layout
 pkg:cargo/iced-layout-core
 pkg:cargo/iced-layout-macro
@@ -119272,7 +119289,9 @@ pkg:cargo/iced_style
 pkg:cargo/iced_style_config
 pkg:cargo/iced_table
 pkg:cargo/iced_table2
+pkg:cargo/iced_tabs
 pkg:cargo/iced_term
+pkg:cargo/iced_terminal
 pkg:cargo/iced_test
 pkg:cargo/iced_tester
 pkg:cargo/iced_tiny_skia
@@ -135410,6 +135429,7 @@ pkg:cargo/krankerl
 pkg:cargo/kranth
 pkg:cargo/kranth-cli
 pkg:cargo/kranz
+pkg:cargo/kranz-acp
 pkg:cargo/kranz-engine
 pkg:cargo/kranz-server
 pkg:cargo/kranz-slack
@@ -135555,6 +135575,7 @@ pkg:cargo/kron
 pkg:cargo/kron-lib
 pkg:cargo/krone
 pkg:cargo/kronecker
+pkg:cargo/kronecker-fri
 pkg:cargo/kronicler
 pkg:cargo/kronk
 pkg:cargo/kronk-core
@@ -135974,6 +135995,14 @@ pkg:cargo/kubus_derive
 pkg:cargo/kuchiki
 pkg:cargo/kuchikiki
 pkg:cargo/kuchikikiki
+pkg:cargo/kuchiyose
+pkg:cargo/kuchiyose-doc
+pkg:cargo/kuchiyose-katashiro
+pkg:cargo/kuchiyose-metrics
+pkg:cargo/kuchiyose-normalize
+pkg:cargo/kuchiyose-prompt
+pkg:cargo/kuchiyose-review
+pkg:cargo/kuchiyose-scale
 pkg:cargo/kucoin
 pkg:cargo/kucoin_api
 pkg:cargo/kucoin_arbitrage
@@ -136101,6 +136130,7 @@ pkg:cargo/kura-cli
 pkg:cargo/kura-core
 pkg:cargo/kura-mcp
 pkg:cargo/kura-mcp-runtime
+pkg:cargo/kura-rs
 pkg:cargo/kurage
 pkg:cargo/kurage_macro_rules
 pkg:cargo/kurage_proc_macros
@@ -140823,6 +140853,7 @@ pkg:cargo/libc_alloc
 pkg:cargo/libc_tools
 pkg:cargo/libc_types
 pkg:cargo/libca
+pkg:cargo/libcaca-rs
 pkg:cargo/libcachebust
 pkg:cargo/libcaesium
 pkg:cargo/libcalc
@@ -145005,6 +145036,7 @@ pkg:cargo/lint-init
 pkg:cargo/lint-lab
 pkg:cargo/lint-policy
 pkg:cargo/lint-policy-cli
+pkg:cargo/lint_arwaky-arwaky
 pkg:cargo/lintd-taskops
 pkg:cargo/lintdiff-types
 pkg:cargo/lintel
@@ -145084,6 +145116,7 @@ pkg:cargo/linux-gpib-sys
 pkg:cargo/linux-guide
 pkg:cargo/linux-info
 pkg:cargo/linux-input
+pkg:cargo/linux-interceptors
 pkg:cargo/linux-interprocess
 pkg:cargo/linux-io
 pkg:cargo/linux-io-uring
@@ -159034,6 +159067,7 @@ pkg:cargo/mimas-bevy
 pkg:cargo/mimas-cli
 pkg:cargo/mimas-compile
 pkg:cargo/mimas-library
+pkg:cargo/mimas-lsp
 pkg:cargo/mimas-macros
 pkg:cargo/mimas-parse
 pkg:cargo/mimas-shared
@@ -160992,6 +161026,7 @@ pkg:cargo/miscreant-aes-v05
 pkg:cargo/misdreavus-test
 pkg:cargo/mise
 pkg:cargo/mise-agent-env
+pkg:cargo/mise-bootstrap
 pkg:cargo/mise-brew-metadata
 pkg:cargo/mise-brew-relocation
 pkg:cargo/mise-cache
@@ -161079,6 +161114,7 @@ pkg:cargo/mistral_ocr
 pkg:cargo/mistral_ocr_gui
 pkg:cargo/mistralai
 pkg:cargo/mistralai-client
+pkg:cargo/mistralai-sdk
 pkg:cargo/mistralrs
 pkg:cargo/mistralrs-audio
 pkg:cargo/mistralrs-cli
@@ -177165,6 +177201,7 @@ pkg:cargo/nt_native
 pkg:cargo/nt_version
 pkg:cargo/ntag21x
 pkg:cargo/ntag424
+pkg:cargo/ntalbs-rup
 pkg:cargo/ntap
 pkg:cargo/ntap-core
 pkg:cargo/ntap-db-as
@@ -208060,6 +208097,9 @@ pkg:cargo/qpl
 pkg:cargo/qplan
 pkg:cargo/qpm
 pkg:cargo/qpml
+pkg:cargo/qppocr
+pkg:cargo/qppocr-core
+pkg:cargo/qppocr-kernels
 pkg:cargo/qpprint
 pkg:cargo/qprime
 pkg:cargo/qprotocol
@@ -210336,6 +210376,9 @@ pkg:cargo/rabit
 pkg:cargo/rabitq
 pkg:cargo/rabitq-rs
 pkg:cargo/rable
+pkg:cargo/rabs-cas
+pkg:cargo/rabs-key
+pkg:cargo/rabs-protocol
 pkg:cargo/rabu
 pkg:cargo/rabuf
 pkg:cargo/rabus
@@ -211937,6 +211980,7 @@ pkg:cargo/rany
 pkg:cargo/ranza_guessing_game
 pkg:cargo/rao
 pkg:cargo/raoc
+pkg:cargo/raoh
 pkg:cargo/raos
 pkg:cargo/raos_actix
 pkg:cargo/rap
@@ -212773,6 +212817,7 @@ pkg:cargo/ratatui-wasm-backend
 pkg:cargo/ratatui-wgpu
 pkg:cargo/ratatui-which-key
 pkg:cargo/ratatui-widgets
+pkg:cargo/ratatui-widgettable
 pkg:cargo/ratatui-window
 pkg:cargo/ratatui-windows
 pkg:cargo/ratatui-wireframe
@@ -264042,6 +264087,7 @@ pkg:cargo/sz-orm-tracing
 pkg:cargo/sz-orm-vector
 pkg:cargo/sz-orm-wasm
 pkg:cargo/sz-orm-websocket
+pkg:cargo/sz-rust-addons-admin
 pkg:cargo/sz-rust-addons-cms
 pkg:cargo/sz-rust-addons-crm
 pkg:cargo/sz-rust-addons-ecommerce
@@ -264051,31 +264097,39 @@ pkg:cargo/sz-rust-addons-im
 pkg:cargo/sz-rust-addons-loader
 pkg:cargo/sz-rust-addons-operate
 pkg:cargo/sz-rust-ai-facade
+pkg:cargo/sz-rust-api-gateway
 pkg:cargo/sz-rust-auth-facade
 pkg:cargo/sz-rust-cache-facade
 pkg:cargo/sz-rust-capability
 pkg:cargo/sz-rust-cli
+pkg:cargo/sz-rust-config-center
 pkg:cargo/sz-rust-core
+pkg:cargo/sz-rust-distributed-tx
 pkg:cargo/sz-rust-examples
+pkg:cargo/sz-rust-facade
 pkg:cargo/sz-rust-frontend-codegen
 pkg:cargo/sz-rust-http-facade
 pkg:cargo/sz-rust-infra-facade
 pkg:cargo/sz-rust-macros
+pkg:cargo/sz-rust-marketplace
 pkg:cargo/sz-rust-mcp
 pkg:cargo/sz-rust-middleware-facade
 pkg:cargo/sz-rust-mvc-facade
 pkg:cargo/sz-rust-observability
 pkg:cargo/sz-rust-operator
+pkg:cargo/sz-rust-ops-api
 pkg:cargo/sz-rust-orm-ext-facade
 pkg:cargo/sz-rust-orm-facade
 pkg:cargo/sz-rust-pay-facade
 pkg:cargo/sz-rust-pdf
 pkg:cargo/sz-rust-rag
 pkg:cargo/sz-rust-router-facade
+pkg:cargo/sz-rust-service-registry
 pkg:cargo/sz-rust-state-facade
 pkg:cargo/sz-rust-sz300
 pkg:cargo/sz-rust-tracing
 pkg:cargo/sz-rust-vector-db
+pkg:cargo/sz-rust-visual
 pkg:cargo/sz-rust-wasm
 pkg:cargo/sz-rust-workflow
 pkg:cargo/sz3
@@ -279498,6 +279552,7 @@ pkg:cargo/tree-sitter-ziust
 pkg:cargo/tree-sitter-zo
 pkg:cargo/tree-sitter-zrpc
 pkg:cargo/tree-sitter-zsh
+pkg:cargo/tree-space
 pkg:cargo/tree-splicer
 pkg:cargo/tree-splicer-javascript
 pkg:cargo/tree-splicer-openscad
@@ -293144,6 +293199,7 @@ pkg:cargo/vicis-core
 pkg:cargo/vicky
 pkg:cargo/vico
 pkg:cargo/vicode
+pkg:cargo/vicon-sdk
 pkg:cargo/vicon-sys
 pkg:cargo/victauri-browser
 pkg:cargo/victauri-cli
@@ -294389,6 +294445,10 @@ pkg:cargo/vize_doctor
 pkg:cargo/vize_fresco
 pkg:cargo/vize_glyph
 pkg:cargo/vize_impeto
+pkg:cargo/vize_l1
+pkg:cargo/vize_l1_to_l2
+pkg:cargo/vize_l2
+pkg:cargo/vize_l2_to_l3
 pkg:cargo/vize_maestro
 pkg:cargo/vize_marquette
 pkg:cargo/vize_musea
@@ -295039,6 +295099,7 @@ pkg:cargo/volga-oauth-client
 pkg:cargo/volga-oauth-core
 pkg:cargo/volga-open-api
 pkg:cargo/volga-rate-limiter
+pkg:cargo/volgit
 pkg:cargo/voli
 pkg:cargo/voli-core
 pkg:cargo/voli-shim
