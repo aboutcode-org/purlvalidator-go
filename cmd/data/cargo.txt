@@ -203,6 +203,7 @@ pkg:cargo/Echo_Matt_C
 pkg:cargo/EduBoardAPI
 pkg:cargo/Education-Starting-Point-Say-Hello
 pkg:cargo/Eid-Mubarak
+pkg:cargo/ElasticEmail
 pkg:cargo/Emily
 pkg:cargo/EnergyLogger4000-Reader
 pkg:cargo/EnumBitFlags
@@ -23480,6 +23481,7 @@ pkg:cargo/bank
 pkg:cargo/bank-barcode
 pkg:cargo/bank-csv
 pkg:cargo/bank-statement-rs
+pkg:cargo/bank2hledger
 pkg:cargo/bank_project
 pkg:cargo/bank_vault
 pkg:cargo/banka
@@ -23523,6 +23525,8 @@ pkg:cargo/banshee_syntax
 pkg:cargo/banshee_templater
 pkg:cargo/banshu-ai
 pkg:cargo/bantamweight
+pkg:cargo/banter
+pkg:cargo/banter-macros
 pkg:cargo/banuid
 pkg:cargo/banyan
 pkg:cargo/banyan-utils
@@ -24687,6 +24691,7 @@ pkg:cargo/baukit-auth
 pkg:cargo/baukit-config
 pkg:cargo/baukit-core
 pkg:cargo/baukit-credential-vault
+pkg:cargo/baukit-egress
 pkg:cargo/baukit-events
 pkg:cargo/baukit-http
 pkg:cargo/baukit-integrations
@@ -70290,6 +70295,7 @@ pkg:cargo/docker-image
 pkg:cargo/docker-image-pusher
 pkg:cargo/docker-image-reference
 pkg:cargo/docker-image2
+pkg:cargo/docker-lens
 pkg:cargo/docker-network
 pkg:cargo/docker-pose
 pkg:cargo/docker-prefetch-image
@@ -71303,6 +71309,7 @@ pkg:cargo/dotbot
 pkg:cargo/dotcat
 pkg:cargo/dotcfg
 pkg:cargo/dotclaude-support
+pkg:cargo/dotcode-sdk
 pkg:cargo/dotcom
 pkg:cargo/dotconf
 pkg:cargo/dotconfig
@@ -88666,6 +88673,7 @@ pkg:cargo/fframes-media-dir-macro
 pkg:cargo/fframes-media-loaders
 pkg:cargo/fframes-skia-bindings
 pkg:cargo/fframes-skia-safe
+pkg:cargo/fframes_native_player
 pkg:cargo/fframes_renderer
 pkg:cargo/fframes_skia_renderer
 pkg:cargo/ffrelay
@@ -117377,10 +117385,12 @@ pkg:cargo/hydra-gateway
 pkg:cargo/hydra-interop-epanet
 pkg:cargo/hydra-interop-swmm
 pkg:cargo/hydra-macros
+pkg:cargo/hydra-moka
 pkg:cargo/hydra-mpp
 pkg:cargo/hydra-mpp-cli
 pkg:cargo/hydra-mpp-core
 pkg:cargo/hydra-nary
+pkg:cargo/hydra-query
 pkg:cargo/hydra-report
 pkg:cargo/hydra-rs
 pkg:cargo/hydra-sdk
@@ -118261,6 +118271,39 @@ pkg:cargo/hyprdusk
 pkg:cargo/hyprfix
 pkg:cargo/hyprfocus
 pkg:cargo/hyprforest-installer
+pkg:cargo/hyprforge-appearance
+pkg:cargo/hyprforge-archive
+pkg:cargo/hyprforge-authui
+pkg:cargo/hyprforge-bluetooth
+pkg:cargo/hyprforge-clipboard
+pkg:cargo/hyprforge-core
+pkg:cargo/hyprforge-ecosystem
+pkg:cargo/hyprforge-emoji
+pkg:cargo/hyprforge-fileops
+pkg:cargo/hyprforge-files-core
+pkg:cargo/hyprforge-icons
+pkg:cargo/hyprforge-image
+pkg:cargo/hyprforge-input
+pkg:cargo/hyprforge-keys
+pkg:cargo/hyprforge-listing
+pkg:cargo/hyprforge-look
+pkg:cargo/hyprforge-lua-import
+pkg:cargo/hyprforge-mesh
+pkg:cargo/hyprforge-mime
+pkg:cargo/hyprforge-network
+pkg:cargo/hyprforge-paths
+pkg:cargo/hyprforge-popup
+pkg:cargo/hyprforge-power
+pkg:cargo/hyprforge-process
+pkg:cargo/hyprforge-secret
+pkg:cargo/hyprforge-session
+pkg:cargo/hyprforge-shortcuts
+pkg:cargo/hyprforge-system
+pkg:cargo/hyprforge-thumbnails
+pkg:cargo/hyprforge-tray
+pkg:cargo/hyprforge-ui
+pkg:cargo/hyprforge-video
+pkg:cargo/hyprforge-windowrules
 pkg:cargo/hyprgate
 pkg:cargo/hyprkool
 pkg:cargo/hyprland
@@ -118304,6 +118347,7 @@ pkg:cargo/hyprshell-wl-clipboard-rs
 pkg:cargo/hyprshot-rs
 pkg:cargo/hyprsnow
 pkg:cargo/hyprsome
+pkg:cargo/hyprstate
 pkg:cargo/hyprstream
 pkg:cargo/hyprswitch
 pkg:cargo/hyprtask
@@ -119573,6 +119617,7 @@ pkg:cargo/icon
 pkg:cargo/icon-cache
 pkg:cargo/icon-loader
 pkg:cargo/icon-pie
+pkg:cargo/icon-rs
 pkg:cargo/icon-sdk
 pkg:cargo/icon-sys
 pkg:cargo/icon-to-image
@@ -130214,6 +130259,7 @@ pkg:cargo/kache
 pkg:cargo/kache-core
 pkg:cargo/kache-format
 pkg:cargo/kache-fs
+pkg:cargo/kache-shims
 pkg:cargo/kache-store
 pkg:cargo/kacperhes_cargo_test
 pkg:cargo/kacrab
@@ -130899,12 +130945,15 @@ pkg:cargo/kanso
 pkg:cargo/kansuji
 pkg:cargo/kant
 pkg:cargo/kantan
+pkg:cargo/kante
 pkg:cargo/kantei
 pkg:cargo/kantera
 pkg:cargo/kanu
 pkg:cargo/kanumi
 pkg:cargo/kanuni
 pkg:cargo/kanva
+pkg:cargo/kanva_svg
+pkg:cargo/kanva_typst
 pkg:cargo/kanvas
 pkg:cargo/kanvas-mumu
 pkg:cargo/kanvas-rs
@@ -136051,7 +136100,10 @@ pkg:cargo/kujo
 pkg:cargo/kuka
 pkg:cargo/kukaku
 pkg:cargo/kukan
+pkg:cargo/kuknos-soroban-builtin-sdk-macros-tmp
+pkg:cargo/kuknos-soroban-env-common-tmp
 pkg:cargo/kuknos-soroban-env-host-tmp
+pkg:cargo/kuknos-soroban-env-macros-tmp
 pkg:cargo/kuknos-xdr-tmp
 pkg:cargo/kukoo
 pkg:cargo/kuksa-rust-sdk
@@ -144966,6 +145018,7 @@ pkg:cargo/links_and_nodes
 pkg:cargo/links_and_nodes_msg
 pkg:cargo/links_and_nodes_msg_derive
 pkg:cargo/links_and_nodes_msg_parser
+pkg:cargo/links_and_nodes_rdb
 pkg:cargo/links_and_nodes_sys
 pkg:cargo/links_and_nodes_validate
 pkg:cargo/links_bindings_python
@@ -159030,6 +159083,7 @@ pkg:cargo/milstian-feedback
 pkg:cargo/milstian-http
 pkg:cargo/milstian-internet-framework
 pkg:cargo/milston
+pkg:cargo/milsymbol
 pkg:cargo/milsymbol-rs
 pkg:cargo/milter
 pkg:cargo/milter-callback
@@ -161543,6 +161597,7 @@ pkg:cargo/ml_utils
 pkg:cargo/mla
 pkg:cargo/mla-titlecase
 pkg:cargo/mla-titlecase-cli
+pkg:cargo/mlab
 pkg:cargo/mlang
 pkg:cargo/mlang-rs
 pkg:cargo/mlar
@@ -198075,6 +198130,13 @@ pkg:cargo/pkcs11
 pkg:cargo/pkcs11-abi
 pkg:cargo/pkcs11-bindings
 pkg:cargo/pkcs11-module
+pkg:cargo/pkcs11-proxy-ng
+pkg:cargo/pkcs11-proxy-ng-audit
+pkg:cargo/pkcs11-proxy-ng-backend
+pkg:cargo/pkcs11-proxy-ng-client
+pkg:cargo/pkcs11-proxy-ng-proto
+pkg:cargo/pkcs11-proxy-ng-shim
+pkg:cargo/pkcs11-proxy-ng-types
 pkg:cargo/pkcs11-spy
 pkg:cargo/pkcs11-sys
 pkg:cargo/pkcs11-types
@@ -198205,6 +198267,7 @@ pkg:cargo/pkl_core
 pkg:cargo/pkl_fast
 pkg:cargo/pkl_macros
 pkg:cargo/pklib
+pkg:cargo/pklith
 pkg:cargo/pkll
 pkg:cargo/pkloong-kcapi
 pkg:cargo/pkloong-kcapi-sys
@@ -198237,6 +198300,8 @@ pkg:cargo/pktana-cli
 pkg:cargo/pktana-core
 pkg:cargo/pktbaffle
 pkg:cargo/pktbuilder
+pkg:cargo/pktctl
+pkg:cargo/pktfile
 pkg:cargo/pktgen
 pkg:cargo/pkthread
 pkg:cargo/pktkit
@@ -213037,6 +213102,7 @@ pkg:cargo/rattler_build_types
 pkg:cargo/rattler_build_variant_config
 pkg:cargo/rattler_build_yaml_parser
 pkg:cargo/rattler_cache
+pkg:cargo/rattler_conda_lock
 pkg:cargo/rattler_conda_types
 pkg:cargo/rattler_conda_version
 pkg:cargo/rattler_config
@@ -278713,6 +278779,7 @@ pkg:cargo/transpose-future
 pkg:cargo/transprompt
 pkg:cargo/transproto
 pkg:cargo/transr
+pkg:cargo/transsplice
 pkg:cargo/transvec
 pkg:cargo/transvoxel
 pkg:cargo/transvoxel-data
@@ -278959,6 +279026,7 @@ pkg:cargo/tree-sitter-askama
 pkg:cargo/tree-sitter-asm
 pkg:cargo/tree-sitter-asn1
 pkg:cargo/tree-sitter-aspcore2
+pkg:cargo/tree-sitter-aspx
 pkg:cargo/tree-sitter-astro-next
 pkg:cargo/tree-sitter-august
 pkg:cargo/tree-sitter-autoconf
@@ -279026,6 +279094,7 @@ pkg:cargo/tree-sitter-crush
 pkg:cargo/tree-sitter-crystal
 pkg:cargo/tree-sitter-css
 pkg:cargo/tree-sitter-css-orchard
+pkg:cargo/tree-sitter-css-strict
 pkg:cargo/tree-sitter-css-svelte
 pkg:cargo/tree-sitter-cst
 pkg:cargo/tree-sitter-cstack
@@ -294306,6 +294375,8 @@ pkg:cargo/vivio
 pkg:cargo/vivisect
 pkg:cargo/vivo
 pkg:cargo/vivox_rs_sys
+pkg:cargo/vivy-core
+pkg:cargo/vivy-memory
 pkg:cargo/vix-affix
 pkg:cargo/vix-ai-diff
 pkg:cargo/vix-ai-panel
@@ -303726,6 +303797,7 @@ pkg:cargo/words-game
 pkg:cargo/words-to-data
 pkg:cargo/words2num2-core
 pkg:cargo/words_counter
+pkg:cargo/wordseg-rs
 pkg:cargo/wordshift-core
 pkg:cargo/wordshk_tools
 pkg:cargo/wordsmith-cli
@@ -310267,10 +310339,12 @@ pkg:cargo/zbx-webhook-proxy
 pkg:cargo/zbx_sender
 pkg:cargo/zc
 pkg:cargo/zc-asset
+pkg:cargo/zc-base
 pkg:cargo/zc-common
 pkg:cargo/zc-core
 pkg:cargo/zc-derive
 pkg:cargo/zc-rlnc
+pkg:cargo/zc-router
 pkg:cargo/zc-tui
 pkg:cargo/zc2
 pkg:cargo/zc_buffer
