@@ -3962,6 +3962,7 @@ pkg:cargo/afetch
 pkg:cargo/afetch-colored
 pkg:cargo/aff4
 pkg:cargo/aff4-forensic
+pkg:cargo/aff4-image
 pkg:cargo/affably
 pkg:cargo/affair
 pkg:cargo/affect
@@ -23507,6 +23508,7 @@ pkg:cargo/banksy-core
 pkg:cargo/banksy-queries
 pkg:cargo/banner
 pkg:cargo/banner-builder
+pkg:cargo/bannerbobomb-parser
 pkg:cargo/banners-mcp
 pkg:cargo/banquo
 pkg:cargo/banquo-core
@@ -24704,6 +24706,7 @@ pkg:cargo/baukit-runtime
 pkg:cargo/baukit-sync
 pkg:cargo/baukit-telemetry
 pkg:cargo/baukit-test
+pkg:cargo/baulu
 pkg:cargo/baus
 pkg:cargo/bauxite
 pkg:cargo/bavy
@@ -70524,6 +70527,8 @@ pkg:cargo/document-parser
 pkg:cargo/document-ready
 pkg:cargo/document-state
 pkg:cargo/document-svg
+pkg:cargo/document_formulas
+pkg:cargo/document_formulas_macros
 pkg:cargo/document_tree
 pkg:cargo/document_validator
 pkg:cargo/document_validator_core
@@ -70703,6 +70708,7 @@ pkg:cargo/dogstatsd
 pkg:cargo/dogtail
 pkg:cargo/dogwood
 pkg:cargo/dogwood-language
+pkg:cargo/dogwood-local-engine
 pkg:cargo/dogwood_engine
 pkg:cargo/dogwood_engine_compute
 pkg:cargo/dogwood_engine_graphics
@@ -129014,6 +129020,7 @@ pkg:cargo/jsonfeed
 pkg:cargo/jsonfg
 pkg:cargo/jsonfile
 pkg:cargo/jsonfilter
+pkg:cargo/jsonfix
 pkg:cargo/jsonfixer
 pkg:cargo/jsonfizz
 pkg:cargo/jsonfmt
@@ -145699,6 +145706,8 @@ pkg:cargo/literateink-fetcher-macros
 pkg:cargo/literateink-wasm
 pkg:cargo/literator
 pkg:cargo/literify
+pkg:cargo/literium
+pkg:cargo/literium-core
 pkg:cargo/literstream
 pkg:cargo/litert
 pkg:cargo/litert-lm
@@ -155261,6 +155270,8 @@ pkg:cargo/mdvs
 pkg:cargo/mdvx
 pkg:cargo/mdw
 pkg:cargo/mdwatch
+pkg:cargo/mdwire-cli
+pkg:cargo/mdwire-core
 pkg:cargo/mdwright
 pkg:cargo/mdwright-config
 pkg:cargo/mdwright-document
@@ -158445,6 +158456,8 @@ pkg:cargo/microsoft-fast-convert
 pkg:cargo/microsoft-security-utilities
 pkg:cargo/microsoft-webui
 pkg:cargo/microsoft-webui-cli
+pkg:cargo/microsoft-webui-desktop
+pkg:cargo/microsoft-webui-desktop-build
 pkg:cargo/microsoft-webui-dev-server
 pkg:cargo/microsoft-webui-discovery
 pkg:cargo/microsoft-webui-expressions
@@ -159101,6 +159114,8 @@ pkg:cargo/mim-index
 pkg:cargo/mimalloc
 pkg:cargo/mimalloc-pprof
 pkg:cargo/mimalloc-redirect
+pkg:cargo/mimalloc-rich
+pkg:cargo/mimalloc-rich-sys
 pkg:cargo/mimalloc-rs
 pkg:cargo/mimalloc-rspack
 pkg:cargo/mimalloc-rust
@@ -181080,6 +181095,7 @@ pkg:cargo/oilpkg
 pkg:cargo/oim
 pkg:cargo/oinch
 pkg:cargo/oink
+pkg:cargo/oinkie
 pkg:cargo/oint
 pkg:cargo/oint-keys
 pkg:cargo/ointer
@@ -198133,6 +198149,7 @@ pkg:cargo/pkcs11-module
 pkg:cargo/pkcs11-proxy-ng
 pkg:cargo/pkcs11-proxy-ng-audit
 pkg:cargo/pkcs11-proxy-ng-backend
+pkg:cargo/pkcs11-proxy-ng-cli
 pkg:cargo/pkcs11-proxy-ng-client
 pkg:cargo/pkcs11-proxy-ng-proto
 pkg:cargo/pkcs11-proxy-ng-shim
@@ -211002,6 +211019,7 @@ pkg:cargo/ragdrift
 pkg:cargo/ragdrift-core
 pkg:cargo/rage
 pkg:cargo/rage-against
+pkg:cargo/rage-cli
 pkg:cargo/rage-formats
 pkg:cargo/rage-package-format
 pkg:cargo/rage-quant
@@ -212402,6 +212420,7 @@ pkg:cargo/rasta-verilog
 pkg:cargo/rastapi
 pkg:cargo/rastdp
 pkg:cargo/raster
+pkg:cargo/raster-diff
 pkg:cargo/raster-fonts
 pkg:cargo/raster-retrace
 pkg:cargo/raster-style
@@ -243178,6 +243197,7 @@ pkg:cargo/shimmer
 pkg:cargo/shimmer_lexer
 pkg:cargo/shimmer_meta
 pkg:cargo/shimmer_syntax
+pkg:cargo/shimmify
 pkg:cargo/shimmy
 pkg:cargo/shimmy-llama-cpp-2
 pkg:cargo/shimmy-llama-cpp-sys-2
@@ -243271,6 +243291,7 @@ pkg:cargo/shipcat
 pkg:cargo/shipd-cli
 pkg:cargo/shipd-core
 pkg:cargo/shipengine
+pkg:cargo/shipfitter
 pkg:cargo/shipflow
 pkg:cargo/shipit
 pkg:cargo/shiplift
@@ -270937,6 +270958,7 @@ pkg:cargo/tf2-enum
 pkg:cargo/tf2-price
 pkg:cargo/tf2-sku
 pkg:cargo/tf2-types
+pkg:cargo/tf2_rs
 pkg:cargo/tf_core
 pkg:cargo/tf_filter
 pkg:cargo/tf_join
@@ -279859,6 +279881,7 @@ pkg:cargo/trellis-sdk-core
 pkg:cargo/trellis-server
 pkg:cargo/trellis-testing
 pkg:cargo/trellis-testkit
+pkg:cargo/trellis-tui
 pkg:cargo/trellis2-ai
 pkg:cargo/trellis2_art
 pkg:cargo/trellis3_com
@@ -280700,6 +280723,7 @@ pkg:cargo/trouve-process
 pkg:cargo/trouve-search
 pkg:cargo/trove
 pkg:cargo/trove-classifiers
+pkg:cargo/trove-cli
 pkg:cargo/trove-core
 pkg:cargo/trovo
 pkg:cargo/trovo_api_rust
@@ -303631,6 +303655,7 @@ pkg:cargo/wonok
 pkg:cargo/wonopui
 pkg:cargo/wontopos
 pkg:cargo/woocraft
+pkg:cargo/woocraft-terminal
 pkg:cargo/wood
 pkg:cargo/wood_box
 pkg:cargo/wood_derive
@@ -311948,6 +311973,7 @@ pkg:cargo/zipora
 pkg:cargo/zipoxide
 pkg:cargo/zipp
 pkg:cargo/zipp-sys
+pkg:cargo/zippa-db
 pkg:cargo/zipped
 pkg:cargo/zippel-gcd
 pkg:cargo/zippel-interp
