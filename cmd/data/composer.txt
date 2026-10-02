@@ -339,6 +339,8 @@ pkg:composer/1echo/print-aura
 pkg:composer/1eg/doctrine-dbal-valueobject
 pkg:composer/1eg/psr7-api-response
 pkg:composer/1eg/valueobject
+pkg:composer/1eonardo-dev/monitoring-client
+pkg:composer/1eonardo-dev/monitoring-client-legacy
 pkg:composer/1fabiosoares/fastflight
 pkg:composer/1fabiosoares/sculptor
 pkg:composer/1ff/codeception-mailtrap
@@ -852,9 +854,12 @@ pkg:composer/3neti/payment-gateway
 pkg:composer/3neti/pwa-ui
 pkg:composer/3neti/report-registry
 pkg:composer/3neti/settlement-envelope
+pkg:composer/3neti/settlement-envelope-aui
+pkg:composer/3neti/settlement-envelope-philhealth
 pkg:composer/3neti/voucher
 pkg:composer/3neti/wallet
 pkg:composer/3neti/x-action
+pkg:composer/3neti/x-affiliation
 pkg:composer/3neti/x-campaign
 pkg:composer/3neti/x-change
 pkg:composer/3neti/x-commerce
@@ -1107,6 +1112,7 @@ pkg:composer/4picht/ip
 pkg:composer/4picht/upgradephp
 pkg:composer/4players/odin-tokens
 pkg:composer/4port/ocean-tracking
+pkg:composer/4rn0/statamic-cp-bar
 pkg:composer/4rn0/statamic-image-colors
 pkg:composer/4rn0/statamic-image-editor
 pkg:composer/4rn0/statamic-image-optimizer
@@ -1429,6 +1435,8 @@ pkg:composer/8fold/php-syndication
 pkg:composer/8fold/php-xml-builder
 pkg:composer/8grams/bedrock
 pkg:composer/8grams/homie
+pkg:composer/8lines/gauntlet-php-core
+pkg:composer/8lines/gauntlet-symfony-bundle
 pkg:composer/8lines/sylius-notification-plugin
 pkg:composer/8lines/sylius-notification-plugin-ovh-cloud-adapter
 pkg:composer/8lines/sylius-notification-plugin-slack-adapter
@@ -1712,6 +1720,7 @@ pkg:composer/a2zwebltd/laravel-email-sequences
 pkg:composer/a2zwebltd/laravel-feature-voting
 pkg:composer/a2zwebltd/laravel-newsletter
 pkg:composer/a2zwebltd/nova-role-manager
+pkg:composer/a2zwebltd/unleashed-api-client
 pkg:composer/a300/options
 pkg:composer/a3020/centry
 pkg:composer/a3020/cron-expression
@@ -1936,12 +1945,15 @@ pkg:composer/aaix/laravel-easy-backups
 pkg:composer/aaix/laravel-error-audit
 pkg:composer/aaix/laravel-islands
 pkg:composer/aaix/laravel-islands-datagrid
+pkg:composer/aaix/laravel-islands-search
 pkg:composer/aaix/laravel-patches
 pkg:composer/aaix/laravel-smart-log
+pkg:composer/aaix/laravel-stack-env
 pkg:composer/aaix/laravel-tall-architect
 pkg:composer/aak74/bitrix
 pkg:composer/aak74/bx-data
 pkg:composer/aakash-shahi/ipgetter
+pkg:composer/aakashk-ctpl/laravel-slug
 pkg:composer/aalaap/faker-youtube
 pkg:composer/aalaap/hashapass
 pkg:composer/aalakkad/ajax-forwarder
@@ -2592,6 +2604,7 @@ pkg:composer/abdulnizam/laravel-macros-response-customised
 pkg:composer/abdulqdos/weight-conversions
 pkg:composer/abdulrahim/filament-modular-permissions
 pkg:composer/abdulrahma-n/bagisto-laravel-datafaker
+pkg:composer/abdulrahman-dev22/filament-icon-picker
 pkg:composer/abdulrahman/fawry
 pkg:composer/abdulrehman56/laravel-nested-filter
 pkg:composer/abdulrhman-developer0/php-datapaginator
@@ -2967,6 +2980,7 @@ pkg:composer/aboks/php-src-devtools
 pkg:composer/aboks/power-iteration
 pkg:composer/abolaradev/jalali-date-picker
 pkg:composer/abolaradev/livewire-rate-limiter
+pkg:composer/abolaradev/otp
 pkg:composer/aboldyrev/helpers
 pkg:composer/aboldyrev/web-client
 pkg:composer/aboleon/backup-manager
@@ -4184,6 +4198,7 @@ pkg:composer/actionable/http-verb-condtional-display-shortcode
 pkg:composer/actionm/faker-apk
 pkg:composer/actionm/laravel-unitpay
 pkg:composer/actionm/laravel-webmoney-merchant
+pkg:composer/actiontecbr/falaai-api
 pkg:composer/actiophp/actio
 pkg:composer/activeants/magento2-byteapifix
 pkg:composer/activeants/magento2-postcodevalidator
@@ -4344,8 +4359,10 @@ pkg:composer/adachsoft/agent-rule-contract
 pkg:composer/adachsoft/agent-rule-tool
 pkg:composer/adachsoft/ai-agent
 pkg:composer/adachsoft/ai-agent-config-repository
+pkg:composer/adachsoft/ai-agent-config-repository-json
 pkg:composer/adachsoft/ai-agent-context-tool-compaction
 pkg:composer/adachsoft/ai-agent-context-window
+pkg:composer/adachsoft/ai-agent-factory
 pkg:composer/adachsoft/ai-agent-stats
 pkg:composer/adachsoft/ai-docker-tool
 pkg:composer/adachsoft/ai-file-tool
@@ -4400,6 +4417,7 @@ pkg:composer/adachsoft/dynamic-table-in-memory
 pkg:composer/adachsoft/dynamic-table-json
 pkg:composer/adachsoft/embedding-contracts
 pkg:composer/adachsoft/embedding-openai
+pkg:composer/adachsoft/file-summary-tool
 pkg:composer/adachsoft/file-tool-security-policy
 pkg:composer/adachsoft/file-tree-render
 pkg:composer/adachsoft/filesystem
@@ -4428,6 +4446,7 @@ pkg:composer/adachsoft/php-code-tools
 pkg:composer/adachsoft/phpstan-tool
 pkg:composer/adachsoft/phpunit-runner-lib
 pkg:composer/adachsoft/phpunit-runner-tool
+pkg:composer/adachsoft/project-validator
 pkg:composer/adachsoft/prompt-template-lib
 pkg:composer/adachsoft/public-api-spec
 pkg:composer/adachsoft/rector-tool
@@ -4457,6 +4476,8 @@ pkg:composer/adachsoft/vector-store-json-file
 pkg:composer/adachsoft/video-generation-contracts
 pkg:composer/adachsoft/video-generation-minimax
 pkg:composer/adachsoft/video-generation-xai
+pkg:composer/adachsoft/web-content-fetch-contract
+pkg:composer/adachsoft/web-content-fetch-moonshot
 pkg:composer/adachsoft/webhook-engine
 pkg:composer/adachsoft/workflow
 pkg:composer/adachsoft/workflow-definition-repository-json
@@ -4624,8 +4645,11 @@ pkg:composer/adamjenkins/moodle-block_oerexchangemodqueue
 pkg:composer/adamjenkins/moodle-block_oerexchangequicklinks
 pkg:composer/adamjenkins/moodle-block_oerexchangeshares
 pkg:composer/adamjenkins/moodle-block_worldclock
+pkg:composer/adamjenkins/moodle-filter_ruby
 pkg:composer/adamjenkins/moodle-filter_timezone
 pkg:composer/adamjenkins/moodle-local_forumcare
+pkg:composer/adamjenkins/moodle-local_langcrowd
+pkg:composer/adamjenkins/moodle-local_nevertranslate
 pkg:composer/adamjenkins/moodle-local_newupdate_indicator
 pkg:composer/adamjenkins/moodle-local_oerclient
 pkg:composer/adamjenkins/moodle-local_oerexchange
@@ -4633,9 +4657,11 @@ pkg:composer/adamjenkins/moodle-local_textless_forum
 pkg:composer/adamjenkins/moodle-mod_aiescape
 pkg:composer/adamjenkins/moodle-mod_quizquest
 pkg:composer/adamjenkins/moodle-mod_rememberme
+pkg:composer/adamjenkins/moodle-tiny_ruby
 pkg:composer/adamjenkins/moodle-tiny_timezone
 pkg:composer/adamjenkins/moodle-tool_activitydates
 pkg:composer/adamjenkins/moodle-tool_imageoptimize
+pkg:composer/adamjenkins/moodle-tool_timelocker
 pkg:composer/adamkelso/double-a
 pkg:composer/adamkiss/kirby-fluent-toolkit
 pkg:composer/adamkiss/kirby-goat-counter
@@ -4699,6 +4725,8 @@ pkg:composer/adamquaile/php-global-abstraction
 pkg:composer/adamquaile/symfony-fieldset-bundle
 pkg:composer/adamrollinson/laravel-cloudflare-driver
 pkg:composer/adamroyle/php-xpdf
+pkg:composer/adams100111/typesafe-laravel
+pkg:composer/adams100111/typesafe-php
 pkg:composer/adamsafr/form-request-bundle
 pkg:composer/adamsolaris/monolog-bitrix-handler
 pkg:composer/adamsolaris/yii2-bitrix-log
@@ -4761,6 +4789,7 @@ pkg:composer/adaojunior/laravel-postgresql-broadcast-driver
 pkg:composer/adaojunior/passport-social-grant
 pkg:composer/adaomajor/mpf
 pkg:composer/adapik/cms
+pkg:composer/adapik/gmp-polyfill
 pkg:composer/adapik/phpasn1
 pkg:composer/adapik/sms-bundle
 pkg:composer/adapt-it/laravelodoo
@@ -4794,6 +4823,7 @@ pkg:composer/adasi/ci4-helper
 pkg:composer/adasi/ci4-twig
 pkg:composer/adata-team/healthchecker
 pkg:composer/adata-team/laravel-clickhouse-migrations
+pkg:composer/adata-team/php-jaeger
 pkg:composer/adatasol-tourtools/fxphp
 pkg:composer/adatasol-tourtools/omnipay-authorizenet
 pkg:composer/adatasol-tourtools/omnipay-payflow
@@ -4983,6 +5013,7 @@ pkg:composer/adeelq/magento2-customer-statistics
 pkg:composer/adeelq/magento2-list-installed-modules
 pkg:composer/adeelq/magento2-log-viewer-downloader
 pkg:composer/adeey/graphql-php
+pkg:composer/adeguntoro/larabergcms
 pkg:composer/adeildo-jr/laravel-runner
 pkg:composer/adeiming/slow-query-logger
 pkg:composer/adeira/code-quality
@@ -5257,6 +5288,7 @@ pkg:composer/adilab/javascript
 pkg:composer/adilab/quick-pdo
 pkg:composer/adilazhari/laravel-idempotency
 pkg:composer/adilbaig/pagerduty
+pkg:composer/adilbekes/filament-auto-translatable
 pkg:composer/adilbyrm/to-vbt
 pkg:composer/adiletmaks/annotations
 pkg:composer/adiletmaks/laravel-code-style
@@ -5284,6 +5316,7 @@ pkg:composer/adimeo-data-suite/tika
 pkg:composer/adimeo-lab/deckle
 pkg:composer/adimihaila/ceph-client
 pkg:composer/adimihaila/promise-wait
+pkg:composer/adimiuprix/coinmarketcap
 pkg:composer/adinan-cenci/climatempo-api
 pkg:composer/adinan-cenci/file-cache
 pkg:composer/adinan-cenci/file-editor
@@ -5703,6 +5736,7 @@ pkg:composer/adrianheras/amount-symbol
 pkg:composer/adrianheras/lacassa
 pkg:composer/adrianheras/lumencassandra
 pkg:composer/adrianjean/craft-formie-mautic
+pkg:composer/adrianjean/matrix-horizontal-columns
 pkg:composer/adrianlaraperez88/marchex-report-php
 pkg:composer/adrianmejias/factom-api
 pkg:composer/adrianmejias/laravel-olark
@@ -5873,6 +5907,7 @@ pkg:composer/adscomltd/larapack_stripe
 pkg:composer/adscomltd/larapack_trashable
 pkg:composer/adscore/php-common
 pkg:composer/adscout-io/magento-connector
+pkg:composer/adscrawl/adscrawl
 pkg:composer/adsefid/sdk
 pkg:composer/adsensor/adsensor-api-php-sdk
 pkg:composer/adserver-online/php-sdk
@@ -6052,6 +6087,7 @@ pkg:composer/adventgroup/php-resque-scheduler
 pkg:composer/adventure-tech/data-transfer-object
 pkg:composer/adventureandre/cafeapi
 pkg:composer/adventureres/php-sdk-v1
+pkg:composer/advero/advero-php
 pkg:composer/advhub/meta-whatsapp-laravel
 pkg:composer/advicepharma/tablegenerator
 pkg:composer/advicepharmagroup/mailup
@@ -277238,6 +277274,7 @@ pkg:composer/roman444uk/laravel-kit
 pkg:composer/roman444uk/sse
 pkg:composer/roman444uk/yii2-sse
 pkg:composer/romanalisoy/pashabank-laravel-sdk
+pkg:composer/romanavr/craft-content-ops
 pkg:composer/romanbr/multiexception
 pkg:composer/romancc9/html
 pkg:composer/romanchehh/yaroc-v4
@@ -280004,6 +280041,7 @@ pkg:composer/rutgerkirkels/ethos-statistics
 pkg:composer/rutgerkirkels/shopconnectors
 pkg:composer/rutgerkirkels/smsclient
 pkg:composer/rutgerkirkels/vcard-generator
+pkg:composer/rutgers-oit-eds/laravel-cas-authentication
 pkg:composer/ruth/async-service-call-bundle
 pkg:composer/ruth/json-rpc-bundle
 pkg:composer/ruthgeridema/laravel-url-rewrites
@@ -281500,6 +281538,7 @@ pkg:composer/sahvezir/base
 pkg:composer/sai0556/frame
 pkg:composer/sai97/laravel-amqp
 pkg:composer/sai97/webman-amqp
+pkg:composer/saiadmin/webman-aot-builder
 pkg:composer/saiashirwadinformatia/app-menu-builder
 pkg:composer/saiashirwadinformatia/email-tool
 pkg:composer/saiashirwadinformatia/ipa-parser
@@ -282269,6 +282308,7 @@ pkg:composer/sambenne/laravel-string-diff
 pkg:composer/sambenne/laravel-zip
 pkg:composer/sambesnier/weazmail-php
 pkg:composer/sambindoff/laravel-gust
+pkg:composer/sambitar/arabic-restore
 pkg:composer/sambo-search/sambo-search-client
 pkg:composer/samburns/config-file-parser
 pkg:composer/samburns/dirty-needle
@@ -285857,6 +285897,7 @@ pkg:composer/scottboms/video-captions
 pkg:composer/scottchayaa/allpay
 pkg:composer/scottchiefbaker/cache_sqlite
 pkg:composer/scottchiefbaker/dbquery
+pkg:composer/scottchiefbaker/yaml-polyfill
 pkg:composer/scottconnerly/timezone
 pkg:composer/scotteh/php-dom-wrapper
 pkg:composer/scotteh/php-goose
@@ -286432,6 +286473,7 @@ pkg:composer/se7enxweb/expsite-app
 pkg:composer/se7enxweb/expsite-core
 pkg:composer/se7enxweb/expsite-data-media
 pkg:composer/se7enxweb/expsite-installer
+pkg:composer/se7enxweb/expui
 pkg:composer/se7enxweb/ez-core-extra-bundle
 pkg:composer/se7enxweb/ez-support-tools
 pkg:composer/se7enxweb/ezauthorize
@@ -288276,6 +288318,8 @@ pkg:composer/sentimo/php-client
 pkg:composer/sentimo/review-analysis
 pkg:composer/sentinel-dvlpr/laravel-last-modified
 pkg:composer/sentinel-service/laravel-remote-config
+pkg:composer/sentinelo/agent-composer
+pkg:composer/sentinelo/agent-core
 pkg:composer/sentinelphp/core
 pkg:composer/sentinelphp/drift
 pkg:composer/sentinelphp/dto
@@ -291050,6 +291094,7 @@ pkg:composer/shellrent/paypal-server-sdk
 pkg:composer/shellrent/phpseclib
 pkg:composer/shellrent/plesk-api-php-lib
 pkg:composer/shellrent/sdihub-php-client
+pkg:composer/shellrent/sdk
 pkg:composer/shellrent/starter-kit-laravel
 pkg:composer/shellrent/starter-kit-laravel-filament-react
 pkg:composer/shellrent/veeam-vspc-api-client
@@ -291286,6 +291331,7 @@ pkg:composer/shieldfy/sniffer
 pkg:composer/shieldfy/waf-detector
 pkg:composer/shieldgate/payment-gateway
 pkg:composer/shieldgate/sdk-php
+pkg:composer/shieldlabs/shieldlabs-php
 pkg:composer/shieldo/solarium-async-plugin
 pkg:composer/shieldon/event-dispatcher
 pkg:composer/shieldon/messenger
@@ -292846,8 +292892,11 @@ pkg:composer/siberfx/cloudflare-turnstile
 pkg:composer/siberfx/codelab-stats
 pkg:composer/siberfx/lara-meta
 pkg:composer/siberfx/laravel-gemini
+pkg:composer/siberfx/laravel-mutex-lock
+pkg:composer/siberfx/laravel-soap
 pkg:composer/siberfx/laravel-tryoto
 pkg:composer/siberfx/mail-sdk-kerioconnect
+pkg:composer/siberfx/mpesa-payment
 pkg:composer/siberfx/quickadmin
 pkg:composer/siberfx/share
 pkg:composer/siberfx/turkiye-address
@@ -293145,6 +293194,8 @@ pkg:composer/siganushka/wxpay-api
 pkg:composer/sigareng/nam
 pkg:composer/sigaryov/date-picker-masked-widget
 pkg:composer/sigawa/mvc-core
+pkg:composer/sigbits/php-amqp-client
+pkg:composer/sigbits/php-amqp-client-bundle
 pkg:composer/sigbits/roomba-bundle
 pkg:composer/sigbuck/laravel-signalbucket
 pkg:composer/sigedi/jasper-report-bundle
@@ -294395,6 +294446,7 @@ pkg:composer/simonefalcini/iptools
 pkg:composer/simonefalcini/slacktarget
 pkg:composer/simonefalcini/yii2
 pkg:composer/simonefalcini/yii2-app-basic
+pkg:composer/simonelanini/php-mexal-api
 pkg:composer/simonellensohn/laravel-schema-converter
 pkg:composer/simonepm/argumentor
 pkg:composer/simones/dotnot
@@ -297146,6 +297198,7 @@ pkg:composer/skynettechnologies/skynetaccessibility-scanner-bundle
 pkg:composer/skynettechnologies/statamic-all-in-one-accessibility
 pkg:composer/skynettechnologies/statamic-skynet-accessibility-scanner
 pkg:composer/skynettechnologies/statamic-skynet-accessibility-video-subtitle
+pkg:composer/skynettechnologies/statamic-skyneta11y-pdf-remediation
 pkg:composer/skynettechnologies/sylius-accessibility-scanner-plugin
 pkg:composer/skynettechnologies/sylius-allinoneaccessibility-plugin
 pkg:composer/skynettechnologies/sylius-skynetaccessibility-scanner-plugin
@@ -297259,6 +297312,8 @@ pkg:composer/skywit/scws
 pkg:composer/skywit/sendcloud
 pkg:composer/skyyouare/laravel-gii
 pkg:composer/skyyware/stage
+pkg:composer/skyyware/stage-chat
+pkg:composer/skyyware/stage-chat-codex
 pkg:composer/skyyware/stage-cms
 pkg:composer/skyzyx/adobe-swatch-exchange
 pkg:composer/skyzyx/alfred-workflow-builder
@@ -297722,6 +297777,7 @@ pkg:composer/slim3-aftermarket/migrations
 pkg:composer/slim4/gslim-skeleton
 pkg:composer/slim4ik_off/vk_easy_sdk
 pkg:composer/slim4ikoff/vkslim
+pkg:composer/slimad/colnect-api
 pkg:composer/slimad/eori
 pkg:composer/slimad/indexnow
 pkg:composer/slimad/indexnow-laravel
@@ -304012,6 +304068,7 @@ pkg:composer/spiffy/spiffy-user-remember
 pkg:composer/spiffy/spiffy-view
 pkg:composer/spiffy/spiffy-view-twig
 pkg:composer/spiggle/dynamic-fields-core
+pkg:composer/spiggle/filament-portal-snapshot
 pkg:composer/spiggle/filament-spiggle-theme
 pkg:composer/spiggle/form-builder-core
 pkg:composer/spiggle/rules-engine
@@ -306885,6 +306942,7 @@ pkg:composer/squipix/laravel-log-viewer
 pkg:composer/squipix/laravel-menus
 pkg:composer/squipix/laravel-paystack
 pkg:composer/squipix/laravel-verify-new-email
+pkg:composer/squipix/openai-php-client
 pkg:composer/squipix/support
 pkg:composer/squipix/tailwind-datatables
 pkg:composer/squire/core
@@ -308004,6 +308062,7 @@ pkg:composer/starfruit/crawler-bundle
 pkg:composer/starfruit/ecommerce-bundle
 pkg:composer/starfruit/helper-bundle
 pkg:composer/starfruit/maintenance-bundle
+pkg:composer/starfruit/post-bundle
 pkg:composer/starfruit/shop-bundle
 pkg:composer/starfruit/translator-bundle
 pkg:composer/starfruitjsc/validator-bundle
@@ -312801,6 +312860,7 @@ pkg:composer/supasta/fns-service
 pkg:composer/supdger/sand-core
 pkg:composer/supdger/sand-package
 pkg:composer/supdger/sandadmin
+pkg:composer/supdger/webman-aot-builder
 pkg:composer/super-admin-org/api-tester
 pkg:composer/super-admin-org/ckeditor
 pkg:composer/super-admin-org/config
@@ -313604,6 +313664,7 @@ pkg:composer/sushi-market/smart-cast
 pkg:composer/sushi-market/trans_helper
 pkg:composer/sushidev/fairu-sdk
 pkg:composer/sushidev/fairu-statamic
+pkg:composer/sushilk/securelite
 pkg:composer/sushilk/slim-skeleton
 pkg:composer/sushilk/supabase
 pkg:composer/sushilk/svg
@@ -316183,6 +316244,7 @@ pkg:composer/sympress/monolog-bundle
 pkg:composer/sympress/orm
 pkg:composer/sympress/profiler
 pkg:composer/sympress/qa
+pkg:composer/sympress/runtime
 pkg:composer/sympress/twig-bundle
 pkg:composer/sympress/wp-cli-console
 pkg:composer/sympresso/object-press
@@ -316295,6 +316357,7 @@ pkg:composer/synergitech/fuelphp-messages
 pkg:composer/synergitech/laravel-alert
 pkg:composer/synergitech/laravel-breadcrumbs
 pkg:composer/synergitech/laravel-coding-standards
+pkg:composer/synergitech/laravel-docblocks
 pkg:composer/synergitech/laravel-magic-enums
 pkg:composer/synergitech/laravel-multiconfig
 pkg:composer/synergitech/laravel-postal
@@ -316309,6 +316372,8 @@ pkg:composer/synergitech/queue
 pkg:composer/synergitech/sms-sender
 pkg:composer/synergitech/twigbridge
 pkg:composer/synergixe/php-beamzer
+pkg:composer/synergizeflow/laravel-onboarding
+pkg:composer/synergizeflow/laravel-onboarding-blog
 pkg:composer/synergy/amazon-paapi5-php-sdk
 pkg:composer/synergy/common
 pkg:composer/synergy/laravel-amazon-product-api
@@ -316536,6 +316601,7 @@ pkg:composer/syriable/laravel-otp-verification
 pkg:composer/syriable/laravel-payments
 pkg:composer/syriable/laravel-translations
 pkg:composer/syriable/laravel-user-context
+pkg:composer/syriable/livewire-navigation
 pkg:composer/syriable/localizator
 pkg:composer/syriable/maintenance-guard
 pkg:composer/syrian-lucianos/base16-php
@@ -316794,6 +316860,7 @@ pkg:composer/syte/module-product-feed
 pkg:composer/syte/module-stock-sync
 pkg:composer/syte/tracker
 pkg:composer/sytou/test
+pkg:composer/sytxlabs/blade-sandbox
 pkg:composer/sytxlabs/dockphp
 pkg:composer/sytxlabs/filesanitizer
 pkg:composer/sytxlabs/laravel-error-logger
@@ -321057,6 +321124,7 @@ pkg:composer/telegram-bot-api/for-bundle
 pkg:composer/telegram-bot-essentials/affiliates
 pkg:composer/telegram-bot-essentials/announcements
 pkg:composer/telegram-bot-essentials/billing
+pkg:composer/telegram-bot-essentials/campaigns
 pkg:composer/telegram-bot-essentials/essence
 pkg:composer/telegram-bot-essentials/gateway-admin
 pkg:composer/telegram-bot-essentials/gateway-card
@@ -327314,6 +327382,7 @@ pkg:composer/timmit/daemon
 pkg:composer/timmit/db-filter
 pkg:composer/timmit/db-mysql
 pkg:composer/timmit/php-docblock-checker
+pkg:composer/timmit/phpstan-framework-rules
 pkg:composer/timmit/xss-filter
 pkg:composer/timmoh/mailcoach-custom-placeholder
 pkg:composer/timmoh/sdn3q-api
@@ -329528,6 +329597,7 @@ pkg:composer/tomasz-rup/sf-adtaily-plugin
 pkg:composer/tomasz-rup/sf-gemius-traffic-plugin
 pkg:composer/tomaszaruba/cloudflare-api-nette
 pkg:composer/tomaszaruba/seznam-bot-detector
+pkg:composer/tomaszboloz/laravel-updater
 pkg:composer/tomaszbrunarski/yii-eauth
 pkg:composer/tomaszbrunarski/yii-sass
 pkg:composer/tomaszdurka/codegenerator
@@ -331985,6 +332055,15 @@ pkg:composer/trafo2/t2_captcha
 pkg:composer/trafo2/t2_scss
 pkg:composer/tragedy/mutherfocker
 pkg:composer/trahloff/activiti
+pkg:composer/trail/auth
+pkg:composer/trail/db
+pkg:composer/trail/framework
+pkg:composer/trail/freeze
+pkg:composer/trail/mail
+pkg:composer/trail/queue
+pkg:composer/trail/sessions
+pkg:composer/trail/trail
+pkg:composer/trail/twig
 pkg:composer/trailofbits/wycheproof
 pkg:composer/traimmu/mf-cloud-invoice
 pkg:composer/train/library
@@ -332168,6 +332247,7 @@ pkg:composer/trashf/php-veikkaus-api
 pkg:composer/trashtoy/peach2
 pkg:composer/trask/utils
 pkg:composer/trassd/contao-grounding-pages
+pkg:composer/trassd/contao-reprise-bundle
 pkg:composer/traubisoda/icalendar
 pkg:composer/traum-ferienwohnungen/laravel-prometheus-exporter
 pkg:composer/traum-ferienwohnungen/scheduledaemon
@@ -332941,6 +333021,8 @@ pkg:composer/trismegiste/alkahest
 pkg:composer/trismegiste/dokudoki
 pkg:composer/trismegiste/mondrian
 pkg:composer/trismegiste/oauthbundle
+pkg:composer/trismegiste/parsoid-bundle
+pkg:composer/trismegiste/parsoid-with-template
 pkg:composer/trismegiste/phpunit-assert-solid
 pkg:composer/trismegiste/prolog
 pkg:composer/trismegiste/rpg-map-generator
@@ -332958,6 +333040,7 @@ pkg:composer/trismegiste/yuurei
 pkg:composer/trisnawan/captcha-gateway
 pkg:composer/trisnawan/image-resizer
 pkg:composer/trisnawan/multi-payment-service
+pkg:composer/trisnawan/translator-client-php
 pkg:composer/tristamoff/vk-api-schema
 pkg:composer/tristamoff/vk-php-sdk
 pkg:composer/tristan-starkl/wildix-php-api
@@ -334912,6 +334995,7 @@ pkg:composer/twint-ag/sdk
 pkg:composer/twint-ag/twint-magento-extension
 pkg:composer/twint-ag/twint-shopware-plugin
 pkg:composer/twintylabs/laravel-inertia-permission
+pkg:composer/twintylabs/laravel-userstamps
 pkg:composer/twipi-group/googlecloud-pubsub-laravel-queue-driver
 pkg:composer/twipi-group/googlecloud-pubsub-php-adapter
 pkg:composer/twipla/twipla
@@ -335070,6 +335154,7 @@ pkg:composer/twsihan/yii-admin
 pkg:composer/twsihan/yii-extras
 pkg:composer/twstec/kit
 pkg:composer/twstec/kit-accounts
+pkg:composer/twstec/kit-admin
 pkg:composer/twstec/kit-auth
 pkg:composer/twstec/kit-foundation
 pkg:composer/twstec/kit-installer
@@ -335576,6 +335661,7 @@ pkg:composer/tyqo/oidc-auth
 pkg:composer/tyrads/tyrads-sdk
 pkg:composer/tyraelll/laravelmailjet
 pkg:composer/tyrann0us/improvesearch
+pkg:composer/tyrann0us/instantiiif
 pkg:composer/tyrans/laravel_module
 pkg:composer/tyrans/laravel_swoole
 pkg:composer/tyrantg/dcat-admin
@@ -339262,6 +339348,7 @@ pkg:composer/uvdesk/magento2-uvdesk-integration
 pkg:composer/uvdesk/mailbox-component
 pkg:composer/uvdesk/support-center-bundle
 pkg:composer/uvealsnow/conekta-cashier
+pkg:composer/uverify/uverify-php
 pkg:composer/uveysservetoglu/hasoffers-modaramo
 pkg:composer/uvicate/webapp
 pkg:composer/uviigideon/should-send-same-site-non
@@ -341311,6 +341398,7 @@ pkg:composer/veeroll-package/composer
 pkg:composer/vees/vees-core
 pkg:composer/veeshan/luclin
 pkg:composer/veewee/composer-run-parallel
+pkg:composer/veewee/ext-wasm
 pkg:composer/veewee/psr18-react-browser
 pkg:composer/veewee/reflecta
 pkg:composer/veewee/xml
@@ -342114,6 +342202,7 @@ pkg:composer/veridu/idos-sdk-php
 pkg:composer/veridu/veridu-php
 pkg:composer/veriface/veriface
 pkg:composer/verifacturapi/php-sdk
+pkg:composer/verifaid/verifaid-php
 pkg:composer/verifalia/sdk
 pkg:composer/verifence/verifence-php
 pkg:composer/verifico/ageverify
@@ -348333,6 +348422,7 @@ pkg:composer/wapplersystems/infomaniak-vod
 pkg:composer/wapplersystems/meilisearch
 pkg:composer/wapplersystems/messenger-monitor
 pkg:composer/wapplersystems/microsoft-graph-mailer
+pkg:composer/wapplersystems/module-zabbix-client
 pkg:composer/wapplersystems/multisite-belogin
 pkg:composer/wapplersystems/newslayouts
 pkg:composer/wapplersystems/oauth-service
@@ -349652,6 +349742,7 @@ pkg:composer/web-vision/deeplcom-deepl-php
 pkg:composer/web-vision/deepltranslate-core
 pkg:composer/web-vision/deepltranslate-glossary
 pkg:composer/web-vision/kanban-workspaces
+pkg:composer/web-vision/unity-schema
 pkg:composer/web-vision/wv_deepltranslate
 pkg:composer/web-vision/wv_file_cleanup
 pkg:composer/web-vision/wv_t3unity
@@ -350268,6 +350359,7 @@ pkg:composer/webdl/bestwishes
 pkg:composer/webdl/panther-crawler
 pkg:composer/webdmg/base
 pkg:composer/webdmg/system-c
+pkg:composer/webdna/auditor
 pkg:composer/webdna/barcode
 pkg:composer/webdna/commerce-admin-orders
 pkg:composer/webdna/commerce-affirm
@@ -350293,9 +350385,11 @@ pkg:composer/webdna/listing-source
 pkg:composer/webdna/page-templates
 pkg:composer/webdna/qrcode
 pkg:composer/webdna/reports
+pkg:composer/webdna/scheduler
 pkg:composer/webdna/spam-blocker
 pkg:composer/webdna/system-info
 pkg:composer/webdna/twig-display
+pkg:composer/webdna/typesense-sync
 pkg:composer/webdna/warmie
 pkg:composer/webdo-cz/livewire-flash
 pkg:composer/webdock/php-sdk
@@ -350309,6 +350403,7 @@ pkg:composer/webdriver-binary/binary-edgedriver
 pkg:composer/webdriver-binary/binary-geckodriver
 pkg:composer/webdriver-binary/webdriver-binary-downloader
 pkg:composer/webduo/laravel-module-generator
+pkg:composer/webduonederland/backbone-agent
 pkg:composer/webduonederland/filament-cms
 pkg:composer/webduonederland/laravel-health
 pkg:composer/webduonederland/laravel-missing-translations
@@ -351544,6 +351639,7 @@ pkg:composer/webminty/boost-webminty-guidelines
 pkg:composer/webmintydotcom/laravel-feature-requests
 pkg:composer/webmintydotcom/laravel-person-name
 pkg:composer/webmintydotcom/laravel-quickstart
+pkg:composer/webmintydotcom/laravel-quickstart-dashboard-inertia
 pkg:composer/webmintydotcom/laravel-quickstart-inertia
 pkg:composer/webmiss/framework
 pkg:composer/webmiss/lumen
@@ -351720,6 +351816,7 @@ pkg:composer/webonaute/nonsense
 pkg:composer/webonaute/symfony-profiler-matcher
 pkg:composer/webonaute/twig-debug-helper-bundle
 pkg:composer/webonaute/twilio-bundle
+pkg:composer/webong/composer-source-plugin
 pkg:composer/webonyx/azure-identity
 pkg:composer/webonyx/elastica-3.x
 pkg:composer/webonyx/graphql-php
@@ -351872,6 +351969,7 @@ pkg:composer/webproject-xyz/ikea-tradfri-php-api
 pkg:composer/webproject-xyz/php-cs-fixer-config
 pkg:composer/webproject-xyz/php-openapi-mock-server
 pkg:composer/webproject-xyz/php-package-template
+pkg:composer/webproject-xyz/php-symfony-tibber-api-bundle
 pkg:composer/webproject-xyz/php-tibber-api-client
 pkg:composer/webpt/aquaduck
 pkg:composer/webpt/aquaduck-array-utils
@@ -352074,7 +352172,9 @@ pkg:composer/webship/vdo-project
 pkg:composer/webship/webship
 pkg:composer/webship/webship-project
 pkg:composer/webship/webships
+pkg:composer/webship/webships-project
 pkg:composer/webships/webships
+pkg:composer/webships/webships-project
 pkg:composer/webshop-nl/magento2
 pkg:composer/webshopapps/module-matrixrate
 pkg:composer/webshopapps/module-productrate
@@ -352584,14 +352684,19 @@ pkg:composer/webware/message-bus
 pkg:composer/webware/messagebus-event
 pkg:composer/webware/phpdb-feature
 pkg:composer/webware/traccio
+pkg:composer/webware/webware-admin
 pkg:composer/webware/webware-console
 pkg:composer/webware/webware-core
 pkg:composer/webware/webware-event
+pkg:composer/webware/webware-htmx
 pkg:composer/webware/webware-log
 pkg:composer/webware/webware-mailer
 pkg:composer/webware/webware-message
+pkg:composer/webware/webware-navigation
+pkg:composer/webware/webware-phpdb
 pkg:composer/webware/webware-psl-type
 pkg:composer/webware/webware-resultset
+pkg:composer/webware/webware-theme
 pkg:composer/webware/webware-tools
 pkg:composer/webwash/ww_daisyui_starter
 pkg:composer/webwatson92/laravel-auth-with-permission
@@ -352606,6 +352711,7 @@ pkg:composer/webwide/contact
 pkg:composer/webwings/mysql-session-handler
 pkg:composer/webwingscz/bank-statements
 pkg:composer/webwingscz/fio-api-php
+pkg:composer/webwingscz/skautis-symfony
 pkg:composer/webwinkelkeur/client
 pkg:composer/webwizardsusa/larafeed
 pkg:composer/webwizardsusa/laravel-oembed
@@ -352628,15 +352734,32 @@ pkg:composer/webx-ui/localization
 pkg:composer/webx-ui/mcp
 pkg:composer/webx-ui/module-admin
 pkg:composer/webx-ui/module-auth
+pkg:composer/webx-ui/module-banners
 pkg:composer/webx-ui/module-blocks
 pkg:composer/webx-ui/module-blog
+pkg:composer/webx-ui/module-catalog
+pkg:composer/webx-ui/module-catalog-brands
+pkg:composer/webx-ui/module-catalog-labels
+pkg:composer/webx-ui/module-catalog-properties
+pkg:composer/webx-ui/module-catalog-stock
+pkg:composer/webx-ui/module-events
+pkg:composer/webx-ui/module-faq
 pkg:composer/webx-ui/module-inbox
 pkg:composer/webx-ui/module-media
+pkg:composer/webx-ui/module-menu
 pkg:composer/webx-ui/module-pages
+pkg:composer/webx-ui/module-press
+pkg:composer/webx-ui/module-recipes
+pkg:composer/webx-ui/module-reviews
 pkg:composer/webx-ui/module-seo
+pkg:composer/webx-ui/module-services
 pkg:composer/webx-ui/module-settings
+pkg:composer/webx-ui/module-tariffs
+pkg:composer/webx-ui/module-team
+pkg:composer/webx-ui/module-vacancies
 pkg:composer/webx-ui/nested-set
 pkg:composer/webx-ui/routing
+pkg:composer/webx-ui/site
 pkg:composer/webx/db
 pkg:composer/webx/ioc
 pkg:composer/webx/routes
@@ -353176,6 +353299,8 @@ pkg:composer/welderlourenco/laravel-facebook
 pkg:composer/welderlourenco/laravel-seeder
 pkg:composer/weldermileu/api_ibge
 pkg:composer/weldist/laravel-pulse-md5-patch
+pkg:composer/weldist/spatie-medialibrary-doctor
+pkg:composer/weldist/spatie-medialibrary-media-hasher
 pkg:composer/weldist/spatie-medialibrary-uuid-path-generator
 pkg:composer/weldist/spatie-medialibrary-webp-downloader
 pkg:composer/weldon/env-auth
@@ -353835,20 +353960,25 @@ pkg:composer/wewillapp/laravel-pdpa
 pkg:composer/wewowweb/laravel-shared-hosting
 pkg:composer/wewowweb/laravel-svelte-preset
 pkg:composer/wexample/php-api
+pkg:composer/wexample/php-api-entity
 pkg:composer/wexample/php-date
 pkg:composer/wexample/php-file
 pkg:composer/wexample/php-helpers
 pkg:composer/wexample/php-html
 pkg:composer/wexample/php-pseudocode
+pkg:composer/wexample/php-remote
 pkg:composer/wexample/php-wex
 pkg:composer/wexample/php-yaml
 pkg:composer/wexample/symfony-accounting
 pkg:composer/wexample/symfony-ai
 pkg:composer/wexample/symfony-api
 pkg:composer/wexample/symfony-cart
+pkg:composer/wexample/symfony-coding
 pkg:composer/wexample/symfony-company
 pkg:composer/wexample/symfony-content
 pkg:composer/wexample/symfony-data-sync
+pkg:composer/wexample/symfony-data-sync-demo
+pkg:composer/wexample/symfony-data-sync-ds
 pkg:composer/wexample/symfony-design-system
 pkg:composer/wexample/symfony-design-system-demo
 pkg:composer/wexample/symfony-dev
@@ -353859,20 +353989,31 @@ pkg:composer/wexample/symfony-geo
 pkg:composer/wexample/symfony-helpers
 pkg:composer/wexample/symfony-live
 pkg:composer/wexample/symfony-loader
+pkg:composer/wexample/symfony-loader-demo
 pkg:composer/wexample/symfony-messenger
 pkg:composer/wexample/symfony-money
+pkg:composer/wexample/symfony-payment-stripe
 pkg:composer/wexample/symfony-pdf
 pkg:composer/wexample/symfony-platform
 pkg:composer/wexample/symfony-pseudocode
+pkg:composer/wexample/symfony-remote
+pkg:composer/wexample/symfony-remote-demo
+pkg:composer/wexample/symfony-remote-ds
+pkg:composer/wexample/symfony-remote-rocket-chat
 pkg:composer/wexample/symfony-routing
 pkg:composer/wexample/symfony-search
+pkg:composer/wexample/symfony-seo
 pkg:composer/wexample/symfony-stage
 pkg:composer/wexample/symfony-stripe
 pkg:composer/wexample/symfony-template
 pkg:composer/wexample/symfony-testing
 pkg:composer/wexample/symfony-translations
+pkg:composer/wexample/symfony-translations-demo
+pkg:composer/wexample/symfony-translations-ds
 pkg:composer/wexample/symfony-tunnels
+pkg:composer/wexample/symfony-tunnels-demo
 pkg:composer/wexample/symfony-user
+pkg:composer/wexample/symfony-user-demo
 pkg:composer/wexample/symfony-wex
 pkg:composer/wexo/module-budbee
 pkg:composer/wexo/module-instabox
@@ -353933,6 +354074,8 @@ pkg:composer/wg-hyve/cloak-port
 pkg:composer/wg-hyve/keycloak-laravel-guard
 pkg:composer/wg-rolf/placeholdersjs
 pkg:composer/wg-vn/laravel-activitylog-ui
+pkg:composer/wg-vn/spatie-laravel-settings-ui
+pkg:composer/wg-vn/trail-log-viewer
 pkg:composer/wg/universaldatatablebundle
 pkg:composer/wgd/tron-api
 pkg:composer/wgd/web3.php
@@ -354073,6 +354216,7 @@ pkg:composer/wheelpros/image-generator-plus
 pkg:composer/wheelpros/shipping-method-calculator
 pkg:composer/wheesnoza/assertable-json-enhancer
 pkg:composer/wheesnoza/laravel-ship24
+pkg:composer/wheesnoza/pest-plugin-pao-mutation
 pkg:composer/whendy/laravel-activitylog
 pkg:composer/whendy/translation
 pkg:composer/wheniwork/oauth1-intuit
@@ -354142,6 +354286,7 @@ pkg:composer/whikloj/bagittools
 pkg:composer/whilebox/weather
 pkg:composer/whilesmart/eloquent-accounts
 pkg:composer/whilesmart/eloquent-activities
+pkg:composer/whilesmart/eloquent-admin
 pkg:composer/whilesmart/eloquent-agent-actions
 pkg:composer/whilesmart/eloquent-agent-metrics
 pkg:composer/whilesmart/eloquent-agents
@@ -354152,6 +354297,7 @@ pkg:composer/whilesmart/eloquent-contacts
 pkg:composer/whilesmart/eloquent-conversations
 pkg:composer/whilesmart/eloquent-customers
 pkg:composer/whilesmart/eloquent-employees
+pkg:composer/whilesmart/eloquent-engagement
 pkg:composer/whilesmart/eloquent-entitlements
 pkg:composer/whilesmart/eloquent-expenses
 pkg:composer/whilesmart/eloquent-feedback
@@ -354533,6 +354679,7 @@ pkg:composer/wielgosz-info/wi-post-type-service
 pkg:composer/wielgosz-info/wi-query-tax-filter
 pkg:composer/wielgosz-info/wi-sonx-fse
 pkg:composer/wieloco/ps-matcha
+pkg:composer/wielorzeczownik/pepito-client
 pkg:composer/wieni/adwienimal
 pkg:composer/wieni/composer-plugin-patchsets
 pkg:composer/wieni/container_dumper
@@ -354808,6 +354955,8 @@ pkg:composer/wikixl/multiversion
 pkg:composer/wikizeit/html-minifier
 pkg:composer/wiklog/starter-kit
 pkg:composer/wikp/payment-mtgox-bundle
+pkg:composer/wiksoft/contao-dbchess-bundle
+pkg:composer/wiksoft/contao-lichess-pgnviewer-bundle
 pkg:composer/wiktorek140/zf1-future
 pkg:composer/wikyyuen/authing-php
 pkg:composer/wilaak/datastar-swoldier
@@ -355511,6 +355660,7 @@ pkg:composer/winter/wn-cloudflare-plugin
 pkg:composer/winter/wn-cms-module
 pkg:composer/winter/wn-debugbar-plugin
 pkg:composer/winter/wn-docs-plugin
+pkg:composer/winter/wn-driveraws-plugin
 pkg:composer/winter/wn-drivergoogledrive-plugin
 pkg:composer/winter/wn-drivermailgun-plugin
 pkg:composer/winter/wn-drivermandrill-plugin
@@ -355699,6 +355849,7 @@ pkg:composer/wiseclock/flarum-ext-login2see
 pkg:composer/wiseclock/flarum-ext-post-copyright
 pkg:composer/wiseclock/flarum-ext-profile-image-crop
 pkg:composer/wiseclock/flarum-ext-reply2see
+pkg:composer/wisedata/mail-php
 pkg:composer/wisembly/amqp-bundle
 pkg:composer/wisembly/calendart
 pkg:composer/wisembly/clearbit-php
@@ -355820,9 +355971,12 @@ pkg:composer/withkao/laravel-line-notify
 pkg:composer/withkash/kash-php
 pkg:composer/withkash/magento2-kash-payment-gateway
 pkg:composer/withlovescotland/country
+pkg:composer/witify/devops
 pkg:composer/witify/laravel-cart
 pkg:composer/witify/laravel-json-response
 pkg:composer/witify/laravel-seo-attributes
+pkg:composer/witify/notifications
+pkg:composer/witify/support
 pkg:composer/witness-data/filament-country
 pkg:composer/witness-sdk/php-sdk
 pkg:composer/witooh/validator
@@ -356168,6 +356322,12 @@ pkg:composer/wmc-its/translation-bundle
 pkg:composer/wmc1125/mctoolsdk
 pkg:composer/wmc1125/think-addons
 pkg:composer/wmc1125/tpfast-public
+pkg:composer/wmd/craft-bank-transfer-payment-codes
+pkg:composer/wmd/craft-commerce-eracuni
+pkg:composer/wmd/craft-corvus-pay
+pkg:composer/wmd/craft-keks-pay
+pkg:composer/wmd/craft-monri
+pkg:composer/wmd/craft-omnibus
 pkg:composer/wmd/section-and-product-type
 pkg:composer/wmde/clock
 pkg:composer/wmde/configdiff
@@ -356287,6 +356447,12 @@ pkg:composer/wobeto/php-barcode-generator
 pkg:composer/wobeto/string
 pkg:composer/wobeto/twitter
 pkg:composer/wobeto/uol-motor1-rss
+pkg:composer/wobqqq/fortify-plugin
+pkg:composer/wobqqq/fortifyadminipaccess-plugin
+pkg:composer/wobqqq/fortifycsp-plugin
+pkg:composer/wobqqq/fortifyinputsanitizer-plugin
+pkg:composer/wobqqq/fortifyipblocker-plugin
+pkg:composer/wobqqq/fortifysmartipblocker-plugin
 pkg:composer/wobqqq/oc-ide-helper
 pkg:composer/wobz/maker-bundle
 pkg:composer/wocody/wordpress-sdk
@@ -356311,6 +356477,7 @@ pkg:composer/woduda/kohana-dashboard
 pkg:composer/woeler/eso-news-fetcher
 pkg:composer/woeler/komoot-php
 pkg:composer/woeler/phpdiscord
+pkg:composer/woemar/envlogin
 pkg:composer/woenel/itexmo
 pkg:composer/woenel/laravel-eloquent-query-cache
 pkg:composer/woenel/laravel-txtbox
@@ -356333,6 +356500,7 @@ pkg:composer/woisks/passport
 pkg:composer/woisks/textrank
 pkg:composer/woisks/trietree
 pkg:composer/woit/filereplace
+pkg:composer/woit/t3-content-quality
 pkg:composer/woit/wit-cleartempfiles
 pkg:composer/woit/wit-loremipsum
 pkg:composer/woit/wit-pwamanifest
@@ -356553,6 +356721,7 @@ pkg:composer/wongyip/lc-call-numbers
 pkg:composer/wongyip/library-helpers
 pkg:composer/wongyip/php-js-bridge
 pkg:composer/wongyip/phphelpers
+pkg:composer/wonittecnologia/interage-sdk-php
 pkg:composer/woniu/platform
 pkg:composer/wonline-network/dynamic-user-agent-generator
 pkg:composer/wonnova/woost-gamification-php-sdk
@@ -356843,6 +357012,7 @@ pkg:composer/workerman/webman
 pkg:composer/workerman/webman-framework
 pkg:composer/workerman/workerman
 pkg:composer/workerman/workerman-for-win
+pkg:composer/workers-php/workers-php
 pkg:composer/workersphp/laravel-bridge
 pkg:composer/workflow-pm/workflow-sdk
 pkg:composer/workflow/work-flow
@@ -358888,6 +359058,7 @@ pkg:composer/wvision/pimcore5-install-profile
 pkg:composer/wvision/wvision
 pkg:composer/wvnderlab-agency/php-codestyles
 pkg:composer/wvnderlab-agency/php-copyright-header
+pkg:composer/wvnderlab-agency/wp-custom-login
 pkg:composer/wvnderlab-agency/wp-disable-author-pages
 pkg:composer/wvnderlab-agency/wp-disable-comments
 pkg:composer/wvnderlab-agency/wp-disable-date-based-archives
@@ -359005,6 +359176,7 @@ pkg:composer/wwwision/neos-mailchimp
 pkg:composer/wwwision/neos-mediabrowserdialog
 pkg:composer/wwwision/neos-mermaideditor
 pkg:composer/wwwision/neos-modulecomponents
+pkg:composer/wwwision/neos-submissions
 pkg:composer/wwwision/neos-taskmodule
 pkg:composer/wwwision/node-event-log
 pkg:composer/wwwision/privateresources
@@ -359408,6 +359580,7 @@ pkg:composer/x-laravel/embedding-pgsql-driver
 pkg:composer/x-laravel/embedding-pulse-plugin
 pkg:composer/x-laravel/embedding-qdrant-driver
 pkg:composer/x-laravel/embedding-sqlsrv-driver
+pkg:composer/x-laravel/fuzzy-similarity
 pkg:composer/x-laravel/listmonk
 pkg:composer/x-laravel/model-settings-bag
 pkg:composer/x-laravel/payline
@@ -360058,6 +360231,7 @@ pkg:composer/xddesigners/silverstripe-llms-txt
 pkg:composer/xddesigners/silverstripe-mapbox
 pkg:composer/xddesigners/silverstripe-ovis
 pkg:composer/xddesigners/silverstripe-page-cache
+pkg:composer/xddesigners/silverstripe-qr-code-generator
 pkg:composer/xddesigners/silverstripe-shop-dashboard
 pkg:composer/xddesigners/silverstripe-shopify
 pkg:composer/xddesigners/silverstripe-urlsegment-copy-button
@@ -361733,6 +361907,7 @@ pkg:composer/xoops/base-requires27
 pkg:composer/xoops/frame
 pkg:composer/xoops/helpers
 pkg:composer/xoops/module-installer-plugin
+pkg:composer/xoops/moduletools
 pkg:composer/xoops/rector-xoops
 pkg:composer/xoops/regdom
 pkg:composer/xoops/smartyextensions
@@ -362186,6 +362361,12 @@ pkg:composer/xsframe/framework
 pkg:composer/xsframe/think-multi-app
 pkg:composer/xsframe/think-qrcode
 pkg:composer/xsframe/xs-chinaums
+pkg:composer/xsga/bbphp-criteria-core
+pkg:composer/xsga/bbphp-criteria-doctrine-adapter
+pkg:composer/xsga/bbphp-emailsender-core
+pkg:composer/xsga/bbphp-emailsender-resend-adapter
+pkg:composer/xsga/bbphp-emailsender-smtp-adapter
+pkg:composer/xsga/bbphp-exception
 pkg:composer/xsga/log4php
 pkg:composer/xshaitt/class
 pkg:composer/xshaitt/laravel-admin
@@ -362599,6 +362780,7 @@ pkg:composer/xurizaemon/patchwatch
 pkg:composer/xurshiddd/laravel-attachment
 pkg:composer/xurudragon/api-versioning-bundle
 pkg:composer/xurumelous/torrent-scraper
+pkg:composer/xushilabs/xushiui
 pkg:composer/xushre/laravel-captcha
 pkg:composer/xushre/pscws4
 pkg:composer/xushunbin/php-redis-bloom
@@ -363271,6 +363453,7 @@ pkg:composer/yakupeyisan/codeigniter4-tr-virtualpos
 pkg:composer/yakuta/arweavecli
 pkg:composer/yal/laraveldash
 pkg:composer/yale-web-technologies/iiif-manifest-generator
+pkg:composer/yaleksandr89/archive-guard
 pkg:composer/yaleksandr89/determining-user-location
 pkg:composer/yaleksandr89/oauth2-yandex
 pkg:composer/yaleksandr89/weather
@@ -364477,6 +364660,7 @@ pkg:composer/yego87/codeception-smtp-mail
 pkg:composer/yegobox/referral
 pkg:composer/yegor256/phprack
 pkg:composer/yegortokmakov/phprtest
+pkg:composer/yeh110/php-s3-lite
 pkg:composer/yeh110/think-addons
 pkg:composer/yeh110/think-annotation
 pkg:composer/yeh110/think-worker
@@ -366587,6 +366771,7 @@ pkg:composer/yonis-savary/sharp
 pkg:composer/yonis-savary/sharp-extensions
 pkg:composer/yonis-savary/sharp-project
 pkg:composer/yonkosam/laravel-cached-pagination
+pkg:composer/yonld/purephp
 pkg:composer/yonlj/purephp
 pkg:composer/yonn-trimoreau/module-gls
 pkg:composer/yonna/core
@@ -366735,6 +366920,8 @@ pkg:composer/yosoymitxel/scphp
 pkg:composer/yosrigam/filament-md3-theme
 pkg:composer/yossivic/otp
 pkg:composer/yossiz/laravel-chunk-upload
+pkg:composer/yossuf/laravel-geocoding
+pkg:composer/yossuf/laravel-import
 pkg:composer/yosugi/functional-tools.php
 pkg:composer/yosymfony/collection
 pkg:composer/yosymfony/config-loader
@@ -366791,6 +366978,7 @@ pkg:composer/youandmedigital/craft-getfiles
 pkg:composer/youandmedigital/foxycarthmac
 pkg:composer/youaoi/php-mecab
 pkg:composer/youbanphp/monitor
+pkg:composer/youbar/easy-crud
 pkg:composer/youbar/nova-difference
 pkg:composer/youbar/phpunit-snapshot-assertions
 pkg:composer/youbuwei/hyperf-jwt
@@ -366848,6 +367036,11 @@ pkg:composer/youloge/webman-tool
 pkg:composer/youloge/webman.tool
 pkg:composer/youloge/webman.validate
 pkg:composer/youlooklikedelicious/feishu-module
+pkg:composer/youmad/endurance-activity
+pkg:composer/youmad/endurance-activity-fit
+pkg:composer/youmad/endurance-activity-postgresql
+pkg:composer/youmad/endurance-fit
+pkg:composer/youmad/endurance-foundation
 pkg:composer/youmeb/younlp
 pkg:composer/youmy001/apine-framework
 pkg:composer/younes-el-barnoussi/laravel-translation
@@ -367318,6 +367511,7 @@ pkg:composer/yu-dev/module-ai-chat
 pkg:composer/yu-dev/module-ai-llm
 pkg:composer/yu-dev/module-ai-search-engine
 pkg:composer/yu-dev/module-firewall
+pkg:composer/yu-dev/module-llms-txt
 pkg:composer/yu-dev/module-mcp-server
 pkg:composer/yu-dev/module-social-login
 pkg:composer/yu-ichiro/ulid
@@ -367519,6 +367713,7 @@ pkg:composer/yufusphp/php-vakifbank
 pkg:composer/yufuyi/t5
 pkg:composer/yuga/datatables
 pkg:composer/yuga/framework
+pkg:composer/yuga/livecomponent
 pkg:composer/yuga/repl
 pkg:composer/yuga/runtime
 pkg:composer/yuga/yuga
@@ -367635,6 +367830,7 @@ pkg:composer/yukata-roommate/sms
 pkg:composer/yukata-roommate/text
 pkg:composer/yukata-roommate/time
 pkg:composer/yukazakiri/laravel-database-sync
+pkg:composer/yukazakiri/lepton-agent
 pkg:composer/yukazakiri/librarysystem-module
 pkg:composer/yukazakiri/shadcthemes-tools
 pkg:composer/yukbisnis/yubipay
@@ -368236,6 +368432,7 @@ pkg:composer/yybawang/laravel-ebank2
 pkg:composer/yyc/pdo-plugin
 pkg:composer/yydick/exception
 pkg:composer/yydick/peas-log
+pkg:composer/yydick/vicecode
 pkg:composer/yyfjj/laravel-apidoc-generator
 pkg:composer/yyfx/yyfx
 pkg:composer/yykpf/zookeeper-node-cache
@@ -369451,6 +369648,7 @@ pkg:composer/zeen/zeen-redirect-not-found-bundle
 pkg:composer/zeenewkey/zahra-phptesting-123-sdk
 pkg:composer/zeeplabs/orbit-client
 pkg:composer/zeeproject/date-range
+pkg:composer/zeerats/laravel-lang-lint
 pkg:composer/zeero-fw/app-start
 pkg:composer/zeeshan/git-profile
 pkg:composer/zeeshan/git-semver
@@ -369615,6 +369813,8 @@ pkg:composer/zemistr/notorm-tracy-panel
 pkg:composer/zemistr/symfony-3-first-app
 pkg:composer/zemit-cms/core
 pkg:composer/zemkogabor/oauth2-server-bundle
+pkg:composer/zemkogabor/xinfra-laravel
+pkg:composer/zemkogabor/xinfra-php
 pkg:composer/zemlecht/laravel-dadata
 pkg:composer/zemlecht/localization-container
 pkg:composer/zemlia-zemlia/yii2-images
@@ -370056,6 +370256,8 @@ pkg:composer/zenthangplus/html-dom-parser
 pkg:composer/zentheme/wpikaday
 pkg:composer/zenthicmc/laravel-google-ads
 pkg:composer/zentio/angular-bundle
+pkg:composer/zentiq-labs/fast-pdf
+pkg:composer/zentiq-labs/laravel-fast-pdf
 pkg:composer/zentlix/broadway-event-store-cycle
 pkg:composer/zentlix/knp-menu
 pkg:composer/zentlix/libphonenumber
@@ -370371,6 +370573,7 @@ pkg:composer/zerobit/support
 pkg:composer/zeroc0d3lab/acl
 pkg:composer/zeroc0d3lab/assets
 pkg:composer/zeroc0d3lab/commit-checker
+pkg:composer/zerochak/simple-vat-validator
 pkg:composer/zerochip/laravel-lineage
 pkg:composer/zerochip/zimcell
 pkg:composer/zerockvnext/notice
@@ -371401,6 +371604,7 @@ pkg:composer/zhenhaihou/richfilemanager-php
 pkg:composer/zhenhaihou/think-auth
 pkg:composer/zhenhaihou/think-extend
 pkg:composer/zhenhao/smaz
+pkg:composer/zhenjun/filament-audit-trail
 pkg:composer/zhenmu/laravel-init-template
 pkg:composer/zhenmu/laravel-oauth
 pkg:composer/zhenmu/support
@@ -371520,6 +371724,7 @@ pkg:composer/zhooravell/php-monobank
 pkg:composer/zhooravell/skrill-php-client
 pkg:composer/zhooravell/sofort-pay-php-client
 pkg:composer/zhor-x/http-codes
+pkg:composer/zhora1996/laravel-performance-analyzer
 pkg:composer/zhortein/auditable-bundle
 pkg:composer/zhortein/datatable-bundle
 pkg:composer/zhortein/dev-security-bundle
@@ -372693,6 +372898,7 @@ pkg:composer/znojil/http
 pkg:composer/znojil/nette-heureka
 pkg:composer/znojil/nette-skeleton
 pkg:composer/znojil/revolut-business
+pkg:composer/znojil/vies
 pkg:composer/znrl/questionnaire-bundle
 pkg:composer/znrl/znrl_ics
 pkg:composer/znrl/znrl_orderform
@@ -372736,6 +372942,7 @@ pkg:composer/zoddo/postmodels
 pkg:composer/zoddo/template
 pkg:composer/zodexnl/spatie-permission-to-vue-inertia
 pkg:composer/zodi-innovations/billit-php-sdk
+pkg:composer/zodiac1978/custom-patterns-asb
 pkg:composer/zodiac1978/tl-template-checker
 pkg:composer/zodiacmedia/drupal-libraries-installer
 pkg:composer/zodimo/arrow
@@ -373215,6 +373422,22 @@ pkg:composer/zoujingli/think-plugs-wemall
 pkg:composer/zoujingli/think-plugs-worker
 pkg:composer/zoujingli/think-smarty
 pkg:composer/zoujingli/thinkadmin
+pkg:composer/zoujingli/type-build
+pkg:composer/zoujingli/type-cache
+pkg:composer/zoujingli/type-core
+pkg:composer/zoujingli/type-log
+pkg:composer/zoujingli/type-mqtt
+pkg:composer/zoujingli/type-orm
+pkg:composer/zoujingli/type-orm-mysql
+pkg:composer/zoujingli/type-orm-pgsql
+pkg:composer/zoujingli/type-orm-sqlite
+pkg:composer/zoujingli/type-project
+pkg:composer/zoujingli/type-queue
+pkg:composer/zoujingli/type-redis
+pkg:composer/zoujingli/type-runtime
+pkg:composer/zoujingli/type-scheduler
+pkg:composer/zoujingli/type-testing
+pkg:composer/zoujingli/type-validate
 pkg:composer/zoujingli/wechat-developer
 pkg:composer/zoujingli/wechat-php-sdk
 pkg:composer/zoujingli/weopen-developer
