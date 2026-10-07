@@ -8510,7 +8510,10 @@ pkg:apk/alpine/fwupd-plugin-wacom_usb
 pkg:apk/alpine/fwupd-polkit
 pkg:apk/alpine/fwupd-tests
 pkg:apk/alpine/fx
+pkg:apk/alpine/fx-bash-completion
 pkg:apk/alpine/fx-doc
+pkg:apk/alpine/fx-fish-completion
+pkg:apk/alpine/fx-zsh-completion
 pkg:apk/alpine/fxfloorboard-katana-mk2
 pkg:apk/alpine/fxfloorboard-katana-mk2-doc
 pkg:apk/alpine/fxload
@@ -14476,6 +14479,7 @@ pkg:apk/alpine/libao
 pkg:apk/alpine/libao-dev
 pkg:apk/alpine/libao-doc
 pkg:apk/alpine/libao-pulse
+pkg:apk/alpine/libao-sndio
 pkg:apk/alpine/libapk
 pkg:apk/alpine/libapk-qt
 pkg:apk/alpine/libapk-qt-dbg
@@ -17483,6 +17487,7 @@ pkg:apk/alpine/linkchecker
 pkg:apk/alpine/linkchecker-doc
 pkg:apk/alpine/linkchecker-pyc
 pkg:apk/alpine/linkquisition
+pkg:apk/alpine/linkquisition-doc
 pkg:apk/alpine/links
 pkg:apk/alpine/links-doc
 pkg:apk/alpine/links-graphics
@@ -30651,6 +30656,7 @@ pkg:apk/alpine/py3-ajsonrpc-pyc
 pkg:apk/alpine/py3-akismet
 pkg:apk/alpine/py3-akismet-pyc
 pkg:apk/alpine/py3-akonadi
+pkg:apk/alpine/py3-akonadi-calendar
 pkg:apk/alpine/py3-alabaster
 pkg:apk/alpine/py3-alabaster-pyc
 pkg:apk/alpine/py3-alembic
@@ -35273,6 +35279,8 @@ pkg:apk/alpine/py3-uuid6-pyc
 pkg:apk/alpine/py3-uv
 pkg:apk/alpine/py3-uv-build
 pkg:apk/alpine/py3-uv-build-pyc
+pkg:apk/alpine/py3-uv-dynamic-versioning
+pkg:apk/alpine/py3-uv-dynamic-versioning-pyc
 pkg:apk/alpine/py3-uv-pyc
 pkg:apk/alpine/py3-uvloop
 pkg:apk/alpine/py3-uvloop-pyc
@@ -40443,6 +40451,8 @@ pkg:apk/alpine/thunarx-python-doc
 pkg:apk/alpine/thunderbird
 pkg:apk/alpine/tic-80
 pkg:apk/alpine/tic-80-doc
+pkg:apk/alpine/tic-80-editor
+pkg:apk/alpine/tic-80-tools
 pkg:apk/alpine/ticcutils
 pkg:apk/alpine/ticcutils-dev
 pkg:apk/alpine/ticcutils-doc
