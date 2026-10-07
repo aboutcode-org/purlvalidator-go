@@ -23125,9 +23125,11 @@ pkg:cargo/backyard-sqlite
 pkg:cargo/backyardluan
 pkg:cargo/bacli
 pkg:cargo/bacnet
+pkg:cargo/bacnet-cli
 pkg:cargo/bacnet-client
 pkg:cargo/bacnet-emb
 pkg:cargo/bacnet-encoding
+pkg:cargo/bacnet-endpoint
 pkg:cargo/bacnet-endpoint-core
 pkg:cargo/bacnet-macros
 pkg:cargo/bacnet-network
@@ -23282,6 +23284,7 @@ pkg:cargo/baijimu-cmodel-actix
 pkg:cargo/baijimu-cmodel-axum
 pkg:cargo/baijimu-cmodel-core
 pkg:cargo/baijimu-cmodel-http
+pkg:cargo/baijimu-content-contract
 pkg:cargo/baijimu-serde
 pkg:cargo/baijimu-types
 pkg:cargo/bail
@@ -67548,6 +67551,7 @@ pkg:cargo/dgl
 pkg:cargo/dgl-cli
 pkg:cargo/dgl-gl
 pkg:cargo/dgmon
+pkg:cargo/dgproto
 pkg:cargo/dgram
 pkg:cargo/dgrambuf
 pkg:cargo/dgraph
@@ -70514,6 +70518,8 @@ pkg:cargo/dockertest
 pkg:cargo/dockertest-server
 pkg:cargo/docket
 pkg:cargo/docket-cli
+pkg:cargo/docket-rs
+pkg:cargo/docket-rs-macros
 pkg:cargo/dockgen
 pkg:cargo/dockguard
 pkg:cargo/docki
@@ -71658,6 +71664,7 @@ pkg:cargo/dots-rs-derive
 pkg:cargo/dots-rs-model
 pkg:cargo/dots-rs-testing
 pkg:cargo/dots-rs-transport
+pkg:cargo/dots-ui
 pkg:cargo/dots_internal_utils
 pkg:cargo/dotscope
 pkg:cargo/dotseal
@@ -92625,6 +92632,7 @@ pkg:cargo/fnorder
 pkg:cargo/fnorm
 pkg:cargo/fnotation
 pkg:cargo/fnox
+pkg:cargo/fnox-client
 pkg:cargo/fnox-core
 pkg:cargo/fnp-dtype
 pkg:cargo/fnp-io
@@ -109422,6 +109430,7 @@ pkg:cargo/h3ron-ndarray
 pkg:cargo/h3ron-polars
 pkg:cargo/h3rpc
 pkg:cargo/h3session
+pkg:cargo/h3wire
 pkg:cargo/h3x
 pkg:cargo/h3xup
 pkg:cargo/h3xy
@@ -119216,6 +119225,7 @@ pkg:cargo/ic-mac
 pkg:cargo/ic-management-canister-types
 pkg:cargo/ic-md
 pkg:cargo/ic-memory
+pkg:cargo/ic-metrics
 pkg:cargo/ic-metrics-assert
 pkg:cargo/ic-metrics-encoder
 pkg:cargo/ic-mldsa
@@ -136275,6 +136285,7 @@ pkg:cargo/kuberator
 pkg:cargo/kuberdon
 pkg:cargo/kuberecord
 pkg:cargo/kuberic-core
+pkg:cargo/kuberic-runtime
 pkg:cargo/kuberift
 pkg:cargo/kubernetes
 pkg:cargo/kubernetes-applier-interface
@@ -142638,6 +142649,8 @@ pkg:cargo/libqaul-types
 pkg:cargo/libqhy
 pkg:cargo/libqhy-sys
 pkg:cargo/libqhyccd-sys
+pkg:cargo/libqi-macros-vibe
+pkg:cargo/libqi-vibe
 pkg:cargo/libqmi-glib-rs
 pkg:cargo/libqmi-glib-sys
 pkg:cargo/libqmi-glib-types-rs
@@ -155426,6 +155439,7 @@ pkg:cargo/mdol
 pkg:cargo/mdopen
 pkg:cargo/mdout
 pkg:cargo/mdp
+pkg:cargo/mdp-explainer
 pkg:cargo/mdpack
 pkg:cargo/mdpad
 pkg:cargo/mdpage
@@ -158832,6 +158846,7 @@ pkg:cargo/mid-issuer
 pkg:cargo/mid-net
 pkg:cargo/mid-signer
 pkg:cargo/mid-signin
+pkg:cargo/mid-sovereign-signup
 pkg:cargo/mid-tools
 pkg:cargo/mid-types
 pkg:cargo/mid-verify
@@ -158927,6 +158942,13 @@ pkg:cargo/miden-node-tracing
 pkg:cargo/miden-node-tracing-macro
 pkg:cargo/miden-node-utils
 pkg:cargo/miden-node-validator
+pkg:cargo/miden-note-bindings
+pkg:cargo/miden-note-bindings-macros
+pkg:cargo/miden-note-codec
+pkg:cargo/miden-note-codec-macros
+pkg:cargo/miden-note-codec-wit
+pkg:cargo/miden-note-schema
+pkg:cargo/miden-note-schema-codegen
 pkg:cargo/miden-note-transport
 pkg:cargo/miden-note-transport-node
 pkg:cargo/miden-note-transport-node-bin
@@ -159112,6 +159134,7 @@ pkg:cargo/midnight_cruisin
 pkg:cargo/midnote
 pkg:cargo/mido
 pkg:cargo/mido-core
+pkg:cargo/mido-guard
 pkg:cargo/midpad
 pkg:cargo/midpoint
 pkg:cargo/midpoint-ui
@@ -167981,6 +168004,7 @@ pkg:cargo/mxc-alpha-windows-sandbox-lifecycle
 pkg:cargo/mxc-alpha-windows-secenv-projection
 pkg:cargo/mxc-alpha-wslc-common
 pkg:cargo/mxc-alpha-wxc-common
+pkg:cargo/mxc-sdk
 pkg:cargo/mxclear
 pkg:cargo/mxdns
 pkg:cargo/mxdx-core-wasm
@@ -210910,6 +210934,8 @@ pkg:cargo/raddy-proxy
 pkg:cargo/raddy-server
 pkg:cargo/raddy-tls
 pkg:cargo/raddyserver
+pkg:cargo/radeau
+pkg:cargo/radeau-plugin
 pkg:cargo/radegast
 pkg:cargo/raden
 pkg:cargo/radesmee_encoder
@@ -211060,6 +211086,7 @@ pkg:cargo/radius-tokio-dict
 pkg:cargo/radius-tokio-dict-codegen
 pkg:cargo/radius-tokio-eap
 pkg:cargo/radius2
+pkg:cargo/radiust-cli
 pkg:cargo/radiust-core
 pkg:cargo/radix
 pkg:cargo/radix-blueprint-schema-init
@@ -213472,6 +213499,7 @@ pkg:cargo/rattler
 pkg:cargo/rattler-bin
 pkg:cargo/rattler-build
 pkg:cargo/rattler-server
+pkg:cargo/rattler_boot_id
 pkg:cargo/rattler_build_allocator
 pkg:cargo/rattler_build_core
 pkg:cargo/rattler_build_jinja
@@ -213490,6 +213518,7 @@ pkg:cargo/rattler_conda_types
 pkg:cargo/rattler_conda_version
 pkg:cargo/rattler_config
 pkg:cargo/rattler_digest
+pkg:cargo/rattler_environment_digest
 pkg:cargo/rattler_git
 pkg:cargo/rattler_index
 pkg:cargo/rattler_installs_packages
@@ -213510,6 +213539,7 @@ pkg:cargo/rattler_shell
 pkg:cargo/rattler_sigstore
 pkg:cargo/rattler_solve
 pkg:cargo/rattler_upload
+pkg:cargo/rattler_virtual_package_detectors
 pkg:cargo/rattler_virtual_packages
 pkg:cargo/rattles
 pkg:cargo/ratto
@@ -248567,6 +248597,21 @@ pkg:cargo/smelter-aws-fargate
 pkg:cargo/smelter-job-manager
 pkg:cargo/smelter-utils
 pkg:cargo/smelter-worker
+pkg:cargo/smeltery
+pkg:cargo/smeltery-alloy
+pkg:cargo/smeltery-anvil
+pkg:cargo/smeltery-bellows
+pkg:cargo/smeltery-cli
+pkg:cargo/smeltery-core
+pkg:cargo/smeltery-hallmark
+pkg:cargo/smeltery-macros
+pkg:cargo/smeltery-mail
+pkg:cargo/smeltery-mold
+pkg:cargo/smeltery-mold-macros
+pkg:cargo/smeltery-prospect
+pkg:cargo/smeltery-sparks
+pkg:cargo/smeltery-temper
+pkg:cargo/smeltery-watchfire
 pkg:cargo/smeltr
 pkg:cargo/smem
 pkg:cargo/smep
@@ -249028,6 +249073,7 @@ pkg:cargo/smtc-modem-cores-sys
 pkg:cargo/smtc-player
 pkg:cargo/smtc-suite
 pkg:cargo/smtc-tokio
+pkg:cargo/smtc2web-dev
 pkg:cargo/smth
 pkg:cargo/smtif-bitwuzla
 pkg:cargo/smtkit
@@ -279987,6 +280033,7 @@ pkg:cargo/tree-sitter-quarb
 pkg:cargo/tree-sitter-query
 pkg:cargo/tree-sitter-query-formatter
 pkg:cargo/tree-sitter-quilt
+pkg:cargo/tree-sitter-quirrel
 pkg:cargo/tree-sitter-r
 pkg:cargo/tree-sitter-racket
 pkg:cargo/tree-sitter-rake
@@ -284422,6 +284469,7 @@ pkg:cargo/txrc_macros
 pkg:cargo/txreqb2w
 pkg:cargo/txrx
 pkg:cargo/txs
+pkg:cargo/txstr
 pkg:cargo/txt
 pkg:cargo/txt-cleaner
 pkg:cargo/txt-cluster
@@ -285994,6 +286042,9 @@ pkg:cargo/udpproxy
 pkg:cargo/udpsec
 pkg:cargo/udpsocket2
 pkg:cargo/udpstp
+pkg:cargo/udpstp-core
+pkg:cargo/udpstp-runtime
+pkg:cargo/udpstp-wire
 pkg:cargo/udptee
 pkg:cargo/udptk
 pkg:cargo/udptk-core
@@ -312681,6 +312732,7 @@ pkg:cargo/ziv-viewer-assets
 pkg:cargo/ziv-zarr-core
 pkg:cargo/zivid
 pkg:cargo/zix
+pkg:cargo/zixcel-mcp-gateway
 pkg:cargo/zixiao-oauth
 pkg:cargo/zixy
 pkg:cargo/ziyad-todo
