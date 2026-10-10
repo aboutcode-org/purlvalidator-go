@@ -1324,6 +1324,7 @@ pkg:cargo/abnegate-index
 pkg:cargo/abnegate-learn
 pkg:cargo/abnegate-llm
 pkg:cargo/abnegate-notify
+pkg:cargo/abnegate-payments
 pkg:cargo/abnegate-search
 pkg:cargo/abnegate-secret
 pkg:cargo/abnegate-vcs
@@ -23080,6 +23081,7 @@ pkg:cargo/backedup
 pkg:cargo/backend
 pkg:cargo/backend-dispatcher
 pkg:cargo/backend-kit
+pkg:cargo/backend-lang
 pkg:cargo/backend-rust
 pkg:cargo/backend-service-battery-pack
 pkg:cargo/backend-test-kit
@@ -24650,6 +24652,7 @@ pkg:cargo/basin2-lib
 pkg:cargo/basin2-protocol
 pkg:cargo/basinski
 pkg:cargo/basis
+pkg:cargo/basis-a2a
 pkg:cargo/basis-acp
 pkg:cargo/basis-cli
 pkg:cargo/basis-core
@@ -119521,6 +119524,7 @@ pkg:cargo/ic-http-gateway
 pkg:cargo/ic-http-types
 pkg:cargo/ic-icrc-tx
 pkg:cargo/ic-identity-hsm
+pkg:cargo/ic-jobs
 pkg:cargo/ic-json
 pkg:cargo/ic-kdf
 pkg:cargo/ic-kit
@@ -119529,6 +119533,7 @@ pkg:cargo/ic-kit-runtime
 pkg:cargo/ic-kit-sys
 pkg:cargo/ic-ledger-types
 pkg:cargo/ic-llm
+pkg:cargo/ic-lms
 pkg:cargo/ic-logger
 pkg:cargo/ic-mac
 pkg:cargo/ic-management-canister-types
@@ -119572,7 +119577,9 @@ pkg:cargo/ic-scalable-helper
 pkg:cargo/ic-secp256k1
 pkg:cargo/ic-secp256r1
 pkg:cargo/ic-sha3
+pkg:cargo/ic-sig
 pkg:cargo/ic-signature-verification
+pkg:cargo/ic-slhdsa
 pkg:cargo/ic-solidity-bindgen
 pkg:cargo/ic-solidity-bindgen-macros
 pkg:cargo/ic-sql-migrate
@@ -129492,6 +129499,7 @@ pkg:cargo/json_shape_build
 pkg:cargo/json_sift
 pkg:cargo/json_sift_parser
 pkg:cargo/json_size
+pkg:cargo/json_st
 pkg:cargo/json_state
 pkg:cargo/json_store
 pkg:cargo/json_str
@@ -129792,6 +129800,7 @@ pkg:cargo/jsonwebtokens-cognito
 pkg:cargo/jsonwebtolkien
 pkg:cargo/jsonx
 pkg:cargo/jsonx-derive
+pkg:cargo/jsonx-lib
 pkg:cargo/jsonxf
 pkg:cargo/jsonxs
 pkg:cargo/jsony
@@ -155496,6 +155505,7 @@ pkg:cargo/mdbook-pagecrypt
 pkg:cargo/mdbook-pagetoc
 pkg:cargo/mdbook-pandoc
 pkg:cargo/mdbook-pdf
+pkg:cargo/mdbook-pdf-chapters
 pkg:cargo/mdbook-pdf-headless_chrome
 pkg:cargo/mdbook-pdf-tungstenite
 pkg:cargo/mdbook-permalinks
@@ -155843,6 +155853,14 @@ pkg:cargo/mdrend-test-dont-use
 pkg:cargo/mdrend-test-markdown-123
 pkg:cargo/mdrend-this-is-only-a-beta-demo
 pkg:cargo/mdriver
+pkg:cargo/mdroots
+pkg:cargo/mdroots-cli
+pkg:cargo/mdroots-core
+pkg:cargo/mdroots-index
+pkg:cargo/mdroots-lsp
+pkg:cargo/mdroots-resolve
+pkg:cargo/mdroots-roots
+pkg:cargo/mdroots-syntax
 pkg:cargo/mdrss
 pkg:cargo/mdrun
 pkg:cargo/mdrv
@@ -158813,6 +158831,7 @@ pkg:cargo/michaelys-demo1
 pkg:cargo/michelangelo
 pkg:cargo/michelson-ast
 pkg:cargo/michi
+pkg:cargo/michi-cli
 pkg:cargo/michie
 pkg:cargo/michie-macro
 pkg:cargo/michis_collection_cursor
@@ -214213,6 +214232,7 @@ pkg:cargo/ratatui-viewer
 pkg:cargo/ratatui-viewers
 pkg:cargo/ratatui-viewport
 pkg:cargo/ratatui-views
+pkg:cargo/ratatui-vim
 pkg:cargo/ratatui-virtual-list
 pkg:cargo/ratatui-virtual-table
 pkg:cargo/ratatui-visual
@@ -214772,6 +214792,7 @@ pkg:cargo/raya
 pkg:cargo/rayauth-session
 pkg:cargo/rayban
 pkg:cargo/rayban_macro
+pkg:cargo/raybend
 pkg:cargo/raybnn
 pkg:cargo/raycast-mcp-server
 pkg:cargo/raycaster
@@ -244022,6 +244043,7 @@ pkg:cargo/sharpen
 pkg:cargo/sharpened_bilinear
 pkg:cargo/sharpie
 pkg:cargo/sharpneat-runner-rs
+pkg:cargo/sharpnes
 pkg:cargo/sharpy
 pkg:cargo/sharrd
 pkg:cargo/shary
@@ -280649,6 +280671,7 @@ pkg:cargo/tree-sitter-bash
 pkg:cargo/tree-sitter-bash-dcg
 pkg:cargo/tree-sitter-bass
 pkg:cargo/tree-sitter-batch
+pkg:cargo/tree-sitter-bats
 pkg:cargo/tree-sitter-beancount
 pkg:cargo/tree-sitter-bend
 pkg:cargo/tree-sitter-bend2
@@ -280702,6 +280725,7 @@ pkg:cargo/tree-sitter-cql
 pkg:cargo/tree-sitter-crepus
 pkg:cargo/tree-sitter-crepusx
 pkg:cargo/tree-sitter-crush
+pkg:cargo/tree-sitter-cryptol
 pkg:cargo/tree-sitter-crystal
 pkg:cargo/tree-sitter-css
 pkg:cargo/tree-sitter-css-orchard
@@ -281087,6 +281111,7 @@ pkg:cargo/tree-sitter-rush
 pkg:cargo/tree-sitter-rust
 pkg:cargo/tree-sitter-rust-orchard
 pkg:cargo/tree-sitter-sas
+pkg:cargo/tree-sitter-saw-script
 pkg:cargo/tree-sitter-scala
 pkg:cargo/tree-sitter-scheme
 pkg:cargo/tree-sitter-scss
@@ -282560,6 +282585,7 @@ pkg:cargo/truncatable
 pkg:cargo/truncate
 pkg:cargo/truncate-integer
 pkg:cargo/truncate-on-white-space
+pkg:cargo/truncate-safe
 pkg:cargo/truncate-slice-debug
 pkg:cargo/truncate-url
 pkg:cargo/truncate_string_at_whitespace
@@ -296709,6 +296735,7 @@ pkg:cargo/voiceit2
 pkg:cargo/voicekick
 pkg:cargo/voicemeeter
 pkg:cargo/voicepeak-cli
+pkg:cargo/voicepipe
 pkg:cargo/voicetools
 pkg:cargo/voicevox-client
 pkg:cargo/voicevox-dyn
