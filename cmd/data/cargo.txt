@@ -20561,6 +20561,7 @@ pkg:cargo/aws-sdk-sagemakerjobruntime
 pkg:cargo/aws-sdk-sagemakermetrics
 pkg:cargo/aws-sdk-sagemakerruntime
 pkg:cargo/aws-sdk-sagemakerruntimehttp2
+pkg:cargo/aws-sdk-sagemakertrainingsessionruntime
 pkg:cargo/aws-sdk-savingsplans
 pkg:cargo/aws-sdk-scheduler
 pkg:cargo/aws-sdk-schemas
@@ -20848,6 +20849,7 @@ pkg:cargo/awsm_web
 pkg:cargo/awsm_webgl
 pkg:cargo/awsmfa
 pkg:cargo/awsom
+pkg:cargo/awsprofile
 pkg:cargo/awssdk-instrumentation
 pkg:cargo/awssnapio
 pkg:cargo/awstail
@@ -23222,6 +23224,8 @@ pkg:cargo/backyard-sqlite
 pkg:cargo/backyardluan
 pkg:cargo/bacli
 pkg:cargo/bacnet
+pkg:cargo/bacnet-bip-codec
+pkg:cargo/bacnet-bip-core
 pkg:cargo/bacnet-cli
 pkg:cargo/bacnet-client
 pkg:cargo/bacnet-emb
@@ -23229,11 +23233,15 @@ pkg:cargo/bacnet-encoding
 pkg:cargo/bacnet-endpoint
 pkg:cargo/bacnet-endpoint-core
 pkg:cargo/bacnet-macros
+pkg:cargo/bacnet-mstp-codec
+pkg:cargo/bacnet-mstp-core
 pkg:cargo/bacnet-network
 pkg:cargo/bacnet-objects
+pkg:cargo/bacnet-router-core
 pkg:cargo/bacnet-rs
 pkg:cargo/bacnet-server
 pkg:cargo/bacnet-services
+pkg:cargo/bacnet-time
 pkg:cargo/bacnet-transport
 pkg:cargo/bacnet-types
 pkg:cargo/bacnet_parse
@@ -70940,6 +70948,8 @@ pkg:cargo/doctors
 pkg:cargo/doctrine
 pkg:cargo/doctrine-mcp
 pkg:cargo/doctui
+pkg:cargo/docuconf
+pkg:cargo/docuconf-derive
 pkg:cargo/docufort
 pkg:cargo/docuglot
 pkg:cargo/doculite
@@ -77446,6 +77456,7 @@ pkg:cargo/elastic-elgamal
 pkg:cargo/elastic-mapping
 pkg:cargo/elastic-mapping-macro
 pkg:cargo/elastic-parser
+pkg:cargo/elastic-player
 pkg:cargo/elastic-queries
 pkg:cargo/elastic-query-builder
 pkg:cargo/elastic4r
@@ -77590,6 +77601,7 @@ pkg:cargo/elektron_reports
 pkg:cargo/elektron_sexp
 pkg:cargo/elektron_spice
 pkg:cargo/elem
+pkg:cargo/elem-simd-math
 pkg:cargo/element
 pkg:cargo/element-icons
 pkg:cargo/element-ptr
@@ -109787,6 +109799,8 @@ pkg:cargo/h3ron-polars
 pkg:cargo/h3rpc
 pkg:cargo/h3session
 pkg:cargo/h3wire
+pkg:cargo/h3wire-async
+pkg:cargo/h3wire-quinn
 pkg:cargo/h3x
 pkg:cargo/h3xup
 pkg:cargo/h3xy
@@ -119518,6 +119532,7 @@ pkg:cargo/ic-bn-lib-common
 pkg:cargo/ic-btc-interface
 pkg:cargo/ic-btc-test-utils
 pkg:cargo/ic-btc-validation
+pkg:cargo/ic-build
 pkg:cargo/ic-call-chaos
 pkg:cargo/ic-call-retry
 pkg:cargo/ic-canister-kit
@@ -119544,6 +119559,8 @@ pkg:cargo/ic-cli
 pkg:cargo/ic-commerce
 pkg:cargo/ic-core
 pkg:cargo/ic-core-module
+pkg:cargo/ic-crates
+pkg:cargo/ic-crates-protocol
 pkg:cargo/ic-cron
 pkg:cargo/ic-custom-domains-backend
 pkg:cargo/ic-custom-domains-base
@@ -129844,6 +129861,8 @@ pkg:cargo/jsontoml
 pkg:cargo/jsontp
 pkg:cargo/jsonutil
 pkg:cargo/jsonvalid
+pkg:cargo/jsonvet
+pkg:cargo/jsonvet-cli
 pkg:cargo/jsonview
 pkg:cargo/jsonwatch
 pkg:cargo/jsonway
@@ -141109,6 +141128,7 @@ pkg:cargo/lia
 pkg:cargo/lia-plugin
 pkg:cargo/liaise
 pkg:cargo/liaise_derive
+pkg:cargo/liaise_proc_macro
 pkg:cargo/liaison
 pkg:cargo/lialoonk-sql-query-parser
 pkg:cargo/lian-linux
@@ -143630,6 +143650,8 @@ pkg:cargo/libstrophe-sys
 pkg:cargo/libstrophe-sys-bindgen
 pkg:cargo/libsts
 pkg:cargo/libstubble
+pkg:cargo/libsubatomic
+pkg:cargo/libsubatomic-kuchiyose
 pkg:cargo/libsubid
 pkg:cargo/libsubid-dylib
 pkg:cargo/libsufr
@@ -144088,6 +144110,7 @@ pkg:cargo/licensing
 pkg:cargo/licensit
 pkg:cargo/licensor
 pkg:cargo/licensure
+pkg:cargo/licentivo
 pkg:cargo/licenz
 pkg:cargo/licenz-core
 pkg:cargo/licer
@@ -144546,6 +144569,7 @@ pkg:cargo/lightswitch-capabilities
 pkg:cargo/lightswitch-metadata
 pkg:cargo/lightswitch-object
 pkg:cargo/lightswitch-proto
+pkg:cargo/lightswitch-unwind-info
 pkg:cargo/lightup
 pkg:cargo/lightvgl-sys
 pkg:cargo/lightview
@@ -146535,6 +146559,7 @@ pkg:cargo/lithograph
 pkg:cargo/lithos
 pkg:cargo/lithos-gotmpl-core
 pkg:cargo/lithos-gotmpl-engine
+pkg:cargo/lithos-ironcalc-base
 pkg:cargo/lithos-sprig
 pkg:cargo/lithox
 pkg:cargo/lithtml
@@ -158883,6 +158908,7 @@ pkg:cargo/mhv
 pkg:cargo/mhz19
 pkg:cargo/mi
 pkg:cargo/mi-simple-io
+pkg:cargo/mi-time-elapsed
 pkg:cargo/mi2graph
 pkg:cargo/mi6
 pkg:cargo/mi6-cli
@@ -162152,6 +162178,7 @@ pkg:cargo/miv-editor
 pkg:cargo/mividtim_minigrep
 pkg:cargo/mivim
 pkg:cargo/miwa
+pkg:cargo/miwa-cli
 pkg:cargo/miwa-core
 pkg:cargo/miwa-macros
 pkg:cargo/mix
@@ -162191,6 +162218,7 @@ pkg:cargo/mixpanel
 pkg:cargo/mixpanel-rs
 pkg:cargo/mixpipe
 pkg:cargo/mixr
+pkg:cargo/mixradix
 pkg:cargo/mixt
 pkg:cargo/mixtape
 pkg:cargo/mixtape-acp
@@ -178158,6 +178186,7 @@ pkg:cargo/ntag21x
 pkg:cargo/ntag424
 pkg:cargo/ntalbs-lsr
 pkg:cargo/ntalbs-rup
+pkg:cargo/ntalloc
 pkg:cargo/ntap
 pkg:cargo/ntap-core
 pkg:cargo/ntap-db-as
@@ -199617,6 +199646,7 @@ pkg:cargo/pkgar-repo
 pkg:cargo/pkgbob
 pkg:cargo/pkgbuild
 pkg:cargo/pkgconf
+pkg:cargo/pkgconfx
 pkg:cargo/pkgcraft
 pkg:cargo/pkgcraft-c
 pkg:cargo/pkgcraft-tools
@@ -212613,6 +212643,9 @@ pkg:cargo/rail
 pkg:cargo/rail-alloc
 pkg:cargo/rail-diag
 pkg:cargo/rail-hir
+pkg:cargo/rail-httpx-cli
+pkg:cargo/rail-httpx-core
+pkg:cargo/rail-httpx-gui
 pkg:cargo/rail-lang
 pkg:cargo/rail-mir
 pkg:cargo/rail-syntax
@@ -213473,6 +213506,7 @@ pkg:cargo/rankmap
 pkg:cargo/rankops
 pkg:cargo/rankvectors
 pkg:cargo/ranluxpp-rs
+pkg:cargo/ranma
 pkg:cargo/rann
 pkg:cargo/ranno
 pkg:cargo/rano
@@ -213646,6 +213680,7 @@ pkg:cargo/rapira-derive
 pkg:cargo/rapiy-art
 pkg:cargo/rapl
 pkg:cargo/rapl-energy
+pkg:cargo/rapl-plot
 pkg:cargo/raplay
 pkg:cargo/rappct
 pkg:cargo/rapper
@@ -234907,6 +234942,7 @@ pkg:cargo/rylr998-tokio
 pkg:cargo/rylv-metrics
 pkg:cargo/rylv-pool
 pkg:cargo/rymder
+pkg:cargo/rymedb-client
 pkg:cargo/ryml
 pkg:cargo/ryn
 pkg:cargo/ryna-ffi
@@ -243596,6 +243632,7 @@ pkg:cargo/shaco
 pkg:cargo/shad
 pkg:cargo/shad3
 pkg:cargo/shadcn-dioxus
+pkg:cargo/shadcn-egui
 pkg:cargo/shadcn-egui-core
 pkg:cargo/shadcn-egui-font-dm-sans
 pkg:cargo/shadcn-egui-font-eb-garamond
@@ -243613,6 +243650,21 @@ pkg:cargo/shadcn-egui-font-merriweather
 pkg:cargo/shadcn-egui-font-montserrat
 pkg:cargo/shadcn-egui-font-noto-sans
 pkg:cargo/shadcn-egui-font-noto-serif
+pkg:cargo/shadcn-egui-font-nunito-sans
+pkg:cargo/shadcn-egui-font-outfit
+pkg:cargo/shadcn-egui-font-oxanium
+pkg:cargo/shadcn-egui-font-playfair-display
+pkg:cargo/shadcn-egui-font-public-sans
+pkg:cargo/shadcn-egui-font-raleway
+pkg:cargo/shadcn-egui-font-roboto
+pkg:cargo/shadcn-egui-font-roboto-slab
+pkg:cargo/shadcn-egui-font-source-sans-3
+pkg:cargo/shadcn-egui-font-space-grotesk
+pkg:cargo/shadcn-egui-icons-hugeicons
+pkg:cargo/shadcn-egui-icons-lucide
+pkg:cargo/shadcn-egui-icons-phosphor
+pkg:cargo/shadcn-egui-icons-remixicon
+pkg:cargo/shadcn-egui-icons-tabler
 pkg:cargo/shadcn-icons
 pkg:cargo/shadcn-leptos
 pkg:cargo/shadcn-rs
@@ -244487,6 +244539,7 @@ pkg:cargo/shep-core
 pkg:cargo/shep-daemon
 pkg:cargo/shep-deploy
 pkg:cargo/shep-discord
+pkg:cargo/shep-handover
 pkg:cargo/shep-log-rotate
 pkg:cargo/shep-macros
 pkg:cargo/sheperd
@@ -244593,6 +244646,7 @@ pkg:cargo/shieldcontract
 pkg:cargo/shielded
 pkg:cargo/shielded-bitcoin
 pkg:cargo/shielded-swap-contract-bindings
+pkg:cargo/shielded_labs_snow
 pkg:cargo/shielded_transport_pigeon
 pkg:cargo/shieldedvault-safety
 pkg:cargo/shieldify
@@ -245101,6 +245155,7 @@ pkg:cargo/shoko-timer
 pkg:cargo/shoko_screen_timer
 pkg:cargo/shokoutils
 pkg:cargo/shokyoku-hosho
+pkg:cargo/shonin-strategy-sdk
 pkg:cargo/shoo
 pkg:cargo/shoogah
 pkg:cargo/shoogah_macros
@@ -249459,6 +249514,9 @@ pkg:cargo/smart-llamas
 pkg:cargo/smart-locker
 pkg:cargo/smart-markdown
 pkg:cargo/smart-package-tracker
+pkg:cargo/smart-password-manager
+pkg:cargo/smart-password-manager-cli
+pkg:cargo/smart-password-manager-tui
 pkg:cargo/smart-patcher
 pkg:cargo/smart-path
 pkg:cargo/smart-pch-tsp
@@ -279380,21 +279438,47 @@ pkg:cargo/tpt-sci-quantum
 pkg:cargo/tpt-sci-reaction-network
 pkg:cargo/tpt-sci-sim-core
 pkg:cargo/tpt-sci-units
+pkg:cargo/tpt-simd
+pkg:cargo/tpt-simd-aligned
 pkg:cargo/tpt-simd-audio
 pkg:cargo/tpt-simd-bits
+pkg:cargo/tpt-simd-blas
+pkg:cargo/tpt-simd-blend
+pkg:cargo/tpt-simd-butterfly
+pkg:cargo/tpt-simd-compare
+pkg:cargo/tpt-simd-complex
+pkg:cargo/tpt-simd-convolve
 pkg:cargo/tpt-simd-core
 pkg:cargo/tpt-simd-dct
 pkg:cargo/tpt-simd-distance
+pkg:cargo/tpt-simd-dot
+pkg:cargo/tpt-simd-fixed
+pkg:cargo/tpt-simd-gather
 pkg:cargo/tpt-simd-geom
 pkg:cargo/tpt-simd-half
 pkg:cargo/tpt-simd-hash
+pkg:cargo/tpt-simd-horizontal
+pkg:cargo/tpt-simd-interpolate
+pkg:cargo/tpt-simd-math
+pkg:cargo/tpt-simd-matrix
+pkg:cargo/tpt-simd-mul
 pkg:cargo/tpt-simd-ntt
+pkg:cargo/tpt-simd-permute
 pkg:cargo/tpt-simd-pixel
+pkg:cargo/tpt-simd-reduce
+pkg:cargo/tpt-simd-rng
+pkg:cargo/tpt-simd-rounding
+pkg:cargo/tpt-simd-saturate
+pkg:cargo/tpt-simd-scatter
 pkg:cargo/tpt-simd-search
+pkg:cargo/tpt-simd-select
+pkg:cargo/tpt-simd-shift
 pkg:cargo/tpt-simd-sort
+pkg:cargo/tpt-simd-sparse
 pkg:cargo/tpt-simd-text
 pkg:cargo/tpt-simd-transpose
 pkg:cargo/tpt-simd-vector
+pkg:cargo/tpt-simd-window
 pkg:cargo/tpt-snapshot-lite
 pkg:cargo/tpt-telos
 pkg:cargo/tpt-telos-agent
@@ -280572,7 +280656,15 @@ pkg:cargo/transmutter
 pkg:cargo/transmux
 pkg:cargo/transparent
 pkg:cargo/transparent-classroom-photos-grabber-rs
+pkg:cargo/transparent-events
+pkg:cargo/transparent-filter
 pkg:cargo/transparent-mod
+pkg:cargo/transparent-native
+pkg:cargo/transparent-shard
+pkg:cargo/transparent-shard-server
+pkg:cargo/transparent-txid-client
+pkg:cargo/transparent-wallet
+pkg:cargo/transparent-wallet-store
 pkg:cargo/transparent-wrapper
 pkg:cargo/transparent-wrapper-derive
 pkg:cargo/transparent_proxy
@@ -282228,6 +282320,7 @@ pkg:cargo/trinkets
 pkg:cargo/trino
 pkg:cargo/trino-rust-client
 pkg:cargo/trino-rust-client-macros
+pkg:cargo/triode
 pkg:cargo/triomphe
 pkg:cargo/trion
 pkg:cargo/trios-agents
@@ -282322,6 +282415,7 @@ pkg:cargo/trisult-macros
 pkg:cargo/trisync
 pkg:cargo/trit
 pkg:cargo/trit-vsa
+pkg:cargo/trit_engine
 pkg:cargo/trit_macro
 pkg:cargo/tritet
 pkg:cargo/trithemius
@@ -296286,6 +296380,7 @@ pkg:cargo/vivid_protocol
 pkg:cargo/vivid_sdk
 pkg:cargo/vivida
 pkg:cargo/vivido
+pkg:cargo/vivido-mcp
 pkg:cargo/vividry
 pkg:cargo/vividtext
 pkg:cargo/vivify
@@ -305593,6 +305688,7 @@ pkg:cargo/woodpecker-plugin
 pkg:cargo/woodpecker-todo
 pkg:cargo/woodpecker_ui
 pkg:cargo/woodpecker_ui_macros
+pkg:cargo/woodruffw-trough-tree-sitter-powershell
 pkg:cargo/woodshed
 pkg:cargo/woody
 pkg:cargo/woody_bay
@@ -306105,6 +306201,7 @@ pkg:cargo/world_id
 pkg:cargo/world_id_sdk
 pkg:cargo/world_image_file
 pkg:cargo/world_magnetic_model
+pkg:cargo/world_model
 pkg:cargo/world_news
 pkg:cargo/world_rules
 pkg:cargo/worldant-cli
@@ -313677,6 +313774,7 @@ pkg:cargo/zika
 pkg:cargo/ziku-algorithms
 pkg:cargo/ziku-crdts
 pkg:cargo/ziku-pds
+pkg:cargo/zil-cli
 pkg:cargo/zila
 pkg:cargo/zilean
 pkg:cargo/zilla-muf
@@ -313908,6 +314006,12 @@ pkg:cargo/zipkirei
 pkg:cargo/ziplark-cli
 pkg:cargo/ziplark-core
 pkg:cargo/ziplark-mcp
+pkg:cargo/zipline
+pkg:cargo/zipline-bevy
+pkg:cargo/zipline-dock
+pkg:cargo/zipline-plot
+pkg:cargo/zipline-ui
+pkg:cargo/zipline-wgpu
 pkg:cargo/ziplyn
 pkg:cargo/zipng
 pkg:cargo/zipora
@@ -313946,6 +314050,7 @@ pkg:cargo/zircon
 pkg:cargo/zirconium
 pkg:cargo/zirium
 pkg:cargo/ziro
+pkg:cargo/zirql
 pkg:cargo/zirv-config
 pkg:cargo/zirv-db
 pkg:cargo/zirv-db-sqlx
