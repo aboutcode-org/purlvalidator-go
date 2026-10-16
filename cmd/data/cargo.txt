@@ -70849,8 +70849,12 @@ pkg:cargo/docmatic
 pkg:cargo/docmd
 pkg:cargo/docments
 pkg:cargo/docments-macros
+pkg:cargo/docmux-ast
+pkg:cargo/docmux-cli
+pkg:cargo/docmux-core
 pkg:cargo/docmux-highlight
 pkg:cargo/docmux-pipeline
+pkg:cargo/docmux-reader-docx
 pkg:cargo/docmux-reader-html
 pkg:cargo/docmux-reader-latex
 pkg:cargo/docmux-reader-markdown
@@ -71175,6 +71179,7 @@ pkg:cargo/dogsoap
 pkg:cargo/dogstatsd
 pkg:cargo/dogtail
 pkg:cargo/dogwood
+pkg:cargo/dogwood-cli
 pkg:cargo/dogwood-language
 pkg:cargo/dogwood-local-engine
 pkg:cargo/dogwood_engine
@@ -143596,6 +143601,7 @@ pkg:cargo/libsodium_seeded_prng
 pkg:cargo/libsoliton
 pkg:cargo/libsoliton_capi
 pkg:cargo/libsolv-sys
+pkg:cargo/libsonic
 pkg:cargo/libsort
 pkg:cargo/libsoundio-sys
 pkg:cargo/libsox-sys
@@ -144214,6 +144220,7 @@ pkg:cargo/lieui-layout
 pkg:cargo/lieui-text
 pkg:cargo/lieval
 pkg:cargo/lievisual
+pkg:cargo/lievo
 pkg:cargo/lievre
 pkg:cargo/lievre-live
 pkg:cargo/lievre-standalone
@@ -144452,6 +144459,7 @@ pkg:cargo/lightbird
 pkg:cargo/lightchain
 pkg:cargo/lightcone
 pkg:cargo/lightcone-sdk
+pkg:cargo/lightcraft
 pkg:cargo/lightctl
 pkg:cargo/lightcurve-fitting
 pkg:cargo/lightcycle
@@ -144478,6 +144486,7 @@ pkg:cargo/lightflow-macros
 pkg:cargo/lightflow-rig-llm
 pkg:cargo/lightflow-std
 pkg:cargo/lightgbm
+pkg:cargo/lightgbm-metal-rs
 pkg:cargo/lightgbm-rust
 pkg:cargo/lightgbm-sys
 pkg:cargo/lightgbm2
@@ -144973,6 +144982,10 @@ pkg:cargo/limix
 pkg:cargo/limma-rust
 pkg:cargo/limmat
 pkg:cargo/limn
+pkg:cargo/limn-dnd
+pkg:cargo/limn-editor
+pkg:cargo/limn-egui
+pkg:cargo/limn-language
 pkg:cargo/limn-layout
 pkg:cargo/limn-text_layout
 pkg:cargo/limner
@@ -214862,6 +214875,7 @@ pkg:cargo/raw-syscall-base
 pkg:cargo/raw-syscall-enumerated
 pkg:cargo/raw-to-img
 pkg:cargo/raw-transmute
+pkg:cargo/raw-traversal
 pkg:cargo/raw-vec
 pkg:cargo/raw-window-handle
 pkg:cargo/raw-window-handle-extensions
@@ -243829,6 +243843,7 @@ pkg:cargo/shadowDefault
 pkg:cargo/shadow_counted
 pkg:cargo/shadow_engine_2d
 pkg:cargo/shadowaitools
+pkg:cargo/shadowbox
 pkg:cargo/shadowcast
 pkg:cargo/shadowcaster
 pkg:cargo/shadowcat
@@ -272813,6 +272828,7 @@ pkg:cargo/tf-idf-vectorizer
 pkg:cargo/tf-kubernetes
 pkg:cargo/tf-lance-graph
 pkg:cargo/tf-lance-graph-catalog
+pkg:cargo/tf-luna
 pkg:cargo/tf-luna-rs
 pkg:cargo/tf-macros
 pkg:cargo/tf-otel
@@ -279735,6 +279751,7 @@ pkg:cargo/tracel-experiment
 pkg:cargo/tracel-experiment-remote
 pkg:cargo/tracel-fleet
 pkg:cargo/tracel-inference
+pkg:cargo/tracel-job
 pkg:cargo/tracel-llvm
 pkg:cargo/tracel-llvm-bundler
 pkg:cargo/tracel-macros
@@ -280478,6 +280495,8 @@ pkg:cargo/tramex
 pkg:cargo/tramex-tools
 pkg:cargo/tramli
 pkg:cargo/tramli-plugins
+pkg:cargo/tramlines
+pkg:cargo/tramlines-md
 pkg:cargo/trammel
 pkg:cargo/trammel-attrs
 pkg:cargo/tramorred
@@ -283126,6 +283145,7 @@ pkg:cargo/trustless-protocol
 pkg:cargo/trustless-provider-filesystem
 pkg:cargo/trustless-provider-lambda
 pkg:cargo/trustline-sdk
+pkg:cargo/trustlist-badge
 pkg:cargo/trustmark
 pkg:cargo/trustme
 pkg:cargo/trustmebro
@@ -305949,6 +305969,7 @@ pkg:cargo/wordval-utils
 pkg:cargo/wordval-web
 pkg:cargo/wordval-ws
 pkg:cargo/wordvec
+pkg:cargo/wordwall-leaderboard
 pkg:cargo/worf
 pkg:cargo/worf-hyprspace
 pkg:cargo/worf-hyprswitch
