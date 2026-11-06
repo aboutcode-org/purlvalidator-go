@@ -16008,6 +16008,7 @@ pkg:cargo/asset-importer-rs-obj
 pkg:cargo/asset-importer-rs-post-process
 pkg:cargo/asset-importer-rs-scene
 pkg:cargo/asset-importer-sys
+pkg:cargo/asset-io
 pkg:cargo/asset-lint
 pkg:cargo/asset-manager
 pkg:cargo/asset-picker
@@ -69050,6 +69051,7 @@ pkg:cargo/devp2p-secp256k1
 pkg:cargo/devpage
 pkg:cargo/devpage-core
 pkg:cargo/devpage-design
+pkg:cargo/devpage-extension-api
 pkg:cargo/devpane
 pkg:cargo/devpath
 pkg:cargo/devplan
@@ -85131,6 +85133,7 @@ pkg:cargo/event-notify
 pkg:cargo/event-observer
 pkg:cargo/event-plugin
 pkg:cargo/event-queue
+pkg:cargo/event-reduce
 pkg:cargo/event-reporting
 pkg:cargo/event-rs
 pkg:cargo/event-ruler
@@ -85468,8 +85471,13 @@ pkg:cargo/everymap-core
 pkg:cargo/everymap-providers-google
 pkg:cargo/everymap-providers-here
 pkg:cargo/everymap-providers-mapbox
+pkg:cargo/everymap-providers-mapquest
+pkg:cargo/everymap-providers-osrm
 pkg:cargo/everymap-providers-radar
 pkg:cargo/everymap-providers-tomtom
+pkg:cargo/everymap-providers-url-template-raster
+pkg:cargo/everymap-providers-url-template-vector
+pkg:cargo/everymap-providers-valhalla
 pkg:cargo/everyos
 pkg:cargo/everyport
 pkg:cargo/everyshape
@@ -94616,6 +94624,7 @@ pkg:cargo/fml-cli
 pkg:cargo/fml-engine
 pkg:cargo/fml-model
 pkg:cargo/fml-syntax
+pkg:cargo/fml-xml
 pkg:cargo/fmlmpeg
 pkg:cargo/fmlrc
 pkg:cargo/fmm
@@ -103272,6 +103281,15 @@ pkg:cargo/ghaladb
 pkg:cargo/ghapi
 pkg:cargo/gharial
 pkg:cargo/ghash
+pkg:cargo/ghast
+pkg:cargo/ghast-auth
+pkg:cargo/ghast-client
+pkg:cargo/ghast-data
+pkg:cargo/ghast-entity
+pkg:cargo/ghast-inventory
+pkg:cargo/ghast-physics
+pkg:cargo/ghast-protocol
+pkg:cargo/ghast-world
 pkg:cargo/ghastoolkit
 pkg:cargo/ghastoolkit-cli
 pkg:cargo/ghat
@@ -103350,6 +103368,11 @@ pkg:cargo/ghost-flow
 pkg:cargo/ghost-gc
 pkg:cargo/ghost-hands
 pkg:cargo/ghost-io-api
+pkg:cargo/ghost-layer
+pkg:cargo/ghost-layer-attacker
+pkg:cargo/ghost-layer-core
+pkg:cargo/ghost-layer-gateway
+pkg:cargo/ghost-layer-transport
 pkg:cargo/ghost-lib
 pkg:cargo/ghost-link
 pkg:cargo/ghost-lite
@@ -109516,6 +109539,23 @@ pkg:cargo/graft-kernel
 pkg:cargo/graft-proto
 pkg:cargo/graft-sqlite
 pkg:cargo/graft-tracing
+pkg:cargo/grafta
+pkg:cargo/grafta-app
+pkg:cargo/grafta-design
+pkg:cargo/grafta-disk
+pkg:cargo/grafta-domain
+pkg:cargo/grafta-edge
+pkg:cargo/grafta-figfile
+pkg:cargo/grafta-figjam
+pkg:cargo/grafta-kiwi
+pkg:cargo/grafta-mcp
+pkg:cargo/grafta-memory
+pkg:cargo/grafta-model
+pkg:cargo/grafta-render
+pkg:cargo/grafta-schema
+pkg:cargo/grafta-sites
+pkg:cargo/grafta-slides
+pkg:cargo/grafta-toolkit
 pkg:cargo/graftfs
 pkg:cargo/grafting
 pkg:cargo/grafting-frame
@@ -111242,6 +111282,7 @@ pkg:cargo/groundlens-record
 pkg:cargo/groundlens-runtime
 pkg:cargo/groundlens-text
 pkg:cargo/groundlens-verifiers
+pkg:cargo/groundmail
 pkg:cargo/groundmodels-core
 pkg:cargo/groundstation
 pkg:cargo/groundstation-adapter-claude-code
@@ -123967,6 +124008,9 @@ pkg:cargo/iet-config
 pkg:cargo/iet-config-env
 pkg:cargo/iet-config-macros
 pkg:cargo/iet-core
+pkg:cargo/iet-dashboard
+pkg:cargo/iet-dashboard-runtime
+pkg:cargo/iet-dashboard-ui
 pkg:cargo/iet-db
 pkg:cargo/iet-db-cli
 pkg:cargo/iet-db-macros
@@ -123976,6 +124020,9 @@ pkg:cargo/iet-features
 pkg:cargo/iet-features-timescale
 pkg:cargo/iet-http-axum
 pkg:cargo/iet-http-htmx-axum
+pkg:cargo/iet-jobs
+pkg:cargo/iet-jobs-timescale
+pkg:cargo/iet-jobs-tokio
 pkg:cargo/iet-messaging
 pkg:cargo/iet-messaging-adapters
 pkg:cargo/iet-messaging-avro
@@ -131218,6 +131265,7 @@ pkg:cargo/jfn
 pkg:cargo/jfp
 pkg:cargo/jfp-box
 pkg:cargo/jfp-box-agent
+pkg:cargo/jfp-contract
 pkg:cargo/jfp-edge-radar
 pkg:cargo/jfrog_quotes
 pkg:cargo/jfrs
@@ -139739,6 +139787,7 @@ pkg:cargo/kozan-vello
 pkg:cargo/kozan-winit
 pkg:cargo/kozo
 pkg:cargo/kp
+pkg:cargo/kp-cli
 pkg:cargo/kp_heuristics
 pkg:cargo/kpack
 pkg:cargo/kpal
@@ -150361,6 +150410,12 @@ pkg:cargo/litehouse-plugin
 pkg:cargo/litehouse-plugin-macro
 pkg:cargo/litehtml
 pkg:cargo/litehtml-sys
+pkg:cargo/liteinst
+pkg:cargo/liteinst-admission
+pkg:cargo/liteinst-artifact
+pkg:cargo/liteinst-inprocess
+pkg:cargo/liteinst-launch
+pkg:cargo/liteinst-x86
 pkg:cargo/liteinst2
 pkg:cargo/litek8s
 pkg:cargo/litekv
@@ -187176,9 +187231,11 @@ pkg:cargo/omochi-cli
 pkg:cargo/omochi-gateway
 pkg:cargo/omochi-hub
 pkg:cargo/omochi-local-discovery
+pkg:cargo/omochi-mdns
 pkg:cargo/omochi-protocol
 pkg:cargo/omochi-transport
 pkg:cargo/omochi-ui
+pkg:cargo/omochi-ui-macros
 pkg:cargo/omochi-utils
 pkg:cargo/omocl
 pkg:cargo/omoikane
@@ -199419,6 +199476,14 @@ pkg:cargo/peerrs-binarypack
 pkg:cargo/peersey
 pkg:cargo/peertalk
 pkg:cargo/peertube
+pkg:cargo/peerwire
+pkg:cargo/peerwire-core
+pkg:cargo/peerwire-esp
+pkg:cargo/peerwire-ffi
+pkg:cargo/peerwire-game
+pkg:cargo/peerwire-peer
+pkg:cargo/peerwire-sim
+pkg:cargo/peerwire-sync
 pkg:cargo/pef
 pkg:cargo/peft-rs
 pkg:cargo/peg
@@ -199489,6 +199554,7 @@ pkg:cargo/pelagos
 pkg:cargo/pelcodrs
 pkg:cargo/pele-rustdoc
 pkg:cargo/peleka
+pkg:cargo/pelers
 pkg:cargo/pelf
 pkg:cargo/pelican
 pkg:cargo/pelican_macro
@@ -200346,6 +200412,8 @@ pkg:cargo/persian_str_rs
 pkg:cargo/persichetti
 pkg:cargo/persil
 pkg:cargo/persimmon
+pkg:cargo/persimmon-cli
+pkg:cargo/persimmon-core
 pkg:cargo/persist
 pkg:cargo/persist-core
 pkg:cargo/persist-daemon
@@ -200451,6 +200519,7 @@ pkg:cargo/perspecta
 pkg:cargo/perspective
 pkg:cargo/perspective-client
 pkg:cargo/perspective-js
+pkg:cargo/perspective-migrate
 pkg:cargo/perspective-python
 pkg:cargo/perspective-server
 pkg:cargo/perspective-viewer
@@ -214411,6 +214480,8 @@ pkg:cargo/qrcode
 pkg:cargo/qrcode-ai-scanner
 pkg:cargo/qrcode-ai-scanner-cli
 pkg:cargo/qrcode-ai-scanner-core
+pkg:cargo/qrcode-barcode-scanner
+pkg:cargo/qrcode-barcode-scanner-cli
 pkg:cargo/qrcode-cli
 pkg:cargo/qrcode-core
 pkg:cargo/qrcode-decode
@@ -214475,6 +214546,7 @@ pkg:cargo/qroc
 pkg:cargo/qrock
 pkg:cargo/qrosity
 pkg:cargo/qrotate
+pkg:cargo/qrow
 pkg:cargo/qrpc
 pkg:cargo/qrpc-broker
 pkg:cargo/qrpc-sdk
@@ -215399,6 +215471,7 @@ pkg:cargo/qubit-rayon-batch
 pkg:cargo/qubit-rayon-executor
 pkg:cargo/qubit-redact
 pkg:cargo/qubit-redact-derive
+pkg:cargo/qubit-redis
 pkg:cargo/qubit-retry
 pkg:cargo/qubit-sanitize
 pkg:cargo/qubit-serde
@@ -220028,6 +220101,7 @@ pkg:cargo/rav1d-cli
 pkg:cargo/rav1d-disjoint-mut
 pkg:cargo/rav1d-safe
 pkg:cargo/rav1e
+pkg:cargo/rav1r
 pkg:cargo/rav2d
 pkg:cargo/rav2d-cli
 pkg:cargo/rav2d-sys
@@ -245807,6 +245881,7 @@ pkg:cargo/seedance_2_5
 pkg:cargo/seedance_3
 pkg:cargo/seedance_3_org
 pkg:cargo/seedance_ai_video
+pkg:cargo/seedbed
 pkg:cargo/seedbox
 pkg:cargo/seeddb
 pkg:cargo/seeded-random
@@ -246067,6 +246142,15 @@ pkg:cargo/seiso_diagnostics
 pkg:cargo/seiso_md
 pkg:cargo/seite
 pkg:cargo/seiten
+pkg:cargo/seiva-auth
+pkg:cargo/seiva-config
+pkg:cargo/seiva-cqrs
+pkg:cargo/seiva-identity
+pkg:cargo/seiva-macros
+pkg:cargo/seiva-messaging
+pkg:cargo/seiva-ports
+pkg:cargo/seiva-testing
+pkg:cargo/seiva-webhooks
 pkg:cargo/seiza
 pkg:cargo/seiza-analysis
 pkg:cargo/seiza-background
@@ -280895,6 +280979,7 @@ pkg:cargo/timer
 pkg:cargo/timer-cli
 pkg:cargo/timer-cli-rs
 pkg:cargo/timer-deque-rs
+pkg:cargo/timer-grid
 pkg:cargo/timer-kit
 pkg:cargo/timer-lib
 pkg:cargo/timer-no-std
@@ -285782,6 +285867,7 @@ pkg:cargo/tquest
 pkg:cargo/tquic
 pkg:cargo/tquic-mimic-chromium-client
 pkg:cargo/tquic_tools
+pkg:cargo/tquil
 pkg:cargo/tquilla-api-types
 pkg:cargo/tr
 pkg:cargo/tr-finder
@@ -301863,6 +301949,8 @@ pkg:cargo/vidi-smol
 pkg:cargo/vidi-tower
 pkg:cargo/vidium
 pkg:cargo/vidleft
+pkg:cargo/vidr
+pkg:cargo/vidr-remaster
 pkg:cargo/vidsage
 pkg:cargo/vidsage-core
 pkg:cargo/vidsage-ffmpeg
@@ -302530,7 +302618,9 @@ pkg:cargo/virtualcam
 pkg:cargo/virtualcam-rs
 pkg:cargo/virtualdj-plugin-sdk
 pkg:cargo/virtualenv-rs
+pkg:cargo/virtualization
 pkg:cargo/virtualization-rs
+pkg:cargo/virtualization-sys
 pkg:cargo/virtualizer
 pkg:cargo/virtualizer-adapter
 pkg:cargo/virtualport
@@ -304258,6 +304348,7 @@ pkg:cargo/vpn-shroud
 pkg:cargo/vpn-tool
 pkg:cargo/vpn-tool-cli
 pkg:cargo/vpn_client
+pkg:cargo/vpnchecker
 pkg:cargo/vpncli
 pkg:cargo/vpncloud
 pkg:cargo/vpndetection
