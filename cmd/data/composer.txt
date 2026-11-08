@@ -215625,6 +215625,7 @@ pkg:composer/mltpss/php-sdk
 pkg:composer/mltpss/symfony-bundle
 pkg:composer/mltstephane/blade-ui
 pkg:composer/mltstephane/laravel-buffer
+pkg:composer/mltstephane/laravel-quality
 pkg:composer/mltstephane/laravel-stubs
 pkg:composer/mlucas/invoiceiq-bundle
 pkg:composer/mludvik/yii2-gopay
@@ -224675,6 +224676,7 @@ pkg:composer/mzm/html-builder
 pkg:composer/mzm/mydigitalid
 pkg:composer/mzm/phpsso
 pkg:composer/mzm/sso
+pkg:composer/mzm/ssophp
 pkg:composer/mzmatbj/common
 pkg:composer/mzmatbj/test
 pkg:composer/mzohaibnaz/neosocket
@@ -229268,9 +229270,12 @@ pkg:composer/netherphp/common
 pkg:composer/netherphp/composer-plugin
 pkg:composer/netherphp/console
 pkg:composer/netherphp/database
+pkg:composer/netherphp/datastore
 pkg:composer/netherphp/empty
+pkg:composer/netherphp/filter
 pkg:composer/netherphp/input
 pkg:composer/netherphp/ki
+pkg:composer/netherphp/meta
 pkg:composer/netherphp/object
 pkg:composer/netherphp/onescript
 pkg:composer/netherphp/option
@@ -231775,6 +231780,7 @@ pkg:composer/nickel715/website-monitoring
 pkg:composer/nickelit/html
 pkg:composer/nickescobedo/cambia
 pkg:composer/nickescobedo/microbilt-php
+pkg:composer/nickfairchild/kinsta-php-sdk
 pkg:composer/nickfairchild/kynda
 pkg:composer/nickfairchild/kynda-framework
 pkg:composer/nickfairchild/kynda-installer
@@ -233553,6 +233559,7 @@ pkg:composer/nmalo/dompdf-bundle
 pkg:composer/nmalo/fos-user-bundle
 pkg:composer/nmalservet/php-requirements-checker
 pkg:composer/nmangold/blt-project
+pkg:composer/nmangold/drush-updbex
 pkg:composer/nmapx/bmdm-soundex
 pkg:composer/nmapx/couchbase-migrations
 pkg:composer/nmapx/couchbase-stubs
@@ -234136,6 +234143,7 @@ pkg:composer/nolanos/laravel-model-typescript-transfomer
 pkg:composer/nolanpro/pm4-sdk-php
 pkg:composer/nolazybits/propel2-geocodable-behavior
 pkg:composer/noldor/carbon-yasumi-mixin
+pkg:composer/noldors/deptrac-config
 pkg:composer/noldors/lighthouse-extensions
 pkg:composer/noldors/lighthouse-idempotency
 pkg:composer/noldors/phpcsfixer-rules
@@ -234539,6 +234547,7 @@ pkg:composer/nordsoftware/yii-paytrail
 pkg:composer/nordsoftware/yii2-account
 pkg:composer/nordsoftware/yii2-file-manager
 pkg:composer/nordsoftware/yii2-password
+pkg:composer/nordwerk/contao-advent-calendar-bundle
 pkg:composer/nordwerk/contao-carousel-bundle
 pkg:composer/nordwerk/contao-gallery-bundle
 pkg:composer/nordwerk/contao-payment-bundle
@@ -237007,6 +237016,7 @@ pkg:composer/nyoncode/laravel-backup-manager
 pkg:composer/nyoncode/laravel-czech-holidays
 pkg:composer/nyoncode/laravel-czech-names
 pkg:composer/nyoncode/laravel-knowledge-base
+pkg:composer/nyoncode/laravel-package-console
 pkg:composer/nyoncode/laravel-package-skeleton
 pkg:composer/nyoncode/laravel-package-toolkit
 pkg:composer/nyoncode/laravel-permission-extended
@@ -243141,6 +243151,7 @@ pkg:composer/opscale-co/nova-comments
 pkg:composer/opscale-co/nova-dbml-field
 pkg:composer/opscale-co/nova-dynamic-resources
 pkg:composer/opscale-co/nova-figma-field
+pkg:composer/opscale-co/nova-genbi
 pkg:composer/opscale-co/nova-geospatial-fields
 pkg:composer/opscale-co/nova-mailbox
 pkg:composer/opscale-co/nova-mcp
@@ -245345,6 +245356,7 @@ pkg:composer/oudmane/oudyplat
 pkg:composer/ougar/docheader
 pkg:composer/ouhaohan8023/easy-rbac
 pkg:composer/ouhaohan8023/id-info
+pkg:composer/ouhssini/laravel-demo-mode
 pkg:composer/oui/oui_cookie
 pkg:composer/oui/oui_flat
 pkg:composer/oui/oui_instagram
@@ -247049,6 +247061,7 @@ pkg:composer/packagefactory/hyphenate
 pkg:composer/packagefactory/neos-component-engine
 pkg:composer/packagefactory/neos-componentview
 pkg:composer/packagefactory/neos-futurefeatures
+pkg:composer/packagefactory/neos-mysql-content-graph-queries
 pkg:composer/packagefactory/php-component-engine
 pkg:composer/packagefactory/phpunit-custom-assertions
 pkg:composer/packagefactory/specification
@@ -250097,6 +250110,7 @@ pkg:composer/payer/pyramid_api-soap_client
 pkg:composer/payer/sdk
 pkg:composer/payerurl/binance-and-crypto-checkout
 pkg:composer/payerurl/telegram-crypto-gateway-instant-payout
+pkg:composer/payerurl/telegrambot-crypto-payment-instant-payout
 pkg:composer/payever/core-sdk-php
 pkg:composer/payever/logger-sdk-php
 pkg:composer/payever/payever-integration-orocommerce
@@ -253198,6 +253212,9 @@ pkg:composer/phact-org/phact
 pkg:composer/phactor/doctrine
 pkg:composer/phactor/phactor
 pkg:composer/phadaphunk/scrippy
+pkg:composer/phaenon/concurrent
+pkg:composer/phaenon/phn
+pkg:composer/phaenon/runtime
 pkg:composer/phaidon/bootstrap-media-lightbox
 pkg:composer/phainv/bbcodeparser
 pkg:composer/phake/phake
@@ -253455,6 +253472,7 @@ pkg:composer/pharaonic/laravel-menus
 pkg:composer/pharaonic/laravel-messages
 pkg:composer/pharaonic/laravel-modulator
 pkg:composer/pharaonic/laravel-money
+pkg:composer/pharaonic/laravel-notification-dependencies
 pkg:composer/pharaonic/laravel-pages
 pkg:composer/pharaonic/laravel-readable
 pkg:composer/pharaonic/laravel-relational
@@ -254801,6 +254819,8 @@ pkg:composer/php-concept/brick-session-symfony
 pkg:composer/php-concept/brick-telemetry
 pkg:composer/php-concept/brick-validation-rakit
 pkg:composer/php-concept/brick-view
+pkg:composer/php-concept/brick-view-plates
+pkg:composer/php-concept/brick-view-twig
 pkg:composer/php-concept/core
 pkg:composer/php-concept/core-2
 pkg:composer/php-concept/extension-casting-valinor
@@ -258409,6 +258429,7 @@ pkg:composer/phuxtil/flysystem-ssh-shell
 pkg:composer/phuxtil/splfileinfo
 pkg:composer/phuxtil/stat
 pkg:composer/phuze/php-cosmos
+pkg:composer/phview/framework
 pkg:composer/phwoolcon/bootstrap
 pkg:composer/phwoolcon/ci-pecl-cacher
 pkg:composer/phwoolcon/fsm
@@ -261925,7 +261946,9 @@ pkg:composer/pnpk/japanese-calender
 pkg:composer/pnqi/ethereum-client
 pkg:composer/pnrhost/vidtodash
 pkg:composer/pns/laravel-qbo
+pkg:composer/pnscripts/filament-broadquill-lite
 pkg:composer/pnscripts/laravel-proverka-lite
+pkg:composer/pnscripts/laravel-sentfold-lite
 pkg:composer/pnscripts/pn-invoice
 pkg:composer/pnscripts/pn-press
 pkg:composer/pnscripts/pn-shop
@@ -264628,8 +264651,23 @@ pkg:composer/prestashopcorp/module-lib-billing
 pkg:composer/prestashopcorp/oauth2-prestashop
 pkg:composer/prestashopcorp/ps_facebook
 pkg:composer/prestashopcorp/psxmarketingwithgoogle
+pkg:composer/prestashopheaven/build-coding-standard
+pkg:composer/prestashopheaven/build-external
+pkg:composer/prestashopheaven/build-package-index
+pkg:composer/prestashopheaven/build-prestashop-index
+pkg:composer/prestashopheaven/build-testing-js
+pkg:composer/prestashopheaven/build-testing-php
+pkg:composer/prestashopheaven/build-tools
+pkg:composer/prestashopheaven/build-typescript
 pkg:composer/prestashopheaven/module-dev-tools
 pkg:composer/prestashopheaven/module-kit
+pkg:composer/prestashopheaven/runtime-admin-assets
+pkg:composer/prestashopheaven/runtime-clock
+pkg:composer/prestashopheaven/runtime-cqrs
+pkg:composer/prestashopheaven/runtime-cron
+pkg:composer/prestashopheaven/runtime-kit
+pkg:composer/prestashopheaven/runtime-multistore
+pkg:composer/prestashopheaven/runtime-shared-kernel
 pkg:composer/prestaware/prestasdk
 pkg:composer/prestep/contao-booking-plan-bundle
 pkg:composer/prestep/contao-event-registration-bundle
@@ -268300,6 +268338,7 @@ pkg:composer/pygon-git/plugin-core
 pkg:composer/pygroos/moant
 pkg:composer/pygroos/molib
 pkg:composer/pyguerder/rce-demo
+pkg:composer/pyhp/pyhp
 pkg:composer/pyivanov/password-package
 pkg:composer/pyjcoder/php-graph-sdk
 pkg:composer/pyjhyssc/laravel_lin_cms
@@ -269967,6 +270006,11 @@ pkg:composer/qubit-hq/verifip
 pkg:composer/qubit/segments
 pkg:composer/qubit05/phpunit-mockfunction
 pkg:composer/qubitma/api-response
+pkg:composer/qubrics/core
+pkg:composer/qubrics/mailbox
+pkg:composer/qubrics/management
+pkg:composer/qubrics/sdk
+pkg:composer/qubrics/sending
 pkg:composer/qubus/cache
 pkg:composer/qubus/coding-standard
 pkg:composer/qubus/config
@@ -273058,6 +273102,7 @@ pkg:composer/rapttor/yii2-feedback
 pkg:composer/rapttor/yii2-legal
 pkg:composer/rapttor/yii2-metadata
 pkg:composer/rapttor/yii2-payment
+pkg:composer/rapttor/yii2-postar
 pkg:composer/rapttor/yii2-themes
 pkg:composer/rapulu/laravelngphonepassword
 pkg:composer/rapyd/rapydmagento2
@@ -273795,6 +273840,7 @@ pkg:composer/raylin666/pool
 pkg:composer/raylin666/routing
 pkg:composer/raylin666/server
 pkg:composer/raylin666/utils
+pkg:composer/raylongsolutions/gst-gateway
 pkg:composer/raymon/captcha
 pkg:composer/raymond-byczko/who-is-around-who
 pkg:composer/raymond/baselib
@@ -274381,6 +274427,7 @@ pkg:composer/reachweb/statamic-easy-forms
 pkg:composer/reachweb/statamic-keila-integration
 pkg:composer/reachweb/statamic-livewire-filters
 pkg:composer/reachweb/statamic-resrv
+pkg:composer/reachweb/statamic-tolk
 pkg:composer/reacon-io/sdk
 pkg:composer/react-inspector/bunny
 pkg:composer/react-inspector/cache
@@ -274523,6 +274570,7 @@ pkg:composer/reader/tim-util
 pkg:composer/readerstacks/migrateexcel
 pkg:composer/readerstacks/querymigration
 pkg:composer/readerstacks/reportmanager
+pkg:composer/readfly/laravel
 pkg:composer/readme/metrics
 pkg:composer/readspeaker/readspeaker-services
 pkg:composer/ready-dev-team/nbp-web-api
@@ -274649,6 +274697,7 @@ pkg:composer/realpage/builder
 pkg:composer/realpage/json-api-for-lumen
 pkg:composer/realpage/simple-cache
 pkg:composer/realpage/waves
+pkg:composer/realrashid/beam
 pkg:composer/realrashid/cart
 pkg:composer/realrashid/laravel-driverjs
 pkg:composer/realrashid/laravel-zoho-cliq
@@ -274665,6 +274714,7 @@ pkg:composer/realshadow/request-deserializer
 pkg:composer/realshadow/satis-control-panel
 pkg:composer/realshadow/serializers
 pkg:composer/realsocius/api-crud-generator
+pkg:composer/realsoftgt/onneb-migration
 pkg:composer/realsoftgt/sap-b1-sl
 pkg:composer/realtek2/laravel-multilingual
 pkg:composer/realtemirov/laravel-trend
@@ -274685,6 +274735,7 @@ pkg:composer/realzark/weather
 pkg:composer/realzone22/daisyblade
 pkg:composer/realzone22/larahooks
 pkg:composer/realzone22/laravel-query-gate
+pkg:composer/realzone22/nativeblade
 pkg:composer/realzone22/pengublade
 pkg:composer/realzone22/pengutables
 pkg:composer/rean/pdo-object
@@ -274862,6 +274913,7 @@ pkg:composer/rebzya/openapi-testing
 pkg:composer/recado/recado-php
 pkg:composer/recallg/makepass
 pkg:composer/recanalyst/recanalyst
+pkg:composer/recapi/client
 pkg:composer/recaptcha-lib/recaptcha
 pkg:composer/recaptcha/php5
 pkg:composer/recaptcha/php5-v2
@@ -275601,6 +275653,7 @@ pkg:composer/refatbd/free-fire-php
 pkg:composer/refatbd/game-account-lookup
 pkg:composer/refatbd/laravel-free-fire
 pkg:composer/refatrar/dynamic-dashboard-design
+pkg:composer/refberg/sylius-payu-plugin
 pkg:composer/refbw/uniform-simple-captcha
 pkg:composer/refbytes/filament-laravel-scout
 pkg:composer/refbytes/laravel-outseta
@@ -275989,6 +276042,7 @@ pkg:composer/reioto/pimple-register
 pkg:composer/reioto/unittest-skeleton
 pkg:composer/reioto/zend-db-testcase
 pkg:composer/reioto/zend-mailj
+pkg:composer/reirev/fastgtp
 pkg:composer/reis/amazon-mws
 pkg:composer/reis/filesystem-adapter
 pkg:composer/reis/stelo-sdk
@@ -276073,6 +276127,9 @@ pkg:composer/rekasso/contact
 pkg:composer/reketaka/yii2-comments
 pkg:composer/reketaka/yii2-helps
 pkg:composer/reketaka/yii2-nodes-tree
+pkg:composer/rekhu/assistant-laravel
+pkg:composer/rekhu/core
+pkg:composer/rekhu/laravel-dev
 pkg:composer/rekhyt/ddd-base
 pkg:composer/rekhyt/dto
 pkg:composer/rekhyt/php-dependency-checker
@@ -276125,6 +276182,7 @@ pkg:composer/relayaa/relaya-php
 pkg:composer/relaybell/relaybell-php
 pkg:composer/relayercore/laravel-installer
 pkg:composer/relaylayerio/laravel-inbound
+pkg:composer/relaylayerio/laravel-notification
 pkg:composer/relaypay-official/merchant-php-client
 pkg:composer/relaypay-official/merchant-php-sdk
 pkg:composer/relaypay/payment
@@ -276135,6 +276193,7 @@ pkg:composer/relaypoint/kiala
 pkg:composer/relaypoint/mondialrelay
 pkg:composer/relaystacks/conduit-php
 pkg:composer/relaystacks/laravel-conduit
+pkg:composer/relaywa/sdk
 pkg:composer/relaywarden/php-sdk
 pkg:composer/relbraun/hello_world
 pkg:composer/relbraun/mp4info
@@ -276157,6 +276216,7 @@ pkg:composer/relewise/client
 pkg:composer/relflly/progression
 pkg:composer/reliably/reliably
 pkg:composer/reliant/reliant-php
+pkg:composer/relicsoftware/barakah-payment-gateway
 pkg:composer/relictadev/relicta-filemanager
 pkg:composer/relictos/flash
 pkg:composer/relictos/oauth2-bnet
@@ -276259,6 +276319,7 @@ pkg:composer/rellix/dismissibles-for-laravel
 pkg:composer/relnaggar/veloz
 pkg:composer/reload-lab/fatture-elettroniche
 pkg:composer/reload/cpr
+pkg:composer/reload/dead-code-detector-drupal
 pkg:composer/reload/jira-security-issue
 pkg:composer/reload/os2display-slide-tools
 pkg:composer/reloaded/uri-builder
@@ -276300,6 +276361,9 @@ pkg:composer/rem42/scraper-tnt
 pkg:composer/rem42/scraper-trustpilot
 pkg:composer/rem42/scraper-ups
 pkg:composer/rem42/scraper-zakeke
+pkg:composer/rem42/shadcn-admin-ui
+pkg:composer/rem42/sylius-admin-kit-bundle
+pkg:composer/rem42/sylius-ui-show-bundle
 pkg:composer/remade/flutterwave-php
 pkg:composer/remade/rave-widget
 pkg:composer/reman0214/z-helper
@@ -276682,6 +276746,7 @@ pkg:composer/renekorss/personal-id-code-php
 pkg:composer/renekorss/phpexcelformatter
 pkg:composer/renekreupl/phoenix-monitor
 pkg:composer/renekreupl/phoenix-monitor-laravel
+pkg:composer/renekreupl/phoenix-monitor-shopware
 pkg:composer/renekreupl/phoenix_base
 pkg:composer/renemdeo/apistarter
 pkg:composer/renepardon/croppa
@@ -276698,6 +276763,7 @@ pkg:composer/reneschmidt/simpleorm
 pkg:composer/renesis-tech/monday-logger
 pkg:composer/renexx/qrcode
 pkg:composer/renfan/face
+pkg:composer/renfire/tbp
 pkg:composer/renfordt/clamp
 pkg:composer/renfordt/colors
 pkg:composer/renfordt/icstorm
@@ -277028,6 +277094,7 @@ pkg:composer/reqser/shopware-plugin
 pkg:composer/request-atlas/laravel
 pkg:composer/request-interop/impl
 pkg:composer/request-interop/interface
+pkg:composer/request-labs/steward-laravel
 pkg:composer/request-log/log-request-package
 pkg:composer/request-tracing/request-tracing-bundle
 pkg:composer/request/web2sms
@@ -277328,6 +277395,7 @@ pkg:composer/restruct/silverstripe-mfa-bundle
 pkg:composer/restruct/silverstripe-namedlinkfield
 pkg:composer/restruct/silverstripe-newsgrid
 pkg:composer/restruct/silverstripe-oembeddable
+pkg:composer/restruct/silverstripe-queuedjobs-enhancements
 pkg:composer/restruct/silverstripe-quickaddnew
 pkg:composer/restruct/silverstripe-rightsidebar
 pkg:composer/restruct/silverstripe-shortcodable
@@ -277691,6 +277759,7 @@ pkg:composer/rewards-wise/onesignal-laravel
 pkg:composer/rewards-wise/plaid-sdk-php
 pkg:composer/rewardswise/yodlee-sdk-php
 pkg:composer/rewi.sh/craft-mcp
+pkg:composer/rewi.sh/menu
 pkg:composer/rewieer/taskschedulerbundle
 pkg:composer/rewloy/rewloy-php
 pkg:composer/reworck/filament-settings
@@ -277950,6 +278019,7 @@ pkg:composer/rfilipo/ferro
 pkg:composer/rfink/edmunds-bundle
 pkg:composer/rfink/edmunds-php-api
 pkg:composer/rflatti/shopifyapp
+pkg:composer/rflex/analytics-laravel
 pkg:composer/rflex/period
 pkg:composer/rfmhb2/convert-migrations
 pkg:composer/rfmhb2/sadad-laravel
@@ -277963,6 +278033,7 @@ pkg:composer/rfpludwick/aws-route53-ddns-php-client
 pkg:composer/rfpludwick/phpcs-teamcity-report
 pkg:composer/rfrommherz/api
 pkg:composer/rfs/buscador-cursos
+pkg:composer/rft/laravel-docker
 pkg:composer/rft/yii2-alert-modal-widget
 pkg:composer/rft/yii2-searchable-depdrop
 pkg:composer/rft/yii2-sidebar-menu
@@ -278048,6 +278119,8 @@ pkg:composer/rguezque/skeleton-project-katya-router
 pkg:composer/rguj/dbr
 pkg:composer/rguj/laracore
 pkg:composer/rguj/ldm2
+pkg:composer/rgusseinov/arc-php-framework
+pkg:composer/rgusseinov/arc-skeleton
 pkg:composer/rgzone/bignum
 pkg:composer/rgzone/bignum-demo
 pkg:composer/rgzone/folk-bundle
@@ -278193,6 +278266,7 @@ pkg:composer/rhysleesltd/laravel-camelot
 pkg:composer/rhysnhall/etsy-php-sdk
 pkg:composer/rhysnhall/laravel-socketlabs-driver
 pkg:composer/rhythmk/php_xlsxwriter
+pkg:composer/rhythmsh/echo-laravel
 pkg:composer/riadh/ms-common
 pkg:composer/riadvice/yii2-audit
 pkg:composer/riaf/burberryplaid-php
@@ -278790,6 +278864,7 @@ pkg:composer/riczescaran/laravel-line-bot
 pkg:composer/ridaamirini/phpquerybuilder
 pkg:composer/riddle/client-sdk
 pkg:composer/riddle/rest-api-bundle
+pkg:composer/riddler/uxid
 pkg:composer/riddlestone/brokkr-acl
 pkg:composer/riddlestone/brokkr-console
 pkg:composer/riddlestone/brokkr-graphql
@@ -279133,6 +279208,7 @@ pkg:composer/rigasyahrul/chuck-norris-jokes
 pkg:composer/rigasyahrul/factorial
 pkg:composer/riges/php-rabbitmqlib
 pkg:composer/righson/types
+pkg:composer/rightform/rightform
 pkg:composer/rightplace/laravel-admin
 pkg:composer/rightrun/proof-identity
 pkg:composer/rightrun/text-captcha
@@ -279305,6 +279381,7 @@ pkg:composer/rimba/janji
 pkg:composer/rimba/jawat
 pkg:composer/rimba/jejak
 pkg:composer/rimba/kerja
+pkg:composer/rimba/knowledge
 pkg:composer/rimba/laras
 pkg:composer/rimba/ldap
 pkg:composer/rimba/lms
@@ -279626,6 +279703,7 @@ pkg:composer/rish-0593/testing
 pkg:composer/rishab/actvity
 pkg:composer/rishab0/rishab-actvity
 pkg:composer/rishabh/installer
+pkg:composer/rishadblack/authos-client-laravel
 pkg:composer/rishadblack/i-reports
 pkg:composer/rishadblack/laraform
 pkg:composer/rishadblack/larahelpers
@@ -279635,6 +279713,7 @@ pkg:composer/rishadblack/wire-bootstrap
 pkg:composer/rishadblack/wire-modals
 pkg:composer/rishadblack/wire-reports
 pkg:composer/rishadblack/wire-tomselect
+pkg:composer/rishi-raj-jain/flysystem-neon
 pkg:composer/rishi-ramawat/laravel-postgresql-inherit
 pkg:composer/rishimohan/orshot
 pkg:composer/rishimohan/pika-sdk
@@ -279899,6 +279978,7 @@ pkg:composer/rizal/todo
 pkg:composer/rizalafani/fpdflaravel
 pkg:composer/rizalafani/rajaongkir
 pkg:composer/rizalafani/rajaongkirlaravel
+pkg:composer/rizalahmaddd/laravel-rawprint
 pkg:composer/rizaleow/filament-boost
 pkg:composer/rizalfakhri/laravel-repositories
 pkg:composer/rizalfakhri/tgp-user-service-auth-sdk
@@ -280141,6 +280221,7 @@ pkg:composer/rkw/rkw-template
 pkg:composer/rkw/rkw-tools
 pkg:composer/rkw/rkw-webcheck
 pkg:composer/rkw/rkw-wepstra
+pkg:composer/rkwebforge/bladewell
 pkg:composer/rkwebsolution/laravel-cart-manager
 pkg:composer/rkwebsolution/translation-services
 pkg:composer/rkwp/object-iterable-laravel
@@ -280178,10 +280259,12 @@ pkg:composer/rlgroups/rlpwa
 pkg:composer/rlima/laravel5doctrine-odm
 pkg:composer/rlimjr/lara-clean
 pkg:composer/rllngr/kirby-llmsizer
+pkg:composer/rllngr/kirby-memo
 pkg:composer/rllngr/kirby-moniter
 pkg:composer/rllngr/kirby-scssizer
 pkg:composer/rllngr/kirby-thumbzer
 pkg:composer/rllngr/kirby-videozer
+pkg:composer/rllngr/kirby-visibilizer
 pkg:composer/rlm-projects/darius_test
 pkg:composer/rlmckenney/yii-random-key
 pkg:composer/rlmp/rlmp-language-detection
@@ -280247,6 +280330,7 @@ pkg:composer/rmatil/angular-cms
 pkg:composer/rmaysak/fibonacci
 pkg:composer/rmb32/barn
 pkg:composer/rmb32/barn-layout
+pkg:composer/rmb32/barn-paths
 pkg:composer/rmb32/barnark
 pkg:composer/rmb32/barnark-cli
 pkg:composer/rmb32/barnark-gui
@@ -280258,6 +280342,7 @@ pkg:composer/rmb32/barnscaff-cli
 pkg:composer/rmb32/barnspec
 pkg:composer/rmb32/barnspec-cli
 pkg:composer/rmb32/barnspec-gui
+pkg:composer/rmb32/concept-manager
 pkg:composer/rmb32/filesystem
 pkg:composer/rmb32/kevin
 pkg:composer/rmb32/menu
@@ -280266,6 +280351,7 @@ pkg:composer/rmb32/scenario-bridge
 pkg:composer/rmb32/scenario-runner
 pkg:composer/rmb32/scenario-runner-cli
 pkg:composer/rmb32/typed-input
+pkg:composer/rmb32/typed-json
 pkg:composer/rmc/laravel-api
 pkg:composer/rmc0863/mysqli-database-class
 pkg:composer/rmccue/requests
@@ -280599,6 +280685,7 @@ pkg:composer/roadrunner/kv
 pkg:composer/roadrunner/lock
 pkg:composer/roadrunner/metrics
 pkg:composer/roadrunner/psr-logger
+pkg:composer/roadrunner/roadrunner
 pkg:composer/roadrunner/services
 pkg:composer/roadrunner/symfony-lock-driver
 pkg:composer/roadrunner/tcp
@@ -280641,6 +280728,7 @@ pkg:composer/roave/roave-nonce-utility
 pkg:composer/roave/signature
 pkg:composer/roave/you-are-using-it-wrong
 pkg:composer/roave/zf2-for-1
+pkg:composer/roayapay/platform-core
 pkg:composer/roazagba/apimtnmomo
 pkg:composer/rob-ec/buscador-cursos
 pkg:composer/rob-lester-jr04/call-forwarding
@@ -280739,6 +280827,7 @@ pkg:composer/robertboes/blade-selfhst-icons
 pkg:composer/robertboes/filament-passkeys
 pkg:composer/robertboes/inertia-breadcrumbs
 pkg:composer/robertboes/laravel-cloudflare-proxies
+pkg:composer/robertboes/laravel-interlock
 pkg:composer/robertboes/nova-slider-field
 pkg:composer/robertboes/sidecar-inertia-vite
 pkg:composer/robertboeser/robo-2fa
@@ -280800,6 +280889,7 @@ pkg:composer/roberto910907/laravel-database-designer
 pkg:composer/robertocemeri/date-utils
 pkg:composer/robertogallea/bootstrap-italia-preset
 pkg:composer/robertogallea/eloquent-api
+pkg:composer/robertogallea/laravel-claude-hooks
 pkg:composer/robertogallea/laravel-codicefiscale
 pkg:composer/robertogallea/laravel-greenpass
 pkg:composer/robertogallea/laravel-judgment
@@ -281032,6 +281122,7 @@ pkg:composer/robosys-labs/db-scaffolder
 pkg:composer/robosys-labs/laravel-fcm
 pkg:composer/robot-council/cli
 pkg:composer/robot-council/core
+pkg:composer/robot-council/fleet-kit
 pkg:composer/robot/laravel-blade
 pkg:composer/robot72/yii2-articles
 pkg:composer/robot72/yii2-components
@@ -281667,6 +281758,7 @@ pkg:composer/rodziu/datetimelocalized
 pkg:composer/rodziu/gg-bot-api
 pkg:composer/rodziu/mysql-backup-restore
 pkg:composer/rodziu/php-git
+pkg:composer/roedyrustam/api-wilayah-2024
 pkg:composer/roeldev/phpcs-ruleset
 pkg:composer/roelgonzalez/laravel-dashboard-date-time-tile
 pkg:composer/roelgonzalez/laravel-dashboard-quote-of-the-day-tile
@@ -281843,6 +281935,13 @@ pkg:composer/rohallion/localgov_cumbria_unitary
 pkg:composer/rohallion/localgov_elections_reporting
 pkg:composer/rohama/koin-core
 pkg:composer/rohama/koin-idpay
+pkg:composer/rohama/koin-nextpay
+pkg:composer/rohama/koin-payping
+pkg:composer/rohama/koin-sadad
+pkg:composer/rohama/koin-sep
+pkg:composer/rohama/koin-sizpay
+pkg:composer/rohama/koin-zarinpal
+pkg:composer/rohama/koin-zibal
 pkg:composer/rohama/rich-editor-essentials
 pkg:composer/rohama/telegram-bot
 pkg:composer/rohama/translator
@@ -281935,6 +282034,7 @@ pkg:composer/rojtjo/notifier
 pkg:composer/rojtjo/notifier-laravel
 pkg:composer/rojtjo/sentinel-guard
 pkg:composer/rok9ru/ckeditorphp
+pkg:composer/rokastudio/racin
 pkg:composer/rokclimb15/pest
 pkg:composer/rokde/baum
 pkg:composer/rokde/devhooks
@@ -282130,6 +282230,8 @@ pkg:composer/rollylni/triggers
 pkg:composer/rollylni/vklib
 pkg:composer/rolocost/dynosendphp
 pkg:composer/rolog.io/rolog.io
+pkg:composer/rolog/magma
+pkg:composer/rolog/magma-app
 pkg:composer/roloza/color
 pkg:composer/rolukja/vilt-crud-generator
 pkg:composer/rolv/module-fullbreadcrumbs
@@ -282145,6 +282247,10 @@ pkg:composer/romagny13/csrf
 pkg:composer/romagny13/flash
 pkg:composer/romagny13/micro-db
 pkg:composer/romagny13/php-validator
+pkg:composer/romain-genin/symfony-ecom
+pkg:composer/romain-genin/symfony-image-optimizer-bundle
+pkg:composer/romain-genin/symfony-multilang-bundle
+pkg:composer/romain-genin/symfony-starter
 pkg:composer/romain/rendu-1
 pkg:composer/romainbessugesmeusy/php-sql-query
 pkg:composer/romainbourre/php-linq
@@ -282186,6 +282292,8 @@ pkg:composer/romandenu/ringcentral-php
 pkg:composer/romanfedorskij/cron
 pkg:composer/romanfedorskij/message-bus
 pkg:composer/romanfedorskij/message-bus-amphp
+pkg:composer/romanfedorskij/message-bus-async
+pkg:composer/romanfedorskij/message-bus-async-worker
 pkg:composer/romanfedorskij/message-bus-spiral
 pkg:composer/romanfedorskij/table-registry
 pkg:composer/romanforheng/selenium-server-grid
@@ -282234,6 +282342,7 @@ pkg:composer/romansh/laravel-creem-demo
 pkg:composer/romansh/laravel-creem-store-simulator
 pkg:composer/romansh/laravel-pretty-pagination
 pkg:composer/romansh/omnipay-creem
+pkg:composer/romansh/omnipay-whop
 pkg:composer/romanshul/flarum-editor
 pkg:composer/romanshul/flarum-emoji
 pkg:composer/romanstruk/manticore-scout-engine
