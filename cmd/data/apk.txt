@@ -8651,6 +8651,8 @@ pkg:apk/alpine/gamemode
 pkg:apk/alpine/gamemode-dev
 pkg:apk/alpine/gamemode-doc
 pkg:apk/alpine/gamescope
+pkg:apk/alpine/gamescope-session-plus
+pkg:apk/alpine/gamescope-session-plus-systemd
 pkg:apk/alpine/gamin
 pkg:apk/alpine/gamin-dev
 pkg:apk/alpine/gamja
@@ -17730,6 +17732,9 @@ pkg:apk/alpine/linux-k1-doc
 pkg:apk/alpine/linux-lts
 pkg:apk/alpine/linux-lts-dev
 pkg:apk/alpine/linux-lts-doc
+pkg:apk/alpine/linux-lts6.18
+pkg:apk/alpine/linux-lts6.18-dev
+pkg:apk/alpine/linux-lts6.18-doc
 pkg:apk/alpine/linux-octeon
 pkg:apk/alpine/linux-octeon-dev
 pkg:apk/alpine/linux-openpax
@@ -17780,6 +17785,8 @@ pkg:apk/alpine/linux-virt
 pkg:apk/alpine/linux-virt-dev
 pkg:apk/alpine/linux-virt-grsec
 pkg:apk/alpine/linux-virt-grsec-dev
+pkg:apk/alpine/linux-virt6.18
+pkg:apk/alpine/linux-virt6.18-dev
 pkg:apk/alpine/linux-virtgrsec
 pkg:apk/alpine/linux-virtgrsec-dev
 pkg:apk/alpine/linux-virthardened
@@ -23918,6 +23925,9 @@ pkg:apk/alpine/openvi-doc
 pkg:apk/alpine/openvpn
 pkg:apk/alpine/openvpn-ad-check
 pkg:apk/alpine/openvpn-auth-ldap
+pkg:apk/alpine/openvpn-auth-oauth2
+pkg:apk/alpine/openvpn-auth-oauth2-doc
+pkg:apk/alpine/openvpn-auth-oauth2-openrc
 pkg:apk/alpine/openvpn-auth-pam
 pkg:apk/alpine/openvpn-auth-script
 pkg:apk/alpine/openvpn-dev
@@ -24257,6 +24267,8 @@ pkg:apk/alpine/pamtester-doc
 pkg:apk/alpine/pandoc
 pkg:apk/alpine/pandoc-cli
 pkg:apk/alpine/pandoc-cli-doc
+pkg:apk/alpine/pandoc-cli-pdf-basic
+pkg:apk/alpine/pandoc-cli-pdf-extra
 pkg:apk/alpine/pandoc-doc
 pkg:apk/alpine/pandora_box
 pkg:apk/alpine/pango
@@ -44021,6 +44033,8 @@ pkg:apk/alpine/zfs-hardened-dev
 pkg:apk/alpine/zfs-libs
 pkg:apk/alpine/zfs-lts
 pkg:apk/alpine/zfs-lts-dev
+pkg:apk/alpine/zfs-lts6.18
+pkg:apk/alpine/zfs-lts6.18-dev
 pkg:apk/alpine/zfs-openrc
 pkg:apk/alpine/zfs-prune-snapshots
 pkg:apk/alpine/zfs-prune-snapshots-doc
@@ -44038,6 +44052,7 @@ pkg:apk/alpine/zfs-utils-py
 pkg:apk/alpine/zfs-vanilla
 pkg:apk/alpine/zfs-vanilla-dev
 pkg:apk/alpine/zfs-virt
+pkg:apk/alpine/zfs-virt6.18
 pkg:apk/alpine/zfs-zsh-completion
 pkg:apk/alpine/zfsbootmenu
 pkg:apk/alpine/zfsbootmenu-doc
