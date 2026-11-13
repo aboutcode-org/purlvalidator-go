@@ -5003,6 +5003,7 @@ pkg:apk/alpine/crowdsec-slack-plugin
 pkg:apk/alpine/crowdsec-splunk-plugin
 pkg:apk/alpine/crtmpserver
 pkg:apk/alpine/crun
+pkg:apk/alpine/crun-dev
 pkg:apk/alpine/crun-doc
 pkg:apk/alpine/crun-static
 pkg:apk/alpine/crun-vm
@@ -6314,6 +6315,7 @@ pkg:apk/alpine/dummyhttp-fish-completion
 pkg:apk/alpine/dummyhttp-zsh-completion
 pkg:apk/alpine/dummystreamhack
 pkg:apk/alpine/dummystreamhack-doc
+pkg:apk/alpine/dummystreamhack-openrc
 pkg:apk/alpine/dummystreamhack-systemd
 pkg:apk/alpine/dump1090
 pkg:apk/alpine/dump978
@@ -7224,6 +7226,12 @@ pkg:apk/alpine/fastfetch-fish-completion
 pkg:apk/alpine/fastfetch-zsh-completion
 pkg:apk/alpine/fastjar
 pkg:apk/alpine/fastjar-doc
+pkg:apk/alpine/fastrpc
+pkg:apk/alpine/fastrpc-dev
+pkg:apk/alpine/fastrpc-doc
+pkg:apk/alpine/fastrpc-libs
+pkg:apk/alpine/fastrpc-systemd
+pkg:apk/alpine/fastrpc-udev
 pkg:apk/alpine/fasttext
 pkg:apk/alpine/fasttext-dev
 pkg:apk/alpine/fasttext-libs
@@ -16255,6 +16263,8 @@ pkg:apk/alpine/libqb3-dev
 pkg:apk/alpine/libqca
 pkg:apk/alpine/libqca-qt5
 pkg:apk/alpine/libqca-qt6
+pkg:apk/alpine/libqcnpuperf
+pkg:apk/alpine/libqcnpuperf-dev
 pkg:apk/alpine/libqd
 pkg:apk/alpine/libqd-dev
 pkg:apk/alpine/libqd-doc
@@ -28459,13 +28469,16 @@ pkg:apk/alpine/php86-pear
 pkg:apk/alpine/php86-pecl-apcu
 pkg:apk/alpine/php86-pecl-ast
 pkg:apk/alpine/php86-pecl-brotli
+pkg:apk/alpine/php86-pecl-event
 pkg:apk/alpine/php86-pecl-igbinary
 pkg:apk/alpine/php86-pecl-mailparse
 pkg:apk/alpine/php86-pecl-mongodb
 pkg:apk/alpine/php86-pecl-msgpack
+pkg:apk/alpine/php86-pecl-opentelemetry
 pkg:apk/alpine/php86-pecl-pcov
 pkg:apk/alpine/php86-pecl-redis
 pkg:apk/alpine/php86-pecl-smbclient
+pkg:apk/alpine/php86-pecl-ssh2
 pkg:apk/alpine/php86-pecl-uploadprogress
 pkg:apk/alpine/php86-pecl-uploadprogress-doc
 pkg:apk/alpine/php86-pecl-uuid
@@ -39638,6 +39651,7 @@ pkg:apk/alpine/sturmreader-lang
 pkg:apk/alpine/stw
 pkg:apk/alpine/stw-doc
 pkg:apk/alpine/stylua
+pkg:apk/alpine/stylus
 pkg:apk/alpine/su-exec
 pkg:apk/alpine/subberthehut
 pkg:apk/alpine/subfinder
