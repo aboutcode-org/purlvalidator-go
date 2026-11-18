@@ -5667,7 +5667,9 @@ pkg:cargo/ai-ui-core
 pkg:cargo/ai-ui-data-stream
 pkg:cargo/ai-ui-http
 pkg:cargo/ai-ui-markdown
+pkg:cargo/ai-ui-markdown-slint
 pkg:cargo/ai-ui-sdk-stream
+pkg:cargo/ai-ui-slint
 pkg:cargo/ai-ui-state
 pkg:cargo/ai-ui-stream
 pkg:cargo/ai-ultimate-tictactoe
@@ -6668,6 +6670,7 @@ pkg:cargo/aiwatch
 pkg:cargo/aiway-model-protocol
 pkg:cargo/aiway-plugin
 pkg:cargo/aiway-protocol
+pkg:cargo/aiwhiteboard-video-svg
 pkg:cargo/aiwire
 pkg:cargo/aiwrapper
 pkg:cargo/aix
@@ -56582,6 +56585,7 @@ pkg:cargo/condrun
 pkg:cargo/condtype
 pkg:cargo/conducer
 pkg:cargo/conduct
+pkg:cargo/conducto
 pkg:cargo/conductor
 pkg:cargo/conductor-capture
 pkg:cargo/conductor-core
@@ -59827,6 +59831,7 @@ pkg:cargo/cosh-recall
 pkg:cargo/cosh-sdk
 pkg:cargo/cosh-tools
 pkg:cargo/cosh-tui
+pkg:cargo/cosh-whatsapp
 pkg:cargo/cosian
 pkg:cargo/cosiest_noisiest
 pkg:cargo/cosigner-client
@@ -77107,6 +77112,7 @@ pkg:cargo/drawland-script
 pkg:cargo/drawme
 pkg:cargo/drawn
 pkg:cargo/drawnui
+pkg:cargo/drawnui-add3d
 pkg:cargo/drawnui-skia-bindings
 pkg:cargo/drawnui-skia-safe
 pkg:cargo/drawpanel
@@ -77170,6 +77176,8 @@ pkg:cargo/dream_archivetool
 pkg:cargo/dreamcast-vmu
 pkg:cargo/dreamcatcher
 pkg:cargo/dreamd
+pkg:cargo/dreamd-core
+pkg:cargo/dreamd-protocol
 pkg:cargo/dreamega-ico-encoder
 pkg:cargo/dreamers
 pkg:cargo/dreaminai
@@ -84424,6 +84432,7 @@ pkg:cargo/energyml-schemas
 pkg:cargo/energyml-section
 pkg:cargo/energyml-sheet
 pkg:cargo/energyml-storage
+pkg:cargo/energyml-views
 pkg:cargo/energyml-witsml-2-0
 pkg:cargo/energyml-witsml-2-1
 pkg:cargo/energymon
@@ -84511,6 +84520,7 @@ pkg:cargo/engenho-teia
 pkg:cargo/engenho-types
 pkg:cargo/engenho-unit
 pkg:cargo/engeom
+pkg:cargo/enggraph-agent
 pkg:cargo/engi
 pkg:cargo/engiffen
 pkg:cargo/engine
@@ -128399,11 +128409,16 @@ pkg:cargo/ibis
 pkg:cargo/ibis-clickhouse
 pkg:cargo/ibis-core
 pkg:cargo/ibis-duckdb
+pkg:cargo/ibis-hiveserver2
+pkg:cargo/ibis-impala
+pkg:cargo/ibis-mysql
 pkg:cargo/ibis-polars
 pkg:cargo/ibis-postgres
 pkg:cargo/ibis-rs
+pkg:cargo/ibis-spark
 pkg:cargo/ibis-sql
 pkg:cargo/ibis-sqlite
+pkg:cargo/ibis-trino
 pkg:cargo/ibiscript
 pkg:cargo/ibkr
 pkg:cargo/ibkr-agent-gateway
@@ -158063,6 +158078,7 @@ pkg:cargo/llel-interpret
 pkg:cargo/llel-macro
 pkg:cargo/llel-provide
 pkg:cargo/llevant
+pkg:cargo/llevant-cli
 pkg:cargo/llevant-gpu
 pkg:cargo/llevant-render
 pkg:cargo/llevant-scene
@@ -165215,8 +165231,10 @@ pkg:cargo/maplestory
 pkg:cargo/maplestory-openapi
 pkg:cargo/maplib
 pkg:cargo/maplibre
+pkg:cargo/maplibre-bevy
 pkg:cargo/maplibre-build-tools
 pkg:cargo/maplibre-demo
+pkg:cargo/maplibre-egui
 pkg:cargo/maplibre-expr
 pkg:cargo/maplibre-gl-js
 pkg:cargo/maplibre-ir
@@ -165227,6 +165245,10 @@ pkg:cargo/maplibre-native-ffi-platform
 pkg:cargo/maplibre-native-ffi-sys
 pkg:cargo/maplibre-native-next
 pkg:cargo/maplibre-native-next-harfrust
+pkg:cargo/maplibre-nsh
+pkg:cargo/maplibre-rust-ui
+pkg:cargo/maplibre-slint
+pkg:cargo/maplibre-whisker
 pkg:cargo/maplibre-winit
 pkg:cargo/maplibre_native
 pkg:cargo/maplike
@@ -165597,6 +165619,7 @@ pkg:cargo/markdoc
 pkg:cargo/markdoc-lint
 pkg:cargo/markdoc-ls
 pkg:cargo/markdoc-mermaid
+pkg:cargo/markdoc-mermaid-renderer
 pkg:cargo/markdoc-pdf
 pkg:cargo/markdoc-prose
 pkg:cargo/markdoc-regress
@@ -166842,6 +166865,13 @@ pkg:cargo/matiane-regex
 pkg:cargo/matiane-sway
 pkg:cargo/matic-portal-client
 pkg:cargo/matic-portal-types
+pkg:cargo/matier
+pkg:cargo/matier-core
+pkg:cargo/matier-h1
+pkg:cargo/matier-h2
+pkg:cargo/matier-otel
+pkg:cargo/matier-pool
+pkg:cargo/matier-transport
 pkg:cargo/matinee
 pkg:cargo/matio-rs
 pkg:cargo/matio-rs-sys
@@ -167772,6 +167802,7 @@ pkg:cargo/mcf5441x-emu
 pkg:cargo/mcf5441x-pac
 pkg:cargo/mcfetch
 pkg:cargo/mcfg
+pkg:cargo/mcfilin
 pkg:cargo/mcflai
 pkg:cargo/mcfly
 pkg:cargo/mcfn
@@ -168174,6 +168205,7 @@ pkg:cargo/mcp-weather
 pkg:cargo/mcp-web
 pkg:cargo/mcp-web-search
 pkg:cargo/mcp-websearch
+pkg:cargo/mcp-wire
 pkg:cargo/mcp-workflow
 pkg:cargo/mcp-workspace-resolver
 pkg:cargo/mcp2003a
@@ -168488,6 +168520,7 @@ pkg:cargo/mcvm_pkg
 pkg:cargo/mcvm_plugin
 pkg:cargo/mcvm_shared
 pkg:cargo/mcw
+pkg:cargo/mcwpack
 pkg:cargo/mcwr
 pkg:cargo/mcwss
 pkg:cargo/mcx
@@ -211452,6 +211485,7 @@ pkg:cargo/pgc-derive
 pkg:cargo/pgcat_config
 pkg:cargo/pgcel
 pkg:cargo/pgcmp
+pkg:cargo/pgconn
 pkg:cargo/pgcopy
 pkg:cargo/pgcrab
 pkg:cargo/pgcrate
@@ -266425,6 +266459,7 @@ pkg:cargo/smallo
 pkg:cargo/smallobjectpool
 pkg:cargo/smalloc
 pkg:cargo/smalloca
+pkg:cargo/smallpeg
 pkg:cargo/smallperm
 pkg:cargo/smallpict
 pkg:cargo/smallpt
@@ -271386,6 +271421,7 @@ pkg:cargo/sparkline
 pkg:cargo/sparklines
 pkg:cargo/sparkling
 pkg:cargo/sparkly
+pkg:cargo/sparkmeld-storyboard-svg
 pkg:cargo/sparkplug-mqtt
 pkg:cargo/sparkplug-rs
 pkg:cargo/sparkpost
@@ -303201,6 +303237,11 @@ pkg:cargo/tumo_path
 pkg:cargo/tumo_scope
 pkg:cargo/tumodori
 pkg:cargo/tumpa-cli
+pkg:cargo/tumpel
+pkg:cargo/tumpel-api
+pkg:cargo/tumpel-channel
+pkg:cargo/tumpel-guest
+pkg:cargo/tumpel-supervisor
 pkg:cargo/tumu
 pkg:cargo/tumu_cdb
 pkg:cargo/tumult
@@ -304003,6 +304044,13 @@ pkg:cargo/turul-a2a-proto
 pkg:cargo/turul-a2a-types
 pkg:cargo/turul-agent-skills
 pkg:cargo/turul-agent-skills-cli
+pkg:cargo/turul-ai-catalog
+pkg:cargo/turul-ai-catalog-cli
+pkg:cargo/turul-ai-catalog-client
+pkg:cargo/turul-ai-catalog-lambda
+pkg:cargo/turul-ai-catalog-storage
+pkg:cargo/turul-ai-catalog-trust
+pkg:cargo/turul-ai-catalog-tui
 pkg:cargo/turul-http-mcp-server
 pkg:cargo/turul-jwt-validator
 pkg:cargo/turul-llm-core
@@ -304013,6 +304061,7 @@ pkg:cargo/turul-mcp-builders
 pkg:cargo/turul-mcp-client
 pkg:cargo/turul-mcp-derive
 pkg:cargo/turul-mcp-ext-apps
+pkg:cargo/turul-mcp-ext-server-card
 pkg:cargo/turul-mcp-ext-skills
 pkg:cargo/turul-mcp-ext-tasks
 pkg:cargo/turul-mcp-json-rpc-server
