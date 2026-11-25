@@ -3236,6 +3236,10 @@ pkg:apk/alpine/c-ini
 pkg:apk/alpine/c-ini-dev
 pkg:apk/alpine/c-list
 pkg:apk/alpine/c-list-dev
+pkg:apk/alpine/c-periphery
+pkg:apk/alpine/c-periphery-dev
+pkg:apk/alpine/c-periphery-doc
+pkg:apk/alpine/c-periphery-static
 pkg:apk/alpine/c-rbtree
 pkg:apk/alpine/c-rbtree-dev
 pkg:apk/alpine/c-shquote
@@ -16586,6 +16590,9 @@ pkg:apk/alpine/libressl4.2-libtls
 pkg:apk/alpine/libressl4.3-libcrypto
 pkg:apk/alpine/libressl4.3-libssl
 pkg:apk/alpine/libressl4.3-libtls
+pkg:apk/alpine/libressl4.4-libcrypto
+pkg:apk/alpine/libressl4.4-libssl
+pkg:apk/alpine/libressl4.4-libtls
 pkg:apk/alpine/libreswan
 pkg:apk/alpine/libreswan-doc
 pkg:apk/alpine/libreswan-openrc
@@ -22398,6 +22405,8 @@ pkg:apk/alpine/nnn-fish-completion
 pkg:apk/alpine/nnn-plugins
 pkg:apk/alpine/nnn-zsh-completion
 pkg:apk/alpine/noblenote
+pkg:apk/alpine/noctalia
+pkg:apk/alpine/noctalia-doc
 pkg:apk/alpine/node-libpg-query
 pkg:apk/alpine/node-lightningcss
 pkg:apk/alpine/node-sharp
@@ -29752,6 +29761,7 @@ pkg:apk/alpine/pulseaudio-qt
 pkg:apk/alpine/pulseaudio-qt-dev
 pkg:apk/alpine/pulseaudio-qt-doc
 pkg:apk/alpine/pulseaudio-utils
+pkg:apk/alpine/pulseaudio-utils-x11
 pkg:apk/alpine/pulseaudio-wireplumber
 pkg:apk/alpine/pulseaudio-zeroconf
 pkg:apk/alpine/pulseaudio-zsh-completion
@@ -36740,6 +36750,7 @@ pkg:apk/alpine/raspberrypi-eeprom-doc
 pkg:apk/alpine/raspberrypi-eeprom-pi4
 pkg:apk/alpine/raspberrypi-eeprom-pi5
 pkg:apk/alpine/raspberrypi-eeprom-sign-tools
+pkg:apk/alpine/raspberrypi-firmware-nonfree-brcmfmac-conf
 pkg:apk/alpine/raspberrypi-libs
 pkg:apk/alpine/raspberrypi-openrc
 pkg:apk/alpine/raspberrypi-static
@@ -37549,9 +37560,12 @@ pkg:apk/alpine/ruby-augeas
 pkg:apk/alpine/ruby-augeas-doc
 pkg:apk/alpine/ruby-base64
 pkg:apk/alpine/ruby-base64-doc
+pkg:apk/alpine/ruby-benchmark
+pkg:apk/alpine/ruby-benchmark-doc
 pkg:apk/alpine/ruby-benchmark-ips
 pkg:apk/alpine/ruby-benchmark-ips-doc
 pkg:apk/alpine/ruby-bigdecimal
+pkg:apk/alpine/ruby-bigdecimal-doc
 pkg:apk/alpine/ruby-build
 pkg:apk/alpine/ruby-build-doc
 pkg:apk/alpine/ruby-build-runtime
@@ -37607,6 +37621,7 @@ pkg:apk/alpine/ruby-fastthread
 pkg:apk/alpine/ruby-fcgi
 pkg:apk/alpine/ruby-ffi
 pkg:apk/alpine/ruby-fiddle
+pkg:apk/alpine/ruby-fiddle-doc
 pkg:apk/alpine/ruby-file-tail
 pkg:apk/alpine/ruby-forwardable-extended
 pkg:apk/alpine/ruby-full
@@ -37636,6 +37651,7 @@ pkg:apk/alpine/ruby-i18n
 pkg:apk/alpine/ruby-io-console
 pkg:apk/alpine/ruby-ipaddress
 pkg:apk/alpine/ruby-irb
+pkg:apk/alpine/ruby-irb-doc
 pkg:apk/alpine/ruby-isbn
 pkg:apk/alpine/ruby-jekyll
 pkg:apk/alpine/ruby-jekyll-sass-converter
@@ -37652,6 +37668,8 @@ pkg:apk/alpine/ruby-libguestfs
 pkg:apk/alpine/ruby-libs
 pkg:apk/alpine/ruby-liquid
 pkg:apk/alpine/ruby-listen
+pkg:apk/alpine/ruby-logger
+pkg:apk/alpine/ruby-logger-doc
 pkg:apk/alpine/ruby-loofah
 pkg:apk/alpine/ruby-mail
 pkg:apk/alpine/ruby-mathematical
@@ -37668,6 +37686,8 @@ pkg:apk/alpine/ruby-minitest-around
 pkg:apk/alpine/ruby-minitest-autotest
 pkg:apk/alpine/ruby-minitest-doc
 pkg:apk/alpine/ruby-minitest-focus
+pkg:apk/alpine/ruby-minitest-mock
+pkg:apk/alpine/ruby-minitest-mock-doc
 pkg:apk/alpine/ruby-minitest-power_assert
 pkg:apk/alpine/ruby-minitest-proveit
 pkg:apk/alpine/ruby-minitest-reporters
@@ -37693,6 +37713,7 @@ pkg:apk/alpine/ruby-net-smtp-doc
 pkg:apk/alpine/ruby-net-telnet
 pkg:apk/alpine/ruby-net-telnet-doc
 pkg:apk/alpine/ruby-nkf
+pkg:apk/alpine/ruby-nkf-doc
 pkg:apk/alpine/ruby-nokogiri
 pkg:apk/alpine/ruby-notify
 pkg:apk/alpine/ruby-notify-doc
@@ -37701,6 +37722,8 @@ pkg:apk/alpine/ruby-observer-doc
 pkg:apk/alpine/ruby-openid
 pkg:apk/alpine/ruby-opennebula
 pkg:apk/alpine/ruby-optimist
+pkg:apk/alpine/ruby-ostruct
+pkg:apk/alpine/ruby-ostruct-doc
 pkg:apk/alpine/ruby-ox
 pkg:apk/alpine/ruby-parse-cron
 pkg:apk/alpine/ruby-path_expander
@@ -37716,6 +37739,8 @@ pkg:apk/alpine/ruby-power_assert-doc
 pkg:apk/alpine/ruby-prime
 pkg:apk/alpine/ruby-prime-doc
 pkg:apk/alpine/ruby-protected_attributes4.2
+pkg:apk/alpine/ruby-pstore
+pkg:apk/alpine/ruby-pstore-doc
 pkg:apk/alpine/ruby-public_suffix
 pkg:apk/alpine/ruby-pygments
 pkg:apk/alpine/ruby-racc
@@ -37742,6 +37767,7 @@ pkg:apk/alpine/ruby-rainbow
 pkg:apk/alpine/ruby-raindrops
 pkg:apk/alpine/ruby-rake
 pkg:apk/alpine/ruby-rake-compiler
+pkg:apk/alpine/ruby-rake-compiler-doc
 pkg:apk/alpine/ruby-rake-doc
 pkg:apk/alpine/ruby-rb-inotify
 pkg:apk/alpine/ruby-rbpdf
@@ -37752,6 +37778,9 @@ pkg:apk/alpine/ruby-rbvmomi2
 pkg:apk/alpine/ruby-rdiscount
 pkg:apk/alpine/ruby-rdiscount-doc
 pkg:apk/alpine/ruby-rdoc
+pkg:apk/alpine/ruby-rdoc-doc
+pkg:apk/alpine/ruby-readline
+pkg:apk/alpine/ruby-readline-doc
 pkg:apk/alpine/ruby-redcarpet
 pkg:apk/alpine/ruby-redmine-actionmailer
 pkg:apk/alpine/ruby-redmine-actionpack
@@ -37773,6 +37802,8 @@ pkg:apk/alpine/ruby-redmine-rdoc
 pkg:apk/alpine/ruby-redmine-sprockets
 pkg:apk/alpine/ruby-redmine-tzinfo
 pkg:apk/alpine/ruby-redmine-unicorn
+pkg:apk/alpine/ruby-reline
+pkg:apk/alpine/ruby-reline-doc
 pkg:apk/alpine/ruby-repl_type_completor
 pkg:apk/alpine/ruby-repl_type_completor-doc
 pkg:apk/alpine/ruby-request_store
@@ -37824,6 +37855,7 @@ pkg:apk/alpine/ruby-sqlite
 pkg:apk/alpine/ruby-sqlite3
 pkg:apk/alpine/ruby-stringex
 pkg:apk/alpine/ruby-syslog
+pkg:apk/alpine/ruby-syslog-doc
 pkg:apk/alpine/ruby-tcxread
 pkg:apk/alpine/ruby-tcxread-doc
 pkg:apk/alpine/ruby-terminal-table
@@ -40291,6 +40323,7 @@ pkg:apk/alpine/tectonic
 pkg:apk/alpine/teeworlds
 pkg:apk/alpine/teeworlds-common
 pkg:apk/alpine/teeworlds-server
+pkg:apk/alpine/tele
 pkg:apk/alpine/telegraf
 pkg:apk/alpine/telegraf-doc
 pkg:apk/alpine/telegraf-openrc
